@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0006",
+  "provider": "github",
+  "provider_id": "issue:3228",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/3228",
+  "author": "Octalus",
+  "author_association": "none",
+  "published_at": "2024-09-11T19:54:06Z",
+  "updated_at": "2026-07-27T16:46:08Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "closed",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The reporter says an imported old Byron secret.key displayed balance and history but could not submit a transaction in Daedalus 6.0.1.",
+      "The reported node error included MissingVKeyWitnessesUTXOW."
+    ]
+  }
+}

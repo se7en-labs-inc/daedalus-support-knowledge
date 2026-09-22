@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0012",
+  "provider": "github",
+  "provider_id": "issue-comment:475163954",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475163954",
+  "author": "yuelipeng",
+  "author_association": "none",
+  "published_at": "2019-03-21T09:39:19Z",
+  "updated_at": "2019-03-21T09:39:19Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The original reporter confirms that the legacy wallet was recovered."
+    ]
+  }
+}

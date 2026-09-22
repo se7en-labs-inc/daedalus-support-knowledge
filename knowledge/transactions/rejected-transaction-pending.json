@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0008",
+  "title": "Rejected transaction remains pending and reserves inputs",
+  "summary": {
+    "text": "A Daedalus repository collaborator reports that deterministically rejected transactions can remain displayed as pending, reduce the displayed balance and reserve selected inputs.",
+    "source_ids": [
+      "SRC-0009"
+    ]
+  },
+  "problem": {
+    "text": "After the node rejects a transaction, Daedalus continues to show it as pending and cardano-wallet periodically resubmits it.",
+    "source_ids": [
+      "SRC-0009"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "A rejected transaction remains pending after restart.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    },
+    {
+      "text": "The displayed balance is reduced even though the transaction is not on chain.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    },
+    {
+      "text": "Repeated attempts reserve additional healthy UTxOs.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "failed transaction stuck pending",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    },
+    {
+      "text": "balance deducted but transaction not on chain",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "MissingVKeyWitnessesUTXOW",
+      "normalized": "missing vkey witnesses utxow",
+      "pattern": null
+    }
+  ],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "submission"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "unknown",
+      "min": null,
+      "max": null,
+      "versions": [],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "The collaborator report names no Daedalus release; no version is inferred from its filing date."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0009"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "confirmed",
+      "claim": "The submission pool persists and retries a deterministically rejected transaction while Daedalus surfaces it as pending.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Confirm that the transaction is absent from chain explorers and record the node rejection, transaction ID and validity interval.",
+      "why": "The report distinguishes a deterministic node rejection from a transaction that is actually in flight.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Do not retry repeatedly; preserve diagnostics and wait for the validity interval to expire or escalate through official support.",
+      "why": "The report states that retries reserve more inputs and that pending entries clear when validity expires; deletion and restoration is not promoted as a routine remedy.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user avoids compounding reserved inputs and provides evidence that distinguishes display state from an on-chain transaction.",
+    "source_ids": [
+      "SRC-0009"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [
+      "Repeated attempts can reserve additional inputs according to the report."
+    ],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "maintainer-confirmed",
+    "confidence": "medium",
+    "rationale": "A repository collaborator directly documents reproduction and behavior, but gives no release scope or released fix.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "Open behavior report with no documented released fix.",
+    "source_ids": [
+      "SRC-0009"
+    ]
+  },
+  "dates": {
+    "created": "2026-08-27",
+    "last_reviewed": "2026-08-27",
+    "last_verified": null
+  },
+  "sources": [
+    "SRC-0009"
+  ],
+  "related_entries": [
+    "DAE-0003"
+  ],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "No version scope or released fix is documented."
+  },
+  "tags": [
+    "transaction",
+    "pending",
+    "rejected",
+    "utxo"
+  ]
+}

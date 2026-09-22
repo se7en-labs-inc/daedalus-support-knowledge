@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0008",
+  "provider": "github",
+  "provider_id": "issue:1234",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/1234",
+  "author": "yuelipeng",
+  "author_association": "none",
+  "published_at": "2018-12-20T15:55:04Z",
+  "updated_at": "2025-09-11T08:56:15Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "closed",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The reporter retained a legacy secret.key, removed an older Daedalus data directory, and could not import the key into a later installation.",
+      "The reporter states that the recovery phrase was unavailable and asks how the wallet can be restored."
+    ]
+  }
+}

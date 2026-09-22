@@ -1,0 +1,12 @@
+# Preserved source bytes must not be reformatted.
+help-center-dump/
+docs/legacy-pool-readme.md
+# These have their own deterministic Python generators/validation.
+knowledge/
+sources/
+faq/
+indexes/
+schemas/
+taxonomy/
+research/
+help-centre/*.json

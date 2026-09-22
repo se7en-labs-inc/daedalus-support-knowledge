@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0009",
+  "provider": "github",
+  "provider_id": "issue:3386",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/3386",
+  "author": "Crypto2099",
+  "author_association": "collaborator",
+  "published_at": "2026-08-12T00:00:27Z",
+  "updated_at": "2026-08-12T00:00:27Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "open",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "A repository collaborator reports deterministically rejected transactions remaining pending, reducing displayed balance and reserving selected inputs.",
+      "The report names MissingVKeyWitnessesUTXOW as an example rejection but asserts no Daedalus version."
+    ]
+  }
+}

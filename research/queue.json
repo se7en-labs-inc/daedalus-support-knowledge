@@ -1,0 +1,6 @@
+{"schema_version":1,"candidates":[
+ {"topic":"Safe version-specific node database rebuild procedures","priority":"high","reason":"Common advice is destructive and official path/version evidence is still needed."},
+ {"topic":"Ledger and Trezor connection failures","priority":"high","reason":"Requires firmware, model, OS, and release-specific evidence."},
+ {"topic":"Clock skew and node synchronization","priority":"medium","reason":"Recurring claim needs authoritative thresholds and version applicability."},
+ {"topic":"DRep delegation failures after Conway releases","priority":"high","reason":"Needs exact errors and release-specific corroboration."}
+]}

@@ -1,7 +1,14 @@
-# Daedalus Support Knowledge Archive
+# Daedalus Support Knowledge
 
-This repository preserves historical and current Daedalus support material
-for continuity of community support and technical reference.
+This is the canonical repository for all shared Daedalus support knowledge:
+curated entries, FAQs, guides, source records, archives and assets. Ariadne consumes
+reviewed content from a pinned revision alongside its own internal knowledge.
+The former personal pool is migration provenance only; no consumer needs it.
+
+Start with [contributing](CONTRIBUTING.md), [architecture](docs/architecture.md),
+[publication review](help-centre/README.md) and [migration coverage](docs/migration.md).
+Changes use feature branches and pull requests to the existing `main` branch.
+Archived content and generic research topics are evidence, not current guidance.
 
 Original Input Output / IOHK / IOG support documentation and associated
 media remain the property of their respective copyright holders.
@@ -23,7 +30,15 @@ raw/<article-id>.html        source HTML used for audit and reconstruction
 manifest.json                deterministic article and asset inventory
 discovered-articles.json     reviewable discovery result (generated)
 archive-report.json          machine-readable archival result (generated)
-tools/                       archiver, local fixtures, tests, and libraries
+help-center-dump/            preserved original public export and 187 local images
+knowledge/                   16 stable curated entries (DAE identifiers)
+sources/                     22 evidence records, snapshots and migration inventory
+faq/                         canonical catalog and generated FAQ
+schemas/, taxonomy/          validated shared content contracts
+indexes/manifest.json         generated curated entry discovery metadata
+help-centre/                 publication decisions and generated coverage
+research/                    generic public topics only; never customer evidence
+tools/                       acquisition, normalization, validation and generators
 package.json                 standalone archive commands and dependencies
 ```
 
@@ -31,10 +46,17 @@ Archived content is separate from the implementation under `tools/`. The archive
 
 ## Install and test
 
-Node.js 20.9 or newer is required.
+Node.js 20.9 or newer and Python 3 with the pinned development requirements are required for preparation. Consumers need only their bundled snapshot at runtime.
 
 ```sh
 npm ci
+python3 -m pip install -r requirements-dev.txt
+python3 tools/validate.py
+python3 -m unittest discover -s tests -v
+python3 tools/test_normalize_help_dump.py
+python3 tools/build_index.py --check
+python3 tools/build_faq.py --check
+python3 tools/build_coverage.py --check
 npm test
 npm run format:check
 ```
@@ -77,4 +99,9 @@ Writes use same-directory temporary files and atomic renames. A failed article f
 - Filenames are sanitized and reduced to a basename before joining beneath `assets/<article-id>/`.
 - Concurrency is deliberately serial and requests use a descriptive user agent, delay, timeout, bounded transient retries, response size limits, discovery bounds, and a per-article asset count limit.
 
-The initial implementation intentionally contains no bulk archive. Review discovery and extraction quality with a small representative selection before producing the complete preserved collection.
+The original Node archiver's root `manifest.json` remains empty: it has not fetched
+the imported collection. The separate `help-center-dump/` preservation contains
+121 full articles and 139 title-only release records; `help-centre/coverage.json`
+accounts for these without inventing bodies or promoting archive guidance.
+Before any further acquisition, review discovery/extraction quality and safety.
+No archive asset is automatically published by Ariadne.

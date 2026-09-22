@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0103",
+  "title": "Check a startup or connection problem safely",
+  "summary": {
+    "text": "Use the visible status information to describe a startup problem before trying disruptive repairs.",
+    "source_ids": [
+      "SRC-0104"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+    "source_ids": [
+      "SRC-0104"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "startup",
+    "subcategory": "node-startup"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0104"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "If the interface opens, inspect Diagnostics and note whether the node is running, connected and in sync.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Record the exact error and your application and operating-system versions. If the interface never opens, describe what appears when launching it.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Contact support when the cause is unclear. Do not disable antivirus, reset state or remove directories based only on an old troubleshooting article.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0104"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Staff receives a specific symptom and environment. A stopped node, clock warning or blank screen needs diagnosis; this guide does not promise a repair.",
+    "source_ids": [
+      "SRC-0104"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0104"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "startup",
+    "node-startup"
+  ]
+}

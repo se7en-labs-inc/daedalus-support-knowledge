@@ -1,0 +1,3873 @@
+{
+  "schemaVersion": 2,
+  "sourceRepository": "https://github.com/se7en-labs-inc/daedalus-support-knowledge",
+  "archiveProvenance": {
+    "importedRepository": "https://github.com/Liberty-Chris/ariadne-knowledge-pool",
+    "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
+    "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed"
+  },
+  "inputDigest": "58388df97336a813f1d992605dcbc954a38c5e7a9c9f04fe3d57c3fa5d488470",
+  "sourceExportDate": "2026-07-03",
+  "filteredAt": "2026-09-03T17:39:48",
+  "observed": {
+    "fullArticles": 121,
+    "releaseTitles": 139,
+    "separateArchiverArticles": 0,
+    "assets": {
+      "files": 187,
+      "indexReferences": 209,
+      "uniqueIndexReferences": 208,
+      "missingOccurrences": 22,
+      "missingLocalNames": [
+        "28787755336857",
+        "28788091052057",
+        "2f77cc85238452e25cb517130188bf99.png",
+        "360017195734",
+        "360017196414",
+        "360024134254",
+        "360025068213",
+        "900006812146",
+        "M8GrnSBDIdy7saGCgiO0n5nlh",
+        "a2ef32e34a5573d192b10d340a4f46b1.png",
+        "blobid0.png",
+        "blobid1.png",
+        "kQUlwUXGLSwOAxcBZM7m1EG72",
+        "update-dns-settings-windows-10-1-1024x522.jpg",
+        "update-dns-settings-windows-10-2-1024x715.jpg",
+        "update-dns-settings-windows-10-3.jpg",
+        "update-dns-settings-windows-10-4.jpg",
+        "update-dns-settings-windows-10-step5.jpg",
+        "update-dns-settings-windows-10-step7.jpg",
+        "update-dns-settings-windows-10-step8.jpg",
+        "update-dns-settings-windows-10-step9.jpg"
+      ],
+      "bodyReferences": 209,
+      "bodyUnresolved": 22
+    }
+  },
+  "exportReportedCounts": {
+    "substantive": 121,
+    "release_notes": 139,
+    "drafts_excluded": 24,
+    "img_total": 209,
+    "img_downloaded": 0,
+    "img_failed": 9,
+    "img_external": 38,
+    "links": 378
+  },
+  "approvedCuratedArticles": 10,
+  "curatedEntries": [
+    {
+      "id": "DAE-0101",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "a8cbfebe4a820710b629a56c43f8e627bb51de482c4207af68dcdc52abe592dd"
+    },
+    {
+      "id": "DAE-0102",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "9241d498abc0acae27efeadfbea69d5ca6b258a644f9bada53681a4cc44a4801"
+    },
+    {
+      "id": "DAE-0103",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "52ba9e227fa92088d3434f5352efa768c63820cdd1c8d15a9aa61329951ba5e0"
+    },
+    {
+      "id": "DAE-0104",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "68ea0dd2ed998732e382029adc904c09a1adaf92295284efb3b3766097dbc61c"
+    },
+    {
+      "id": "DAE-0105",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "d5aefa77438bc33c5c461f22e33e896b497d6f57b5133cd1ba394c79224e1c56"
+    },
+    {
+      "id": "DAE-0106",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "9f45e1a9881193d29b153e4fc948c4c2417992c0babf4331e3aab70191832d49"
+    },
+    {
+      "id": "DAE-0107",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "e46f67cf593adfda1ec446a75bd48d5ee6efae7dcdb940e7e3ed614f9967cab8"
+    },
+    {
+      "id": "DAE-0108",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "3a6004300b4ddff609ea7bff3237d0197afbf1810c242d05b49e1a5373173651"
+    },
+    {
+      "id": "DAE-0109",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "1a911fdec541fb338f8517c977beac1d3d8e6d41772406c0d78e70391afaf820"
+    },
+    {
+      "id": "DAE-0006",
+      "status": "historical",
+      "approved": true,
+      "reviewedOn": "2026-08-27",
+      "reason": "Historical introduction of governance in 7.0.0 only; not current instructions.",
+      "reviewedContentHash": "b020fed07dfe7c2eb418aed9007e70ca74a505e3fbcf62c903a212d478dab4d9"
+    },
+    {
+      "id": "DAE-0001",
+      "status": "superseded",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Public download guidance replaced by DAE-0101; original evidence preserved."
+    },
+    {
+      "id": "DAE-0002",
+      "status": "historical",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Unresolved single-user 3.3.2 report, not a current remedy."
+    },
+    {
+      "id": "DAE-0003",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Narrow compromised shared-key scenario; do not generalize a remedy."
+    },
+    {
+      "id": "DAE-0004",
+      "status": "historical",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Older macOS / 7.0.x compatibility report; no current OS verification."
+    },
+    {
+      "id": "DAE-0005",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Legacy private-key import needs dedicated recovery safety review."
+    },
+    {
+      "id": "DAE-0008",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Reported rejected-transaction behavior; no universal cause or verified fix."
+    }
+  ],
+  "articles": [
+    {
+      "id": "ZENDESK-4894883925401",
+      "title": "Daedalus initialization screen",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4894883925401-Daedalus-initialization-screen",
+      "createdAt": "2022-03-16T13:53:27Z",
+      "updatedAt": "2024-08-23T09:33:12Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "65e5c44a1b544ba9b71e5cce10c1edd2a097b27465e2df2b1ee5af69cf10b3e5",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4894491001369_4894491001369.jpg",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010496553",
+      "title": "Daedalus system requirements",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010496553-Daedalus-system-requirements",
+      "createdAt": "2018-10-12T06:48:43Z",
+      "updatedAt": "2025-10-30T22:23:12Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "eb488849bc584609485bb992890be9bd1d3e396f24f900273439ef236552d322",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360016219514",
+      "title": "Delete a wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360016219514-Delete-a-wallet",
+      "createdAt": "2019-01-27T18:17:07Z",
+      "updatedAt": "2024-08-23T08:40:52Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "dd9bbbf9ab8d1ef7fa0310edddab4a0bfe57c50314d96bc43c1f973fb3d5065f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900003975463_Screen_Shot_2020-10-09_at_17.59.00.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004009546_Screen_Shot_2020-10-09_at_17.59.11.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004009526_Screen_Shot_2020-10-09_at_17.59.56.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900003975443_Screen_Shot_2020-10-09_at_18.00.29.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900003975423_Screen_Shot_2020-10-09_at_18.00.45.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010516793",
+      "title": "Downloading and installing Daedalus Mainnet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010516793-Downloading-and-installing-Daedalus-Mainnet",
+      "createdAt": "2018-10-12T12:19:38Z",
+      "updatedAt": "2024-03-12T22:45:09Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "b2fb311cbd132c31b498308a7ba4b2a76bfe1514567080e62912f79f361503e2",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002174303",
+      "title": "How to choose a stake pool",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002174303-How-to-choose-a-stake-pool",
+      "createdAt": "2020-08-14T16:34:23Z",
+      "updatedAt": "2024-11-24T19:56:35Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "ca60b3a976ee345bae23c70a0cedea3a86c23d2a864b063606e0e07e19debaca",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 1,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900005718683",
+      "title": "How to delegate to a stake pool",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900005718683-How-to-delegate-to-a-stake-pool",
+      "createdAt": "2021-03-03T16:13:54Z",
+      "updatedAt": "2024-08-23T09:02:28Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "cee3942ad8c4e64b17bcc5771634327c667ef6aef26b308e8c6ac82d328fa218",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900006658666_Screen_Shot_2021-03-03_at_8.50.24.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007566643_Screen_Shot_2021-03-03_at_8.55.50.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007566683_SELECT_POOL_CONTINUE.jpg",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007566663_CONFIRM_TRANSACTION.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360016049834",
+      "title": "How to send ada to a paper wallet ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360016049834-How-to-send-ada-to-a-paper-wallet",
+      "createdAt": "2019-01-23T03:56:51Z",
+      "updatedAt": "2024-08-23T10:43:53Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "b6bb7088c1f9da8ed70e869229a1118352958d07e50b5c9048decb641f82d56c",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360023449674_IMG_5590.jpg",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360023451094_cardano_blockchain_explorer_paper_wallet.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360023449254_Cardano_Blackchaine_Explorere.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360023450154_Screen_Shot_2019-01-23_at_2.51.24_pm.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360024386793_Screen_Shot_2019-01-23_at_2.56.46_pm.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360023450534_Daedalus_wallet_paper_wallet.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360024386993_Screen_Shot_2019-01-23_at_3.09.19_pm.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360024387713_Screen_Shot_2019-01-23_at_3.39.17_pm.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360038148894",
+      "title": "How to submit a feature request",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038148894-How-to-submit-a-feature-request",
+      "createdAt": "2019-11-08T16:46:49Z",
+      "updatedAt": "2023-07-31T14:02:56Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "6896682cc2b3dffeded9699c19c81c07e0cabc496475be07eebedcdb7e23eafc",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000776446",
+      "title": "Installing Daedalus (Mainnet) on Linux",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000776446-Installing-Daedalus-Mainnet-on-Linux",
+      "createdAt": "2020-04-29T20:11:53Z",
+      "updatedAt": "2025-02-05T06:57:36Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "a041d2b352e9d41bf83d292dffe7ca0d3e803724c4e6c071ca458714a1f8866d",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010477234",
+      "title": "Preventing loss of ada ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010477234-Preventing-loss-of-ada",
+      "createdAt": "2018-10-14T15:14:39Z",
+      "updatedAt": "2024-03-13T03:02:36Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "093ec971087431c2a17a638caf2e6e7ebf518a88a4c4e7d29e2257ff48a415ae",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360011602173",
+      "title": "Quick start guide",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011602173-Quick-start-guide",
+      "createdAt": "2018-11-01T16:48:19Z",
+      "updatedAt": "2024-08-23T08:40:51Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "44a04bdf0d0a39587dd0c0e94f362d0871b479ae03317392ac4ce22448df4c5a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900007065266_mceclip0.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007065386_mceclip1.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007065426_mceclip2.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008004143_mceclip3.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008004363_mceclip4.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900007065986_mceclip5.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 2
+    },
+    {
+      "id": "ZENDESK-900003878006",
+      "title": "Restore a Yoroi wallet into Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900003878006-Restore-a-Yoroi-wallet-into-Daedalus",
+      "createdAt": "2020-12-11T16:39:30Z",
+      "updatedAt": "2024-08-23T08:51:54Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "a43f80e73ba350859b6242391e98f3d51e1bc3ba42513659e1afbc85793ed4fc",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900005115526_Screen_Shot_2020-12-11_at_10.18.01.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006046823_Screen_Shot_2020-12-11_at_10.12.48.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005115546_Screen_Shot_2020-12-11_at_10.13.25.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006046983_Screen_Shot_2020-12-11_at_10.14.07.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005115686_Screen_Shot_2020-12-11_at_10.16.27.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005115746_Screen_Shot_2020-12-11_at_10.30.20.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005115806_Screen_Shot_2020-12-11_at_10.30.29.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005115826_Screen_Shot_2020-12-11_at_10.36.26.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010961274",
+      "title": "Restore a wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010961274-Restore-a-wallet",
+      "createdAt": "2018-10-23T09:15:44Z",
+      "updatedAt": "2024-08-23T12:17:17Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "3a1dc30097c08666a33f1c5240f7a190a3ab0c3f186b27803dbb934282db06bd",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900006051686_1.2.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006051706_2.2.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962043_3.3.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006051726_4.4.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962063_5.5.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962083_6.6.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010477394",
+      "title": "Send and receive ADA",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010477394-Send-and-receive-ADA",
+      "createdAt": "2018-10-14T15:32:01Z",
+      "updatedAt": "2024-08-23T08:51:53Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "9cc614eee2a548d03dd4059826a7aec45ff58e0ae546c17cf89bc0d51036d93d",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900004054643_Screen_Shot_2020-10-14_at_12.11.00.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004086846_Screen_Shot_2020-10-14_at_12.14.43.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005667363_Screen_Shot_2020-11-19_at_18.43.28.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004126106_2222222.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004403866",
+      "title": "Copying chain folder from Daedalus Mainnet to Daedalus Flight",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004403866-Copying-chain-folder-from-Daedalus-Mainnet-to-Daedalus-Flight",
+      "createdAt": "2021-02-08T17:46:08Z",
+      "updatedAt": "2023-03-13T11:08:43Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "bfeaa57b3bd65a4aaa2a6069dd0b49e241ab7860a6a7322ae7a417b8e303a4bd",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000836306",
+      "title": "Installation over previous Daedalus version while Daedalus is running on macOS and Linux",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000836306-Installation-over-previous-Daedalus-version-while-Daedalus-is-running-on-macOS-and-Linux",
+      "createdAt": "2020-05-06T16:11:36Z",
+      "updatedAt": "2024-02-28T16:06:49Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "db0ef570f206f6409db19b99a847524408baaca158a378f2ae67a11d6f104425",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000558426",
+      "title": "No recent transaction history on Mainnet Daedalus wallet after restoring wallet in Daedalus Flight",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000558426-No-recent-transaction-history-on-Mainnet-Daedalus-wallet-after-restoring-wallet-in-Daedalus-Flight",
+      "createdAt": "2020-04-10T10:50:42Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "5964ceca8581a2d16d9bad53b7b280af8a1557a91d952fb4478a4a528000787e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 1,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000452483",
+      "title": "Possible network disconnection on Windows",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000452483-Possible-network-disconnection-on-Windows",
+      "createdAt": "2020-03-31T23:38:44Z",
+      "updatedAt": "2024-08-23T09:17:41Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "d9dab71c0fb38609bbb341d3ec8be07fb98c3c53230e84416ffd9d7676a27802",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900000675806_image14.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900000675826_image3.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000452523",
+      "title": "Unexpectedly slow synchronization speeds",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000452523-Unexpectedly-slow-synchronization-speeds",
+      "createdAt": "2020-03-31T23:44:18Z",
+      "updatedAt": "2024-08-23T10:43:53Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "4c7ab583edbac708a61ed28854114006a9d005b4232f8b8665b81da22e101df4",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900000690643_image14.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900000690663_image3.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002932323",
+      "title": "Wallet migration leftovers",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002932323-Wallet-migration-leftovers",
+      "createdAt": "2020-09-30T14:40:10Z",
+      "updatedAt": "2024-08-23T07:55:39Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "ec2c761c1c3e2546ed59ce2f16ba8570888ebccbf802bbe26011e1310a68ad0c",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900003886046_Screen_Shot_2020-09-30_at_13.48.21.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000830383",
+      "title": "Wallets unable to completely sync after reconnecting",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000830383-Wallets-unable-to-completely-sync-after-reconnecting",
+      "createdAt": "2020-05-06T16:16:44Z",
+      "updatedAt": "2024-03-27T23:26:59Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "c5d9b6e9b9217f86da521149b8ae34bd59c7a43e35bc4c05e24aa55ade531b65",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900001538486",
+      "title": "Downloading Daedalus wallet for the Cardano testnet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001538486-Downloading-Daedalus-wallet-for-the-Cardano-testnet",
+      "createdAt": "2020-06-24T14:37:28Z",
+      "updatedAt": "2022-11-06T19:56:08Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "fc544d5364f7d617946b6d68d6c1e98ce32e72cda9a883abc6e82494dc004190",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900001621566",
+      "title": "Installing Daedalus Shelley Testnet in Linux",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001621566-Installing-Daedalus-Shelley-Testnet-in-Linux",
+      "createdAt": "2020-07-01T18:37:03Z",
+      "updatedAt": "2020-07-06T16:41:51Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "161bd8cb847b5281138f32d262d170eca7710ab05a85780c775f69356e996198",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360035155813",
+      "title": "Basic Use, Feature Template",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360035155813-Basic-Use-Feature-Template",
+      "createdAt": "2019-08-30T10:22:43Z",
+      "updatedAt": "2023-10-30T18:33:36Z",
+      "disposition": "excluded",
+      "reason": "Draft, template or event material is outside customer guidance.",
+      "contentHash": "2764a17cbc30467b0afcd6bf3de8312507e5f6e143b3993820e03ca2a9bdea8f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360016060314",
+      "title": "Blockchain storage consolidation",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360016060314-Blockchain-storage-consolidation",
+      "createdAt": "2019-01-23T11:38:56Z",
+      "updatedAt": "2021-10-28T06:33:44Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "fcbaaae77bb926b7cb86177ab0c0361b54ce942df13663ec42edf3090f3aba08",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360033733594",
+      "title": "Blockchain storage consolidation status screen",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360033733594-Blockchain-storage-consolidation-status-screen",
+      "createdAt": "2019-08-11T07:03:08Z",
+      "updatedAt": "2024-08-23T12:17:17Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "506d4626e8ae4f23b93de1071d11fa71c927e8a5b3abb6e2c99905219adac5ca",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043422834_Screen_Shot_2019-08-11_at_1.50.00_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010477374",
+      "title": "Change address",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010477374-Change-address",
+      "createdAt": "2018-10-14T15:28:13Z",
+      "updatedAt": "2020-10-14T13:18:54Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "2aaad7aa21fda7e853432176a7dfa418d7d35b9d0daf0f3b3032ea1e3b24d6b7",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-4415304990745",
+      "title": "Enabling RTS Flags",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4415304990745-Enabling-RTS-Flags",
+      "createdAt": "2022-01-20T14:57:48Z",
+      "updatedAt": "2024-08-23T11:46:07Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "b0162a98e66f01ebe534e61f2eea49a9f4d408e60b0024549e75f8b4b945a726",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4416838302361_image__8_.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4415329668505_Screenshot_20220120_165800.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4416824416921_Screen_Shot_2022-02-03_at_10.50.18.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4416824793113_Screen_Shot_2022-02-03_at_11.28.47.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360034257513",
+      "title": "Guided manual updates",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360034257513-Guided-manual-updates",
+      "createdAt": "2019-08-11T10:37:02Z",
+      "updatedAt": "2021-02-25T15:58:53Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "e77989949a6ca2d2833dfedfaebc6e3a32d6a224b20cb3c0287df5fc7ec65482",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043465853_mceclip0.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000623463",
+      "title": "Importing wallets",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000623463-Importing-wallets",
+      "createdAt": "2020-04-17T12:27:17Z",
+      "updatedAt": "2024-08-23T09:17:41Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "4f7a30c36da17916c61468ec8d6de89b03bcc139958972bfd0a88ed482f08e06",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900006052046_900006052046.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006052066_900006052066.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962363_900006962363.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962343_900006962343.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006962403_900006962403.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006052166_900006052166.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900000973806_900000973806.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360034035394",
+      "title": "Loading screen status icons",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360034035394-Loading-screen-status-icons",
+      "createdAt": "2019-08-19T09:24:35Z",
+      "updatedAt": "2024-08-23T12:07:14Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "32be7f066975a1705e05014fd12f1d743baf3d8d3d2e6540eaa874420ce35634",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043960974_Screen_Shot_2019-08-19_at_4.37.38_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360044824693_mceclip0.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360043961154_mceclip1.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360043961334_mceclip2.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360044825513_mceclip3.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360043962214_mceclip4.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360043962554_Screen_Shot_2019-08-19_at_5.18.47_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360024614114",
+      "title": "Log file submission - what's included and what's not",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360024614114-Log-file-submission-what-s-included-and-what-s-not",
+      "createdAt": "2019-06-13T15:58:43Z",
+      "updatedAt": "2024-08-23T12:07:13Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "b2ec4bd0c2ea07ae6d16ba6378569eff9c19f46bdad77511f420987beecf9525",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360038035554_Screen_Shot_2019-06-14_at_4.42.11_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360039391494",
+      "title": "Open the state directory",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360039391494-Open-the-state-directory",
+      "createdAt": "2019-12-04T09:03:15Z",
+      "updatedAt": "2024-08-23T08:40:52Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "babdb8228d50fa030434ceaf7920b46dc974ed2fd3cabc1f647b99fffac0e6ff",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "29864349742105_29864349742105.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360051973074_360051973074.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4408893338137_4408893338137.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-4415092787481",
+      "title": "Recommended decimal places for Cardano native tokens",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4415092787481-Recommended-decimal-places-for-Cardano-native-tokens",
+      "createdAt": "2022-01-18T12:39:47Z",
+      "updatedAt": "2024-08-23T10:03:21Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "39cfc19528b0c60b0ee4dfa77d9c4526f95f5d538d477e8e98142dcde5fb7a2d",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4415092701721_first8.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4415088823321_first3.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4415092626073_first4.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4415088906393_first7.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4415092629657_first6.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011102854",
+      "title": "Rename the wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011102854-Rename-the-wallet",
+      "createdAt": "2018-10-24T09:57:06Z",
+      "updatedAt": "2024-08-23T08:20:42Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "695ff0b4c04cac2b9fb020735fbce2294cbd0c90fef2e46324f480f752c83d13",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360017311053_mceclip1.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360017311353_mceclip2.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360017311593_mceclip3.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011102114",
+      "title": "Reset wallet spending password",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011102114-Reset-wallet-spending-password",
+      "createdAt": "2018-10-24T09:40:56Z",
+      "updatedAt": "2025-02-23T23:42:10Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "0be46a0def99d0087f16c0278e63bc452ddf5794c5ea6a55f667bbfd85f520b7",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900001385286_900001385286.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360034630394",
+      "title": "Restart the Cardano Node",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360034630394-Restart-the-Cardano-Node",
+      "createdAt": "2019-08-30T06:21:17Z",
+      "updatedAt": "2024-08-23T10:03:17Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "3af42569080760791b7db4bc751c5bdda36bd54b69e0d141956865c86e16048a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "token_zkOmJr0DXDwwOPsj5t7unJr18_Screen_Shot_2019-08-16_at_11.34.06_am.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360045006114_Screen_Shot_2019-08-30_at_8.29.24_AM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "token_Ep1fx34nxkuHS5fdJWhPoZGlH_Screen_Shot_2019-08-16_at_11.46.48_am.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010587413",
+      "title": "Restoring a paper wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010587413-Restoring-a-paper-wallet",
+      "createdAt": "2018-10-15T11:11:53Z",
+      "updatedAt": "2024-08-23T09:02:27Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "53405005777e5c065eff30875694ec87830e5b108ecbe1d1383f4dca261efe73",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360039275993_360039275993.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360038443434_360038443434.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "33994768624281_33994768624281.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "33994768633369_33994768633369.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "33994768643481_33994768643481.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360033969174",
+      "title": "Transaction assurance security level",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360033969174-Transaction-assurance-security-level",
+      "createdAt": "2019-08-16T09:31:21Z",
+      "updatedAt": "2021-09-16T12:47:04Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "6850049d4da36134569cff09770cdf0d1cb715c3a42e16682980a63100296b9f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360034571933",
+      "title": "User Interface Themes",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360034571933-User-Interface-Themes",
+      "createdAt": "2019-08-19T11:20:50Z",
+      "updatedAt": "2024-08-23T08:20:42Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "39444be2b61549fd7d3525304e73ec070992f16f3d7ca07d5cb28d1ebfa37761",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360044827673_Screen_Shot_2019-08-19_at_5.57.57_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360043964314_Screen_Shot_2019-08-19_at_5.58.43_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360035341914",
+      "title": "Verification of the wallet recovery phrase",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360035341914-Verification-of-the-wallet-recovery-phrase",
+      "createdAt": "2019-09-13T08:29:12Z",
+      "updatedAt": "2024-08-23T08:51:53Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "29102f1da320e3dec2d0431e8c287d37db4ed72a9fdeec0ec07e8118ba982e48",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360049607713_Untitled.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360048674214_Screenshot_2019-10-21_at_14.11.02.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360048674114_Screenshot_2019-10-21_at_14.03.20.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360048674134_Screenshot_2019-10-21_at_14.04.02.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360049575033_Screenshot_2019-10-21_at_14.04.38.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011323434",
+      "title": "View Transaction Details",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011323434-View-Transaction-Details",
+      "createdAt": "2018-10-27T13:46:36Z",
+      "updatedAt": "2024-08-23T10:43:52Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "6347d04f216e85e3de2f7c5fae34860e5bc61568c246ba209a3e2e24b07cb99f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360017819733_Screen_Shot_2018-10-27_at_3.22.51_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360017091154_Screen_Shot_2018-10-27_at_3.23.12_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360017819953_Screen_Shot_2018-10-27_at_3.24.15_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360018712193",
+      "title": "\"Error opening the file for writing\" when installing on Windows",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360018712193--Error-opening-the-file-for-writing-when-installing-on-Windows",
+      "createdAt": "2019-02-20T17:35:40Z",
+      "updatedAt": "2024-08-23T09:33:09Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "5f1dbb457cbe1cbe378ce64a805bf1063cc8a889106045cd0a7c5be8a4a384f3",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360026539474_Untitled1.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360026539454_Untitled.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010660474",
+      "title": "'Cannot Connect to Network' message after automatic update",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010660474--Cannot-Connect-to-Network-message-after-automatic-update",
+      "createdAt": "2018-10-17T08:36:55Z",
+      "updatedAt": "2022-01-26T15:57:49Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "8b2a8749601064f9fe628e1d5fa447b735f00310350d35c5ea49c71be3976f61",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010522913",
+      "title": "'Connecting to network' message",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010522913--Connecting-to-network-message",
+      "createdAt": "2018-10-12T15:25:56Z",
+      "updatedAt": "2024-08-23T09:02:27Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "03eaf024058ed00f2f79ce0840414a7e7274d0f7230bc4e67313ca5451231753",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4402963712025_Capture1111.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010559453",
+      "title": "Anti virus software is blocking download of Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010559453-Anti-virus-software-is-blocking-download-of-Daedalus",
+      "createdAt": "2018-10-14T14:12:09Z",
+      "updatedAt": "2021-08-03T05:52:50Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "57f7a95a6861b40d8e8d13328169dd274f4595bed0bbf9903794cc0fb7722abb",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000127226",
+      "title": "Anti-virus software is blocking installation of Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000127226-Anti-virus-software-is-blocking-installation-of-Daedalus",
+      "createdAt": "2020-01-15T09:02:28Z",
+      "updatedAt": "2021-08-09T04:47:50Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "1e9e539719c2fc8849d3557c32cd66cbe16d5a64d81e000bd02b43212f3bd37f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360035654533",
+      "title": "Available disk space UNKNOWN",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360035654533-Available-disk-space-UNKNOWN",
+      "createdAt": "2019-09-11T08:37:18Z",
+      "updatedAt": "2023-05-13T12:38:08Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "2681cc3a54398f2b0aa922f04b232157e9c558a4ab3f0cdfe7c23732bf35f97e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360026832113",
+      "title": "Cannot Connect to Network - Certificate Signature Failure",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360026832113-Cannot-Connect-to-Network-Certificate-Signature-Failure",
+      "createdAt": "2019-07-18T18:40:23Z",
+      "updatedAt": "2024-08-23T10:09:23Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "d260a817dbef322768baae0c2348fb6824ee733f47935f334f035aa8b313261a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043600514_Screen_Shot_2019-08-14_at_1.50.23_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011408873",
+      "title": "Cardano network blocked by ISP",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011408873-Cardano-network-blocked-by-ISP",
+      "createdAt": "2018-10-27T11:59:10Z",
+      "updatedAt": "2021-11-19T19:32:07Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "7019728d50682da170d187fd7012f18d0f767353d1a1c0723b4ec8b955baeaf6",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-29444432935705",
+      "title": "Cardano wallet recovery phrase compatibility chart",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/29444432935705-Cardano-wallet-recovery-phrase-compatibility-chart",
+      "createdAt": "2024-03-03T23:43:36Z",
+      "updatedAt": "2024-04-16T08:58:05Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "e97908466ac1e79cb16464989b586aa54a6e3422bc2b018639a329e3141937b1",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004638323",
+      "title": "Connectivity -  Check DNS",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004638323-Connectivity-Check-DNS",
+      "createdAt": "2020-11-27T02:30:59Z",
+      "updatedAt": "2021-10-14T06:22:29Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "771f21611635f545ae29e851bedb08eb4f4c3467c46100e29c4d52b1a11c314e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 11,
+      "unsafeLinksRemoved": 9
+    },
+    {
+      "id": "ZENDESK-900004638783",
+      "title": "Connectivity - Node crash - Unexpected error following the chain. ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004638783-Connectivity-Node-crash-Unexpected-error-following-the-chain",
+      "createdAt": "2020-11-27T02:49:08Z",
+      "updatedAt": "2023-10-30T18:33:37Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "20096dbd3d7af5c80452fadae904bca32f22518eeddb792e195bdbb71e7fc1e7",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360038741393",
+      "title": "Daedalus Mainnet - Known Issues",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038741393-Daedalus-Mainnet-Known-Issues",
+      "createdAt": "2019-11-11T19:47:13Z",
+      "updatedAt": "2025-08-15T01:16:39Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "4c8f80782ac475ca65b31e28374c4385a9f515295bdc49b4dd4d95fb0f964c37",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "49806983018777_49806983018777.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "49806951249945_49806951249945.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360018034013",
+      "title": "Daedalus Wallet Cardano Node Crashed Error",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360018034013-Daedalus-Wallet-Cardano-Node-Crashed-Error",
+      "createdAt": "2019-02-14T21:41:40Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "56eeb2efa60e0ca313e22154ff3c580b8112f658d05e027e9082db8e369b2dbb",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360026028134_Screen_Shot_2019-02-15_at_11.20.28_AM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360026898373_Screen_Shot_2019-02-15_at_11.20.51_AM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360011705393",
+      "title": "Daedalus Yoroi Integration",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011705393-Daedalus-Yoroi-Integration",
+      "createdAt": "2018-11-05T08:24:24Z",
+      "updatedAt": "2021-12-11T11:39:51Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "a7192fc77cadbb413ff978119b366cc8e0433f6d539f077df2d5674763ad1c0b",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 2
+    },
+    {
+      "id": "ZENDESK-900003035306",
+      "title": "Daedalus troubleshooting ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900003035306-Daedalus-troubleshooting",
+      "createdAt": "2020-10-02T01:00:15Z",
+      "updatedAt": "2023-10-30T18:33:36Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "f6fa23d425ffb6e8a55bf260ea1e4b51bd9c92d1dd7d0951d2e6b80aa1211cc2",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360009484874",
+      "title": "Delete and re-sync blockchain data",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360009484874-Delete-and-re-sync-blockchain-data",
+      "createdAt": "2018-09-20T19:43:49Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "6b5e8d652e06aa60a2d27d4b54e43e554bf05bcbb98044d31934bd6695ea9e8a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360022001194_Screen_Shot_2019-01-14_at_8.26.43_AM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360039511853",
+      "title": "Delete the contents of the state directory",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360039511853-Delete-the-contents-of-the-state-directory",
+      "createdAt": "2019-11-25T18:16:12Z",
+      "updatedAt": "2024-08-23T09:17:41Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "5475bcbbfb1421f4323cb4a9258d9081c95adab362aa85e937201bb788ceb860",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4403255917849_Screen_Shot_2021-07-06_at_3.53.16_pm.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011321094",
+      "title": "Deleting and restoring wallet data",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011321094-Deleting-and-restoring-wallet-data",
+      "createdAt": "2018-10-27T08:57:23Z",
+      "updatedAt": "2025-07-23T00:01:38Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "f9d6c0c4608f1cc67207f48a553108b9cd71073e4604445dc83844c8016e399a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010559773",
+      "title": "Exchange transaction does not show in wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010559773-Exchange-transaction-does-not-show-in-wallet",
+      "createdAt": "2018-10-14T14:57:14Z",
+      "updatedAt": "2021-10-14T11:39:46Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "527cd2328538cc9abefb93d34d40187f4a9f2519a089fdf9fe23c2a4e72790a7",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900001987323",
+      "title": "Fees Explained",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001987323-Fees-Explained",
+      "createdAt": "2020-07-31T15:50:10Z",
+      "updatedAt": "2024-08-23T09:54:13Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "99419401dcda9674f06728ef4679107288cb7473ca3c1f1a1623d3b203c73f59",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 1,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360021447393",
+      "title": "Flush DNS Cache (Windows) ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360021447393-Flush-DNS-Cache-Windows",
+      "createdAt": "2019-04-10T18:02:28Z",
+      "updatedAt": "2024-08-23T10:43:53Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "d6a09ec4d4ef506b2fd2b6a36379409816696573fea0d9c85045a117d1b12d51",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360033706473_Screen_Shot_2019-04-25_at_12.58.45_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-4406070442137",
+      "title": "Get to know your node logs",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4406070442137-Get-to-know-your-node-logs",
+      "createdAt": "2021-09-07T05:27:53Z",
+      "updatedAt": "2024-08-23T10:03:21Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "2823e4de5b27e34ef7c7c92379d698c25028e59b53d2ac1188c6c40f3ae6e48a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4406078361625_Screen_Shot_2021-09-07_at_3.17.29.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4406070844697_Screen_Shot_2021-09-07_at_0.41.48.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4406192565913_Screen_Shot_2021-09-09_at_10.25.46.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360021173934",
+      "title": "Getting help with Daedalus open source code",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360021173934-Getting-help-with-Daedalus-open-source-code",
+      "createdAt": "2019-04-09T10:04:22Z",
+      "updatedAt": "2021-08-03T05:00:58Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "4fe6d8e12fc34816134ccf0c58f12ef4dd0ff0d50171b05d8289156fbc37963c",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360016406974",
+      "title": "Help Article Template",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360016406974-Help-Article-Template",
+      "createdAt": "2019-01-31T09:11:00Z",
+      "updatedAt": "2023-10-30T18:33:35Z",
+      "disposition": "excluded",
+      "reason": "Draft, template or event material is outside customer guidance.",
+      "contentHash": "7fb7f093a2d18d37e82ab80cc3f57ffb1515ef7a77f7ea9021d13b68151a9070",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000780843",
+      "title": "High CPU and RAM utilization",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000780843-High-CPU-and-RAM-utilization",
+      "createdAt": "2020-04-30T15:36:55Z",
+      "updatedAt": "2021-10-06T09:54:32Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "7c4b5aea62a5c08fb3421b7893b8e7b65267e4db14bd4907c86556a6d1143f47",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900001656586",
+      "title": "How to Redeem Incentivized Testnet (ITN) Rewards",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001656586-How-to-Redeem-Incentivized-Testnet-ITN-Rewards",
+      "createdAt": "2020-07-06T13:54:43Z",
+      "updatedAt": "2024-08-23T09:17:42Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "ac3ef72df7ef9117872863ceecd7f0afe4a1fa55bbea866bd12ed0903f5e761e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900008592426_Screen_Shot_2021-05-19_at_12.40.43.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004054763_Screen_Shot_2020-10-14_at_12.53.28.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004054903_Screen_Shot_2020-10-14_at_12.55.07.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004087086_Screen_Shot_2020-10-14_at_12.55.47.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000905723",
+      "title": "How to change your Spending password",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000905723-How-to-change-your-Spending-password",
+      "createdAt": "2020-05-14T04:31:04Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "1523a7b1aec7be58d15406a7d494724380041e0897cfa50b8d8f9cf641d1cb23",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900001279346_Daedalus_Mainnet_Password_ENG.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360038792814",
+      "title": "How to check Daedalus installer integrity",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038792814-How-to-check-Daedalus-installer-integrity",
+      "createdAt": "2019-11-20T19:38:59Z",
+      "updatedAt": "2023-06-28T16:22:17Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "7d1385ee7970d7517dd81fabd61b8fa3c9b3c017f309c98fab235e8dd61f944e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360024924334",
+      "title": "How to check your 27-word Daedalus paper wallet recovery phrase",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360024924334-How-to-check-your-27-word-Daedalus-paper-wallet-recovery-phrase",
+      "createdAt": "2019-06-19T04:31:00Z",
+      "updatedAt": "2021-08-31T22:02:03Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "3d5f171f8d4ffa07caea310776da8113cb859c6a257f035e92cbd192a9a2a7bd",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360009819834",
+      "title": "How to download log files",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360009819834-How-to-download-log-files",
+      "createdAt": "2018-09-30T12:14:23Z",
+      "updatedAt": "2024-08-23T08:40:51Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "71e8cc17e117d0c5a5e2e78cca3ea941d7675f4504e01b1ff4298d026cfb0591",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043598014_Screen_Shot_2019-08-14_at_12.46.48_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360044451213_Screen_Shot_2019-08-14_at_12.50.41_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360015359294",
+      "title": "How to get help for Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360015359294-How-to-get-help-for-Daedalus",
+      "createdAt": "2019-01-08T10:39:59Z",
+      "updatedAt": "2021-11-12T19:49:06Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "e696cf6c328984e3ad50484b8f3a0f927d29c2ce0c5140706d0885d8e41229d1",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002934603",
+      "title": "How to get wallet public key from Daedalus wallet ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002934603-How-to-get-wallet-public-key-from-Daedalus-wallet",
+      "createdAt": "2020-10-01T01:59:04Z",
+      "updatedAt": "2024-08-23T10:43:55Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "17bd6512eef3e0c3f22d28db230eef4b5c3f3d1132418cbb4baa978d8958d0c0",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4404002541081_Screen_Shot_2021-07-22_at_16.22.25.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4404002547225_Screen_Shot_2021-07-22_at_16.30.34.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4404002550297_Screen_Shot_2021-07-22_at_16.22.38.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4404002552473_Screen_Shot_2021-07-22_at_16.23.49.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4404002562201_Screen_Shot_2021-07-22_at_16.21.58_copy.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004729203",
+      "title": "How to pair Ledger wallets with Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004729203-How-to-pair-Ledger-wallets-with-Daedalus",
+      "createdAt": "2020-12-07T07:03:28Z",
+      "updatedAt": "2024-08-23T09:54:14Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "ac6f863935f11b1ed90f4fa6ce34ce3d43975da824760964e18f33557e14c0cb",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900005954343_a57f1eb2f6e32b329a917f7bbc695ee.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005018446_d0ebd376a0bcb1b426bad2f4ac3af54.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005023526_76668a9d3d9660afbdf889c74da0971.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005953403_ae7a47ba56a4869a7627ea865135d27.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005019166_mceclip6.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005953723_mceclip4.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005954003_mceclip7.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 3
+    },
+    {
+      "id": "ZENDESK-900004828803",
+      "title": "How to pair Trezor T with Daedalus ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004828803-How-to-pair-Trezor-T-with-Daedalus",
+      "createdAt": "2020-12-16T06:11:32Z",
+      "updatedAt": "2024-08-23T09:17:44Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "551d1a706a812b667b3fcf786c09ca6730bcaa47ec392d8cbcbb9a533e5030d5",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900005176006_900005176006.jpg",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "21886205505049_21886205505049.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005175966_900005175966.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005175986_900005175986.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006104823_900006104823.jpg",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900006104843_900006104843.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-4414103909913",
+      "title": "How to restore Byron wallets in Adalite (Daedalus inaccessible)",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4414103909913-How-to-restore-Byron-wallets-in-Adalite-Daedalus-inaccessible",
+      "createdAt": "2022-01-07T08:30:34Z",
+      "updatedAt": "2024-08-23T09:02:29Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "3e47b679f231ae4660e143ad61487143d88ba34c53bd547641527e73caa24500",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 2,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004340586",
+      "title": "How to symlink Daedalus chain folder",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004340586-How-to-symlink-Daedalus-chain-folder",
+      "createdAt": "2021-02-02T16:40:39Z",
+      "updatedAt": "2024-08-23T07:55:40Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "eba3170f2b498c8013db7b2e487b5d6260b3c7b711b6ce6f89aac030f6883f2d",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4415146620441_4415146620441.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "12254729623193_12254729623193.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004722083",
+      "title": "How to use Ledger and Trezor HW with Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004722083-How-to-use-Ledger-and-Trezor-HW-with-Daedalus",
+      "createdAt": "2020-12-04T20:24:34Z",
+      "updatedAt": "2024-08-23T08:20:43Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "c09931cb7e177bb82add0f858441e51e1e7406999cdf51b5b6edb0de6d02307a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900005004426_900005004426.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005004446_900005004446.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937543_900005937543.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937583_900005937583.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937603_900005937603.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005004466_900005004466.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937623_900005937623.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937643_900005937643.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937683_900005937683.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937723_900005937723.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005004506_900005004506.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937763_900005937763.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005937783_900005937783.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900000970126",
+      "title": "How to verify your spending password",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000970126-How-to-verify-your-spending-password",
+      "createdAt": "2020-05-20T13:04:38Z",
+      "updatedAt": "2024-08-23T10:49:37Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "733f1f956f3753953e6461dffc4ea2395238657fe726c30ce4e3bde5a665656b",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "28342878565401_28342878565401.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360013271313",
+      "title": "Installing Daedalus Testnet wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360013271313-Installing-Daedalus-Testnet-wallet",
+      "createdAt": "2018-12-06T12:29:00Z",
+      "updatedAt": "2021-08-11T06:39:34Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "a3556f8a96929e640edf27ff788b75447ee690dc12c15410b001ee049b4a8db3",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900007272203",
+      "title": "Lost or damaged Hardware Wallet",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900007272203-Lost-or-damaged-Hardware-Wallet",
+      "createdAt": "2021-05-21T16:51:22Z",
+      "updatedAt": "2021-08-24T11:22:29Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "f7665b9f2d5d81b2124821d106d7b6601a2ef80241b0569362f5edc7bd0e6847",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360010230873",
+      "title": "Machine clock out of sync with Cardano network",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010230873-Machine-clock-out-of-sync-with-Cardano-network",
+      "createdAt": "2018-10-05T15:53:00Z",
+      "updatedAt": "2024-08-23T08:20:42Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "21c7b1eca0f9ef783120a88ffccda4537ba37101fbe04f473f8e61bf75f2f081",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043602314_Screen_Shot_2019-08-14_at_1.33.01_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360044450333_Screen_Shot_2019-08-14_at_12.23.03_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360044450373_Screen_Shot_2019-08-14_at_12.22.05_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360014338674_clock_sync_win.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4402142409369_Capture.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "360014469113_dateandtimewin.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4402142415769_Capture.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4402149485337_Screen_Shot_2021-06-10_at_10.01.05.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "4402142421785_Capture.PNG",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011329914",
+      "title": "My transaction is not visible ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011329914-My-transaction-is-not-visible",
+      "createdAt": "2018-10-27T18:44:44Z",
+      "updatedAt": "2021-08-23T13:27:29Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "e6197865b0f1da62fc24e6da7abdf8f0cca54e4702e71cabf70cb8688f191b41",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010560353",
+      "title": "Not enough disk space",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010560353-Not-enough-disk-space",
+      "createdAt": "2018-10-14T16:11:44Z",
+      "updatedAt": "2023-11-22T04:49:49Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "8393fd3447aed46586ade3feb274b91d0e9971dda4557b28f6a57c1a957944e8",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360023850634",
+      "title": "Notification of Software Update",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360023850634-Notification-of-Software-Update",
+      "createdAt": "2019-05-30T12:11:17Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "18ee18ed9a527bdfd859d05f60ccafd3a34dbe69e0bfd8ebbf3bcaa61ca8d626",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-4407094790681",
+      "title": "Optimize macOS to work with Daedalus and Cardano-Node",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4407094790681-Optimize-macOS-to-work-with-Daedalus-and-Cardano-Node",
+      "createdAt": "2021-09-27T16:09:00Z",
+      "updatedAt": "2023-08-09T05:38:45Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "36512a79351f3a6a386d6104d9e68a468dc90aa107cbd4de5c3f34e2e3b728b5",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-28787755339801",
+      "title": "Reinstall Daedalus on Windows 10 and Windows 11",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/28787755339801-Reinstall-Daedalus-on-Windows-10-and-Windows-11",
+      "createdAt": "2024-02-15T05:54:07Z",
+      "updatedAt": "2024-08-23T09:33:12Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "ba779412c67a2b05a54387249c2d1d4a586acc57c1b2a43a8e9fe7c5693f2dff",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "token_ABwVPsbb11rzq7JQnxEh2EzQl_image.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "token_ZXpV3kpoVGRvpMTWtb1b0IPI6_image.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "token_PFQWJKzWrmlmHpcRE8r5hDGIJ_image.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "token_ebBJLXinZgLNhwHUWzQg3N218_image.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 2,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360038113814",
+      "title": "Removing failed transactions",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038113814-Removing-failed-transactions",
+      "createdAt": "2019-11-08T05:10:54Z",
+      "updatedAt": "2024-08-23T11:40:07Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "04162692e5ac3a6c36c39c5dc7ae6875433d77d00b1fdbb88ca362e0d3280fd0",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900006024943_Screen_Shot_2020-12-10_at_10.24.06.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900005095426_Screen_Shot_2020-12-10_at_10.17.17.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360019834293",
+      "title": "Restore wallet from a backup of the state directory.",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360019834293-Restore-wallet-from-a-backup-of-the-state-directory",
+      "createdAt": "2019-03-14T23:49:33Z",
+      "updatedAt": "2024-08-23T10:49:37Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "34a914e446155fb3c3b69b8b1a69a65db6fe95aa091e9c3c6c532767b95b55cb",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900008658906_Screen_Shot_2021-05-21_at_14.40.02.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900009615243_Screen_Shot_2021-05-21_at_13.30.59.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008658946_Screen_Shot_2021-05-21_at_14.53.32.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008658966_Screen_Shot_2021-05-21_at_14.58.19.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008658986_Screen_Shot_2021-05-21_at_15.01.01.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900008659006_Screen_Shot_2021-05-21_at_13.33.04.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004639223",
+      "title": "Synchronization - Cannot restore wallet - Wallet doesn't sync - An error occurred",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004639223-Synchronization-Cannot-restore-wallet-Wallet-doesn-t-sync-An-error-occurred",
+      "createdAt": "2020-11-27T03:10:40Z",
+      "updatedAt": "2023-10-30T18:33:37Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "e4762ca73d70cf688ec94562b8a58ec4454cd40402d9423461589c83e2ddbaf9",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900003878226",
+      "title": "Synchronization - Node validating blockchain from 0% on every start",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900003878226-Synchronization-Node-validating-blockchain-from-0-on-every-start",
+      "createdAt": "2020-12-11T18:18:51Z",
+      "updatedAt": "2023-10-30T18:33:37Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "a4d18e2d7c65dbc4fc34dc224f299055a2c3f07c05b73c54dfd6adfd666288a6",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011536933",
+      "title": "Synchronization will not complete",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011536933-Synchronization-will-not-complete",
+      "createdAt": "2018-10-31T09:42:27Z",
+      "updatedAt": "2024-08-23T12:17:17Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "b25f41b8855832e7f2401c8e33a91b81fc2552e9e08711ee8e69716d65fb913a",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4407803885977_Screen_Shot_2021-10-13_at_10.50.21.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-4713031253273",
+      "title": "Total rewards /  Unspent rewards Explained ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4713031253273-Total-rewards-Unspent-rewards-Explained",
+      "createdAt": "2022-03-10T03:08:13Z",
+      "updatedAt": "2026-06-15T03:50:36Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "8c9dae983d9b1fb8f8f253aa0dab4d6382a6da2fc326ce3c3eb1be031ba46660",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "4711234156185_4711234156185.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360011496773",
+      "title": "Unhiding the Library folder on macOS",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360011496773-Unhiding-the-Library-folder-on-macOS",
+      "createdAt": "2018-10-30T13:29:42Z",
+      "updatedAt": "2024-08-23T07:55:38Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "c5f4742c7cdeaf5ce9ec587de3ed8e78b2d0ca1a0ae8d619f742a6e9a2d496c4",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": null,
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 4,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360013170694",
+      "title": "Uninstall Daedalus and remove wallet's data",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360013170694-Uninstall-Daedalus-and-remove-wallet-s-data",
+      "createdAt": "2018-12-06T10:28:48Z",
+      "updatedAt": "2024-08-23T10:03:17Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "222d3ad4140dd5f1a4707aa059310624892c0a856427e3c2dd41fb0bfbd2e655",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360024879594",
+      "title": "Using the BIP39 Wordlist to Check Your Recovery Phrase",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360024879594-Using-the-BIP39-Wordlist-to-Check-Your-Recovery-Phrase",
+      "createdAt": "2019-06-18T16:06:16Z",
+      "updatedAt": "2025-06-01T22:48:35Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "429aee1c5c3298001dc339eed60061b0a0b2fa24fba9a83725d6934b80bc5a11",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360038581434",
+      "title": "Verify wallet recovery phrase",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038581434-Verify-wallet-recovery-phrase",
+      "createdAt": "2019-11-17T11:55:30Z",
+      "updatedAt": "2024-08-23T11:46:05Z",
+      "disposition": "needs-review",
+      "reason": "Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.",
+      "contentHash": "07e2d3f9561f63a2d09b9aaf82e958ea25b51e5d6e714988e3f358080f527d59",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900004171983_900004171983.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004209386_900004209386.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004172223_900004172223.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004172263_900004172263.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900004172283_900004172283.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360026429093",
+      "title": "Wallet Balance is 0 After Restoration",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360026429093-Wallet-Balance-is-0-After-Restoration",
+      "createdAt": "2019-07-11T02:08:17Z",
+      "updatedAt": "2025-05-20T00:04:18Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "b01cc322bb39d57d793636da1bef8ed2727b1eed87a43cd2ddaaf90896da2390",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010889854",
+      "title": "White, Blank Screen",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010889854-White-Blank-Screen",
+      "createdAt": "2018-10-20T16:38:20Z",
+      "updatedAt": "2025-08-12T00:18:37Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "c038dae3447448f749eabe39c099f1a945cb8692bb6238c81c876c7560a59099",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360043726653_Screen_Shot_2019-08-02_at_9.03.25_PM.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360010554794",
+      "title": "Why does it take so long to sync my Daedalus Wallet?",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360010554794-Why-does-it-take-so-long-to-sync-my-Daedalus-Wallet",
+      "createdAt": "2018-10-16T09:00:03Z",
+      "updatedAt": "2024-03-21T20:49:30Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "678166c97a50dd9823c0e0d31232f35b59c5ed2f27f6e4cbc4943df741f9e897",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360015384493",
+      "title": "Cardano community resources",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360015384493-Cardano-community-resources",
+      "createdAt": "2019-01-07T11:20:04Z",
+      "updatedAt": "2022-06-04T16:01:40Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "ec8dde49b20c6667d11c07ef6d54beb66d3d26a1e4f82559d39121d6ae77c459",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004671183",
+      "title": "Changes on k parameter on epoch 234",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004671183-Changes-on-k-parameter-on-epoch-234",
+      "createdAt": "2020-11-30T20:05:58Z",
+      "updatedAt": "2024-08-23T10:43:55Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "970405f63a2896a1924849bc00cd259dc2cb98057633e312796362f3fc8fc6d4",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360039403833",
+      "title": "Daedalus overview",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360039403833-Daedalus-overview",
+      "createdAt": "2019-11-22T09:51:02Z",
+      "updatedAt": "2023-11-01T11:32:57Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "b0c281bf39ba77e8a9b907fbbebdf3129cdd16c838d0c250b2b5a176ef69f1ac",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360026058573",
+      "title": "Daedalus wallet and Yoroi wallet overview",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360026058573-Daedalus-wallet-and-Yoroi-wallet-overview",
+      "createdAt": "2019-07-04T05:42:45Z",
+      "updatedAt": "2026-06-27T22:00:05Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "0d7b9f6d0370add9bb4f4b17fe95c450c1da12a588731c77ba61050b7f9e7a83",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 3
+    },
+    {
+      "id": "ZENDESK-360038186074",
+      "title": "Daedalus wallet editions",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360038186074-Daedalus-wallet-editions",
+      "createdAt": "2019-11-10T08:21:35Z",
+      "updatedAt": "2024-08-23T09:02:27Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "faef376f632541705bc1ee9c6b2ec62b942f60dc792573fee91d929c0821b13f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "360050972434_Screenshot_2019-11-22_at_10.59.55.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002046123",
+      "title": "How safe is it to delegate to a stake pool?",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002046123-How-safe-is-it-to-delegate-to-a-stake-pool",
+      "createdAt": "2020-08-06T13:33:13Z",
+      "updatedAt": "2024-08-23T08:51:54Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "aaa55151bb4d5284b40a83ec0db7fd7d82f28703567600ade8f8fadec8e73685",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900002869246_Screen_Shot_2020-08-06_at_08.28.06.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-51034691892121",
+      "title": "IO is coming to Asia!",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/51034691892121-IO-is-coming-to-Asia",
+      "createdAt": "2025-09-26T07:41:17Z",
+      "updatedAt": "2025-09-26T13:18:51Z",
+      "disposition": "excluded",
+      "reason": "Draft, template or event material is outside customer guidance.",
+      "contentHash": "1c23e175c66401cae4e174666df061d1c098b587ec26a9b010b46c9f59990911",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900003023526",
+      "title": "Rewards calculations",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900003023526-Rewards-calculations",
+      "createdAt": "2020-10-01T04:16:29Z",
+      "updatedAt": "2022-11-22T04:03:33Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "6df4f56bfb133c739c4e67f06c4559ebe15add1fbdad0d7b1530d7419dc89bac",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002873923",
+      "title": "Shelley wallets ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002873923-Shelley-wallets",
+      "createdAt": "2020-09-25T16:52:05Z",
+      "updatedAt": "2024-08-23T11:40:07Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "49174402373689b082a96c6340aafd0f8771ee35552360fdf3bd0ae9257d9af0",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "900003749046_Screen_Shot_2020-09-23_at_11.53.45.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        },
+        {
+          "localPath": "900003749106_Screen_Shot_2020-09-23_at_12.04.55.png",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002874843",
+      "title": "The delegation cycle ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002874843-The-delegation-cycle",
+      "createdAt": "2020-09-26T00:06:13Z",
+      "updatedAt": "2024-08-23T09:54:13Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "456ee570c96b309f6454a0ff92d41ce34a933f653e701b3bed5795207a51311e",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [
+        {
+          "localPath": "31232205508249_31232205508249.gif",
+          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+        }
+      ],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900002918686",
+      "title": "Understanding Shelley: Network decentralization",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002918686-Understanding-Shelley-Network-decentralization",
+      "createdAt": "2020-09-24T01:55:08Z",
+      "updatedAt": "2023-03-10T01:23:19Z",
+      "disposition": "historical",
+      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "contentHash": "2bba814641d5d674575629e0f37e3cef71b7523b8ea54a69649a0d04eaefa8c2",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900005141163",
+      "title": "Cybersecurity guidelines for Cardano users",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900005141163-Cybersecurity-guidelines-for-Cardano-users",
+      "createdAt": "2021-01-18T20:26:03Z",
+      "updatedAt": "2023-01-18T15:26:21Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "0a29e5ca0214cd4ab0213638809c597f7b96693901732b1364eb86c4e89d4d1f",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360015360154",
+      "title": "Daedalus security when using computer repair services",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360015360154-Daedalus-security-when-using-computer-repair-services",
+      "createdAt": "2019-01-08T10:51:17Z",
+      "updatedAt": "2021-11-16T19:37:14Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "867065d7a22dc2a4a895c76c7ef22e136906a8872797711838e7eb8e9607d150",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900006970763",
+      "title": "How to generate a system information report. Windows and MacOS ",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900006970763-How-to-generate-a-system-information-report-Windows-and-MacOS",
+      "createdAt": "2021-05-04T15:04:36Z",
+      "updatedAt": "2021-08-24T15:15:37Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "f57c81f66a59077824271578d65d7b64e1193c334d53ecb4b54616f7faa424f0",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360024233894",
+      "title": "My machine may be compromised",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360024233894-My-machine-may-be-compromised",
+      "createdAt": "2019-06-06T11:16:23Z",
+      "updatedAt": "2022-07-26T04:40:25Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "1c1bc1635ea38c301e69ce26cbeb01d3ba616adc0e6c0f3c64b6886b964d6937",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 1
+    },
+    {
+      "id": "ZENDESK-360022573273",
+      "title": "Security Article Template",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360022573273-Security-Article-Template",
+      "createdAt": "2019-05-03T09:35:28Z",
+      "updatedAt": "2023-10-30T18:33:35Z",
+      "disposition": "excluded",
+      "reason": "Draft, template or event material is outside customer guidance.",
+      "contentHash": "8e61d57d83c05b4d8d77c69c81bc85527900136481752c8a475553b046e998ec",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-360015295134",
+      "title": "Tips for Staying Safe Online",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360015295134-Tips-for-Staying-Safe-Online",
+      "createdAt": "2019-01-07T07:12:12Z",
+      "updatedAt": "2024-03-13T17:16:25Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "e506731b96999bcd1ffb65e1f93cdbf6dccb520cbcac4e8e8c3d488f9d8cb5bf",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 8
+    },
+    {
+      "id": "ZENDESK-360015516893",
+      "title": "Tools To Help Secure Your Computer",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360015516893-Tools-To-Help-Secure-Your-Computer",
+      "createdAt": "2019-01-09T20:04:20Z",
+      "updatedAt": "2023-10-30T18:33:35Z",
+      "disposition": "needs-review",
+      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "contentHash": "7c0105e3576c3e15c5c100cca5eaa47f1571565161f107ab105e439be935ad16",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 4
+    },
+    {
+      "id": "ZENDESK-900004632466",
+      "title": "ZIP  Daedalus application folder for security analysis",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004632466-ZIP-Daedalus-application-folder-for-security-analysis",
+      "createdAt": "2021-02-23T20:30:10Z",
+      "updatedAt": "2021-10-08T06:29:58Z",
+      "disposition": "needs-review",
+      "reason": "System/security-sensitive guidance: verify current platform scope and safe alternatives; do not weaken security or expose private application files.",
+      "contentHash": "fe3e34b69aed548426c9340a1441ebb04683aa723ac9e4d17e0fb988a7138a96",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    },
+    {
+      "id": "ZENDESK-900004680423",
+      "title": "Stake pool is not shown in Daedalus",
+      "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004680423-Stake-pool-is-not-shown-in-Daedalus",
+      "createdAt": "2020-12-01T23:04:59Z",
+      "updatedAt": "2026-02-10T12:03:08Z",
+      "disposition": "needs-review",
+      "reason": "Version-sensitive capabilities or procedure: current official source and platform verification still required; archive date alone does not establish applicability.",
+      "contentHash": "cf7fe283abb6b508045b93e14e90ddec4a3a1f6b6b77c1df4eace577af25e515",
+      "duplicateOf": null,
+      "conflict": false,
+      "images": [],
+      "missingImages": 0,
+      "unsafeLinksRemoved": 0
+    }
+  ],
+  "releaseTitles": [
+    {
+      "id": "ZENDESK-49820200823065",
+      "title": "Daedalus 7.2.0 release notes",
+      "updatedAt": "2025-08-28T10:53:01Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-49820184752281",
+      "title": "Daedalus 7.2.0 release notes",
+      "updatedAt": "2025-08-28T10:52:49Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-49820147340825",
+      "title": "Daedalus 7.2.0 release notes",
+      "updatedAt": "2025-08-28T10:52:34Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-43887244786457",
+      "title": "Daedalus 7.1.0リリースノート",
+      "updatedAt": "2025-02-26T13:14:50Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-43887209008025",
+      "title": "Daedalus 7.1.0 release notes",
+      "updatedAt": "2025-02-26T13:13:13Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-43885605379865",
+      "title": "Daedalus 7.1.0 release notes",
+      "updatedAt": "2025-02-26T13:11:04Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41138755700633",
+      "title": "Daedalus 7.0.2 release notes",
+      "updatedAt": "2024-12-13T09:58:16Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41138680497433",
+      "title": "Daedalus 7.0.2 release notes",
+      "updatedAt": "2024-12-13T09:56:36Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41138636940825",
+      "title": "Daedalus 7.0.2 release notes",
+      "updatedAt": "2024-12-13T09:54:34Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41075694076697",
+      "title": "Daedalus 7.0.1 release notes",
+      "updatedAt": "2024-12-13T09:35:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41075586623385",
+      "title": "Daedalus 7.0.1 release notes",
+      "updatedAt": "2024-12-13T09:34:29Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-41075414043801",
+      "title": "Daedalus 7.0.1 release notes",
+      "updatedAt": "2024-12-13T09:01:56Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-40999593125657",
+      "title": "Daedalus 7.0.0 release notes",
+      "updatedAt": "2024-12-10T09:27:06Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-40999458768153",
+      "title": "Daedalus 7.0.0 release notes",
+      "updatedAt": "2024-12-10T09:25:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-40968665483929",
+      "title": "Daedalus 7.0.0 release notes",
+      "updatedAt": "2024-12-10T09:27:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-38432234574617",
+      "title": "Daedalus 6.0.2 relese notes",
+      "updatedAt": "2024-12-12T03:51:49Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-38432188287641",
+      "title": "Daedalus 6.0.2 release notes",
+      "updatedAt": "2024-10-04T11:10:19Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-38432077376025",
+      "title": "Daedalus 6.0.2 release notes",
+      "updatedAt": "2024-10-04T08:47:35Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-37188014124697",
+      "title": "Daedalus 6.0.1 release notes",
+      "updatedAt": "2024-10-04T12:13:39Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-37187923531161",
+      "title": "Daedalus 6.0.1 release notes",
+      "updatedAt": "2024-10-04T11:10:51Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-37187861315481",
+      "title": "Daedalus 6.0.1 release notes",
+      "updatedAt": "2024-10-04T08:48:17Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-36568246873241",
+      "title": "Daedalus 6.0.0 release notes",
+      "updatedAt": "2024-09-03T11:29:00Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-36568075767961",
+      "title": "Daedalus 6.0.0 release notes",
+      "updatedAt": "2024-09-03T10:52:11Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-36567511627801",
+      "title": "Daedalus 6.0.0 release notes",
+      "updatedAt": "2024-09-03T08:46:03Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-35764730116633",
+      "title": "Daedalus 5.5.0 release notes",
+      "updatedAt": "2024-08-20T09:00:00Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-33695971091097",
+      "title": "Daedalus 5.4.0 release notes",
+      "updatedAt": "2024-08-20T09:18:33Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-33695910813337",
+      "title": "Daedalus 5.4.0 release notes",
+      "updatedAt": "2024-08-20T09:00:36Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-33695756801817",
+      "title": "Daedalus 5.4.0 release notes",
+      "updatedAt": "2024-07-31T14:43:35Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-32506884750873",
+      "title": "Daedalus 5.3.1 release notes",
+      "updatedAt": "2024-06-13T12:15:36Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-32506832995993",
+      "title": "Daedalus 5.3.1 release notes",
+      "updatedAt": "2024-06-13T10:49:03Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-32506631415449",
+      "title": "Daedalus 5.3.1 release notes",
+      "updatedAt": "2024-06-13T09:06:48Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-20421748935065",
+      "title": "Daedalus 5.3.0 release notes",
+      "updatedAt": "2024-06-13T12:14:47Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-20421573998489",
+      "title": "Daedalus 5.3.0 release notes",
+      "updatedAt": "2024-06-13T10:49:36Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-20420365134233",
+      "title": "Daedalus 5.3.0 release notes",
+      "updatedAt": "2024-06-13T09:06:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-14431962342553",
+      "title": "Daedalus 5.2.0 release notes",
+      "updatedAt": "2023-07-17T17:02:20Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-14431901065113",
+      "title": "Daedalus 5.2.0 release notes",
+      "updatedAt": "2023-07-17T17:06:41Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-14431839009049",
+      "title": "Daedalus 5.2.0 release notes",
+      "updatedAt": "2023-07-17T17:06:25Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-12074707538713",
+      "title": "Daedalus 5.1.1 release notes",
+      "updatedAt": "2023-03-09T23:31:41Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-11812844819993",
+      "title": "Daedalus 5.1.1 release notes",
+      "updatedAt": "2023-01-16T15:50:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-11204361405849",
+      "title": "Daedalus 5.1.0 release notes",
+      "updatedAt": "2023-03-09T23:32:59Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-11204342274329",
+      "title": "Daedalus 5.1.0 release notes",
+      "updatedAt": "2022-10-24T14:27:19Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-11204285075993",
+      "title": "Daedalus 5.1.0 release notes",
+      "updatedAt": "2023-01-16T14:55:24Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-10279881048985",
+      "title": "Daedalus 5.0.0 release notes",
+      "updatedAt": "2023-03-09T23:35:00Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-10077195591833",
+      "title": "Daedalus 5.0.0 release notes",
+      "updatedAt": "2024-08-23T08:51:55Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-10076873966617",
+      "title": "Daedalus 5.0.0 release notes",
+      "updatedAt": "2024-08-23T09:54:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-9401338275609",
+      "title": "Daedalus 4.12.1 release notes",
+      "updatedAt": "2022-11-03T14:13:41Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-8255827813273",
+      "title": "Daedalus 4.12.0 release notes",
+      "updatedAt": "2022-08-12T10:06:27Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-7330921186201",
+      "title": "Daedalus 4.11.0 release notes",
+      "updatedAt": "2022-09-08T12:40:34Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-7329096881177",
+      "title": "Daedalus 4.11.0 release notes",
+      "updatedAt": "2022-08-12T10:06:07Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-6515425656089",
+      "title": "Daedalus 4.10.0 release notes",
+      "updatedAt": "2024-08-23T12:07:15Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-6515228479385",
+      "title": "Daedalus 4.10.0 release notes",
+      "updatedAt": "2024-08-23T09:33:12Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-5532611987609",
+      "title": "Daedalus 4.9.1 release notes",
+      "updatedAt": "2022-06-10T13:50:13Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-5532493090585",
+      "title": "Daedalus 4.9.1 release notes",
+      "updatedAt": "2022-06-10T13:51:33Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4579419674777",
+      "title": "Daedalus 4.9.0 release notes",
+      "updatedAt": "2024-08-23T10:43:57Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4579183412505",
+      "title": "Daedalus 4.9.0 release notes",
+      "updatedAt": "2024-08-23T10:03:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4416804490393",
+      "title": "Daedalus 4.8.0 release notes",
+      "updatedAt": "2024-08-23T09:17:44Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4416804042009",
+      "title": "Daedalus 4.8.0 release notes",
+      "updatedAt": "2024-08-23T12:17:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4414649608345",
+      "title": "Daedalus 4.7.0 release notes",
+      "updatedAt": "2022-02-03T15:34:59Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4414649555481",
+      "title": "Daedalus 4.7.0 release notes",
+      "updatedAt": "2022-02-03T14:40:58Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4411930212761",
+      "title": "Daedalus 4.6.0 release notes",
+      "updatedAt": "2024-08-23T12:17:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4411929983385",
+      "title": "Daedalus 4.6.0 release notes",
+      "updatedAt": "2024-08-23T09:02:29Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4410461856537",
+      "title": "Daedalus 4.5.2 release notes",
+      "updatedAt": "2021-12-13T19:55:27Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4410447354777",
+      "title": "Daedalus 4.5.2 release notes",
+      "updatedAt": "2021-12-13T18:08:41Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4409944350489",
+      "title": "Daedalus 4.5.1 release notes",
+      "updatedAt": "2024-08-23T08:40:56Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4409928851737",
+      "title": "Daedalus 4.5.1 release notes",
+      "updatedAt": "2024-08-23T08:40:56Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4409360119449",
+      "title": "Daedalus 4.5.0 release notes",
+      "updatedAt": "2024-08-23T12:07:15Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4409360006425",
+      "title": "Daedalus 4.5.0 release notes",
+      "updatedAt": "2024-08-23T11:46:07Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4408131224089",
+      "title": "Daedalus 4.4.1 release notes",
+      "updatedAt": "2021-11-19T08:55:03Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4408131023129",
+      "title": "Daedalus 4.4.1 release notes",
+      "updatedAt": "2021-11-26T12:08:46Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4407754202393",
+      "title": "Daedalus 4.4.0 release notes",
+      "updatedAt": "2024-08-23T10:09:25Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4407760962969",
+      "title": "Daedalus 4.4.0 release notes",
+      "updatedAt": "2024-08-23T07:55:40Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4407402122521",
+      "title": "Daedalus 4.3.2 release notes",
+      "updatedAt": "2021-10-18T22:22:09Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4406192725913",
+      "title": "Daedalus 4.3.1 release notes",
+      "updatedAt": "2024-08-23T08:51:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4406171869977",
+      "title": "Daedalus 4.3.1 release notes",
+      "updatedAt": "2021-10-04T11:39:34Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4405701089561",
+      "title": "Daedalus 4.3.0 release notes",
+      "updatedAt": "2024-08-23T07:55:40Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4404885323289",
+      "title": "Daedalus 4.2.1 release notes",
+      "updatedAt": "2021-09-17T20:25:10Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4403359397401",
+      "title": "Daedalus 4.2.0 release notes",
+      "updatedAt": "2024-08-23T10:09:24Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4403366717465",
+      "title": "Daedalus 4.2.0 release notes",
+      "updatedAt": "2024-08-23T11:40:09Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-4403040354969",
+      "title": "Daedalus 4.2.0-FC1 release notes",
+      "updatedAt": "2024-08-23T10:09:24Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006759746",
+      "title": "Daedalus 4.1.0 release notes",
+      "updatedAt": "2024-08-23T09:33:11Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006756946",
+      "title": "Daedalus 4.1.0 release notes",
+      "updatedAt": "2024-08-23T09:02:29Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006731666",
+      "title": "Daedalus 4.1.0-FC1 release notes",
+      "updatedAt": "2024-08-23T10:03:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006675083",
+      "title": "Daedalus 4.0.5 release notes",
+      "updatedAt": "2024-08-23T11:46:06Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005731806",
+      "title": "Daedalus 4.0.5 release notes",
+      "updatedAt": "2024-08-23T11:46:06Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005458606",
+      "title": "Daedalus 4.0.4 release notes",
+      "updatedAt": "2024-08-23T12:07:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005456506",
+      "title": "Daedalus 4.0.4 release notes",
+      "updatedAt": "2024-08-23T09:17:44Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006373223",
+      "title": "Daedalus 4.0.3 release notes",
+      "updatedAt": "2024-08-23T09:33:11Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900006372483",
+      "title": "Daedalus 4.0.3 release notes",
+      "updatedAt": "2024-08-23T12:17:21Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004913206",
+      "title": "Daedalus 4.0.2-FC3 release notes",
+      "updatedAt": "2024-08-23T10:43:55Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005717963",
+      "title": "Daedalus 3.3.2 release notes",
+      "updatedAt": "2024-08-23T09:54:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004725846",
+      "title": "Daedalus 4.0.0-FC1 release notes",
+      "updatedAt": "2024-08-23T09:02:28Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005652263",
+      "title": " Daedalus 4.0.0-RC1 release notes",
+      "updatedAt": "2024-08-23T09:17:44Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900005572723",
+      "title": "Daedalus 3.3.1 release notes",
+      "updatedAt": "2021-03-03T18:14:59Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004620266",
+      "title": "Daedalus 3.3.1 release notes",
+      "updatedAt": "2021-03-01T09:45:25Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004500746",
+      "title": "Daedalus 3.3.0 release notes",
+      "updatedAt": "2024-08-23T08:40:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004500086",
+      "title": "Daedalus 3.3.0 release notes",
+      "updatedAt": "2024-08-23T11:40:07Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004355486",
+      "title": "Daedalus 3.2.1 release notes",
+      "updatedAt": "2021-02-17T17:41:52Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004264486",
+      "title": "Daedalus 3.2.0 release notes",
+      "updatedAt": "2024-08-23T10:43:55Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004264246",
+      "title": "Daedalus Testnet 3.2.0 release notes",
+      "updatedAt": "2024-08-23T09:02:28Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004213906",
+      "title": "Daedalus 3.2.0-FC1 release notes",
+      "updatedAt": "2024-08-23T09:33:09Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004061886",
+      "title": "Daedalus 3.1.0 release notes",
+      "updatedAt": "2024-08-23T09:17:42Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004061766",
+      "title": "Daedalus 3.1.0 release notes",
+      "updatedAt": "2024-08-23T09:02:28Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900003806006",
+      "title": "Daedalus 2.6.0 - Release notes",
+      "updatedAt": "2021-03-28T17:14:22Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004721983",
+      "title": "Daedalus Testnet 2.6.0 - Release notes",
+      "updatedAt": "2024-08-23T09:17:43Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004720863",
+      "title": "Daedalus 3.0.0 - Release notes",
+      "updatedAt": "2024-08-23T10:09:23Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900003804546",
+      "title": "Daedalus 3.0.0 release notes",
+      "updatedAt": "2024-08-23T11:40:07Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004647363",
+      "title": "Daedalus 2.5.0 release notes",
+      "updatedAt": "2020-12-04T19:56:31Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900003745366",
+      "title": "Daedalus Testnet 2.5.0 - Release notes",
+      "updatedAt": "2020-12-04T19:21:03Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004328383",
+      "title": "Daedalus 2.4.1 - Release Notes",
+      "updatedAt": "2024-08-23T12:07:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004306923",
+      "title": "Daedalus Testnet 2.4.1 - Release Notes",
+      "updatedAt": "2024-08-23T10:03:19Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900004241943",
+      "title": "Daedalus Testnet 2.4.0 - Release Notes",
+      "updatedAt": "2024-08-23T09:33:09Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900003316886",
+      "title": "Daedalus 2.4.0 - Release Notes",
+      "updatedAt": "2024-08-23T08:51:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900003056566",
+      "title": "Daedalus 2.3.0 - Release Notes",
+      "updatedAt": "2021-09-27T19:04:33Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900002374526",
+      "title": "Daedalus 2.2.0 - Release Notes",
+      "updatedAt": "2020-10-06T17:02:18Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900002056866",
+      "title": "Daedalus 2.1.0 - Release Notes",
+      "updatedAt": "2024-08-23T10:43:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900002019226",
+      "title": "Daedalus 2.0.1 - Release Notes",
+      "updatedAt": "2024-08-23T08:51:53Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001965026",
+      "title": "Daedalus 2.0.0 - Release Notes",
+      "updatedAt": "2024-08-23T12:07:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001845366",
+      "title": "Daedalus Shelley Testnet 1.6.0-STN5 - Release Notes",
+      "updatedAt": "2024-08-23T12:17:19Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001801446",
+      "title": "Daedalus Shelley Testnet 1.3.0-STN2 - Release Notes",
+      "updatedAt": "2024-08-23T12:17:19Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001633763",
+      "title": "Daedalus Shelley Testnet 1.2.0-STN1 - Release Notes",
+      "updatedAt": "2024-08-23T10:43:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001606746",
+      "title": "Daedalus Shelley Testnet 1.1.0-STN1 - Release Notes and balance check instructions",
+      "updatedAt": "2024-08-23T12:17:18Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900000886483",
+      "title": "Daedalus 1.1.0 - Release Notes",
+      "updatedAt": "2024-08-23T10:43:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900000690906",
+      "title": "Daedalus 1.0.0 - Release Notes",
+      "updatedAt": "2024-08-23T10:03:18Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360038144454",
+      "title": "Cardano 1.7.1:  Daedalus 0.15.1 with Cardano SL 3.1.0 - Release Notes",
+      "updatedAt": "2024-08-23T08:40:52Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360037127154",
+      "title": "Cardano 1.7.0:  Daedalus 0.15.0 and Cardano SL 3.1.0 - Release Notes",
+      "updatedAt": "2024-08-23T10:49:37Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360033778753",
+      "title": "Cardano 1.6.0:   Daedalus 0.14.0 and Cardano SL 3.0.3  - Release Notes",
+      "updatedAt": "2024-08-23T12:17:17Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360020031454",
+      "title": "Cardano 1.5.1: Daedalus 0.13.1 and Cardano SL 3.0.1 - Release Notes",
+      "updatedAt": "2020-12-30T20:17:24Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360019847434",
+      "title": "Cardano 1.5.0: Daedalus 0.13.0 and Cardano SL 3.0.0 - Release Notes",
+      "updatedAt": "2024-08-23T11:40:06Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360016116514",
+      "title": "Cardano 1.4.1: Daedalus 0.12.1 and Cardano SL 2.0.1 - Release notes",
+      "updatedAt": "2019-08-28T10:06:30Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-900001248006",
+      "title": "Discontinuing Daedalus support for Windows 7 and 8.0",
+      "updatedAt": "2024-08-23T09:54:13Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360013915513",
+      "title": "Cardano 1.4.0:  Daedalus 0.12.0 and Cardano SL 2.0.0 - Release Notes",
+      "updatedAt": "2024-08-23T07:55:38Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360012366073",
+      "title": "Cardano 1.3.2: Daedalus 0.11.2 and Cardano SL 1.3.2 - Release Notes",
+      "updatedAt": "2019-08-28T10:29:27Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010745993",
+      "title": "Cardano 1.3.1: Daedalus 0.11.1 and Cardano SL 1.3.1 - Release Notes",
+      "updatedAt": "2019-08-28T10:33:43Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010672754",
+      "title": "Cardano 1.3.0: Daedalus 0.11.0 and Cardano SL 1.3.0 - Release Notes",
+      "updatedAt": "2019-11-30T19:00:14Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010674154",
+      "title": "Cardano 1.2.1: Daedalus 0.10.1 and Cardano SL 1.2.1 - Release Notes",
+      "updatedAt": "2020-08-07T10:38:42Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010747773",
+      "title": "Cardano 1.2.0: Daedalus 0.10.0 and Cardano SL 1.2.0 - Release Notes",
+      "updatedAt": "2019-08-28T11:28:22Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010748053",
+      "title": "Cardano 1.1.1: Daedalus 0.9.1 and Cardano SL 1.1.1 - Release Notes",
+      "updatedAt": "2022-04-19T01:12:59Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360010748293",
+      "title": "Cardano 1.1.0: Daedalus 0.9.0 and Cardano SL 1.1.0 - Release Notes",
+      "updatedAt": "2021-11-15T14:26:54Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    },
+    {
+      "id": "ZENDESK-360022389214",
+      "title": "Release Notes Template",
+      "updatedAt": "2023-10-30T18:33:35Z",
+      "disposition": "excluded",
+      "reason": "Title only; no source body supplied. No article or release claims invented."
+    }
+  ]
+}

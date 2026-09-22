@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0011",
+  "provider": "github",
+  "provider_id": "issue-comment:475137606",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475137606",
+  "author": "yuelipeng",
+  "author_association": "none",
+  "published_at": "2019-03-21T07:50:27Z",
+  "updated_at": "2019-03-21T07:50:27Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The original reporter acknowledges using the wrong import screen and reports that restoration is in progress."
+    ]
+  }
+}

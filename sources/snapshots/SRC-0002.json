@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0002",
+  "provider": "github",
+  "provider_id": "issue-comment:2556783606",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/3263#issuecomment-2556783606",
+  "author": "michalrus",
+  "author_association": "member",
+  "published_at": "2024-12-20T11:06:07Z",
+  "updated_at": "2024-12-20T11:06:07Z",
+  "retrieved_at": "2026-08-27T12:29:57Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "A Daedalus member distinguishes the installer trust problem from a separate dynamic-library incompatibility on older macOS.",
+      "The member reports that stapling solved the installer trust problem and identifies the separate libiconv/libcharset version error."
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0001",
+  "title": "Install Daedalus only from the official distribution",
+  "summary": {
+    "text": "The official Daedalus 7.1.0 release links the Mainnet download to daedaluswallet.io and testnet downloads to docs.cardano.org.",
+    "source_ids": [
+      "SRC-0001"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to distinguish publisher-linked Daedalus downloads from untrusted distribution links.",
+    "source_ids": [
+      "SRC-0001"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user needs a Mainnet or testnet Daedalus installer and is uncertain which download location is official.",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Where should I download Daedalus?",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    },
+    {
+      "text": "Is this Daedalus download real?",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "installation",
+    "subcategory": "download-verification"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "7.1.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Download destinations are documented by the 7.1.0 release; re-check a newer official release for current destinations."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet",
+        "preview",
+        "preprod"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0001"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Compare the download origin with the official site linked from the Daedalus repository.",
+      "why": "Avoid impersonation and modified binaries.",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Download using the official Daedalus site linked by the official repository.",
+      "why": "The repository is controlled by the publisher.",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user follows the download destinations and integrity information published in the official release.",
+    "source_ids": [
+      "SRC-0001"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Do not enter a recovery phrase merely to verify a download."
+    ],
+    "consequences": [
+      "A counterfeit wallet can compromise funds."
+    ],
+    "recovery": [
+      "If a phrase was entered into suspected software, treat the wallet as compromised and seek official incident guidance."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "The publisher repository directly identifies the official download location.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-08-26",
+    "last_reviewed": "2026-08-27",
+    "last_verified": "2026-08-27"
+  },
+  "sources": [
+    "SRC-0001"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "High-impact recurring security question."
+  },
+  "tags": [
+    "download",
+    "security",
+    "installer"
+  ]
+}

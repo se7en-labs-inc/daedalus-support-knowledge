@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0107",
+  "title": "Review the stake pool delegation steps",
+  "summary": {
+    "text": "The delegation wizard has separate wallet selection, stake pool selection and confirmation stages. Confirmation incurs transaction fees.",
+    "source_ids": [
+      "SRC-0108"
+    ]
+  },
+  "problem": {
+    "text": "Stake ADA delegate choose pool delegation rewards",
+    "source_ids": [
+      "SRC-0108"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Stake ADA delegate choose pool delegation rewards",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Stake ADA delegate choose pool delegation rewards",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "staking",
+    "subcategory": "delegation"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0108"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Select the intended wallet in the delegation wizard.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Select the intended stake pool and inspect the choice before continuing.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Review the confirmation and fee in your own application. Continue only if you intend the transaction; otherwise cancel.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0108"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You understand which wallet and pool will be used before authorizing delegation. This guide does not promise rewards or their timing.",
+    "source_ids": [
+      "SRC-0108"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0108"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "staking",
+    "delegation"
+  ]
+}

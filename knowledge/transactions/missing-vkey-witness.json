@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0003",
+  "title": "Fraudulent shared secret.key wallet shows balance but cannot spend",
+  "summary": {
+    "text": "Issue history links the same legacy secret.key wallet being offered to multiple people with a wallet that displays funds but cannot produce a valid spending witness.",
+    "source_ids": [
+      "SRC-0006",
+      "SRC-0004"
+    ]
+  },
+  "problem": {
+    "text": "A restored legacy Byron secret.key displays an existing balance, but attempts to spend fail with MissingVKeyWitnessesUTXOW; later discussion identifies the file as a repeatedly distributed fraudulent wallet.",
+    "source_ids": [
+      "SRC-0006",
+      "SRC-0004"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The restored Byron wallet shows balance and transaction history.",
+      "source_ids": [
+        "SRC-0006"
+      ]
+    },
+    {
+      "text": "Spending fails with MissingVKeyWitnessesUTXOW.",
+      "source_ids": [
+        "SRC-0006"
+      ]
+    },
+    {
+      "text": "Multiple people report receiving or trying the same wallet file.",
+      "source_ids": [
+        "SRC-0004"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "secret.key wallet has balance but cannot send",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0004"
+      ]
+    },
+    {
+      "text": "MissingVKeyWitnessesUTXOW after secret.key restore",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0004"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "MissingVKeyWitnessesUTXOW",
+      "normalized": "missing vkey witnesses utxow",
+      "pattern": null
+    }
+  ],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "missing-witness"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "6.0.1"
+      ],
+      "introduced_in": null,
+      "first_known_affected": "6.0.1",
+      "last_known_affected": "6.0.1",
+      "fixed_in": null,
+      "notes": "6.0.1 is the reporter\u2019s version; the fraud warning concerns this particular circulated wallet file, not all secret.key imports."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0006"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "confirmed",
+      "claim": "The issue history identifies this specific wallet file as circulated to multiple people who do not control the required signing key.",
+      "source_ids": [
+        "SRC-0004"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Establish how the secret.key was obtained and whether the user personally created and controlled the original wallet.",
+      "why": "A file offered by a stranger may display public wallet data without conferring spending authority.",
+      "source_ids": [
+        "SRC-0004"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Do not pay anyone for a shared secret.key file and do not send funds to prove ownership; treat this circulated wallet as fraudulent.",
+      "why": "Multiple people attempted to access the same wallet and could not create a valid spending witness.",
+      "source_ids": [
+        "SRC-0004"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user recognizes that visible balance is not proof of ownership and avoids further payment or destructive recovery attempts.",
+    "source_ids": [
+      "SRC-0004"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "funds",
+      "wallet-recovery"
+    ],
+    "prerequisites": [
+      "Preserve wallet data and record the transaction context before troubleshooting."
+    ],
+    "consequences": [
+      "Repeated submissions may confuse transaction state; deleting wallet data can risk access."
+    ],
+    "recovery": [
+      "Do not modify wallet files; escalate with diagnostics through official support."
+    ]
+  },
+  "evidence": {
+    "classification": "independently-confirmed",
+    "confidence": "high",
+    "rationale": "The issue history records multiple independent recipients of the same wallet and identifies the scam pattern.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "Active fraud warning for this observed pattern.",
+    "source_ids": [
+      "SRC-0006",
+      "SRC-0004"
+    ]
+  },
+  "dates": {
+    "created": "2026-08-26",
+    "last_reviewed": "2026-08-27",
+    "last_verified": null
+  },
+  "sources": [
+    "SRC-0006",
+    "SRC-0004"
+  ],
+  "related_entries": [
+    "DAE-0008"
+  ],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "Important retrieval signal but too context-dependent for a concise FAQ remedy."
+  },
+  "tags": [
+    "fraud",
+    "secret.key",
+    "byron",
+    "missing-witness"
+  ]
+}

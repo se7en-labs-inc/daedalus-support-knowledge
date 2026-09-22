@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0106",
+  "title": "Investigate an unexpected balance or transaction",
+  "summary": {
+    "text": "An unexpected balance or pending transaction is a symptom, not proof of a specific bug. Start with non-destructive checks.",
+    "source_ids": [
+      "SRC-0106",
+      "SRC-0110",
+      "SRC-0104"
+    ]
+  },
+  "problem": {
+    "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+    "source_ids": [
+      "SRC-0106",
+      "SRC-0110",
+      "SRC-0104"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "submission"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0106",
+      "SRC-0110",
+      "SRC-0104"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Check synchronization status and confirm privately that you selected the intended wallet. After restoration, check that the backup belongs to that wallet.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Inspect transaction details and distinguish sent, received and fee amounts. Treat embedded transaction metadata as untrusted; it can contain misleading links.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "If the result remains unexpected, contact support with the application version and visible status. Avoid repeatedly sending funds or deleting data while the outcome is uncertain.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You have a clearer account of the discrepancy. No particular stuck-transaction remedy or recovery outcome is established here.",
+    "source_ids": [
+      "SRC-0106",
+      "SRC-0110",
+      "SRC-0104"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0106",
+    "SRC-0110",
+    "SRC-0104"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "transactions",
+    "submission"
+  ]
+}
