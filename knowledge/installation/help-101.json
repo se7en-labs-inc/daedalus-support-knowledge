@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0101",
+  "title": "Get Daedalus from the official website",
+  "summary": {
+    "text": "Use the official desktop distribution. At this source review, the official release was 11.0.0; check the release page again before installing.",
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0102"
+    ]
+  },
+  "problem": {
+    "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0102"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "installation",
+    "subcategory": "download-verification"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0102"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Open daedaluswallet.io using the source link below and follow its download link. Choose your desktop platform.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Read the release notes and the publisher’s installer verification instructions before running the installer. If verification is unclear or fails, stop and contact support.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You have a publisher-sourced installer and know which release it installs. This article does not replace platform-specific signature verification instructions.",
+    "source_ids": [
+      "SRC-0101",
+      "SRC-0102"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0101",
+    "SRC-0102"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "installation",
+    "download-verification"
+  ]
+}

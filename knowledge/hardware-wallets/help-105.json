@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0105",
+  "title": "Connect a hardware wallet without exposing its backup",
+  "summary": {
+    "text": "Pairing a device and restoring its recovery backup into desktop software are different operations. Keep hardware-wallet recovery material on its intended secure recovery path.",
+    "source_ids": [
+      "SRC-0107",
+      "SRC-0105"
+    ]
+  },
+  "problem": {
+    "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+    "source_ids": [
+      "SRC-0107",
+      "SRC-0105"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "Trezor Bridge not installed!",
+      "normalized": "trezor bridge not installed!"
+    },
+    {
+      "verbatim": "Unsupported firmware!",
+      "normalized": "unsupported firmware!"
+    },
+    {
+      "verbatim": "Outdated Ledger software!!",
+      "normalized": "outdated ledger software!!"
+    }
+  ],
+  "classification": {
+    "category": "hardware-wallets",
+    "subcategory": "connection"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0107",
+      "SRC-0105"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Use the hardware-wallet pairing flow with the intended device. Follow its unlock and Cardano application prompts; confirm device actions only when you initiated them.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Read the exact state or error. For a failed connection, the checked interface suggests reconnecting the device.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "For unsupported firmware, bridge or software errors, ask support for instructions matching your device and platform. This guide does not establish firmware compatibility or prescribe updates.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The device reaches its ready state, or you have an exact connection error for staff. Never type a hardware-wallet recovery phrase into Ariadne or a desktop troubleshooting form.",
+    "source_ids": [
+      "SRC-0107",
+      "SRC-0105"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds",
+      "hardware-wallet"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0107",
+    "SRC-0105"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "hardware-wallets",
+    "connection"
+  ]
+}

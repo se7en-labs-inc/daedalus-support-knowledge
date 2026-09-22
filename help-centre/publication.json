@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "product": "Daedalus",
+  "reviewedOn": "2026-09-21",
+  "reviewMethod": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+  "articles": [
+    {
+      "id": "DAE-0101",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "a8cbfebe4a820710b629a56c43f8e627bb51de482c4207af68dcdc52abe592dd"
+    },
+    {
+      "id": "DAE-0102",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "9241d498abc0acae27efeadfbea69d5ca6b258a644f9bada53681a4cc44a4801"
+    },
+    {
+      "id": "DAE-0103",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "52ba9e227fa92088d3434f5352efa768c63820cdd1c8d15a9aa61329951ba5e0"
+    },
+    {
+      "id": "DAE-0104",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "68ea0dd2ed998732e382029adc904c09a1adaf92295284efb3b3766097dbc61c"
+    },
+    {
+      "id": "DAE-0105",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "d5aefa77438bc33c5c461f22e33e896b497d6f57b5133cd1ba394c79224e1c56"
+    },
+    {
+      "id": "DAE-0106",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "9f45e1a9881193d29b153e4fc948c4c2417992c0babf4331e3aab70191832d49"
+    },
+    {
+      "id": "DAE-0107",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "e46f67cf593adfda1ec446a75bd48d5ee6efae7dcdb940e7e3ed614f9967cab8"
+    },
+    {
+      "id": "DAE-0108",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "3a6004300b4ddff609ea7bff3237d0197afbf1810c242d05b49e1a5373173651"
+    },
+    {
+      "id": "DAE-0109",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-09-21",
+      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+      "reviewedContentHash": "1a911fdec541fb338f8517c977beac1d3d8e6d41772406c0d78e70391afaf820"
+    },
+    {
+      "id": "DAE-0006",
+      "status": "historical",
+      "approved": true,
+      "reviewedOn": "2026-08-27",
+      "reason": "Historical introduction of governance in 7.0.0 only; not current instructions.",
+      "reviewedContentHash": "b020fed07dfe7c2eb418aed9007e70ca74a505e3fbcf62c903a212d478dab4d9"
+    },
+    {
+      "id": "DAE-0001",
+      "status": "superseded",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Public download guidance replaced by DAE-0101; original evidence preserved."
+    },
+    {
+      "id": "DAE-0002",
+      "status": "historical",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Unresolved single-user 3.3.2 report, not a current remedy."
+    },
+    {
+      "id": "DAE-0003",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Narrow compromised shared-key scenario; do not generalize a remedy."
+    },
+    {
+      "id": "DAE-0004",
+      "status": "historical",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Older macOS / 7.0.x compatibility report; no current OS verification."
+    },
+    {
+      "id": "DAE-0005",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Legacy private-key import needs dedicated recovery safety review."
+    },
+    {
+      "id": "DAE-0008",
+      "status": "needs-review",
+      "approved": false,
+      "reviewedOn": "2026-09-21",
+      "reason": "Reported rejected-transaction behavior; no universal cause or verified fix."
+    }
+  ],
+  "preparedAt": "2026-09-22T02:18:12.526Z"
+}

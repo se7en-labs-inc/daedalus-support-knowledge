@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "categories": {
+    "installation": ["download-verification", "install", "permissions"],
+    "startup": ["launch-failure", "node-startup", "database-corruption"],
+    "updates": ["upgrade-failure", "release-change", "migration"],
+    "synchronization": ["slow-sync", "stalled-sync", "clock", "chain-tip"],
+    "networking": ["peers", "firewall", "antivirus", "proxy-vpn", "certificates"],
+    "storage": ["disk-space", "blockchain-data", "state-directory"],
+    "wallets": ["restore", "import", "legacy", "recovery", "balance", "missing-transaction"],
+    "transactions": ["submission", "signing", "missing-witness", "fees", "utxo"],
+    "staking": ["delegation", "stake-pool", "rewards"],
+    "governance": ["drep", "delegation", "voting"],
+    "hardware-wallets": ["ledger", "trezor", "connection", "firmware"],
+    "diagnostics": ["logs", "log-collection", "support-bundle"],
+    "performance": ["memory", "cpu", "startup-time"],
+    "platform": ["windows", "linux", "macos"],
+    "known-bugs": ["active", "fixed", "historical"],
+    "deprecated": ["legacy-functionality", "generation-migration"]
+  }
+}

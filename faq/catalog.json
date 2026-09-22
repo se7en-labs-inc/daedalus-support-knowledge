@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "FAQ-001",
+      "question": "Where should I download Daedalus safely?",
+      "knowledge_entries": [
+        "DAE-0001"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "The official Daedalus 7.1.0 release links Mainnet downloads to daedaluswallet.io and Preview and Preprod testnet downloads to docs.cardano.org. It also publishes the IOHK organizational PGP signing-key fingerprint used for installer verification. Check the newest official Daedalus release before downloading because distribution instructions can change.",
+          "source_ids": [
+            "SRC-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-004",
+      "question": "What DRep voting functionality did Daedalus 7.0.0 introduce?",
+      "knowledge_entries": [
+        "DAE-0006"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "The official Daedalus 7.0.0 release says users can delegate voting power to a delegated representative (DRep), abstain, or select no confidence from the voting tab. This answer is intentionally scoped to 7.0.0; consult the release notes for the user's exact later version rather than assuming unchanged behavior.",
+          "source_ids": [
+            "SRC-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-101",
+      "question": "Where can I safely download Daedalus?",
+      "knowledge_entries": [
+        "DAE-0101"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Use the official desktop distribution. At this source review, the official release was 11.0.0; check the release page again before installing.",
+          "source_ids": [
+            "SRC-0101",
+            "SRC-0102"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-102",
+      "question": "Why is Daedalus still synchronizing?",
+      "knowledge_entries": [
+        "DAE-0102"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Verifying stored blocks, replaying ledger state and downloading new blocks are different stages. A slow stage alone does not prove that data is corrupt.",
+          "source_ids": [
+            "SRC-0103",
+            "SRC-0104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-103",
+      "question": "What should I check if Daedalus will not start?",
+      "knowledge_entries": [
+        "DAE-0103"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Use the visible status information to describe a startup problem before trying disruptive repairs.",
+          "source_ids": [
+            "SRC-0104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-104",
+      "question": "What do I need before restoring a wallet?",
+      "knowledge_entries": [
+        "DAE-0104"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Restoration requires the correct private backup and wallet type. This guide is for software wallets; hardware-wallet users should use the pairing guide.",
+          "source_ids": [
+            "SRC-0105",
+            "SRC-0106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-105",
+      "question": "Why is my hardware wallet not connecting?",
+      "knowledge_entries": [
+        "DAE-0105"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Pairing a device and restoring its recovery backup into desktop software are different operations. Keep hardware-wallet recovery material on its intended secure recovery path.",
+          "source_ids": [
+            "SRC-0107",
+            "SRC-0105"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-106",
+      "question": "What should I check when my balance looks wrong?",
+      "knowledge_entries": [
+        "DAE-0106"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "An unexpected balance or pending transaction is a symptom, not proof of a specific bug. Start with non-destructive checks.",
+          "source_ids": [
+            "SRC-0106",
+            "SRC-0110",
+            "SRC-0104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-107",
+      "question": "How does stake pool delegation work?",
+      "knowledge_entries": [
+        "DAE-0107"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "The delegation wizard has separate wallet selection, stake pool selection and confirmation stages. Confirmation incurs transaction fees.",
+          "source_ids": [
+            "SRC-0108"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-108",
+      "question": "What does an invalid DRep ID mean?",
+      "knowledge_entries": [
+        "DAE-0108"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Voting-power delegation asks for a wallet and registration type. The form validates a DRep identifier when that choice needs one.",
+          "source_ids": [
+            "SRC-0109"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-109",
+      "question": "How can I contact a human safely?",
+      "knowledge_entries": [
+        "DAE-0109"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Start with the minimal visible details that help staff identify the problem. Diagnostic archives are private evidence, not public knowledge.",
+          "source_ids": [
+            "SRC-0104"
+          ]
+        }
+      ]
+    }
+  ]
+}

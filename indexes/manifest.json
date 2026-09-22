@@ -1,0 +1,862 @@
+{
+  "schema_version": 1,
+  "generated_from": "validated repository content",
+  "entries": [
+    {
+      "id": "DAE-0109",
+      "path": "knowledge/diagnostics/help-109.json",
+      "title": "Collect useful diagnostic details for human support",
+      "summary": "Start with the minimal visible details that help staff identify the problem. Diagnostic archives are private evidence, not public knowledge.",
+      "category": "diagnostics",
+      "subcategory": "logs",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0104"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "diagnostics",
+        "logs"
+      ]
+    },
+    {
+      "id": "DAE-0006",
+      "path": "knowledge/governance/conway-support-7.0.0.json",
+      "title": "DRep voting delegation introduced in Daedalus 7.0.0",
+      "summary": "The official 7.0.0 release states that users can delegate voting power to DReps or select abstain or no confidence.",
+      "category": "governance",
+      "subcategory": "drep",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "7.0.0"
+        ],
+        "introduced_in": "7.0.0",
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "The release proves functionality in 7.0.0 and its introduction there; this entry makes no claim for later releases."
+      },
+      "operating_systems": {
+        "scope": "unknown",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0003"
+      ],
+      "source_dates": [
+        "2024-12-10T12:41:15Z"
+      ],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Version-sensitive feature expectation likely to confuse users."
+      },
+      "tags": [
+        "governance",
+        "drep",
+        "conway",
+        "7.0.0"
+      ]
+    },
+    {
+      "id": "DAE-0108",
+      "path": "knowledge/governance/help-108.json",
+      "title": "Check voting-power delegation and DRep input",
+      "summary": "Voting-power delegation asks for a wallet and registration type. The form validates a DRep identifier when that choice needs one.",
+      "category": "governance",
+      "subcategory": "delegation",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0109"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "governance",
+        "delegation"
+      ]
+    },
+    {
+      "id": "DAE-0105",
+      "path": "knowledge/hardware-wallets/help-105.json",
+      "title": "Connect a hardware wallet without exposing its backup",
+      "summary": "Pairing a device and restoring its recovery backup into desktop software are different operations. Keep hardware-wallet recovery material on its intended secure recovery path.",
+      "category": "hardware-wallets",
+      "subcategory": "connection",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0107",
+        "SRC-0105"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "hardware-wallets",
+        "connection"
+      ]
+    },
+    {
+      "id": "DAE-0101",
+      "path": "knowledge/installation/help-101.json",
+      "title": "Get Daedalus from the official website",
+      "summary": "Use the official desktop distribution. At this source review, the official release was 11.0.0; check the release page again before installing.",
+      "category": "installation",
+      "subcategory": "download-verification",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0101",
+        "SRC-0102"
+      ],
+      "source_dates": [
+        "2026-05-13T15:37:45Z"
+      ],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "installation",
+        "download-verification"
+      ]
+    },
+    {
+      "id": "DAE-0001",
+      "path": "knowledge/installation/official-download.json",
+      "title": "Install Daedalus only from the official distribution",
+      "summary": "The official Daedalus 7.1.0 release links the Mainnet download to daedaluswallet.io and testnet downloads to docs.cardano.org.",
+      "category": "installation",
+      "subcategory": "download-verification",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "7.1.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Download destinations are documented by the 7.1.0 release; re-check a newer official release for current destinations."
+      },
+      "operating_systems": {
+        "scope": "unknown",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet",
+          "preview",
+          "preprod"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0001"
+      ],
+      "source_dates": [
+        "2025-02-26T16:15:31Z"
+      ],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "High-impact recurring security question."
+      },
+      "tags": [
+        "download",
+        "security",
+        "installer"
+      ]
+    },
+    {
+      "id": "DAE-0107",
+      "path": "knowledge/staking/help-107.json",
+      "title": "Review the stake pool delegation steps",
+      "summary": "The delegation wizard has separate wallet selection, stake pool selection and confirmation stages. Confirmation incurs transaction fees.",
+      "category": "staking",
+      "subcategory": "delegation",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0108"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "staking",
+        "delegation"
+      ]
+    },
+    {
+      "id": "DAE-0103",
+      "path": "knowledge/startup/help-103.json",
+      "title": "Check a startup or connection problem safely",
+      "summary": "Use the visible status information to describe a startup problem before trying disruptive repairs.",
+      "category": "startup",
+      "subcategory": "node-startup",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0104"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "startup",
+        "node-startup"
+      ]
+    },
+    {
+      "id": "DAE-0004",
+      "path": "knowledge/startup/macos-big-sur-7.0.1.json",
+      "title": "Daedalus 7.0.x fails on older macOS due to notarization and dynamic libraries",
+      "summary": "Maintainer investigation separated an installer notarization problem from a dynamic-library loading failure on older macOS; the official 7.1.0 release records the dynamic-library compatibility fix.",
+      "category": "startup",
+      "subcategory": "launch-failure",
+      "daedalus": {
+        "scope": "range",
+        "min": "7.0.1",
+        "max": "7.0.2",
+        "versions": [
+          "7.0.1",
+          "7.0.2"
+        ],
+        "introduced_in": null,
+        "first_known_affected": "7.0.1",
+        "last_known_affected": "7.0.2",
+        "fixed_in": "7.1.0",
+        "notes": "Issue history covers 7.0.1 and 7.0.2; official 7.1.0 release documents the older-macOS dynamic-library fix."
+      },
+      "operating_systems": {
+        "scope": "specific",
+        "values": [
+          "macos"
+        ]
+      },
+      "networks": {
+        "scope": "unknown",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "historical",
+      "source_ids": [
+        "SRC-0007",
+        "SRC-0002",
+        "SRC-0001"
+      ],
+      "source_dates": [
+        "2024-12-11T21:45:25Z",
+        "2024-12-20T11:06:07Z",
+        "2025-02-26T16:15:31Z"
+      ],
+      "faq": {
+        "eligible": false,
+        "promoted": false,
+        "reason": ""
+      },
+      "tags": [
+        "macos",
+        "big-sur",
+        "launch",
+        "7.0.1"
+      ]
+    },
+    {
+      "id": "DAE-0102",
+      "path": "knowledge/synchronization/help-102.json",
+      "title": "Understand startup and synchronization progress",
+      "summary": "Verifying stored blocks, replaying ledger state and downloading new blocks are different stages. A slow stage alone does not prove that data is corrupt.",
+      "category": "synchronization",
+      "subcategory": "slow-sync",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0103",
+        "SRC-0104"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "synchronization",
+        "slow-sync"
+      ]
+    },
+    {
+      "id": "DAE-0002",
+      "path": "knowledge/synchronization/stalled-sync.json",
+      "title": "Daedalus 3.3.2 on macOS fails to connect after upgrade",
+      "summary": "A March 2021 report records Daedalus 3.3.2 failing to connect on macOS after upgrade; it does not establish a general modern synchronization remedy.",
+      "category": "networking",
+      "subcategory": "peers",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "3.3.2"
+        ],
+        "introduced_in": null,
+        "first_known_affected": "3.3.2",
+        "last_known_affected": "3.3.2",
+        "fixed_in": null,
+        "notes": "One source-reported version only; no range or current applicability is inferred."
+      },
+      "operating_systems": {
+        "scope": "specific",
+        "values": [
+          "macos"
+        ]
+      },
+      "networks": {
+        "scope": "unknown",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "single-user-confirmed",
+      "confidence": "low",
+      "status": "historical",
+      "source_ids": [
+        "SRC-0005"
+      ],
+      "source_dates": [
+        "2021-03-04T08:22:05Z"
+      ],
+      "faq": {
+        "eligible": false,
+        "promoted": false,
+        "reason": "Historical single-version report with no confirmed resolution."
+      },
+      "tags": [
+        "sync",
+        "node",
+        "network",
+        "disk"
+      ]
+    },
+    {
+      "id": "DAE-0106",
+      "path": "knowledge/transactions/help-106.json",
+      "title": "Investigate an unexpected balance or transaction",
+      "summary": "An unexpected balance or pending transaction is a symptom, not proof of a specific bug. Start with non-destructive checks.",
+      "category": "transactions",
+      "subcategory": "submission",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0106",
+        "SRC-0110",
+        "SRC-0104"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "transactions",
+        "submission"
+      ]
+    },
+    {
+      "id": "DAE-0003",
+      "path": "knowledge/transactions/missing-vkey-witness.json",
+      "title": "Fraudulent shared secret.key wallet shows balance but cannot spend",
+      "summary": "Issue history links the same legacy secret.key wallet being offered to multiple people with a wallet that displays funds but cannot produce a valid spending witness.",
+      "category": "transactions",
+      "subcategory": "missing-witness",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "6.0.1"
+        ],
+        "introduced_in": null,
+        "first_known_affected": "6.0.1",
+        "last_known_affected": "6.0.1",
+        "fixed_in": null,
+        "notes": "6.0.1 is the reporter\u2019s version; the fraud warning concerns this particular circulated wallet file, not all secret.key imports."
+      },
+      "operating_systems": {
+        "scope": "unknown",
+        "values": []
+      },
+      "networks": {
+        "scope": "unknown",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "independently-confirmed",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0004"
+      ],
+      "source_dates": [
+        "2024-09-11T19:54:06Z",
+        "2025-05-15T10:50:56Z"
+      ],
+      "faq": {
+        "eligible": false,
+        "promoted": false,
+        "reason": "Important retrieval signal but too context-dependent for a concise FAQ remedy."
+      },
+      "tags": [
+        "fraud",
+        "secret.key",
+        "byron",
+        "missing-witness"
+      ]
+    },
+    {
+      "id": "DAE-0008",
+      "path": "knowledge/transactions/rejected-transaction-pending.json",
+      "title": "Rejected transaction remains pending and reserves inputs",
+      "summary": "A Daedalus repository collaborator reports that deterministically rejected transactions can remain displayed as pending, reduce the displayed balance and reserve selected inputs.",
+      "category": "transactions",
+      "subcategory": "submission",
+      "daedalus": {
+        "scope": "unknown",
+        "min": null,
+        "max": null,
+        "versions": [],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "The collaborator report names no Daedalus release; no version is inferred from its filing date."
+      },
+      "operating_systems": {
+        "scope": "unknown",
+        "values": []
+      },
+      "networks": {
+        "scope": "unknown",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "maintainer-confirmed",
+      "confidence": "medium",
+      "status": "active",
+      "source_ids": [
+        "SRC-0009"
+      ],
+      "source_dates": [
+        "2026-08-12T00:00:27Z"
+      ],
+      "faq": {
+        "eligible": false,
+        "promoted": false,
+        "reason": "No version scope or released fix is documented."
+      },
+      "tags": [
+        "transaction",
+        "pending",
+        "rejected",
+        "utxo"
+      ]
+    },
+    {
+      "id": "DAE-0104",
+      "path": "knowledge/wallets/help-104.json",
+      "title": "Prepare for restoring a software wallet safely",
+      "summary": "Restoration requires the correct private backup and wallet type. This guide is for software wallets; hardware-wallet users should use the pairing guide.",
+      "category": "wallets",
+      "subcategory": "restore",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.0.0"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "specific",
+        "values": [
+          "mainnet"
+        ]
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+      },
+      "tags": [
+        "wallets",
+        "restore"
+      ]
+    },
+    {
+      "id": "DAE-0005",
+      "path": "knowledge/wallets/legacy-secret-key-import.json",
+      "title": "Historical secret.key import through the legacy Wallet importer",
+      "summary": "A historical Daedalus workflow used a dedicated Wallet importer screen for secret.key files; the original reporter later confirmed recovery.",
+      "category": "wallets",
+      "subcategory": "legacy",
+      "daedalus": {
+        "scope": "unknown",
+        "min": null,
+        "max": null,
+        "versions": [],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "The issue and comments describe a historical importer workflow but do not identify the exact supporting release in these source elements; no version is guessed."
+      },
+      "operating_systems": {
+        "scope": "unknown",
+        "values": []
+      },
+      "networks": {
+        "scope": "unknown",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "single-user-confirmed",
+      "confidence": "medium",
+      "status": "historical",
+      "source_ids": [
+        "SRC-0008",
+        "SRC-0010",
+        "SRC-0011",
+        "SRC-0012"
+      ],
+      "source_dates": [
+        "2018-12-20T15:55:04Z",
+        "2019-03-21T07:44:25Z",
+        "2019-03-21T07:50:27Z",
+        "2019-03-21T09:39:19Z"
+      ],
+      "faq": {
+        "eligible": false,
+        "promoted": false,
+        "reason": "Specialist historical recovery case."
+      },
+      "tags": [
+        "legacy",
+        "secret.key",
+        "byron",
+        "recovery"
+      ]
+    }
+  ]
+}

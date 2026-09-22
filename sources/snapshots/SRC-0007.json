@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0007",
+  "provider": "github",
+  "provider_id": "issue:3263",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/3263",
+  "author": "kirk-bit",
+  "author_association": "none",
+  "published_at": "2024-12-11T21:45:25Z",
+  "updated_at": "2026-07-27T16:46:05Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "closed",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The reporter says the Daedalus 7.0.1 macOS installer did not work on Big Sur 11.7.10."
+    ]
+  }
+}

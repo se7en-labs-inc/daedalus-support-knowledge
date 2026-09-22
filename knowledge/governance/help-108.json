@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0108",
+  "title": "Check voting-power delegation and DRep input",
+  "summary": {
+    "text": "Voting-power delegation asks for a wallet and registration type. The form validates a DRep identifier when that choice needs one.",
+    "source_ids": [
+      "SRC-0109"
+    ]
+  },
+  "problem": {
+    "text": "Vote DRep governance invalid DRep ID not enough funds",
+    "source_ids": [
+      "SRC-0109"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Vote DRep governance invalid DRep ID not enough funds",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Vote DRep governance invalid DRep ID not enough funds",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "Invalid DRep ID",
+      "normalized": "invalid drep id"
+    },
+    {
+      "verbatim": "Not enough funds",
+      "normalized": "not enough funds"
+    }
+  ],
+  "classification": {
+    "category": "governance",
+    "subcategory": "delegation"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0109"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Select the intended wallet and voting registration type.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "For a DRep choice, verify the intended identifier before submitting. If the form rejects it, recheck the identifier rather than substituting an arbitrary one.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Review the proposed transaction before approving it. If an insufficient-funds or initialization error persists, contact support.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0109"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You can distinguish invalid input from a funds or transaction-initialization error. This is not a Catalyst registration guide or a guarantee of voting eligibility.",
+    "source_ids": [
+      "SRC-0109"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "Use the genuine application and keep private backups private."
+    ],
+    "consequences": [
+      "Changing or approving wallet operations can affect funds."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0109"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "governance",
+    "delegation"
+  ]
+}

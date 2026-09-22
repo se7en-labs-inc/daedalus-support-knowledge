@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0010",
+  "provider": "github",
+  "provider_id": "issue-comment:475136544",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475136544",
+  "author": "nikolaglumac",
+  "author_association": "contributor",
+  "published_at": "2019-03-21T07:44:25Z",
+  "updated_at": "2019-03-21T07:44:25Z",
+  "retrieved_at": "2026-08-27T12:28:08Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "A repository contributor explains that secret.key cannot be imported through the Add wallet import dialog.",
+      "The contributor directs the reporter to the historical Daedalus > Wallet importer screen."
+    ]
+  }
+}

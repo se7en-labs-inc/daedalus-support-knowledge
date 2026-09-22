@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0006",
+  "title": "DRep voting delegation introduced in Daedalus 7.0.0",
+  "summary": {
+    "text": "The official 7.0.0 release states that users can delegate voting power to DReps or select abstain or no confidence.",
+    "source_ids": [
+      "SRC-0003"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to know whether the DRep voting-delegation controls described by the release exist in Daedalus 7.0.0.",
+    "source_ids": [
+      "SRC-0003"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user is looking for the voting tab and DRep registration preference in Daedalus 7.0.0.",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Which Daedalus supports governance?",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    },
+    {
+      "text": "DRep feature missing",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "governance",
+    "subcategory": "drep"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "7.0.0"
+      ],
+      "introduced_in": "7.0.0",
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "The release proves functionality in 7.0.0 and its introduction there; this entry makes no claim for later releases."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0003"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Check the exact Daedalus version before troubleshooting a missing governance control.",
+      "why": "Governance support is release dependent.",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Consult official release information and use an officially distributed supported release when governance functionality is required.",
+      "why": "Version 7.0.0 release notes establish the feature boundary.",
+      "source_ids": [
+        "SRC-0003"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user can identify the DRep delegation feature documented for Daedalus 7.0.0 without assuming later-version behavior.",
+    "source_ids": [
+      "SRC-0003"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official release notes provide the introduction boundary.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-08-26",
+    "last_reviewed": "2026-08-27",
+    "last_verified": "2026-08-26"
+  },
+  "sources": [
+    "SRC-0003"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Version-sensitive feature expectation likely to confuse users."
+  },
+  "tags": [
+    "governance",
+    "drep",
+    "conway",
+    "7.0.0"
+  ]
+}

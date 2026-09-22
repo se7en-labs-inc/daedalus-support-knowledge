@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Explicit public Help Centre publication decisions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "product", "preparedAt", "reviewedOn", "reviewMethod", "articles"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "product": {"type": "string", "minLength": 1, "maxLength": 80},
+    "preparedAt": {"type": "string", "format": "date-time"},
+    "reviewedOn": {"type": "string", "format": "date"},
+    "reviewMethod": {"type": "string", "minLength": 1},
+    "articles": {
+      "type": "array",
+      "maxItems": 500,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "approved", "status", "reviewedOn", "reason"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^DAE-[0-9]{4}$"},
+          "approved": {"type": "boolean"},
+          "status": {"enum": ["current", "historical", "superseded", "needs-review", "excluded"]},
+          "reviewedOn": {"type": "string", "format": "date"},
+          "reason": {"type": "string", "minLength": 1},
+          "reviewedContentHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        },
+        "if": {"properties": {"approved": {"const": true}}},
+        "then": {"required": ["reviewedContentHash"], "properties": {"status": {"enum": ["current", "historical"]}}}
+      }
+    }
+  }
+}

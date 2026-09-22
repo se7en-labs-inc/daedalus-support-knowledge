@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0002",
+  "title": "Daedalus 3.3.2 on macOS fails to connect after upgrade",
+  "summary": {
+    "text": "A March 2021 report records Daedalus 3.3.2 failing to connect on macOS after upgrade; it does not establish a general modern synchronization remedy.",
+    "source_ids": [
+      "SRC-0005"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus 3.3.2 remained unable to connect to the network for more than 24 hours after an upgrade on macOS.",
+    "source_ids": [
+      "SRC-0005"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus 3.3.2 displays a network connection failure for more than 24 hours after upgrade.",
+      "source_ids": [
+        "SRC-0005"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus 3.3.2 not connecting after update",
+      "source_ids": [
+        "SRC-0005"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "peers"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "3.3.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": "3.3.2",
+      "last_known_affected": "3.3.2",
+      "fixed_in": null,
+      "notes": "One source-reported version only; no range or current applicability is inferred."
+    },
+    "operating_systems": {
+      "scope": "specific",
+      "values": [
+        "macos"
+      ]
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0005"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The report tested an ISP hypothesis with a VPN but did not establish the cause.",
+      "source_ids": [
+        "SRC-0005"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Confirm the exact 3.3.2 version and macOS environment before treating this historical report as relevant.",
+      "why": "The evidence is limited to that reported combination.",
+      "source_ids": [
+        "SRC-0005"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Do not apply this historical report as a current fix; collect current version diagnostics and use current official support material.",
+      "why": "The thread does not establish a confirmed resolution.",
+      "source_ids": [
+        "SRC-0005"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The historical report is used only as a matching symptom record, not as evidence of a general remedy.",
+    "source_ids": [
+      "SRC-0005"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "single-user-confirmed",
+    "confidence": "low",
+    "rationale": "One historical report proves the observed symptom only; it does not prove a cause or solution.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "historical",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "Restricted to a 2021 Daedalus 3.3.2 report.",
+    "source_ids": [
+      "SRC-0005"
+    ]
+  },
+  "dates": {
+    "created": "2026-08-26",
+    "last_reviewed": "2026-08-27",
+    "last_verified": null
+  },
+  "sources": [
+    "SRC-0005"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "Historical single-version report with no confirmed resolution."
+  },
+  "tags": [
+    "sync",
+    "node",
+    "network",
+    "disk"
+  ]
+}

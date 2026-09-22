@@ -1,0 +1,5 @@
+# Match the existing formatter on both Windows and Linux.
+* text=auto eol=lf
+# Preserve source captures and images byte for byte across clones.
+help-center-dump/** -text
+docs/legacy-pool-readme.md -text

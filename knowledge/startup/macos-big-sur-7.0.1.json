@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0004",
+  "title": "Daedalus 7.0.x fails on older macOS due to notarization and dynamic libraries",
+  "summary": {
+    "text": "Maintainer investigation separated an installer notarization problem from a dynamic-library loading failure on older macOS; the official 7.1.0 release records the dynamic-library compatibility fix.",
+    "source_ids": [
+      "SRC-0007",
+      "SRC-0002",
+      "SRC-0001"
+    ]
+  },
+  "problem": {
+    "text": "On older macOS, Daedalus 7.0.1 or 7.0.2 may fail installation trust checks or fail to launch with incompatible libiconv/libcharset versions.",
+    "source_ids": [
+      "SRC-0007",
+      "SRC-0002"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Older macOS rejects or does not trust the 7.0.x installer notarization.",
+      "source_ids": [
+        "SRC-0002"
+      ]
+    },
+    {
+      "text": "Launch logs contain an incompatible libiconv.dylib and libcharset.1.dylib version error.",
+      "source_ids": [
+        "SRC-0002"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus 7 not opening on old macOS",
+      "source_ids": [
+        "SRC-0007"
+      ]
+    },
+    {
+      "text": "Incompatible library version libiconv dylib",
+      "source_ids": [
+        "SRC-0002"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "Incompatible library version: libiconv.dylib requires version 2.0.0 or later, but libcharset.1.dylib provides version 1.0.0",
+      "normalized": "incompatible library version libiconv requires 2.0.0 libcharset provides 1.0.0",
+      "pattern": null
+    }
+  ],
+  "classification": {
+    "category": "startup",
+    "subcategory": "launch-failure"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "range",
+      "min": "7.0.1",
+      "max": "7.0.2",
+      "versions": [
+        "7.0.1",
+        "7.0.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": "7.0.1",
+      "last_known_affected": "7.0.2",
+      "fixed_in": "7.1.0",
+      "notes": "Issue history covers 7.0.1 and 7.0.2; official 7.1.0 release documents the older-macOS dynamic-library fix."
+    },
+    "operating_systems": {
+      "scope": "specific",
+      "values": [
+        "macos"
+      ]
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0007",
+      "SRC-0002",
+      "SRC-0001"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "confirmed",
+      "claim": "Maintainer investigation found a missing notarization staple for the trust failure and a separate dynamic-library loading incompatibility on older macOS.",
+      "source_ids": [
+        "SRC-0002",
+        "SRC-0001"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Confirm Daedalus 7.0.1 or 7.0.2 and an older macOS version, then look for the exact dynamic-library error in launch diagnostics.",
+      "why": "The issue contains two separate failure modes and the release fix is scoped to older macOS dynamic-library loading.",
+      "source_ids": [
+        "SRC-0007",
+        "SRC-0002"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Install Daedalus 7.1.0 from the official release-linked download location, or consult the official release notes for the exact newer version under consideration.",
+      "why": "The official 7.1.0 release states that it resolves the older-macOS dynamic-library loading issue.",
+      "source_ids": [
+        "SRC-0001"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus launches on the affected older macOS environment after using the officially released compatibility fix.",
+    "source_ids": [
+      "SRC-0001"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, or spending passwords."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "none",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Maintainer diagnosis and user testing are followed by an official 7.1.0 release that documents the fix.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "historical",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "Affected 7.0.x behavior is retained for users on those releases; fixed in 7.1.0.",
+    "source_ids": [
+      "SRC-0007",
+      "SRC-0002",
+      "SRC-0001"
+    ]
+  },
+  "dates": {
+    "created": "2026-08-26",
+    "last_reviewed": "2026-08-27",
+    "last_verified": null
+  },
+  "sources": [
+    "SRC-0007",
+    "SRC-0002",
+    "SRC-0001"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": ""
+  },
+  "tags": [
+    "macos",
+    "big-sur",
+    "launch",
+    "7.0.1"
+  ]
+}

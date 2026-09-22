@@ -1,0 +1,1607 @@
+{
+  "schemaVersion": 1,
+  "canonicalRepository": "https://github.com/se7en-labs-inc/daedalus-support-knowledge",
+  "destinationBaseRevision": "310bae1423cb84a5efdbdec502a116a27798008a",
+  "importedRepository": "https://github.com/Liberty-Chris/ariadne-knowledge-pool",
+  "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
+  "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed",
+  "verifiedOn": "2026-09-22",
+  "note": "Import inventory, not editorial approval. Original checkout retained. Private application data and support evidence were not inputs. SHA256 values identify source bytes before documented integration adaptations.",
+  "adaptedPaths": [
+    ".github/workflows/validate.yml",
+    ".gitignore",
+    "CONTRIBUTING.md",
+    "docs/architecture.md",
+    "help-centre/README.md",
+    "help-centre/coverage.json",
+    "tools/normalize_help_dump.py",
+    "tests/test_validation.py",
+    "docs/evidence-model.md"
+  ],
+  "duplicateFiles": [
+    {
+      "paths": [
+        "help-center-dump/28342878565401_28342878565401.gif",
+        "help-center-dump/900001279346_Daedalus_Mainnet_Password_ENG.gif"
+      ],
+      "sha256": "64d2992949676dac40b91e7cf7656bc25dd5f45cf1dbe4667a298926d6ccccf4",
+      "resolution": "Identical bytes, retain original paths for archive references and attribution."
+    },
+    {
+      "paths": [
+        "help-center-dump/4402142409369_Capture.PNG",
+        "help-center-dump/4402142415769_Capture.PNG",
+        "help-center-dump/4402142421785_Capture.PNG"
+      ],
+      "sha256": "aacc53ee8235adc712bc81b360f0da26f65b97bb778ff32769e4687f8dd84cc3",
+      "resolution": "Identical bytes, retain original paths for archive references and attribution."
+    },
+    {
+      "paths": [
+        "help-center-dump/900000675806_image14.png",
+        "help-center-dump/900000690643_image14.png"
+      ],
+      "sha256": "a2576b18e17a961e28dba375481df7f4ebc743166e592610f9c5edefe3708c84",
+      "resolution": "Identical bytes, retain original paths for archive references and attribution."
+    },
+    {
+      "paths": [
+        "help-center-dump/900000675826_image3.png",
+        "help-center-dump/900000690663_image3.png"
+      ],
+      "sha256": "145d7ea37ecced20f9ba2c4c331dfa069a7351cfbb9a8376f87edf91fc25e188",
+      "resolution": "Identical bytes, retain original paths for archive references and attribution."
+    }
+  ],
+  "pathConflicts": [],
+  "files": [
+    {
+      "sourcePath": ".github/workflows/validate.yml",
+      "destinationPath": ".github/workflows/validate.yml",
+      "sha256": "f8878b803da0f2c9e78dd54e461140ca3a28811a76fb02ca97474b6e2a8e39fa",
+      "bytes": 595
+    },
+    {
+      "sourcePath": ".gitignore",
+      "destinationPath": ".gitignore",
+      "sha256": "cac0352c070b86662c081841692dd52ecb3be2803ad3c12866c77d6a6ae90c57",
+      "bytes": 25
+    },
+    {
+      "sourcePath": "CONTRIBUTING.md",
+      "destinationPath": "CONTRIBUTING.md",
+      "sha256": "ae940fab0ac4dbccdcf8bdeb7e8fa0c6afa74cc7850ee8f4948792461c94ef7d",
+      "bytes": 3590
+    },
+    {
+      "sourcePath": "README.md",
+      "destinationPath": "docs/legacy-pool-readme.md",
+      "sha256": "6958552a8ed07b3eed12374cda4a6177dc92de89d1822beaf19b8711e70614ef",
+      "bytes": 1421
+    },
+    {
+      "sourcePath": "docs/architecture.md",
+      "destinationPath": "docs/architecture.md",
+      "sha256": "85e3c7ba06a683d1472ff467ba3fc57f0bff74c47ca83e7383894a2a081425a1",
+      "bytes": 6732
+    },
+    {
+      "sourcePath": "docs/evidence-model.md",
+      "destinationPath": "docs/evidence-model.md",
+      "sha256": "977c4519aaedce5d103020f06fca43b7df8917330293de610d2126d20588dd2f",
+      "bytes": 1130
+    },
+    {
+      "sourcePath": "docs/safety.md",
+      "destinationPath": "docs/safety.md",
+      "sha256": "b4717e412df4b3f13a71e3e497d71497311a90fd8715c71ea5abcbfaadba479c",
+      "bytes": 826
+    },
+    {
+      "sourcePath": "docs/versioning.md",
+      "destinationPath": "docs/versioning.md",
+      "sha256": "a1399b8074429d95f242edc6e15a831569592b23502050c5abba8f59412d4862",
+      "bytes": 1440
+    },
+    {
+      "sourcePath": "faq/README.md",
+      "destinationPath": "faq/README.md",
+      "sha256": "e68a8990619e98698fa11792b51574466d213da344372dcdb0acacd6e08b264f",
+      "bytes": 2960
+    },
+    {
+      "sourcePath": "faq/catalog.json",
+      "destinationPath": "faq/catalog.json",
+      "sha256": "174f3cd88381034c362efc88bef3cbf9323a247678fdc310c09eb2b221a65096",
+      "bytes": 5742
+    },
+    {
+      "sourcePath": "help-center-dump/12254729623193_12254729623193.png",
+      "destinationPath": "help-center-dump/12254729623193_12254729623193.png",
+      "sha256": "1401a8f1368acfdf94e461eac0e28553865b27bd14f5ec61c107b78e8facf01f",
+      "bytes": 539750
+    },
+    {
+      "sourcePath": "help-center-dump/21886205505049_21886205505049.png",
+      "destinationPath": "help-center-dump/21886205505049_21886205505049.png",
+      "sha256": "ddd1eafeb7e9e22e876a75cf57332f0b45c1fa4869b979bb8e7900eb4a7cebdc",
+      "bytes": 53639
+    },
+    {
+      "sourcePath": "help-center-dump/28342878565401_28342878565401.gif",
+      "destinationPath": "help-center-dump/28342878565401_28342878565401.gif",
+      "sha256": "64d2992949676dac40b91e7cf7656bc25dd5f45cf1dbe4667a298926d6ccccf4",
+      "bytes": 1726315
+    },
+    {
+      "sourcePath": "help-center-dump/29864349742105_29864349742105.png",
+      "destinationPath": "help-center-dump/29864349742105_29864349742105.png",
+      "sha256": "c69f0ca70b991bc2c129157181953e74ffc9a54be50f17e76ade941f553de30c",
+      "bytes": 81639
+    },
+    {
+      "sourcePath": "help-center-dump/31232205508249_31232205508249.gif",
+      "destinationPath": "help-center-dump/31232205508249_31232205508249.gif",
+      "sha256": "f723d261646d449e3c66235228c17bc2b46af5d9dc87465691105ff7d15ba74c",
+      "bytes": 629200
+    },
+    {
+      "sourcePath": "help-center-dump/33994768624281_33994768624281.png",
+      "destinationPath": "help-center-dump/33994768624281_33994768624281.png",
+      "sha256": "f8657151d33e297291510ed3995f003b36952612fa62f3017fc42699521b896e",
+      "bytes": 53427
+    },
+    {
+      "sourcePath": "help-center-dump/33994768633369_33994768633369.png",
+      "destinationPath": "help-center-dump/33994768633369_33994768633369.png",
+      "sha256": "c4cc0d8200d32506f04488301387d09a10c4312ad04df3e65fc80bbc57cd26dc",
+      "bytes": 95405
+    },
+    {
+      "sourcePath": "help-center-dump/33994768643481_33994768643481.png",
+      "destinationPath": "help-center-dump/33994768643481_33994768643481.png",
+      "sha256": "e7e53b489da9d512b58a52ccd674d95c47c613a8a5f1003d8953540f7e092660",
+      "bytes": 121666
+    },
+    {
+      "sourcePath": "help-center-dump/360014338674_clock_sync_win.gif",
+      "destinationPath": "help-center-dump/360014338674_clock_sync_win.gif",
+      "sha256": "265f09425059d51dba8694b3e68d3a6344b68362c043dd438dbc3b3db2b78f1f",
+      "bytes": 3547703
+    },
+    {
+      "sourcePath": "help-center-dump/360014469113_dateandtimewin.gif",
+      "destinationPath": "help-center-dump/360014469113_dateandtimewin.gif",
+      "sha256": "2a77e8989d0b0d476cc82f366cd06933abac9372636d668057b054bd0ce45253",
+      "bytes": 5738257
+    },
+    {
+      "sourcePath": "help-center-dump/360017091154_Screen_Shot_2018-10-27_at_3.23.12_PM.png",
+      "destinationPath": "help-center-dump/360017091154_Screen_Shot_2018-10-27_at_3.23.12_PM.png",
+      "sha256": "23ac7a1057bd8ac49fd9838c254b65f5579a4f725c61fe7ea22d5a6c35052b28",
+      "bytes": 59283
+    },
+    {
+      "sourcePath": "help-center-dump/360017311053_mceclip1.png",
+      "destinationPath": "help-center-dump/360017311053_mceclip1.png",
+      "sha256": "219d128e1dfc23c2b179c328b403e831bc473135b309cc8f8e34b687aaad99df",
+      "bytes": 70086
+    },
+    {
+      "sourcePath": "help-center-dump/360017311353_mceclip2.png",
+      "destinationPath": "help-center-dump/360017311353_mceclip2.png",
+      "sha256": "8c9776579ca209fcbc1742a89586ce55c9ecd8d10f7702ee46c4f342a05a5f8e",
+      "bytes": 54233
+    },
+    {
+      "sourcePath": "help-center-dump/360017311593_mceclip3.png",
+      "destinationPath": "help-center-dump/360017311593_mceclip3.png",
+      "sha256": "cd9be1cd8b2cf33c4abdb46522c558abfdc59f787cbbbe7d749f61e1ae3e49b9",
+      "bytes": 76015
+    },
+    {
+      "sourcePath": "help-center-dump/360017819733_Screen_Shot_2018-10-27_at_3.22.51_PM.png",
+      "destinationPath": "help-center-dump/360017819733_Screen_Shot_2018-10-27_at_3.22.51_PM.png",
+      "sha256": "3e87872a1901d4901ef37424b683ecf2027909ca5123ae8161d1df715583c721",
+      "bytes": 75345
+    },
+    {
+      "sourcePath": "help-center-dump/360017819953_Screen_Shot_2018-10-27_at_3.24.15_PM.png",
+      "destinationPath": "help-center-dump/360017819953_Screen_Shot_2018-10-27_at_3.24.15_PM.png",
+      "sha256": "1ec7338f315518f31b9ec09a4d8844270024852a8a039d9e5a021064eebd7a54",
+      "bytes": 86367
+    },
+    {
+      "sourcePath": "help-center-dump/360022001194_Screen_Shot_2019-01-14_at_8.26.43_AM.png",
+      "destinationPath": "help-center-dump/360022001194_Screen_Shot_2019-01-14_at_8.26.43_AM.png",
+      "sha256": "d7b2066c1a742632635403efaf6d506f429580c5268793c8ef4b6b66c505b5f4",
+      "bytes": 31496
+    },
+    {
+      "sourcePath": "help-center-dump/360023449254_Cardano_Blackchaine_Explorere.png",
+      "destinationPath": "help-center-dump/360023449254_Cardano_Blackchaine_Explorere.png",
+      "sha256": "0d1f60bfd3dd829fbba90c4ea406f9a67274e18a716813e459254f1a681339d3",
+      "bytes": 211591
+    },
+    {
+      "sourcePath": "help-center-dump/360023449674_IMG_5590.jpg",
+      "destinationPath": "help-center-dump/360023449674_IMG_5590.jpg",
+      "sha256": "cbd60df3d37b022102f64e45fd336e4a6c453a387855862188d8d4eaf55aec27",
+      "bytes": 1190469
+    },
+    {
+      "sourcePath": "help-center-dump/360023450154_Screen_Shot_2019-01-23_at_2.51.24_pm.png",
+      "destinationPath": "help-center-dump/360023450154_Screen_Shot_2019-01-23_at_2.51.24_pm.png",
+      "sha256": "56a107a63410bb8a5d66cb13b177756985be684d9a9af04bb3d3e7d8b098780b",
+      "bytes": 133984
+    },
+    {
+      "sourcePath": "help-center-dump/360023450534_Daedalus_wallet_paper_wallet.png",
+      "destinationPath": "help-center-dump/360023450534_Daedalus_wallet_paper_wallet.png",
+      "sha256": "ad535f49dc9df415ad2cb886cb8b70d4332f2eeb802ff86e5e915fa9b18184cc",
+      "bytes": 77178
+    },
+    {
+      "sourcePath": "help-center-dump/360023451094_cardano_blockchain_explorer_paper_wallet.png",
+      "destinationPath": "help-center-dump/360023451094_cardano_blockchain_explorer_paper_wallet.png",
+      "sha256": "b75e22c23985bb8783addf483cb757cb86ec27cce3e027fa5dfc7fbd3c147c86",
+      "bytes": 631167
+    },
+    {
+      "sourcePath": "help-center-dump/360024386793_Screen_Shot_2019-01-23_at_2.56.46_pm.png",
+      "destinationPath": "help-center-dump/360024386793_Screen_Shot_2019-01-23_at_2.56.46_pm.png",
+      "sha256": "73a78700148591ae585705730fbdb03a82d643b0bf9bed5d1a704b7b42e1c817",
+      "bytes": 156242
+    },
+    {
+      "sourcePath": "help-center-dump/360024386993_Screen_Shot_2019-01-23_at_3.09.19_pm.png",
+      "destinationPath": "help-center-dump/360024386993_Screen_Shot_2019-01-23_at_3.09.19_pm.png",
+      "sha256": "6ce9775f85be355b3446ba4b081bef2b6b047bccea39b48a7248b0bbb4b1d082",
+      "bytes": 194460
+    },
+    {
+      "sourcePath": "help-center-dump/360024387713_Screen_Shot_2019-01-23_at_3.39.17_pm.png",
+      "destinationPath": "help-center-dump/360024387713_Screen_Shot_2019-01-23_at_3.39.17_pm.png",
+      "sha256": "14c22a4754961e7ad827b56aba51421a446e025aedc3baed3f863bcc5ba7a441",
+      "bytes": 144154
+    },
+    {
+      "sourcePath": "help-center-dump/360026028134_Screen_Shot_2019-02-15_at_11.20.28_AM.png",
+      "destinationPath": "help-center-dump/360026028134_Screen_Shot_2019-02-15_at_11.20.28_AM.png",
+      "sha256": "5e52f0f778ec1d09866b60478399ad6486a608193c8270a732310bd7658df362",
+      "bytes": 55113
+    },
+    {
+      "sourcePath": "help-center-dump/360026539454_Untitled.png",
+      "destinationPath": "help-center-dump/360026539454_Untitled.png",
+      "sha256": "a7c12a64668a17dde9f7e53ee877ec00fcb3756ced4b6822fb41dbd491e34282",
+      "bytes": 94984
+    },
+    {
+      "sourcePath": "help-center-dump/360026539474_Untitled1.png",
+      "destinationPath": "help-center-dump/360026539474_Untitled1.png",
+      "sha256": "6d8c7344cc21318182209ad6328c5fe703e34937e5828761efecfb16f07cefff",
+      "bytes": 81756
+    },
+    {
+      "sourcePath": "help-center-dump/360026898373_Screen_Shot_2019-02-15_at_11.20.51_AM.png",
+      "destinationPath": "help-center-dump/360026898373_Screen_Shot_2019-02-15_at_11.20.51_AM.png",
+      "sha256": "f6876dffcc529dca62fa47612e40da86fd818886f7bced3cd48006d91341580e",
+      "bytes": 32531
+    },
+    {
+      "sourcePath": "help-center-dump/360033706473_Screen_Shot_2019-04-25_at_12.58.45_PM.png",
+      "destinationPath": "help-center-dump/360033706473_Screen_Shot_2019-04-25_at_12.58.45_PM.png",
+      "sha256": "de97a722a8e463b4c259773ba18e6931b5b68e0ce7e7f3184278827df31ff3e1",
+      "bytes": 11065
+    },
+    {
+      "sourcePath": "help-center-dump/360038035554_Screen_Shot_2019-06-14_at_4.42.11_PM.png",
+      "destinationPath": "help-center-dump/360038035554_Screen_Shot_2019-06-14_at_4.42.11_PM.png",
+      "sha256": "2433122f13d0f1f15cc250be4e8ebe7a89ef609b92df2bc67e167c201bc95b9b",
+      "bytes": 171637
+    },
+    {
+      "sourcePath": "help-center-dump/360038443434_360038443434.png",
+      "destinationPath": "help-center-dump/360038443434_360038443434.png",
+      "sha256": "14e3067d5e715d06f8c2f218a348955f953c05cce2e4e18e279e690b6b1518d6",
+      "bytes": 144924
+    },
+    {
+      "sourcePath": "help-center-dump/360039275993_360039275993.png",
+      "destinationPath": "help-center-dump/360039275993_360039275993.png",
+      "sha256": "bab6776719c6c841dfcabef514573e0e458ab04c487ce3c2d2ee8d1073f247ad",
+      "bytes": 155770
+    },
+    {
+      "sourcePath": "help-center-dump/360043422834_Screen_Shot_2019-08-11_at_1.50.00_PM.png",
+      "destinationPath": "help-center-dump/360043422834_Screen_Shot_2019-08-11_at_1.50.00_PM.png",
+      "sha256": "33e7503a48ebbfadf7671ce23a0c140bcaa2160a412c30f47c7ecad94f1a972f",
+      "bytes": 273593
+    },
+    {
+      "sourcePath": "help-center-dump/360043465853_mceclip0.png",
+      "destinationPath": "help-center-dump/360043465853_mceclip0.png",
+      "sha256": "59452c714237cfe6df7e11fff09deb4d2ed40bd08f1b79de0d49cc846a057b22",
+      "bytes": 74207
+    },
+    {
+      "sourcePath": "help-center-dump/360043598014_Screen_Shot_2019-08-14_at_12.46.48_PM.png",
+      "destinationPath": "help-center-dump/360043598014_Screen_Shot_2019-08-14_at_12.46.48_PM.png",
+      "sha256": "4f9e0b0da2a49e0a8eb786912bc81c99f45421547f3754af641ed8d2cafd1f39",
+      "bytes": 350101
+    },
+    {
+      "sourcePath": "help-center-dump/360043600514_Screen_Shot_2019-08-14_at_1.50.23_PM.png",
+      "destinationPath": "help-center-dump/360043600514_Screen_Shot_2019-08-14_at_1.50.23_PM.png",
+      "sha256": "657077dd0f05f53f4826b7b89f696d9cccd343f05b713866d63e88995af4ac2b",
+      "bytes": 455747
+    },
+    {
+      "sourcePath": "help-center-dump/360043602314_Screen_Shot_2019-08-14_at_1.33.01_PM.png",
+      "destinationPath": "help-center-dump/360043602314_Screen_Shot_2019-08-14_at_1.33.01_PM.png",
+      "sha256": "969e98d941e12380ade0149ab14b56114986706a9458f925377d03969d5b6584",
+      "bytes": 197180
+    },
+    {
+      "sourcePath": "help-center-dump/360043726653_Screen_Shot_2019-08-02_at_9.03.25_PM.png",
+      "destinationPath": "help-center-dump/360043726653_Screen_Shot_2019-08-02_at_9.03.25_PM.png",
+      "sha256": "92c0aa882d9864d2db860884535030749783066feab1a217e1c8d602d5488035",
+      "bytes": 269593
+    },
+    {
+      "sourcePath": "help-center-dump/360043960974_Screen_Shot_2019-08-19_at_4.37.38_PM.png",
+      "destinationPath": "help-center-dump/360043960974_Screen_Shot_2019-08-19_at_4.37.38_PM.png",
+      "sha256": "f6306af0f725baa83cb312ace5cb2916ceea2acfaf78718339b9a352e477a033",
+      "bytes": 445515
+    },
+    {
+      "sourcePath": "help-center-dump/360043961154_mceclip1.png",
+      "destinationPath": "help-center-dump/360043961154_mceclip1.png",
+      "sha256": "97c13f7893af3e71d7599c56c4c4b665433749ce1ab6c369ed509b6419b3bcc3",
+      "bytes": 2356
+    },
+    {
+      "sourcePath": "help-center-dump/360043961334_mceclip2.png",
+      "destinationPath": "help-center-dump/360043961334_mceclip2.png",
+      "sha256": "a484ba251c7a09c61aff8d2da12a69315af1c6288216153333ff54a6fd1f1df3",
+      "bytes": 1941
+    },
+    {
+      "sourcePath": "help-center-dump/360043962214_mceclip4.png",
+      "destinationPath": "help-center-dump/360043962214_mceclip4.png",
+      "sha256": "1f4c57cdee908964c608fa51f4b9740da3d21787ad9010709c3eb370e6f7450e",
+      "bytes": 1599
+    },
+    {
+      "sourcePath": "help-center-dump/360043962554_Screen_Shot_2019-08-19_at_5.18.47_PM.png",
+      "destinationPath": "help-center-dump/360043962554_Screen_Shot_2019-08-19_at_5.18.47_PM.png",
+      "sha256": "ef806e84afe9f04cf39f925150ca2fc35e9c257ff8b2f93dc123df58a829264f",
+      "bytes": 948248
+    },
+    {
+      "sourcePath": "help-center-dump/360043964314_Screen_Shot_2019-08-19_at_5.58.43_PM.png",
+      "destinationPath": "help-center-dump/360043964314_Screen_Shot_2019-08-19_at_5.58.43_PM.png",
+      "sha256": "b7c3fce4b1a4b1867fb21df2ef7af93e88d18b57d23a7f7db8c3d0724aee589f",
+      "bytes": 389928
+    },
+    {
+      "sourcePath": "help-center-dump/360044450333_Screen_Shot_2019-08-14_at_12.23.03_PM.png",
+      "destinationPath": "help-center-dump/360044450333_Screen_Shot_2019-08-14_at_12.23.03_PM.png",
+      "sha256": "3652ffc92370a4a60454ded087af0d841c82f49d1e29652b3c34bd5692452437",
+      "bytes": 342403
+    },
+    {
+      "sourcePath": "help-center-dump/360044450373_Screen_Shot_2019-08-14_at_12.22.05_PM.png",
+      "destinationPath": "help-center-dump/360044450373_Screen_Shot_2019-08-14_at_12.22.05_PM.png",
+      "sha256": "6e29499c0e46d4da680f9abebae8fbfd4a18833539a809b7ffc8834f66761b8d",
+      "bytes": 456759
+    },
+    {
+      "sourcePath": "help-center-dump/360044451213_Screen_Shot_2019-08-14_at_12.50.41_PM.png",
+      "destinationPath": "help-center-dump/360044451213_Screen_Shot_2019-08-14_at_12.50.41_PM.png",
+      "sha256": "91972378f07106217f4ed2c7708fe5cf03ca2710216fe83ef9c21659f54c1c24",
+      "bytes": 73536
+    },
+    {
+      "sourcePath": "help-center-dump/360044824693_mceclip0.png",
+      "destinationPath": "help-center-dump/360044824693_mceclip0.png",
+      "sha256": "15dc7daa7992a244f5e5dff3faf23c684dc35107ebec33cc39424e155d530177",
+      "bytes": 1666
+    },
+    {
+      "sourcePath": "help-center-dump/360044825513_mceclip3.png",
+      "destinationPath": "help-center-dump/360044825513_mceclip3.png",
+      "sha256": "3cc988bb0bd49089e279b583d37500b4d0e39542972f750e48d53d642ace5084",
+      "bytes": 1750
+    },
+    {
+      "sourcePath": "help-center-dump/360044827673_Screen_Shot_2019-08-19_at_5.57.57_PM.png",
+      "destinationPath": "help-center-dump/360044827673_Screen_Shot_2019-08-19_at_5.57.57_PM.png",
+      "sha256": "5e3b8f7861cf656cc8de6729569be7ad6a203db7919d75f62bc62a368d3a57e7",
+      "bytes": 456327
+    },
+    {
+      "sourcePath": "help-center-dump/360045006114_Screen_Shot_2019-08-30_at_8.29.24_AM.png",
+      "destinationPath": "help-center-dump/360045006114_Screen_Shot_2019-08-30_at_8.29.24_AM.png",
+      "sha256": "6283db618b1fcaff9848b150ea86473f48a799ebf751570ef9dc11997c0a969d",
+      "bytes": 150811
+    },
+    {
+      "sourcePath": "help-center-dump/360048674114_Screenshot_2019-10-21_at_14.03.20.png",
+      "destinationPath": "help-center-dump/360048674114_Screenshot_2019-10-21_at_14.03.20.png",
+      "sha256": "5665393655f3dd449f9389b7d5070a1eda26ac9406957bf8b5a53bdf004e2229",
+      "bytes": 132035
+    },
+    {
+      "sourcePath": "help-center-dump/360048674134_Screenshot_2019-10-21_at_14.04.02.png",
+      "destinationPath": "help-center-dump/360048674134_Screenshot_2019-10-21_at_14.04.02.png",
+      "sha256": "a36f9932e7495aafbb21cb54d219b5cacd5236b7fb7f357ff33da22e509ead9e",
+      "bytes": 125951
+    },
+    {
+      "sourcePath": "help-center-dump/360048674214_Screenshot_2019-10-21_at_14.11.02.png",
+      "destinationPath": "help-center-dump/360048674214_Screenshot_2019-10-21_at_14.11.02.png",
+      "sha256": "8dd1457f4907ba1b1735532e0140816d51f48309a0845be8abf7862890123b20",
+      "bytes": 133893
+    },
+    {
+      "sourcePath": "help-center-dump/360049575033_Screenshot_2019-10-21_at_14.04.38.png",
+      "destinationPath": "help-center-dump/360049575033_Screenshot_2019-10-21_at_14.04.38.png",
+      "sha256": "0ff74154210cd4bad537e4de9e32f219b89d84f67e300b41633950e84538c4a4",
+      "bytes": 142127
+    },
+    {
+      "sourcePath": "help-center-dump/360049607713_Untitled.png",
+      "destinationPath": "help-center-dump/360049607713_Untitled.png",
+      "sha256": "3e1ab4731b5fa7be8ef6757a6f26513fe813364b91ee0dc6ab31c94511210bae",
+      "bytes": 139709
+    },
+    {
+      "sourcePath": "help-center-dump/360050972434_Screenshot_2019-11-22_at_10.59.55.png",
+      "destinationPath": "help-center-dump/360050972434_Screenshot_2019-11-22_at_10.59.55.png",
+      "sha256": "4d31de206ef0ad0ceb96b2f9bdeae3f57fdfe3e015f994a717eb3d1f3b883e08",
+      "bytes": 99540
+    },
+    {
+      "sourcePath": "help-center-dump/360051973074_360051973074.png",
+      "destinationPath": "help-center-dump/360051973074_360051973074.png",
+      "sha256": "dd90f9d273b265be05853e329b9ee761934fadf03f4cead625048572553f4734",
+      "bytes": 597572
+    },
+    {
+      "sourcePath": "help-center-dump/4402142409369_Capture.PNG",
+      "destinationPath": "help-center-dump/4402142409369_Capture.PNG",
+      "sha256": "aacc53ee8235adc712bc81b360f0da26f65b97bb778ff32769e4687f8dd84cc3",
+      "bytes": 2710
+    },
+    {
+      "sourcePath": "help-center-dump/4402142415769_Capture.PNG",
+      "destinationPath": "help-center-dump/4402142415769_Capture.PNG",
+      "sha256": "aacc53ee8235adc712bc81b360f0da26f65b97bb778ff32769e4687f8dd84cc3",
+      "bytes": 2710
+    },
+    {
+      "sourcePath": "help-center-dump/4402142421785_Capture.PNG",
+      "destinationPath": "help-center-dump/4402142421785_Capture.PNG",
+      "sha256": "aacc53ee8235adc712bc81b360f0da26f65b97bb778ff32769e4687f8dd84cc3",
+      "bytes": 2710
+    },
+    {
+      "sourcePath": "help-center-dump/4402149485337_Screen_Shot_2021-06-10_at_10.01.05.png",
+      "destinationPath": "help-center-dump/4402149485337_Screen_Shot_2021-06-10_at_10.01.05.png",
+      "sha256": "25d51a9547849c0fcda0da63aad7e7cb9746fa407ebf191f1bc7daeacb53549b",
+      "bytes": 82780
+    },
+    {
+      "sourcePath": "help-center-dump/4402963712025_Capture1111.PNG",
+      "destinationPath": "help-center-dump/4402963712025_Capture1111.PNG",
+      "sha256": "8fa58372f414377bfb9e61b6ee2bb1391a362885892ec9b0ba9d45c86334bdf4",
+      "bytes": 5511
+    },
+    {
+      "sourcePath": "help-center-dump/4403255917849_Screen_Shot_2021-07-06_at_3.53.16_pm.png",
+      "destinationPath": "help-center-dump/4403255917849_Screen_Shot_2021-07-06_at_3.53.16_pm.png",
+      "sha256": "c3d6eba0a26eb1fbd241f3f15f9a2a960e2b7ecb354a1cfb329c321428624649",
+      "bytes": 42374
+    },
+    {
+      "sourcePath": "help-center-dump/4404002541081_Screen_Shot_2021-07-22_at_16.22.25.png",
+      "destinationPath": "help-center-dump/4404002541081_Screen_Shot_2021-07-22_at_16.22.25.png",
+      "sha256": "98576b59f986cd34eae7c1612928bbe99f156fba3775f56b93ad8943429debdf",
+      "bytes": 176112
+    },
+    {
+      "sourcePath": "help-center-dump/4404002547225_Screen_Shot_2021-07-22_at_16.30.34.png",
+      "destinationPath": "help-center-dump/4404002547225_Screen_Shot_2021-07-22_at_16.30.34.png",
+      "sha256": "fde2eed3a136ca67d9870ac2f80f3af35c09455f80f02795ee9f21a90f38373e",
+      "bytes": 188990
+    },
+    {
+      "sourcePath": "help-center-dump/4404002550297_Screen_Shot_2021-07-22_at_16.22.38.png",
+      "destinationPath": "help-center-dump/4404002550297_Screen_Shot_2021-07-22_at_16.22.38.png",
+      "sha256": "92b291936e4f5f133d8405a05e3026a8b83763f021841b53d8cd8c6ad01dba88",
+      "bytes": 304470
+    },
+    {
+      "sourcePath": "help-center-dump/4404002552473_Screen_Shot_2021-07-22_at_16.23.49.png",
+      "destinationPath": "help-center-dump/4404002552473_Screen_Shot_2021-07-22_at_16.23.49.png",
+      "sha256": "a02a4b1fc6ace3b46b3243d026103d50dcd3faef2c6f55c6b3361f3ac844244f",
+      "bytes": 5478
+    },
+    {
+      "sourcePath": "help-center-dump/4404002562201_Screen_Shot_2021-07-22_at_16.21.58_copy.png",
+      "destinationPath": "help-center-dump/4404002562201_Screen_Shot_2021-07-22_at_16.21.58_copy.png",
+      "sha256": "900de76c8394761fcfeb70eced0cd708713a8061e8b5d6c4f5db5d0a9238e3aa",
+      "bytes": 25430
+    },
+    {
+      "sourcePath": "help-center-dump/4406070844697_Screen_Shot_2021-09-07_at_0.41.48.png",
+      "destinationPath": "help-center-dump/4406070844697_Screen_Shot_2021-09-07_at_0.41.48.png",
+      "sha256": "e0e2b4a9af1268f5039da01ead6cc853831949042ed0d0bdb19bde33883d3d7a",
+      "bytes": 42643
+    },
+    {
+      "sourcePath": "help-center-dump/4406078361625_Screen_Shot_2021-09-07_at_3.17.29.png",
+      "destinationPath": "help-center-dump/4406078361625_Screen_Shot_2021-09-07_at_3.17.29.png",
+      "sha256": "b2d0677ac918dea0ab579935bd0ce97190bcc42d83d79e5d9c972360ff99cdb3",
+      "bytes": 41218
+    },
+    {
+      "sourcePath": "help-center-dump/4406192565913_Screen_Shot_2021-09-09_at_10.25.46.png",
+      "destinationPath": "help-center-dump/4406192565913_Screen_Shot_2021-09-09_at_10.25.46.png",
+      "sha256": "609267c215ce6525cb89cf4483bdba582119edff20464cb90911c5056902c5ad",
+      "bytes": 85600
+    },
+    {
+      "sourcePath": "help-center-dump/4407803885977_Screen_Shot_2021-10-13_at_10.50.21.png",
+      "destinationPath": "help-center-dump/4407803885977_Screen_Shot_2021-10-13_at_10.50.21.png",
+      "sha256": "e525346fa38ab1297682f8b2a2139dd9b62de0cd215004ca30a5b279c28bc313",
+      "bytes": 80801
+    },
+    {
+      "sourcePath": "help-center-dump/4408893338137_4408893338137.png",
+      "destinationPath": "help-center-dump/4408893338137_4408893338137.png",
+      "sha256": "90a73c8a4dab9896d253c738e45a9762287f95aa5d0ed031bbade35767146e58",
+      "bytes": 142023
+    },
+    {
+      "sourcePath": "help-center-dump/4415088823321_first3.PNG",
+      "destinationPath": "help-center-dump/4415088823321_first3.PNG",
+      "sha256": "3a5e165687a0951cb87ccf46e54fba78ac5da813aef5939df3231ee5323a4a05",
+      "bytes": 57768
+    },
+    {
+      "sourcePath": "help-center-dump/4415088906393_first7.PNG",
+      "destinationPath": "help-center-dump/4415088906393_first7.PNG",
+      "sha256": "1e97dda2c222e3ac02f9f41efea6d62ecff3e78653ff7e405b18b4a85c5f6218",
+      "bytes": 6264
+    },
+    {
+      "sourcePath": "help-center-dump/4415092626073_first4.PNG",
+      "destinationPath": "help-center-dump/4415092626073_first4.PNG",
+      "sha256": "4ae875b8abafc848c5070e415eaaf19a1834494425b53daf0d1dbd17ee46de02",
+      "bytes": 70730
+    },
+    {
+      "sourcePath": "help-center-dump/4415092629657_first6.PNG",
+      "destinationPath": "help-center-dump/4415092629657_first6.PNG",
+      "sha256": "a2c15fee0b0709b6afa5b87f470b770f36d41219a908f3806b75c4265fd84de1",
+      "bytes": 49232
+    },
+    {
+      "sourcePath": "help-center-dump/4415092701721_first8.PNG",
+      "destinationPath": "help-center-dump/4415092701721_first8.PNG",
+      "sha256": "f1dee6e7afa519b4fb934445591fd71d40218a2e529445e965547d685ec6ca74",
+      "bytes": 4243
+    },
+    {
+      "sourcePath": "help-center-dump/4415146620441_4415146620441.png",
+      "destinationPath": "help-center-dump/4415146620441_4415146620441.png",
+      "sha256": "d70e27853be9dbf093c33cd74ed2cc6ea0c35f98be4c9115c5a13755e7176182",
+      "bytes": 48091
+    },
+    {
+      "sourcePath": "help-center-dump/4415329668505_Screenshot_20220120_165800.png",
+      "destinationPath": "help-center-dump/4415329668505_Screenshot_20220120_165800.png",
+      "sha256": "ea57f081498d7f5e2eb5fce9b21c0247cacbbd5d70d89554ecdbcbd7e592dde7",
+      "bytes": 45912
+    },
+    {
+      "sourcePath": "help-center-dump/4416824416921_Screen_Shot_2022-02-03_at_10.50.18.png",
+      "destinationPath": "help-center-dump/4416824416921_Screen_Shot_2022-02-03_at_10.50.18.png",
+      "sha256": "ef215399db51674b64fe7924f4b28433be1a7f4d74ee0eeeae4eb5ff62a0fbe2",
+      "bytes": 34601
+    },
+    {
+      "sourcePath": "help-center-dump/4416824793113_Screen_Shot_2022-02-03_at_11.28.47.png",
+      "destinationPath": "help-center-dump/4416824793113_Screen_Shot_2022-02-03_at_11.28.47.png",
+      "sha256": "fb97099b6ca34c61f919b1d9f90fb1f0fadaa17c35687199861b69704f6c463d",
+      "bytes": 34200
+    },
+    {
+      "sourcePath": "help-center-dump/4416838302361_image__8_.png",
+      "destinationPath": "help-center-dump/4416838302361_image__8_.png",
+      "sha256": "e19cabfd4c600000c28704692150b3c5aee051373833da0e0df06c6143c081ee",
+      "bytes": 70231
+    },
+    {
+      "sourcePath": "help-center-dump/4711234156185_4711234156185.png",
+      "destinationPath": "help-center-dump/4711234156185_4711234156185.png",
+      "sha256": "7cbe7fc273cbd51805d168a2421a0df7e6d0dece770cc4b2b3a99f877cac8fae",
+      "bytes": 132457
+    },
+    {
+      "sourcePath": "help-center-dump/4894491001369_4894491001369.jpg",
+      "destinationPath": "help-center-dump/4894491001369_4894491001369.jpg",
+      "sha256": "827478b456464dab023bd5aaef1f4b5323863abdf98bd90ed1b9e965231525e4",
+      "bytes": 54163
+    },
+    {
+      "sourcePath": "help-center-dump/49806951249945_49806951249945.png",
+      "destinationPath": "help-center-dump/49806951249945_49806951249945.png",
+      "sha256": "2664f3a69360e3a77ee738f7aadc8b2df497edbb7257caa3a27817344d534e95",
+      "bytes": 106872
+    },
+    {
+      "sourcePath": "help-center-dump/49806983018777_49806983018777.png",
+      "destinationPath": "help-center-dump/49806983018777_49806983018777.png",
+      "sha256": "68da1c2e775a04a587af340c7599fcfabe06b3af5c388a98844038cc6ffb4e49",
+      "bytes": 189352
+    },
+    {
+      "sourcePath": "help-center-dump/900000675806_image14.png",
+      "destinationPath": "help-center-dump/900000675806_image14.png",
+      "sha256": "a2576b18e17a961e28dba375481df7f4ebc743166e592610f9c5edefe3708c84",
+      "bytes": 133180
+    },
+    {
+      "sourcePath": "help-center-dump/900000675826_image3.png",
+      "destinationPath": "help-center-dump/900000675826_image3.png",
+      "sha256": "145d7ea37ecced20f9ba2c4c331dfa069a7351cfbb9a8376f87edf91fc25e188",
+      "bytes": 141055
+    },
+    {
+      "sourcePath": "help-center-dump/900000690643_image14.png",
+      "destinationPath": "help-center-dump/900000690643_image14.png",
+      "sha256": "a2576b18e17a961e28dba375481df7f4ebc743166e592610f9c5edefe3708c84",
+      "bytes": 133180
+    },
+    {
+      "sourcePath": "help-center-dump/900000690663_image3.png",
+      "destinationPath": "help-center-dump/900000690663_image3.png",
+      "sha256": "145d7ea37ecced20f9ba2c4c331dfa069a7351cfbb9a8376f87edf91fc25e188",
+      "bytes": 141055
+    },
+    {
+      "sourcePath": "help-center-dump/900000973806_900000973806.png",
+      "destinationPath": "help-center-dump/900000973806_900000973806.png",
+      "sha256": "4217351480cf798b3dabd28afb8be6e6cddb01012170f17b8bbf56ff26ca8595",
+      "bytes": 123864
+    },
+    {
+      "sourcePath": "help-center-dump/900001279346_Daedalus_Mainnet_Password_ENG.gif",
+      "destinationPath": "help-center-dump/900001279346_Daedalus_Mainnet_Password_ENG.gif",
+      "sha256": "64d2992949676dac40b91e7cf7656bc25dd5f45cf1dbe4667a298926d6ccccf4",
+      "bytes": 1726315
+    },
+    {
+      "sourcePath": "help-center-dump/900001385286_900001385286.gif",
+      "destinationPath": "help-center-dump/900001385286_900001385286.gif",
+      "sha256": "34a5cee3447a447bb6bce892fed4c7d94abfdfcc372f3726cd0647a4d0a1e924",
+      "bytes": 877339
+    },
+    {
+      "sourcePath": "help-center-dump/900002869246_Screen_Shot_2020-08-06_at_08.28.06.png",
+      "destinationPath": "help-center-dump/900002869246_Screen_Shot_2020-08-06_at_08.28.06.png",
+      "sha256": "eebb82f6ef570e6d632e0c805d2741362bc2ede4a324ae226f247479ae3a1e47",
+      "bytes": 123664
+    },
+    {
+      "sourcePath": "help-center-dump/900003749046_Screen_Shot_2020-09-23_at_11.53.45.png",
+      "destinationPath": "help-center-dump/900003749046_Screen_Shot_2020-09-23_at_11.53.45.png",
+      "sha256": "b3a7e40059cff27fcbe10a898d8809f240c49d7988ab7ec6697bd39bf7311bb9",
+      "bytes": 88262
+    },
+    {
+      "sourcePath": "help-center-dump/900003749106_Screen_Shot_2020-09-23_at_12.04.55.png",
+      "destinationPath": "help-center-dump/900003749106_Screen_Shot_2020-09-23_at_12.04.55.png",
+      "sha256": "e15daf225b07b1fdf543919ac60ff41b8e791a95b3f1e428a6b6ca3355733e19",
+      "bytes": 213686
+    },
+    {
+      "sourcePath": "help-center-dump/900003886046_Screen_Shot_2020-09-30_at_13.48.21.png",
+      "destinationPath": "help-center-dump/900003886046_Screen_Shot_2020-09-30_at_13.48.21.png",
+      "sha256": "e4649c47104792278c3769ecad39bb96debc017b14a00d6253fd62af5ba17150",
+      "bytes": 51212
+    },
+    {
+      "sourcePath": "help-center-dump/900003975423_Screen_Shot_2020-10-09_at_18.00.45.png",
+      "destinationPath": "help-center-dump/900003975423_Screen_Shot_2020-10-09_at_18.00.45.png",
+      "sha256": "f0760951d6ae26b3b62ccee9c22172f64577654f731aa76b9b5be2c9f690bb9a",
+      "bytes": 157492
+    },
+    {
+      "sourcePath": "help-center-dump/900003975443_Screen_Shot_2020-10-09_at_18.00.29.png",
+      "destinationPath": "help-center-dump/900003975443_Screen_Shot_2020-10-09_at_18.00.29.png",
+      "sha256": "760abdf3f1524193e22a43ac76e8dfe45b84541fcbf8a45446944821f4f96853",
+      "bytes": 156817
+    },
+    {
+      "sourcePath": "help-center-dump/900003975463_Screen_Shot_2020-10-09_at_17.59.00.png",
+      "destinationPath": "help-center-dump/900003975463_Screen_Shot_2020-10-09_at_17.59.00.png",
+      "sha256": "ea612b0be1280a50b6ddd8252fa285a743e2025cd0165dc465a4c4195bd7bbf5",
+      "bytes": 93413
+    },
+    {
+      "sourcePath": "help-center-dump/900004009526_Screen_Shot_2020-10-09_at_17.59.56.png",
+      "destinationPath": "help-center-dump/900004009526_Screen_Shot_2020-10-09_at_17.59.56.png",
+      "sha256": "9d413df7337864eb677a774276f489b66a09881c817598b707007881d1f943ab",
+      "bytes": 171387
+    },
+    {
+      "sourcePath": "help-center-dump/900004009546_Screen_Shot_2020-10-09_at_17.59.11.png",
+      "destinationPath": "help-center-dump/900004009546_Screen_Shot_2020-10-09_at_17.59.11.png",
+      "sha256": "d15c53d7ef836e0b5a66843be6e92a38b4d9d8a630f9321270650e9cc3b12147",
+      "bytes": 100898
+    },
+    {
+      "sourcePath": "help-center-dump/900004054643_Screen_Shot_2020-10-14_at_12.11.00.png",
+      "destinationPath": "help-center-dump/900004054643_Screen_Shot_2020-10-14_at_12.11.00.png",
+      "sha256": "6444071e29f330fe4c4cab02c5effee7ba43e692264511aef3da515b06e00a2c",
+      "bytes": 95331
+    },
+    {
+      "sourcePath": "help-center-dump/900004054763_Screen_Shot_2020-10-14_at_12.53.28.png",
+      "destinationPath": "help-center-dump/900004054763_Screen_Shot_2020-10-14_at_12.53.28.png",
+      "sha256": "44199d7de64c38e9645ff777f0629d467da8e387f61d74e24acbc6da7fedb2d9",
+      "bytes": 128849
+    },
+    {
+      "sourcePath": "help-center-dump/900004054903_Screen_Shot_2020-10-14_at_12.55.07.png",
+      "destinationPath": "help-center-dump/900004054903_Screen_Shot_2020-10-14_at_12.55.07.png",
+      "sha256": "92a98ee3dacdc9bc5542cf0c09ca18d3ebb2ea2bacc2bc69529893b0d12311c6",
+      "bytes": 69730
+    },
+    {
+      "sourcePath": "help-center-dump/900004086846_Screen_Shot_2020-10-14_at_12.14.43.png",
+      "destinationPath": "help-center-dump/900004086846_Screen_Shot_2020-10-14_at_12.14.43.png",
+      "sha256": "7734ebff647d679d083925ebf2c6c4a7223c67d95688a84abbabc4d380cfc9ef",
+      "bytes": 117463
+    },
+    {
+      "sourcePath": "help-center-dump/900004087086_Screen_Shot_2020-10-14_at_12.55.47.png",
+      "destinationPath": "help-center-dump/900004087086_Screen_Shot_2020-10-14_at_12.55.47.png",
+      "sha256": "f57ea44f5cf794fbb1d10a06fee54d936665489d54bd6e495da5c5ae217c34ff",
+      "bytes": 87670
+    },
+    {
+      "sourcePath": "help-center-dump/900004126106_2222222.PNG",
+      "destinationPath": "help-center-dump/900004126106_2222222.PNG",
+      "sha256": "e91401be22d5a1501ed99df3efcd072d8fdb894a5414cdd76d8c62a3e30eca5a",
+      "bytes": 138468
+    },
+    {
+      "sourcePath": "help-center-dump/900004171983_900004171983.png",
+      "destinationPath": "help-center-dump/900004171983_900004171983.png",
+      "sha256": "2a81bd5059e4ce3f5009852b79f037830572fddb8d15f9e7791232bc27c3f3da",
+      "bytes": 141576
+    },
+    {
+      "sourcePath": "help-center-dump/900004172223_900004172223.png",
+      "destinationPath": "help-center-dump/900004172223_900004172223.png",
+      "sha256": "8e458a342a1339db559602a3be9fb636cb33fabd862b4d2b03b89796750d0acd",
+      "bytes": 110386
+    },
+    {
+      "sourcePath": "help-center-dump/900004172263_900004172263.png",
+      "destinationPath": "help-center-dump/900004172263_900004172263.png",
+      "sha256": "c64582ddb082d551086c0785f33a5709f9c05693344546217f7f1eb2b5539a50",
+      "bytes": 139141
+    },
+    {
+      "sourcePath": "help-center-dump/900004172283_900004172283.png",
+      "destinationPath": "help-center-dump/900004172283_900004172283.png",
+      "sha256": "4e83de264e85b9f57338c76a581ed5a9b35f37e38667d171386a7abd17d20366",
+      "bytes": 129039
+    },
+    {
+      "sourcePath": "help-center-dump/900004209386_900004209386.png",
+      "destinationPath": "help-center-dump/900004209386_900004209386.png",
+      "sha256": "efd4c52c7a26fec8e8ae777e9836830ada217c5e330fc08aae62d306b1833059",
+      "bytes": 132208
+    },
+    {
+      "sourcePath": "help-center-dump/900005004426_900005004426.png",
+      "destinationPath": "help-center-dump/900005004426_900005004426.png",
+      "sha256": "0688def7377b1e65b79d49b62c45156346b9a1dd3c4186ea49945eaef09447bc",
+      "bytes": 87856
+    },
+    {
+      "sourcePath": "help-center-dump/900005004446_900005004446.png",
+      "destinationPath": "help-center-dump/900005004446_900005004446.png",
+      "sha256": "7faa8b7efb306bb8af8a4b7b68166a8a7376498f868c135c7128650872d2ea25",
+      "bytes": 81648
+    },
+    {
+      "sourcePath": "help-center-dump/900005004466_900005004466.png",
+      "destinationPath": "help-center-dump/900005004466_900005004466.png",
+      "sha256": "1bc05e4b4ceaea45884f82e9c403bc62877aa63c59884690443a2e5129079bd8",
+      "bytes": 126496
+    },
+    {
+      "sourcePath": "help-center-dump/900005004506_900005004506.png",
+      "destinationPath": "help-center-dump/900005004506_900005004506.png",
+      "sha256": "fd4bb7f74fe29506618d5b9c51f01bde926c666d9dddff05ea0db2a724d64cfc",
+      "bytes": 105205
+    },
+    {
+      "sourcePath": "help-center-dump/900005018446_d0ebd376a0bcb1b426bad2f4ac3af54.png",
+      "destinationPath": "help-center-dump/900005018446_d0ebd376a0bcb1b426bad2f4ac3af54.png",
+      "sha256": "621b8bc554be340b261426322c60a055b9141059c6ea4233ac71e3ad990fcdae",
+      "bytes": 87741
+    },
+    {
+      "sourcePath": "help-center-dump/900005019166_mceclip6.png",
+      "destinationPath": "help-center-dump/900005019166_mceclip6.png",
+      "sha256": "8e221d78e2322c5d11b56803fd33b3c7d65f201c0b92387e099316e2b17139d4",
+      "bytes": 2883560
+    },
+    {
+      "sourcePath": "help-center-dump/900005023526_76668a9d3d9660afbdf889c74da0971.png",
+      "destinationPath": "help-center-dump/900005023526_76668a9d3d9660afbdf889c74da0971.png",
+      "sha256": "e1fbfe166b2eef3c93fab1cb1b804ff6a82f67369626290e03edbf54cddfeea7",
+      "bytes": 92821
+    },
+    {
+      "sourcePath": "help-center-dump/900005095426_Screen_Shot_2020-12-10_at_10.17.17.png",
+      "destinationPath": "help-center-dump/900005095426_Screen_Shot_2020-12-10_at_10.17.17.png",
+      "sha256": "5bdde1eaed92658345afb5b7f45f1ff9d362d3437bbf39f555d21556580bf15d",
+      "bytes": 158487
+    },
+    {
+      "sourcePath": "help-center-dump/900005115526_Screen_Shot_2020-12-11_at_10.18.01.png",
+      "destinationPath": "help-center-dump/900005115526_Screen_Shot_2020-12-11_at_10.18.01.png",
+      "sha256": "55c493d22c10a8f62a17352b56f39744da1833c3c557b4c39c280ee667757733",
+      "bytes": 145269
+    },
+    {
+      "sourcePath": "help-center-dump/900005115546_Screen_Shot_2020-12-11_at_10.13.25.png",
+      "destinationPath": "help-center-dump/900005115546_Screen_Shot_2020-12-11_at_10.13.25.png",
+      "sha256": "038cea95f065ea1e59fb22f0ed5134d0e6205b3523f09ad93e1ea17b35e42a57",
+      "bytes": 32252
+    },
+    {
+      "sourcePath": "help-center-dump/900005115686_Screen_Shot_2020-12-11_at_10.16.27.png",
+      "destinationPath": "help-center-dump/900005115686_Screen_Shot_2020-12-11_at_10.16.27.png",
+      "sha256": "adc6de78d3cf4f6f0c3b185ac8e24730c00168499d00fccc15a53950b70bded4",
+      "bytes": 28789
+    },
+    {
+      "sourcePath": "help-center-dump/900005115746_Screen_Shot_2020-12-11_at_10.30.20.png",
+      "destinationPath": "help-center-dump/900005115746_Screen_Shot_2020-12-11_at_10.30.20.png",
+      "sha256": "ef6b0272139590c667f28916a55cda1dfd59ad04e6c15dab8c03547a7f2222f4",
+      "bytes": 81123
+    },
+    {
+      "sourcePath": "help-center-dump/900005115806_Screen_Shot_2020-12-11_at_10.30.29.png",
+      "destinationPath": "help-center-dump/900005115806_Screen_Shot_2020-12-11_at_10.30.29.png",
+      "sha256": "0d1179315236a5ca06392e8242ac322d692f4c5879bfc779520df6831b25d5b4",
+      "bytes": 51345
+    },
+    {
+      "sourcePath": "help-center-dump/900005115826_Screen_Shot_2020-12-11_at_10.36.26.png",
+      "destinationPath": "help-center-dump/900005115826_Screen_Shot_2020-12-11_at_10.36.26.png",
+      "sha256": "13dc187480d42ab3a3c2baea19158097c0ed937c7ef4122d5bcc7929b0aa9466",
+      "bytes": 95405
+    },
+    {
+      "sourcePath": "help-center-dump/900005175966_900005175966.png",
+      "destinationPath": "help-center-dump/900005175966_900005175966.png",
+      "sha256": "148085248cec62bc0705352cc9fe3940ebcd2ec5b9822306eadc3504c28823f8",
+      "bytes": 106867
+    },
+    {
+      "sourcePath": "help-center-dump/900005175986_900005175986.png",
+      "destinationPath": "help-center-dump/900005175986_900005175986.png",
+      "sha256": "29925d74fff9e158ddcfc3b75654f47acfec959a463a88640d43e76ef14b385e",
+      "bytes": 65495
+    },
+    {
+      "sourcePath": "help-center-dump/900005176006_900005176006.jpg",
+      "destinationPath": "help-center-dump/900005176006_900005176006.jpg",
+      "sha256": "d78bdd0b2f2ef21a485956360ba784f1d06beb0ce773a1b8ae847b82832adae6",
+      "bytes": 999565
+    },
+    {
+      "sourcePath": "help-center-dump/900005667363_Screen_Shot_2020-11-19_at_18.43.28.png",
+      "destinationPath": "help-center-dump/900005667363_Screen_Shot_2020-11-19_at_18.43.28.png",
+      "sha256": "cb6b5e39d83dc61c027c166b7fa738202392bd69f2545acab228de017b67d80a",
+      "bytes": 127511
+    },
+    {
+      "sourcePath": "help-center-dump/900005937543_900005937543.png",
+      "destinationPath": "help-center-dump/900005937543_900005937543.png",
+      "sha256": "67d588d85d385fcec9a63a3f9f4df19ca0221c9983c9bbc898e955164e4b0515",
+      "bytes": 87425
+    },
+    {
+      "sourcePath": "help-center-dump/900005937583_900005937583.png",
+      "destinationPath": "help-center-dump/900005937583_900005937583.png",
+      "sha256": "2fd9e37a644642e8fe8c66dab8897f86ccccfc8415ed35e4b0d38ac5f0a18eed",
+      "bytes": 104236
+    },
+    {
+      "sourcePath": "help-center-dump/900005937603_900005937603.png",
+      "destinationPath": "help-center-dump/900005937603_900005937603.png",
+      "sha256": "7f09f3269d813b41dedabc73b4de526fca53ac14d49721c18382fa746b93e2da",
+      "bytes": 85488
+    },
+    {
+      "sourcePath": "help-center-dump/900005937623_900005937623.png",
+      "destinationPath": "help-center-dump/900005937623_900005937623.png",
+      "sha256": "da7b2bbd65a9763b5f39d3696d7dfe288e6964ed352da2aa73a10bdb6e705256",
+      "bytes": 123922
+    },
+    {
+      "sourcePath": "help-center-dump/900005937643_900005937643.png",
+      "destinationPath": "help-center-dump/900005937643_900005937643.png",
+      "sha256": "2b0dc3a9976bff9f031b075b7d761b3e481610a13f766d58d40e4b51283064e3",
+      "bytes": 102835
+    },
+    {
+      "sourcePath": "help-center-dump/900005937683_900005937683.png",
+      "destinationPath": "help-center-dump/900005937683_900005937683.png",
+      "sha256": "19b307c9162d89345d590e85aabaffe746855c17b4bd9873595e8636d6c7efd5",
+      "bytes": 118227
+    },
+    {
+      "sourcePath": "help-center-dump/900005937723_900005937723.png",
+      "destinationPath": "help-center-dump/900005937723_900005937723.png",
+      "sha256": "beae4c702b502bac0ada957905fb8ccbc49c622278a42ce73a12f1637dbe33b8",
+      "bytes": 107577
+    },
+    {
+      "sourcePath": "help-center-dump/900005937763_900005937763.png",
+      "destinationPath": "help-center-dump/900005937763_900005937763.png",
+      "sha256": "5cc0fc407ca7186b2ce7392dddd1beec1c1ff22ad5789a4900fb56159ae488bb",
+      "bytes": 122089
+    },
+    {
+      "sourcePath": "help-center-dump/900005937783_900005937783.png",
+      "destinationPath": "help-center-dump/900005937783_900005937783.png",
+      "sha256": "0d351f1c7762ff1e2f2dd5d2b3681567e87fb02768dba08a3a5964356b99593b",
+      "bytes": 122074
+    },
+    {
+      "sourcePath": "help-center-dump/900005953403_ae7a47ba56a4869a7627ea865135d27.png",
+      "destinationPath": "help-center-dump/900005953403_ae7a47ba56a4869a7627ea865135d27.png",
+      "sha256": "5e839ddd2818f67095e9e6858110bed61e709c40fb9d1c8ff77bbcf9deb42c8e",
+      "bytes": 97854
+    },
+    {
+      "sourcePath": "help-center-dump/900005953723_mceclip4.png",
+      "destinationPath": "help-center-dump/900005953723_mceclip4.png",
+      "sha256": "818b4aa0f94d65b66559f3158a6e516b8d810bd4ebc6bf0844c8d8417dc1994f",
+      "bytes": 3330118
+    },
+    {
+      "sourcePath": "help-center-dump/900005954003_mceclip7.png",
+      "destinationPath": "help-center-dump/900005954003_mceclip7.png",
+      "sha256": "12bb5fd9c6bb6b6cf04bc38d592501115719bfdfe7d9ccd99584a59c4f283a0a",
+      "bytes": 97269
+    },
+    {
+      "sourcePath": "help-center-dump/900005954343_a57f1eb2f6e32b329a917f7bbc695ee.png",
+      "destinationPath": "help-center-dump/900005954343_a57f1eb2f6e32b329a917f7bbc695ee.png",
+      "sha256": "27cc56ee3aa4cf863e4fe32e6d0eed470aa306c97277ead78a2d50ecaf5e1c3a",
+      "bytes": 92432
+    },
+    {
+      "sourcePath": "help-center-dump/900006024943_Screen_Shot_2020-12-10_at_10.24.06.png",
+      "destinationPath": "help-center-dump/900006024943_Screen_Shot_2020-12-10_at_10.24.06.png",
+      "sha256": "1f7feaba60575ff2d4a6a1af05ae69e348abac901901ee100b1988d36f02ee31",
+      "bytes": 5485
+    },
+    {
+      "sourcePath": "help-center-dump/900006046823_Screen_Shot_2020-12-11_at_10.12.48.png",
+      "destinationPath": "help-center-dump/900006046823_Screen_Shot_2020-12-11_at_10.12.48.png",
+      "sha256": "d66ed07e9bed7f75e02ca2c4ae32dda5bfafc51168fe8a2b1f4e957013bdd17c",
+      "bytes": 91251
+    },
+    {
+      "sourcePath": "help-center-dump/900006046983_Screen_Shot_2020-12-11_at_10.14.07.png",
+      "destinationPath": "help-center-dump/900006046983_Screen_Shot_2020-12-11_at_10.14.07.png",
+      "sha256": "381c9cbcf8241d3c4b49eeb0cf3118304d97b53873aefff8e64761e5166df468",
+      "bytes": 5482
+    },
+    {
+      "sourcePath": "help-center-dump/900006051686_1.2.PNG",
+      "destinationPath": "help-center-dump/900006051686_1.2.PNG",
+      "sha256": "256cf5dd80899cbaf33e4e93bc479b7d6aed59506eba5766655acb064dd25ddc",
+      "bytes": 60172
+    },
+    {
+      "sourcePath": "help-center-dump/900006051706_2.2.PNG",
+      "destinationPath": "help-center-dump/900006051706_2.2.PNG",
+      "sha256": "684fc520b701b7b629f9dfd189566ea97621ee299ee3fdab08266ec11bd4d957",
+      "bytes": 58962
+    },
+    {
+      "sourcePath": "help-center-dump/900006051726_4.4.PNG",
+      "destinationPath": "help-center-dump/900006051726_4.4.PNG",
+      "sha256": "bc82ef95d3c014d6d37d2c8032a4e7b1dc3f99f006808b1b868ae9407659f724",
+      "bytes": 84323
+    },
+    {
+      "sourcePath": "help-center-dump/900006052046_900006052046.png",
+      "destinationPath": "help-center-dump/900006052046_900006052046.png",
+      "sha256": "ae8f022871480e0c69606a816c72717b739d9df07c225bbf5442fda9df2760f4",
+      "bytes": 71255
+    },
+    {
+      "sourcePath": "help-center-dump/900006052066_900006052066.png",
+      "destinationPath": "help-center-dump/900006052066_900006052066.png",
+      "sha256": "8dd970376e68f30fff4ffcf2c380e7c1a418c1fd0157683e0d8eda6bcceb6e6e",
+      "bytes": 156717
+    },
+    {
+      "sourcePath": "help-center-dump/900006052166_900006052166.png",
+      "destinationPath": "help-center-dump/900006052166_900006052166.png",
+      "sha256": "1dabbf636620bbcf995cd694a701922340f9821932f8cf5829b0351cca29c280",
+      "bytes": 130315
+    },
+    {
+      "sourcePath": "help-center-dump/900006104823_900006104823.jpg",
+      "destinationPath": "help-center-dump/900006104823_900006104823.jpg",
+      "sha256": "b6b497995d8faa3837acabb88fa9418f7ad97fad9d1e96ab6e3ed9186554ab8d",
+      "bytes": 2570201
+    },
+    {
+      "sourcePath": "help-center-dump/900006104843_900006104843.png",
+      "destinationPath": "help-center-dump/900006104843_900006104843.png",
+      "sha256": "f3cfafad8800623af165d50dafea0e91021c25c1bb69867f2b9861bdfed59754",
+      "bytes": 92080
+    },
+    {
+      "sourcePath": "help-center-dump/900006658666_Screen_Shot_2021-03-03_at_8.50.24.png",
+      "destinationPath": "help-center-dump/900006658666_Screen_Shot_2021-03-03_at_8.50.24.png",
+      "sha256": "90b7761c72ed9c31a5ab75b2e018b0bd5ea2474b41cd127f1f4fbe381a941a75",
+      "bytes": 350292
+    },
+    {
+      "sourcePath": "help-center-dump/900006962043_3.3.PNG",
+      "destinationPath": "help-center-dump/900006962043_3.3.PNG",
+      "sha256": "8486ecb5b0be44c2ce1f3e9abbd28879e38b882889f5953b39a1197a0d87e51c",
+      "bytes": 88456
+    },
+    {
+      "sourcePath": "help-center-dump/900006962063_5.5.PNG",
+      "destinationPath": "help-center-dump/900006962063_5.5.PNG",
+      "sha256": "24e25cf8aca9d4a020ea7e84a4fba90b8243d2f2aab1cbaea14f23372a13ac99",
+      "bytes": 117192
+    },
+    {
+      "sourcePath": "help-center-dump/900006962083_6.6.PNG",
+      "destinationPath": "help-center-dump/900006962083_6.6.PNG",
+      "sha256": "6ea05ec8d86bb62a0ca0cf24b19009b0a0daa76b82b8e6fd48970422db508309",
+      "bytes": 88337
+    },
+    {
+      "sourcePath": "help-center-dump/900006962343_900006962343.png",
+      "destinationPath": "help-center-dump/900006962343_900006962343.png",
+      "sha256": "0e3a971765b981e8093be77165dc362dda09c8f921c8eefbf1886d66b26fd4b3",
+      "bytes": 163008
+    },
+    {
+      "sourcePath": "help-center-dump/900006962363_900006962363.png",
+      "destinationPath": "help-center-dump/900006962363_900006962363.png",
+      "sha256": "dca1cb1b4ca5cdd8e0624edc7548b377f99d4663228d2ae9b0dc4d1e44e8e65c",
+      "bytes": 170578
+    },
+    {
+      "sourcePath": "help-center-dump/900006962403_900006962403.png",
+      "destinationPath": "help-center-dump/900006962403_900006962403.png",
+      "sha256": "6c2c759af03971eadc98378352efbbcf33fc0bcbef8f9e4589e6b838eadbf551",
+      "bytes": 105730
+    },
+    {
+      "sourcePath": "help-center-dump/900007065266_mceclip0.png",
+      "destinationPath": "help-center-dump/900007065266_mceclip0.png",
+      "sha256": "862157a806220d2d4cf9b2f098c5ec7be1c9ab34cc60f531b31902b68dcc42ef",
+      "bytes": 51962
+    },
+    {
+      "sourcePath": "help-center-dump/900007065386_mceclip1.png",
+      "destinationPath": "help-center-dump/900007065386_mceclip1.png",
+      "sha256": "2148b407d3830f4a3519628a84fa2efb537c96bfbe980fb16360474b88f61ed4",
+      "bytes": 192498
+    },
+    {
+      "sourcePath": "help-center-dump/900007065426_mceclip2.png",
+      "destinationPath": "help-center-dump/900007065426_mceclip2.png",
+      "sha256": "3de5941e1c44a888de79308db272a9d12bdfae75a29d74ba0e2618ad2ecda4cc",
+      "bytes": 68326
+    },
+    {
+      "sourcePath": "help-center-dump/900007065986_mceclip5.png",
+      "destinationPath": "help-center-dump/900007065986_mceclip5.png",
+      "sha256": "62f125dd386a4878f429dd57621dbfea045dc0f8c89b153a73c953238c102b83",
+      "bytes": 93891
+    },
+    {
+      "sourcePath": "help-center-dump/900007566643_Screen_Shot_2021-03-03_at_8.55.50.png",
+      "destinationPath": "help-center-dump/900007566643_Screen_Shot_2021-03-03_at_8.55.50.png",
+      "sha256": "6bf8660d8c68e19600c524a13f4921117f99ced3ca270e4c5d6f79e51d0bbb15",
+      "bytes": 12299
+    },
+    {
+      "sourcePath": "help-center-dump/900007566663_CONFIRM_TRANSACTION.png",
+      "destinationPath": "help-center-dump/900007566663_CONFIRM_TRANSACTION.png",
+      "sha256": "5458c443e48db6ecab336f71ff36a8e71c70b37a1eaba4a0b26d0c9141e89860",
+      "bytes": 13707
+    },
+    {
+      "sourcePath": "help-center-dump/900007566683_SELECT_POOL_CONTINUE.jpg",
+      "destinationPath": "help-center-dump/900007566683_SELECT_POOL_CONTINUE.jpg",
+      "sha256": "50705a62598c7c8e95ac55388adbaffc1fc0e5ebfdaa104d71f47d202714b496",
+      "bytes": 93359
+    },
+    {
+      "sourcePath": "help-center-dump/900008004143_mceclip3.png",
+      "destinationPath": "help-center-dump/900008004143_mceclip3.png",
+      "sha256": "732f9c29dc47ce9636c8c2e18cf376c7226b77d5f03ce973294d2c9e92b4619b",
+      "bytes": 97282
+    },
+    {
+      "sourcePath": "help-center-dump/900008004363_mceclip4.png",
+      "destinationPath": "help-center-dump/900008004363_mceclip4.png",
+      "sha256": "f74c65c7266f0b502c49ef0760962106255c854d4f34469c9121417a369f13f1",
+      "bytes": 61573
+    },
+    {
+      "sourcePath": "help-center-dump/900008592426_Screen_Shot_2021-05-19_at_12.40.43.png",
+      "destinationPath": "help-center-dump/900008592426_Screen_Shot_2021-05-19_at_12.40.43.png",
+      "sha256": "b512d669f1606a264b83d4467c4419bdf772353afea3d2a3e9e10f37cc23df90",
+      "bytes": 107989
+    },
+    {
+      "sourcePath": "help-center-dump/900008658906_Screen_Shot_2021-05-21_at_14.40.02.png",
+      "destinationPath": "help-center-dump/900008658906_Screen_Shot_2021-05-21_at_14.40.02.png",
+      "sha256": "872f83f4796444b403a0a4267c18f0e2950cb21a85a5bd35110b4dc4cd768260",
+      "bytes": 46257
+    },
+    {
+      "sourcePath": "help-center-dump/900008658946_Screen_Shot_2021-05-21_at_14.53.32.png",
+      "destinationPath": "help-center-dump/900008658946_Screen_Shot_2021-05-21_at_14.53.32.png",
+      "sha256": "db2da06f9fb9fb7d4710aed09c569b41184a104180c63e2f6015bb2219bb935f",
+      "bytes": 167647
+    },
+    {
+      "sourcePath": "help-center-dump/900008658966_Screen_Shot_2021-05-21_at_14.58.19.png",
+      "destinationPath": "help-center-dump/900008658966_Screen_Shot_2021-05-21_at_14.58.19.png",
+      "sha256": "2e9d834f73f6747d1496726689e868778ccff84f1e3ccb1b7ef45836fca0137d",
+      "bytes": 36574
+    },
+    {
+      "sourcePath": "help-center-dump/900008658986_Screen_Shot_2021-05-21_at_15.01.01.png",
+      "destinationPath": "help-center-dump/900008658986_Screen_Shot_2021-05-21_at_15.01.01.png",
+      "sha256": "4d74007f30781826ddb9fb7d84413bd62c7e150076ad82b7a848db8a45c268a6",
+      "bytes": 89213
+    },
+    {
+      "sourcePath": "help-center-dump/900008659006_Screen_Shot_2021-05-21_at_13.33.04.png",
+      "destinationPath": "help-center-dump/900008659006_Screen_Shot_2021-05-21_at_13.33.04.png",
+      "sha256": "4962db39278b0412ca26d27edeffe1b2583f1afb4d1cfa0e8f29607a00c2f0a9",
+      "bytes": 85702
+    },
+    {
+      "sourcePath": "help-center-dump/900009615243_Screen_Shot_2021-05-21_at_13.30.59.png",
+      "destinationPath": "help-center-dump/900009615243_Screen_Shot_2021-05-21_at_13.30.59.png",
+      "sha256": "c445d8adcd5e1c3194673bb1de90c2a8dc26f3c42af958eae1e76233f1907bdb",
+      "bytes": 88204
+    },
+    {
+      "sourcePath": "help-center-dump/index.html",
+      "destinationPath": "help-center-dump/index.html",
+      "sha256": "7119e761702a75997fc02d8118efdd04e026061c87f1e6f552cbc4e5d43de41d",
+      "bytes": 413840
+    },
+    {
+      "sourcePath": "help-center-dump/readme.md",
+      "destinationPath": "help-center-dump/readme.md",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    {
+      "sourcePath": "help-center-dump/token_ABwVPsbb11rzq7JQnxEh2EzQl_image.png",
+      "destinationPath": "help-center-dump/token_ABwVPsbb11rzq7JQnxEh2EzQl_image.png",
+      "sha256": "db337aba388687c3799ddcd4160751296315b3474ee2c1ae0f67dbfb535c92bd",
+      "bytes": 122918
+    },
+    {
+      "sourcePath": "help-center-dump/token_Ep1fx34nxkuHS5fdJWhPoZGlH_Screen_Shot_2019-08-16_at_11.46.48_am.png",
+      "destinationPath": "help-center-dump/token_Ep1fx34nxkuHS5fdJWhPoZGlH_Screen_Shot_2019-08-16_at_11.46.48_am.png",
+      "sha256": "4ee79043cd0a03ee149bed2fadfa089108eabd460ac9a4a79e1ac7862721c4c9",
+      "bytes": 486771
+    },
+    {
+      "sourcePath": "help-center-dump/token_PFQWJKzWrmlmHpcRE8r5hDGIJ_image.png",
+      "destinationPath": "help-center-dump/token_PFQWJKzWrmlmHpcRE8r5hDGIJ_image.png",
+      "sha256": "57e003bbc7d391544579ce90a30713a3e4ce129fb743f89b964dbf26baebe565",
+      "bytes": 33196
+    },
+    {
+      "sourcePath": "help-center-dump/token_ZXpV3kpoVGRvpMTWtb1b0IPI6_image.png",
+      "destinationPath": "help-center-dump/token_ZXpV3kpoVGRvpMTWtb1b0IPI6_image.png",
+      "sha256": "22ac46a6e98399be232b92d51fb20089f2c312fdaa3a6b850e6b2b00b457b374",
+      "bytes": 31509
+    },
+    {
+      "sourcePath": "help-center-dump/token_ebBJLXinZgLNhwHUWzQg3N218_image.png",
+      "destinationPath": "help-center-dump/token_ebBJLXinZgLNhwHUWzQg3N218_image.png",
+      "sha256": "bf1b2f141f5e725d2c34cece5ba2ef2c83250e630098008324405a0618b5a17d",
+      "bytes": 79809
+    },
+    {
+      "sourcePath": "help-center-dump/token_zkOmJr0DXDwwOPsj5t7unJr18_Screen_Shot_2019-08-16_at_11.34.06_am.png",
+      "destinationPath": "help-center-dump/token_zkOmJr0DXDwwOPsj5t7unJr18_Screen_Shot_2019-08-16_at_11.34.06_am.png",
+      "sha256": "ee851c2c9a72c6ac3bc15a81a584eae15c2c135b7067479d54c52294e0475829",
+      "bytes": 351043
+    },
+    {
+      "sourcePath": "help-center-dump/zendesk_kb_daedalus_2026-09-03_1739.json",
+      "destinationPath": "help-center-dump/zendesk_kb_daedalus_2026-09-03_1739.json",
+      "sha256": "3173f3ab807f5c30118f2cc62f1d7604b3e6670225321b329e4e38068d946a5c",
+      "bytes": 1448744
+    },
+    {
+      "sourcePath": "help-center-dump/zendesk_kb_daedalus_2026-09-03_1739.md",
+      "destinationPath": "help-center-dump/zendesk_kb_daedalus_2026-09-03_1739.md",
+      "sha256": "4b309a0ee10e55b2c727c18778d938b00c4b5de7e7b21d15683bfb50d98b8535",
+      "bytes": 265436
+    },
+    {
+      "sourcePath": "help-centre/README.md",
+      "destinationPath": "help-centre/README.md",
+      "sha256": "3f4b52cd0bf63fa3b56c052ab198d4660d17d72e651edde25d4ac53f83247df7",
+      "bytes": 2045
+    },
+    {
+      "sourcePath": "help-centre/coverage.json",
+      "destinationPath": "help-centre/coverage.json",
+      "sha256": "ae05a68c7aa470556484d0bd54f25482d2218604f814f1429b96ace38f70f413",
+      "bytes": 176285
+    },
+    {
+      "sourcePath": "help-centre/publication.json",
+      "destinationPath": "help-centre/publication.json",
+      "sha256": "b1923eb45c2ba6a7519be3d1735bce92fefd90363a490d34258d916467297a6e",
+      "bytes": 4853
+    },
+    {
+      "sourcePath": "indexes/manifest.json",
+      "destinationPath": "indexes/manifest.json",
+      "sha256": "150b1af4077020e160a6c33e756ace0e064b411b458dd8b42ebf1a29ab1054e7",
+      "bytes": 26614
+    },
+    {
+      "sourcePath": "knowledge/_template.json.example",
+      "destinationPath": "knowledge/_template.json.example",
+      "sha256": "2e6e4c7e69f035cccf058543e3ec9466b3264e62cbbb1f46ef2393ca09ad3bde",
+      "bytes": 147
+    },
+    {
+      "sourcePath": "knowledge/diagnostics/help-109.json",
+      "destinationPath": "knowledge/diagnostics/help-109.json",
+      "sha256": "fc3a8b9f1b52877bf0e8063b50b1002b3d3c23c309e30916495695d27d39c68b",
+      "bytes": 4664
+    },
+    {
+      "sourcePath": "knowledge/governance/conway-support-7.0.0.json",
+      "destinationPath": "knowledge/governance/conway-support-7.0.0.json",
+      "sha256": "ef6aec6b21e83fb9c428c7d5199cf33134ba09b4f44487dc9fd493ffbfdc5d63",
+      "bytes": 3955
+    },
+    {
+      "sourcePath": "knowledge/governance/help-108.json",
+      "destinationPath": "knowledge/governance/help-108.json",
+      "sha256": "c7fbd9ea580296b024e37f17f70d797ebd0f7ca560f9d60121546a459d81155f",
+      "bytes": 4769
+    },
+    {
+      "sourcePath": "knowledge/hardware-wallets/help-105.json",
+      "destinationPath": "knowledge/hardware-wallets/help-105.json",
+      "sha256": "9f3a2f67ed7045fab71610beae9362a30eed0411fcc0c7fbb62d774f74d0f9af",
+      "bytes": 5407
+    },
+    {
+      "sourcePath": "knowledge/installation/help-101.json",
+      "destinationPath": "knowledge/installation/help-101.json",
+      "sha256": "f42fe5aab0293c8c64384744bc93936ee21f5d150c987ed8146086f31075b5e3",
+      "bytes": 4611
+    },
+    {
+      "sourcePath": "knowledge/installation/official-download.json",
+      "destinationPath": "knowledge/installation/official-download.json",
+      "sha256": "3489c435b6c0c438c50bb025b445e5340a3bf015aefa628d590e1a928920bcf2",
+      "bytes": 4208
+    },
+    {
+      "sourcePath": "knowledge/staking/help-107.json",
+      "destinationPath": "knowledge/staking/help-107.json",
+      "sha256": "ad7c9c13bb6258e6d541563723e8fed4689cdfe95b5229ebd44e2cf2ee46e33c",
+      "bytes": 4434
+    },
+    {
+      "sourcePath": "knowledge/startup/help-103.json",
+      "destinationPath": "knowledge/startup/help-103.json",
+      "sha256": "2c36652365cb38836fd8be2e776e68a0d43af19916490fce9c476e755510618e",
+      "bytes": 4677
+    },
+    {
+      "sourcePath": "knowledge/startup/macos-big-sur-7.0.1.json",
+      "destinationPath": "knowledge/startup/macos-big-sur-7.0.1.json",
+      "sha256": "d3d83fbf94a18cb7c981888e062e652682495975b0a7600dfa18c77f820e6a92",
+      "bytes": 5132
+    },
+    {
+      "sourcePath": "knowledge/synchronization/help-102.json",
+      "destinationPath": "knowledge/synchronization/help-102.json",
+      "sha256": "b3d468cbc748900967514d8a96d779fa786b5227d9c922c644463f8ffe1b4ac0",
+      "bytes": 4948
+    },
+    {
+      "sourcePath": "knowledge/synchronization/stalled-sync.json",
+      "destinationPath": "knowledge/synchronization/stalled-sync.json",
+      "sha256": "01fb3108d47edde39ce20392445990aa4c0b4ca05809421c2b52417d965d7ddc",
+      "bytes": 3981
+    },
+    {
+      "sourcePath": "knowledge/transactions/help-106.json",
+      "destinationPath": "knowledge/transactions/help-106.json",
+      "sha256": "29610d87069fa90b7efb104883d71714c77511cfbf8f657df31bbb11c039bf69",
+      "bytes": 5235
+    },
+    {
+      "sourcePath": "knowledge/transactions/missing-vkey-witness.json",
+      "destinationPath": "knowledge/transactions/missing-vkey-witness.json",
+      "sha256": "93d27a780a3d5a370f50f50a09418cb465bc56d430b65b34a57c800e0d675817",
+      "bytes": 5375
+    },
+    {
+      "sourcePath": "knowledge/transactions/rejected-transaction-pending.json",
+      "destinationPath": "knowledge/transactions/rejected-transaction-pending.json",
+      "sha256": "7f79c06b3f5021efed85303bb2e34c93c0811238c16ff7ea513ab81a670a7400",
+      "bytes": 4904
+    },
+    {
+      "sourcePath": "knowledge/wallets/help-104.json",
+      "destinationPath": "knowledge/wallets/help-104.json",
+      "sha256": "c9bce581dd469212dad23774d5836079045be25248db8d63817e7557054a267e",
+      "bytes": 5099
+    },
+    {
+      "sourcePath": "knowledge/wallets/legacy-secret-key-import.json",
+      "destinationPath": "knowledge/wallets/legacy-secret-key-import.json",
+      "sha256": "3fd29bff79146262dee617dad3246bfd2b437750d70f616789d020ff52c8c97f",
+      "bytes": 4872
+    },
+    {
+      "sourcePath": "requirements-dev.txt",
+      "destinationPath": "requirements-dev.txt",
+      "sha256": "83979de442b6f367911092c24acdc47cd538c73a550a2e723ba89c8ebe06157d",
+      "bytes": 20
+    },
+    {
+      "sourcePath": "research/queue.json",
+      "destinationPath": "research/queue.json",
+      "sha256": "b8e25aff3d7eb8d32539efb4c1e83cb7d7016f3ab51c86d54132216f92a9b224",
+      "bytes": 664
+    },
+    {
+      "sourcePath": "schemas/faq.schema.json",
+      "destinationPath": "schemas/faq.schema.json",
+      "sha256": "8d0e95508e060aca6d0f1f4f87d2571b882db242609cb2d6b9ad8693bf48730c",
+      "bytes": 1826
+    },
+    {
+      "sourcePath": "schemas/help-publication.schema.json",
+      "destinationPath": "schemas/help-publication.schema.json",
+      "sha256": "0077e68f0caa4e936afd165a44c157c601da6c55221856cb8ea1dd5faf48cc07",
+      "bytes": 1433
+    },
+    {
+      "sourcePath": "schemas/knowledge-entry.schema.json",
+      "destinationPath": "schemas/knowledge-entry.schema.json",
+      "sha256": "f27a8360cb4ff75ea36cd62e446c6f404de9d8641ee80bcd8e5b56a75b64d1b6",
+      "bytes": 13231
+    },
+    {
+      "sourcePath": "schemas/source.schema.json",
+      "destinationPath": "schemas/source.schema.json",
+      "sha256": "8144c378c3d1860ff21e30da33523f4c4206c6cb6366ecc1c135132a34b69ed1",
+      "bytes": 5814
+    },
+    {
+      "sourcePath": "sources/registry.json",
+      "destinationPath": "sources/registry.json",
+      "sha256": "9ad7892a873a815ba4755b137ff387d55e0cf2ea160180df06d939ecbe2fce07",
+      "bytes": 28383
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0001.json",
+      "destinationPath": "sources/snapshots/SRC-0001.json",
+      "sha256": "62c268ada87ef97a0a1e1517f9bbae443144218f97c84ed8bcd46c31d70c57ea",
+      "bytes": 1209
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0002.json",
+      "destinationPath": "sources/snapshots/SRC-0002.json",
+      "sha256": "f0bcf44fc696db1364b80bd31d0043b815c43c43b7c9efa247a7e4e04ad0aa5d",
+      "bytes": 1286
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0003.json",
+      "destinationPath": "sources/snapshots/SRC-0003.json",
+      "sha256": "09e845ff58d76c4b696c81850d7655d428c677f50a6f4607238fb1272b8b2008",
+      "bytes": 1196
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0004.json",
+      "destinationPath": "sources/snapshots/SRC-0004.json",
+      "sha256": "68e8c4d5663df2a8d20f02e24696d4e9f71782f7f225505c40888241f0c8dc15",
+      "bytes": 1233
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0005.json",
+      "destinationPath": "sources/snapshots/SRC-0005.json",
+      "sha256": "06651590ceaa9f1aa40f28b592101d6de20ec9178c3aaf1d47f271c026e7ec03",
+      "bytes": 1168
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0006.json",
+      "destinationPath": "sources/snapshots/SRC-0006.json",
+      "sha256": "476ad333dff9f82057fd06c08ba0ab5fed57618a6ca3400e3b1620c1b4b86cd7",
+      "bytes": 1181
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0007.json",
+      "destinationPath": "sources/snapshots/SRC-0007.json",
+      "sha256": "ee6c1fcde3595567aa5ae355401eac5715d09c667ba029290d2d2004db12af8c",
+      "bytes": 1063
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0008.json",
+      "destinationPath": "sources/snapshots/SRC-0008.json",
+      "sha256": "543231769b6c6b46543b95e78a7b3f7e310597bfa319d1308369a273722052c2",
+      "bytes": 1231
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0009.json",
+      "destinationPath": "sources/snapshots/SRC-0009.json",
+      "sha256": "ae0939bb1b9a32d40c5379d6e85e78cf85ff1c773b070bb41d1d819365030069",
+      "bytes": 1246
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0010.json",
+      "destinationPath": "sources/snapshots/SRC-0010.json",
+      "sha256": "e0a084362946322c34a96f12b9e7806e05da811fbb64cdbc247382b3e5b39970",
+      "bytes": 1234
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0011.json",
+      "destinationPath": "sources/snapshots/SRC-0011.json",
+      "sha256": "3ebd4981ef10f7eb045863f0f05182a6a2719fa3e1ef7ab027e51739a6ae0f80",
+      "bytes": 1127
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0012.json",
+      "destinationPath": "sources/snapshots/SRC-0012.json",
+      "sha256": "ee6c9d09aa1042ff9ad94a0c05703bfd9f5706346e8a52d9b23398048345729b",
+      "bytes": 1086
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0101.json",
+      "destinationPath": "sources/snapshots/SRC-0101.json",
+      "sha256": "74a4549a3673bbe9ce599a573b2a8317efa38313ab445e0342d6a31f9ffadaa8",
+      "bytes": 1082
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0102.json",
+      "destinationPath": "sources/snapshots/SRC-0102.json",
+      "sha256": "e41df47a938b89e6e6ddcf4a830cb5576743d20d883393a6101899e319a41994",
+      "bytes": 1149
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0103.json",
+      "destinationPath": "sources/snapshots/SRC-0103.json",
+      "sha256": "af6d7185e888e7266f37a4bcdd1fb47b31ed85ee5e64ffeaf8f750b1fefb10bc",
+      "bytes": 1287
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0104.json",
+      "destinationPath": "sources/snapshots/SRC-0104.json",
+      "sha256": "29111d94fbf22877cff1d4b055437c7845196a4aff43beac60186cb97b2dc9fe",
+      "bytes": 1223
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0105.json",
+      "destinationPath": "sources/snapshots/SRC-0105.json",
+      "sha256": "7bde6c605e09bffdfdcec7ae2bba77c7ea1a01f110caa81c1b15a33d91fbd3eb",
+      "bytes": 1264
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0106.json",
+      "destinationPath": "sources/snapshots/SRC-0106.json",
+      "sha256": "1f55e9baf2bbb5196a627f81f22fc9bb8adb622e0ebf6d44c8ac2ed5eebb008d",
+      "bytes": 1282
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0107.json",
+      "destinationPath": "sources/snapshots/SRC-0107.json",
+      "sha256": "060395ab3e043b8f811902529deb21135469ab63b987ca729629497d855ff627",
+      "bytes": 1299
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0108.json",
+      "destinationPath": "sources/snapshots/SRC-0108.json",
+      "sha256": "7fc6c6ecb0ee072f27a842bbdbff33dffc61a8d3873827353eaf8c03bcc9e6d7",
+      "bytes": 1249
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0109.json",
+      "destinationPath": "sources/snapshots/SRC-0109.json",
+      "sha256": "091704a5acf35a9a96e0da7db4a863bd371a02bbc29c6b1e99e9336b7c377dc9",
+      "bytes": 1283
+    },
+    {
+      "sourcePath": "sources/snapshots/SRC-0110.json",
+      "destinationPath": "sources/snapshots/SRC-0110.json",
+      "sha256": "70583420bf85f33a812217d8b9508846b83aec1857de1a62935ce03a04ccd50c",
+      "bytes": 1236
+    },
+    {
+      "sourcePath": "taxonomy/taxonomy.json",
+      "destinationPath": "taxonomy/taxonomy.json",
+      "sha256": "d4db8ba14c5e5cbd78d60591ec9204c7bc5e33235ec885fe169f7482f6746103",
+      "bytes": 1154
+    },
+    {
+      "sourcePath": "tests/test_validation.py",
+      "destinationPath": "tests/test_validation.py",
+      "sha256": "fd0ff4ae0b04aa5ab92021c3c36de5e4e850ac5dfbd4ef1e5f2c309caeddcece",
+      "bytes": 7031
+    },
+    {
+      "sourcePath": "tools/build_faq.py",
+      "destinationPath": "tools/build_faq.py",
+      "sha256": "7be08072c7d1b686adc08aa00bbe42fdd54ae665bf8fdfd54765ba75b5ab83fb",
+      "bytes": 1317
+    },
+    {
+      "sourcePath": "tools/build_index.py",
+      "destinationPath": "tools/build_index.py",
+      "sha256": "6df512d0613cf7ce25852448499ec70b970d11f5c010456435d9607a54c296e2",
+      "bytes": 1560
+    },
+    {
+      "sourcePath": "tools/normalize_help_dump.py",
+      "destinationPath": "tools/normalize_help_dump.py",
+      "sha256": "66893f70cf525de0478a8e833a19bd928b6ecfab337d156035f4de57867635ca",
+      "bytes": 6366
+    },
+    {
+      "sourcePath": "tools/test_normalize_help_dump.py",
+      "destinationPath": "tools/test_normalize_help_dump.py",
+      "sha256": "c220823fbd6095696f27d8743be3cfabd5bfbe0126b317b2a6809215dd6ca534",
+      "bytes": 1714
+    },
+    {
+      "sourcePath": "tools/validate.py",
+      "destinationPath": "tools/validate.py",
+      "sha256": "10b1ef86b8dbb8b95f48e44d5d6e622ad02dbe3f42410efa4c53a02b0cc2db1e",
+      "bytes": 13733
+    }
+  ]
+}

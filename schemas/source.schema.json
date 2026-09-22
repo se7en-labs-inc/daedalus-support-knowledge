@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ariadne source registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "provider_id",
+          "url",
+          "platform",
+          "title",
+          "source_type",
+          "trust",
+          "published_at",
+          "accessed_at",
+          "roles",
+          "snapshot",
+          "author_association",
+          "source_state"
+        ],
+        "properties": {
+          "id": {
+            "pattern": "^SRC-[0-9]{4}$",
+            "type": "string"
+          },
+          "url": {
+            "format": "uri",
+            "type": "string"
+          },
+          "platform": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 3
+          },
+          "author": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_type": {
+            "enum": [
+              "official-documentation",
+              "official-release",
+              "maintainer-issue",
+              "community-issue",
+              "community-thread",
+              "code",
+              "github-issue-body",
+              "github-issue-comment"
+            ]
+          },
+          "trust": {
+            "enum": [
+              "official",
+              "maintainer",
+              "community-corroborated",
+              "community-single"
+            ]
+          },
+          "published_at": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "updated_at": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "accessed_at": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              }
+            ]
+          },
+          "problem_occurred_at": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "solution_confirmed_at": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date"
+              },
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "mentioned_versions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "reports-problem",
+                "proposes-solution",
+                "confirms-solution",
+                "documents-procedure",
+                "documents-fix",
+                "context"
+              ]
+            },
+            "minItems": 1
+          },
+          "notes": {
+            "type": "string"
+          },
+          "snapshot": {
+            "type": "object",
+            "required": [
+              "snapshot_path",
+              "representation_format",
+              "canonicalization",
+              "sha256"
+            ],
+            "properties": {
+              "snapshot_path": {
+                "type": "string",
+                "pattern": "^sources/snapshots/SRC-[0-9]{4}\\.json$"
+              },
+              "representation_format": {
+                "type": "string",
+                "const": "ariadne-normalized-editorial-summary-v1"
+              },
+              "canonicalization": {
+                "type": "string",
+                "const": "utf8-json-sort-keys-compact-lf-v1"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "provider_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "author_association": {
+            "type": "string",
+            "enum": [
+              "none",
+              "contributor",
+              "collaborator",
+              "member",
+              "owner",
+              "first_timer",
+              "first_time_contributor",
+              "mannequin",
+              "organization"
+            ]
+          },
+          "source_state": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed",
+              "published"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

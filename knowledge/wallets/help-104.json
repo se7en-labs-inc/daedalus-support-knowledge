@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0104",
+  "title": "Prepare for restoring a software wallet safely",
+  "summary": {
+    "text": "Restoration requires the correct private backup and wallet type. This guide is for software wallets; hardware-wallet users should use the pairing guide.",
+    "source_ids": [
+      "SRC-0105",
+      "SRC-0106"
+    ]
+  },
+  "problem": {
+    "text": "Restore recovery wallet backup missing balance zero balance after restore",
+    "source_ids": [
+      "SRC-0105",
+      "SRC-0106"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Restore recovery wallet backup missing balance zero balance after restore",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Restore recovery wallet backup missing balance zero balance after restore",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "wallets",
+    "subcategory": "restore"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.0.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0105",
+      "SRC-0106"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "A symptom alone does not establish a cause.",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Confirm privately that you have the original backup for the intended software wallet before starting. Keep the current installation and data intact.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "In the genuine Daedalus application, choose the restoration option and the matching wallet type. If uncertain about legacy types, stop and ask staff before proceeding.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Follow the local application prompts privately. After restoration, compare the expected funds and history. Unexpected results need investigation, not deletion of the original wallet.",
+      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "source_ids": [
+        "SRC-0105",
+        "SRC-0106"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The restored wallet should match the intended wallet. An unexpected balance does not by itself identify the cause.",
+    "source_ids": [
+      "SRC-0105",
+      "SRC-0106"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds",
+      "wallet-recovery"
+    ],
+    "prerequisites": [
+      "Have the original private backup and identify the wallet type. Do not erase the existing wallet or backup."
+    ],
+    "consequences": [
+      "Using the wrong backup can display a different wallet. Losing the only backup can make recovery impossible."
+    ],
+    "recovery": [
+      "Stop if unsure; contact human support before changing wallet data."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-09-21",
+    "last_reviewed": "2026-09-21",
+    "last_verified": "2026-09-21"
+  },
+  "sources": [
+    "SRC-0105",
+    "SRC-0106"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+  },
+  "tags": [
+    "wallets",
+    "restore"
+  ]
+}
