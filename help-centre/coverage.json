@@ -6,7 +6,7 @@
     "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
     "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed"
   },
-  "inputDigest": "58388df97336a813f1d992605dcbc954a38c5e7a9c9f04fe3d57c3fa5d488470",
+  "inputDigest": "003da8e4425aa3d1e9977aade2f2eceebd4502506853ee6fe92801c6b1597e65",
   "sourceExportDate": "2026-07-03",
   "filteredAt": "2026-09-03T17:39:48",
   "observed": {
@@ -55,7 +55,7 @@
     "img_external": 38,
     "links": 378
   },
-  "approvedCuratedArticles": 10,
+  "approvedCuratedArticles": 9,
   "curatedEntries": [
     {
       "id": "DAE-0101",
@@ -130,47 +130,11 @@
       "reviewedContentHash": "1a911fdec541fb338f8517c977beac1d3d8e6d41772406c0d78e70391afaf820"
     },
     {
-      "id": "DAE-0006",
-      "status": "historical",
-      "approved": true,
-      "reviewedOn": "2026-08-27",
-      "reason": "Historical introduction of governance in 7.0.0 only; not current instructions.",
-      "reviewedContentHash": "b020fed07dfe7c2eb418aed9007e70ca74a505e3fbcf62c903a212d478dab4d9"
-    },
-    {
-      "id": "DAE-0001",
-      "status": "superseded",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Public download guidance replaced by DAE-0101; original evidence preserved."
-    },
-    {
-      "id": "DAE-0002",
-      "status": "historical",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Unresolved single-user 3.3.2 report, not a current remedy."
-    },
-    {
       "id": "DAE-0003",
       "status": "needs-review",
       "approved": false,
       "reviewedOn": "2026-09-21",
       "reason": "Narrow compromised shared-key scenario; do not generalize a remedy."
-    },
-    {
-      "id": "DAE-0004",
-      "status": "historical",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Older macOS / 7.0.x compatibility report; no current OS verification."
-    },
-    {
-      "id": "DAE-0005",
-      "status": "needs-review",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Legacy private-key import needs dedicated recovery safety review."
     },
     {
       "id": "DAE-0008",
@@ -188,14 +152,14 @@
       "createdAt": "2022-03-16T13:53:27Z",
       "updatedAt": "2024-08-23T09:33:12Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "65e5c44a1b544ba9b71e5cce10c1edd2a097b27465e2df2b1ee5af69cf10b3e5",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "4894491001369_4894491001369.jpg",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -230,23 +194,23 @@
       "images": [
         {
           "localPath": "900003975463_Screen_Shot_2020-10-09_at_17.59.00.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004009546_Screen_Shot_2020-10-09_at_17.59.11.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004009526_Screen_Shot_2020-10-09_at_17.59.56.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900003975443_Screen_Shot_2020-10-09_at_18.00.29.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900003975423_Screen_Shot_2020-10-09_at_18.00.45.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -259,7 +223,7 @@
       "createdAt": "2018-10-12T12:19:38Z",
       "updatedAt": "2024-03-12T22:45:09Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "b2fb311cbd132c31b498308a7ba4b2a76bfe1514567080e62912f79f361503e2",
       "duplicateOf": null,
       "conflict": false,
@@ -281,7 +245,7 @@
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 1,
@@ -301,19 +265,19 @@
       "images": [
         {
           "localPath": "900006658666_Screen_Shot_2021-03-03_at_8.50.24.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007566643_Screen_Shot_2021-03-03_at_8.55.50.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007566683_SELECT_POOL_CONTINUE.jpg",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007566663_CONFIRM_TRANSACTION.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -333,35 +297,35 @@
       "images": [
         {
           "localPath": "360023449674_IMG_5590.jpg",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360023451094_cardano_blockchain_explorer_paper_wallet.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360023449254_Cardano_Blackchaine_Explorere.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360023450154_Screen_Shot_2019-01-23_at_2.51.24_pm.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360024386793_Screen_Shot_2019-01-23_at_2.56.46_pm.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360023450534_Daedalus_wallet_paper_wallet.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360024386993_Screen_Shot_2019-01-23_at_3.09.19_pm.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360024387713_Screen_Shot_2019-01-23_at_3.39.17_pm.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -374,7 +338,7 @@
       "createdAt": "2019-11-08T16:46:49Z",
       "updatedAt": "2023-07-31T14:02:56Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "6896682cc2b3dffeded9699c19c81c07e0cabc496475be07eebedcdb7e23eafc",
       "duplicateOf": null,
       "conflict": false,
@@ -389,7 +353,7 @@
       "createdAt": "2020-04-29T20:11:53Z",
       "updatedAt": "2025-02-05T06:57:36Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "a041d2b352e9d41bf83d292dffe7ca0d3e803724c4e6c071ca458714a1f8866d",
       "duplicateOf": null,
       "conflict": false,
@@ -404,7 +368,7 @@
       "createdAt": "2018-10-14T15:14:39Z",
       "updatedAt": "2024-03-13T03:02:36Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "093ec971087431c2a17a638caf2e6e7ebf518a88a4c4e7d29e2257ff48a415ae",
       "duplicateOf": null,
       "conflict": false,
@@ -419,34 +383,34 @@
       "createdAt": "2018-11-01T16:48:19Z",
       "updatedAt": "2024-08-23T08:40:51Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "44a04bdf0d0a39587dd0c0e94f362d0871b479ae03317392ac4ce22448df4c5a",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900007065266_mceclip0.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007065386_mceclip1.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007065426_mceclip2.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008004143_mceclip3.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008004363_mceclip4.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900007065986_mceclip5.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -466,35 +430,35 @@
       "images": [
         {
           "localPath": "900005115526_Screen_Shot_2020-12-11_at_10.18.01.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006046823_Screen_Shot_2020-12-11_at_10.12.48.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005115546_Screen_Shot_2020-12-11_at_10.13.25.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006046983_Screen_Shot_2020-12-11_at_10.14.07.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005115686_Screen_Shot_2020-12-11_at_10.16.27.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005115746_Screen_Shot_2020-12-11_at_10.30.20.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005115806_Screen_Shot_2020-12-11_at_10.30.29.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005115826_Screen_Shot_2020-12-11_at_10.36.26.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -514,27 +478,27 @@
       "images": [
         {
           "localPath": "900006051686_1.2.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006051706_2.2.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962043_3.3.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006051726_4.4.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962063_5.5.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962083_6.6.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -547,26 +511,26 @@
       "createdAt": "2018-10-14T15:32:01Z",
       "updatedAt": "2024-08-23T08:51:53Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "9cc614eee2a548d03dd4059826a7aec45ff58e0ae546c17cf89bc0d51036d93d",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900004054643_Screen_Shot_2020-10-14_at_12.11.00.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004086846_Screen_Shot_2020-10-14_at_12.14.43.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005667363_Screen_Shot_2020-11-19_at_18.43.28.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004126106_2222222.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -578,8 +542,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004403866-Copying-chain-folder-from-Daedalus-Mainnet-to-Daedalus-Flight",
       "createdAt": "2021-02-08T17:46:08Z",
       "updatedAt": "2023-03-13T11:08:43Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "bfeaa57b3bd65a4aaa2a6069dd0b49e241ab7860a6a7322ae7a417b8e303a4bd",
       "duplicateOf": null,
       "conflict": false,
@@ -594,7 +558,7 @@
       "createdAt": "2020-05-06T16:11:36Z",
       "updatedAt": "2024-02-28T16:06:49Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "db0ef570f206f6409db19b99a847524408baaca158a378f2ae67a11d6f104425",
       "duplicateOf": null,
       "conflict": false,
@@ -608,15 +572,15 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900000558426-No-recent-transaction-history-on-Mainnet-Daedalus-wallet-after-restoring-wallet-in-Daedalus-Flight",
       "createdAt": "2020-04-10T10:50:42Z",
       "updatedAt": "2024-08-23T11:46:05Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "5964ceca8581a2d16d9bad53b7b280af8a1557a91d952fb4478a4a528000787e",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 1,
@@ -629,18 +593,18 @@
       "createdAt": "2020-03-31T23:38:44Z",
       "updatedAt": "2024-08-23T09:17:41Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "d9dab71c0fb38609bbb341d3ec8be07fb98c3c53230e84416ffd9d7676a27802",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900000675806_image14.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900000675826_image3.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -653,18 +617,18 @@
       "createdAt": "2020-03-31T23:44:18Z",
       "updatedAt": "2024-08-23T10:43:53Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "4c7ab583edbac708a61ed28854114006a9d005b4232f8b8665b81da22e101df4",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900000690643_image14.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900000690663_image3.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -677,14 +641,14 @@
       "createdAt": "2020-09-30T14:40:10Z",
       "updatedAt": "2024-08-23T07:55:39Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "ec2c761c1c3e2546ed59ce2f16ba8570888ebccbf802bbe26011e1310a68ad0c",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900003886046_Screen_Shot_2020-09-30_at_13.48.21.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -697,7 +661,7 @@
       "createdAt": "2020-05-06T16:16:44Z",
       "updatedAt": "2024-03-27T23:26:59Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "c5d9b6e9b9217f86da521149b8ae34bd59c7a43e35bc4c05e24aa55ade531b65",
       "duplicateOf": null,
       "conflict": false,
@@ -711,8 +675,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001538486-Downloading-Daedalus-wallet-for-the-Cardano-testnet",
       "createdAt": "2020-06-24T14:37:28Z",
       "updatedAt": "2022-11-06T19:56:08Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "fc544d5364f7d617946b6d68d6c1e98ce32e72cda9a883abc6e82494dc004190",
       "duplicateOf": null,
       "conflict": false,
@@ -726,8 +690,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001621566-Installing-Daedalus-Shelley-Testnet-in-Linux",
       "createdAt": "2020-07-01T18:37:03Z",
       "updatedAt": "2020-07-06T16:41:51Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "161bd8cb847b5281138f32d262d170eca7710ab05a85780c775f69356e996198",
       "duplicateOf": null,
       "conflict": false,
@@ -757,7 +721,7 @@
       "createdAt": "2019-01-23T11:38:56Z",
       "updatedAt": "2021-10-28T06:33:44Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "fcbaaae77bb926b7cb86177ab0c0361b54ce942df13663ec42edf3090f3aba08",
       "duplicateOf": null,
       "conflict": false,
@@ -772,14 +736,14 @@
       "createdAt": "2019-08-11T07:03:08Z",
       "updatedAt": "2024-08-23T12:17:17Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "506d4626e8ae4f23b93de1071d11fa71c927e8a5b3abb6e2c99905219adac5ca",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043422834_Screen_Shot_2019-08-11_at_1.50.00_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -792,7 +756,7 @@
       "createdAt": "2018-10-14T15:28:13Z",
       "updatedAt": "2020-10-14T13:18:54Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "2aaad7aa21fda7e853432176a7dfa418d7d35b9d0daf0f3b3032ea1e3b24d6b7",
       "duplicateOf": null,
       "conflict": false,
@@ -814,19 +778,19 @@
       "images": [
         {
           "localPath": "4416838302361_image__8_.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4415329668505_Screenshot_20220120_165800.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4416824416921_Screen_Shot_2022-02-03_at_10.50.18.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4416824793113_Screen_Shot_2022-02-03_at_11.28.47.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -839,14 +803,14 @@
       "createdAt": "2019-08-11T10:37:02Z",
       "updatedAt": "2021-02-25T15:58:53Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "e77989949a6ca2d2833dfedfaebc6e3a32d6a224b20cb3c0287df5fc7ec65482",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043465853_mceclip0.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -866,31 +830,31 @@
       "images": [
         {
           "localPath": "900006052046_900006052046.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006052066_900006052066.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962363_900006962363.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962343_900006962343.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006962403_900006962403.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006052166_900006052166.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900000973806_900000973806.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -903,38 +867,38 @@
       "createdAt": "2019-08-19T09:24:35Z",
       "updatedAt": "2024-08-23T12:07:14Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "32be7f066975a1705e05014fd12f1d743baf3d8d3d2e6540eaa874420ce35634",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043960974_Screen_Shot_2019-08-19_at_4.37.38_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360044824693_mceclip0.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360043961154_mceclip1.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360043961334_mceclip2.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360044825513_mceclip3.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360043962214_mceclip4.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360043962554_Screen_Shot_2019-08-19_at_5.18.47_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -947,14 +911,14 @@
       "createdAt": "2019-06-13T15:58:43Z",
       "updatedAt": "2024-08-23T12:07:13Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "b2ec4bd0c2ea07ae6d16ba6378569eff9c19f46bdad77511f420987beecf9525",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360038035554_Screen_Shot_2019-06-14_at_4.42.11_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -974,15 +938,15 @@
       "images": [
         {
           "localPath": "29864349742105_29864349742105.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360051973074_360051973074.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4408893338137_4408893338137.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -995,30 +959,30 @@
       "createdAt": "2022-01-18T12:39:47Z",
       "updatedAt": "2024-08-23T10:03:21Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "39cfc19528b0c60b0ee4dfa77d9c4526f95f5d538d477e8e98142dcde5fb7a2d",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "4415092701721_first8.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4415088823321_first3.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4415092626073_first4.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4415088906393_first7.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4415092629657_first6.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1031,22 +995,22 @@
       "createdAt": "2018-10-24T09:57:06Z",
       "updatedAt": "2024-08-23T08:20:42Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "695ff0b4c04cac2b9fb020735fbce2294cbd0c90fef2e46324f480f752c83d13",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360017311053_mceclip1.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360017311353_mceclip2.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360017311593_mceclip3.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1066,7 +1030,7 @@
       "images": [
         {
           "localPath": "900001385286_900001385286.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1079,22 +1043,22 @@
       "createdAt": "2019-08-30T06:21:17Z",
       "updatedAt": "2024-08-23T10:03:17Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "3af42569080760791b7db4bc751c5bdda36bd54b69e0d141956865c86e16048a",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "token_zkOmJr0DXDwwOPsj5t7unJr18_Screen_Shot_2019-08-16_at_11.34.06_am.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360045006114_Screen_Shot_2019-08-30_at_8.29.24_AM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "token_Ep1fx34nxkuHS5fdJWhPoZGlH_Screen_Shot_2019-08-16_at_11.46.48_am.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1114,23 +1078,23 @@
       "images": [
         {
           "localPath": "360039275993_360039275993.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360038443434_360038443434.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "33994768624281_33994768624281.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "33994768633369_33994768633369.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "33994768643481_33994768643481.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1143,7 +1107,7 @@
       "createdAt": "2019-08-16T09:31:21Z",
       "updatedAt": "2021-09-16T12:47:04Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "6850049d4da36134569cff09770cdf0d1cb715c3a42e16682980a63100296b9f",
       "duplicateOf": null,
       "conflict": false,
@@ -1158,18 +1122,18 @@
       "createdAt": "2019-08-19T11:20:50Z",
       "updatedAt": "2024-08-23T08:20:42Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "39444be2b61549fd7d3525304e73ec070992f16f3d7ca07d5cb28d1ebfa37761",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360044827673_Screen_Shot_2019-08-19_at_5.57.57_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360043964314_Screen_Shot_2019-08-19_at_5.58.43_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1189,23 +1153,23 @@
       "images": [
         {
           "localPath": "360049607713_Untitled.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360048674214_Screenshot_2019-10-21_at_14.11.02.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360048674114_Screenshot_2019-10-21_at_14.03.20.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360048674134_Screenshot_2019-10-21_at_14.04.02.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360049575033_Screenshot_2019-10-21_at_14.04.38.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1218,22 +1182,22 @@
       "createdAt": "2018-10-27T13:46:36Z",
       "updatedAt": "2024-08-23T10:43:52Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "6347d04f216e85e3de2f7c5fae34860e5bc61568c246ba209a3e2e24b07cb99f",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360017819733_Screen_Shot_2018-10-27_at_3.22.51_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360017091154_Screen_Shot_2018-10-27_at_3.23.12_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360017819953_Screen_Shot_2018-10-27_at_3.24.15_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1246,18 +1210,18 @@
       "createdAt": "2019-02-20T17:35:40Z",
       "updatedAt": "2024-08-23T09:33:09Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "5f1dbb457cbe1cbe378ce64a805bf1063cc8a889106045cd0a7c5be8a4a384f3",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360026539474_Untitled1.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360026539454_Untitled.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1270,7 +1234,7 @@
       "createdAt": "2018-10-17T08:36:55Z",
       "updatedAt": "2022-01-26T15:57:49Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "8b2a8749601064f9fe628e1d5fa447b735f00310350d35c5ea49c71be3976f61",
       "duplicateOf": null,
       "conflict": false,
@@ -1285,14 +1249,14 @@
       "createdAt": "2018-10-12T15:25:56Z",
       "updatedAt": "2024-08-23T09:02:27Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "03eaf024058ed00f2f79ce0840414a7e7274d0f7230bc4e67313ca5451231753",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "4402963712025_Capture1111.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1335,7 +1299,7 @@
       "createdAt": "2019-09-11T08:37:18Z",
       "updatedAt": "2023-05-13T12:38:08Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "2681cc3a54398f2b0aa922f04b232157e9c558a4ab3f0cdfe7c23732bf35f97e",
       "duplicateOf": null,
       "conflict": false,
@@ -1357,7 +1321,7 @@
       "images": [
         {
           "localPath": "360043600514_Screen_Shot_2019-08-14_at_1.50.23_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1407,47 +1371,47 @@
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 11,
@@ -1460,7 +1424,7 @@
       "createdAt": "2020-11-27T02:49:08Z",
       "updatedAt": "2023-10-30T18:33:37Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "20096dbd3d7af5c80452fadae904bca32f22518eeddb792e195bdbb71e7fc1e7",
       "duplicateOf": null,
       "conflict": false,
@@ -1482,11 +1446,11 @@
       "images": [
         {
           "localPath": "49806983018777_49806983018777.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "49806951249945_49806951249945.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1499,18 +1463,18 @@
       "createdAt": "2019-02-14T21:41:40Z",
       "updatedAt": "2024-08-23T11:46:05Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "56eeb2efa60e0ca313e22154ff3c580b8112f658d05e027e9082db8e369b2dbb",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360026028134_Screen_Shot_2019-02-15_at_11.20.28_AM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360026898373_Screen_Shot_2019-02-15_at_11.20.51_AM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1523,7 +1487,7 @@
       "createdAt": "2018-11-05T08:24:24Z",
       "updatedAt": "2021-12-11T11:39:51Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "a7192fc77cadbb413ff978119b366cc8e0433f6d539f077df2d5674763ad1c0b",
       "duplicateOf": null,
       "conflict": false,
@@ -1538,7 +1502,7 @@
       "createdAt": "2020-10-02T01:00:15Z",
       "updatedAt": "2023-10-30T18:33:36Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "f6fa23d425ffb6e8a55bf260ea1e4b51bd9c92d1dd7d0951d2e6b80aa1211cc2",
       "duplicateOf": null,
       "conflict": false,
@@ -1560,7 +1524,7 @@
       "images": [
         {
           "localPath": "360022001194_Screen_Shot_2019-01-14_at_8.26.43_AM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1580,7 +1544,7 @@
       "images": [
         {
           "localPath": "4403255917849_Screen_Shot_2021-07-06_at_3.53.16_pm.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1608,7 +1572,7 @@
       "createdAt": "2018-10-14T14:57:14Z",
       "updatedAt": "2021-10-14T11:39:46Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "527cd2328538cc9abefb93d34d40187f4a9f2519a089fdf9fe23c2a4e72790a7",
       "duplicateOf": null,
       "conflict": false,
@@ -1630,7 +1594,7 @@
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 1,
@@ -1650,7 +1614,7 @@
       "images": [
         {
           "localPath": "360033706473_Screen_Shot_2019-04-25_at_12.58.45_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1670,15 +1634,15 @@
       "images": [
         {
           "localPath": "4406078361625_Screen_Shot_2021-09-07_at_3.17.29.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4406070844697_Screen_Shot_2021-09-07_at_0.41.48.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4406192565913_Screen_Shot_2021-09-09_at_10.25.46.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1691,7 +1655,7 @@
       "createdAt": "2019-04-09T10:04:22Z",
       "updatedAt": "2021-08-03T05:00:58Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "4fe6d8e12fc34816134ccf0c58f12ef4dd0ff0d50171b05d8289156fbc37963c",
       "duplicateOf": null,
       "conflict": false,
@@ -1721,7 +1685,7 @@
       "createdAt": "2020-04-30T15:36:55Z",
       "updatedAt": "2021-10-06T09:54:32Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "7c4b5aea62a5c08fb3421b7893b8e7b65267e4db14bd4907c86556a6d1143f47",
       "duplicateOf": null,
       "conflict": false,
@@ -1735,27 +1699,27 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900001656586-How-to-Redeem-Incentivized-Testnet-ITN-Rewards",
       "createdAt": "2020-07-06T13:54:43Z",
       "updatedAt": "2024-08-23T09:17:42Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "ac3ef72df7ef9117872863ceecd7f0afe4a1fa55bbea866bd12ed0903f5e761e",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900008592426_Screen_Shot_2021-05-19_at_12.40.43.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004054763_Screen_Shot_2020-10-14_at_12.53.28.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004054903_Screen_Shot_2020-10-14_at_12.55.07.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004087086_Screen_Shot_2020-10-14_at_12.55.47.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1775,7 +1739,7 @@
       "images": [
         {
           "localPath": "900001279346_Daedalus_Mainnet_Password_ENG.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1788,7 +1752,7 @@
       "createdAt": "2019-11-20T19:38:59Z",
       "updatedAt": "2023-06-28T16:22:17Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "7d1385ee7970d7517dd81fabd61b8fa3c9b3c017f309c98fab235e8dd61f944e",
       "duplicateOf": null,
       "conflict": false,
@@ -1818,18 +1782,18 @@
       "createdAt": "2018-09-30T12:14:23Z",
       "updatedAt": "2024-08-23T08:40:51Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "71e8cc17e117d0c5a5e2e78cca3ea941d7675f4504e01b1ff4298d026cfb0591",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043598014_Screen_Shot_2019-08-14_at_12.46.48_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360044451213_Screen_Shot_2019-08-14_at_12.50.41_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1842,7 +1806,7 @@
       "createdAt": "2019-01-08T10:39:59Z",
       "updatedAt": "2021-11-12T19:49:06Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "e696cf6c328984e3ad50484b8f3a0f927d29c2ce0c5140706d0885d8e41229d1",
       "duplicateOf": null,
       "conflict": false,
@@ -1857,30 +1821,30 @@
       "createdAt": "2020-10-01T01:59:04Z",
       "updatedAt": "2024-08-23T10:43:55Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "17bd6512eef3e0c3f22d28db230eef4b5c3f3d1132418cbb4baa978d8958d0c0",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "4404002541081_Screen_Shot_2021-07-22_at_16.22.25.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4404002547225_Screen_Shot_2021-07-22_at_16.30.34.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4404002550297_Screen_Shot_2021-07-22_at_16.22.38.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4404002552473_Screen_Shot_2021-07-22_at_16.23.49.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4404002562201_Screen_Shot_2021-07-22_at_16.21.58_copy.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1900,31 +1864,31 @@
       "images": [
         {
           "localPath": "900005954343_a57f1eb2f6e32b329a917f7bbc695ee.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005018446_d0ebd376a0bcb1b426bad2f4ac3af54.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005023526_76668a9d3d9660afbdf889c74da0971.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005953403_ae7a47ba56a4869a7627ea865135d27.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005019166_mceclip6.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005953723_mceclip4.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005954003_mceclip7.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1944,27 +1908,27 @@
       "images": [
         {
           "localPath": "900005176006_900005176006.jpg",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "21886205505049_21886205505049.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005175966_900005175966.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005175986_900005175986.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006104823_900006104823.jpg",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900006104843_900006104843.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -1976,19 +1940,19 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/4414103909913-How-to-restore-Byron-wallets-in-Adalite-Daedalus-inaccessible",
       "createdAt": "2022-01-07T08:30:34Z",
       "updatedAt": "2024-08-23T09:02:29Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "3e47b679f231ae4660e143ad61487143d88ba34c53bd547641527e73caa24500",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 2,
@@ -2008,11 +1972,11 @@
       "images": [
         {
           "localPath": "4415146620441_4415146620441.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "12254729623193_12254729623193.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2032,55 +1996,55 @@
       "images": [
         {
           "localPath": "900005004426_900005004426.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005004446_900005004446.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937543_900005937543.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937583_900005937583.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937603_900005937603.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005004466_900005004466.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937623_900005937623.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937643_900005937643.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937683_900005937683.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937723_900005937723.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005004506_900005004506.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937763_900005937763.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005937783_900005937783.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2100,7 +2064,7 @@
       "images": [
         {
           "localPath": "28342878565401_28342878565401.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2112,8 +2076,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/360013271313-Installing-Daedalus-Testnet-wallet",
       "createdAt": "2018-12-06T12:29:00Z",
       "updatedAt": "2021-08-11T06:39:34Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "a3556f8a96929e640edf27ff788b75447ee690dc12c15410b001ee049b4a8db3",
       "duplicateOf": null,
       "conflict": false,
@@ -2143,46 +2107,46 @@
       "createdAt": "2018-10-05T15:53:00Z",
       "updatedAt": "2024-08-23T08:20:42Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "21c7b1eca0f9ef783120a88ffccda4537ba37101fbe04f473f8e61bf75f2f081",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043602314_Screen_Shot_2019-08-14_at_1.33.01_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360044450333_Screen_Shot_2019-08-14_at_12.23.03_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360044450373_Screen_Shot_2019-08-14_at_12.22.05_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360014338674_clock_sync_win.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4402142409369_Capture.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "360014469113_dateandtimewin.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4402142415769_Capture.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4402149485337_Screen_Shot_2021-06-10_at_10.01.05.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "4402142421785_Capture.PNG",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2195,7 +2159,7 @@
       "createdAt": "2018-10-27T18:44:44Z",
       "updatedAt": "2021-08-23T13:27:29Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "e6197865b0f1da62fc24e6da7abdf8f0cca54e4702e71cabf70cb8688f191b41",
       "duplicateOf": null,
       "conflict": false,
@@ -2210,7 +2174,7 @@
       "createdAt": "2018-10-14T16:11:44Z",
       "updatedAt": "2023-11-22T04:49:49Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "8393fd3447aed46586ade3feb274b91d0e9971dda4557b28f6a57c1a957944e8",
       "duplicateOf": null,
       "conflict": false,
@@ -2225,7 +2189,7 @@
       "createdAt": "2019-05-30T12:11:17Z",
       "updatedAt": "2024-08-23T11:46:05Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "18ee18ed9a527bdfd859d05f60ccafd3a34dbe69e0bfd8ebbf3bcaa61ca8d626",
       "duplicateOf": null,
       "conflict": false,
@@ -2262,27 +2226,27 @@
       "images": [
         {
           "localPath": "token_ABwVPsbb11rzq7JQnxEh2EzQl_image.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "token_ZXpV3kpoVGRvpMTWtb1b0IPI6_image.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "token_PFQWJKzWrmlmHpcRE8r5hDGIJ_image.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "token_ebBJLXinZgLNhwHUWzQg3N218_image.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 2,
@@ -2295,18 +2259,18 @@
       "createdAt": "2019-11-08T05:10:54Z",
       "updatedAt": "2024-08-23T11:40:07Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "04162692e5ac3a6c36c39c5dc7ae6875433d77d00b1fdbb88ca362e0d3280fd0",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900006024943_Screen_Shot_2020-12-10_at_10.24.06.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900005095426_Screen_Shot_2020-12-10_at_10.17.17.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2326,27 +2290,27 @@
       "images": [
         {
           "localPath": "900008658906_Screen_Shot_2021-05-21_at_14.40.02.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900009615243_Screen_Shot_2021-05-21_at_13.30.59.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008658946_Screen_Shot_2021-05-21_at_14.53.32.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008658966_Screen_Shot_2021-05-21_at_14.58.19.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008658986_Screen_Shot_2021-05-21_at_15.01.01.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900008659006_Screen_Shot_2021-05-21_at_13.33.04.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2374,7 +2338,7 @@
       "createdAt": "2020-12-11T18:18:51Z",
       "updatedAt": "2023-10-30T18:33:37Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "a4d18e2d7c65dbc4fc34dc224f299055a2c3f07c05b73c54dfd6adfd666288a6",
       "duplicateOf": null,
       "conflict": false,
@@ -2389,14 +2353,14 @@
       "createdAt": "2018-10-31T09:42:27Z",
       "updatedAt": "2024-08-23T12:17:17Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "b25f41b8855832e7f2401c8e33a91b81fc2552e9e08711ee8e69716d65fb913a",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "4407803885977_Screen_Shot_2021-10-13_at_10.50.21.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2416,7 +2380,7 @@
       "images": [
         {
           "localPath": "4711234156185_4711234156185.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2429,26 +2393,26 @@
       "createdAt": "2018-10-30T13:29:42Z",
       "updatedAt": "2024-08-23T07:55:38Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "c5f4742c7cdeaf5ce9ec587de3ed8e78b2d0ca1a0ae8d619f742a6e9a2d496c4",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": null,
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 4,
@@ -2498,23 +2462,23 @@
       "images": [
         {
           "localPath": "900004171983_900004171983.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004209386_900004209386.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004172223_900004172223.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004172263_900004172263.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900004172283_900004172283.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2527,7 +2491,7 @@
       "createdAt": "2019-07-11T02:08:17Z",
       "updatedAt": "2025-05-20T00:04:18Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "b01cc322bb39d57d793636da1bef8ed2727b1eed87a43cd2ddaaf90896da2390",
       "duplicateOf": null,
       "conflict": false,
@@ -2542,14 +2506,14 @@
       "createdAt": "2018-10-20T16:38:20Z",
       "updatedAt": "2025-08-12T00:18:37Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "c038dae3447448f749eabe39c099f1a945cb8692bb6238c81c876c7560a59099",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360043726653_Screen_Shot_2019-08-02_at_9.03.25_PM.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2562,7 +2526,7 @@
       "createdAt": "2018-10-16T09:00:03Z",
       "updatedAt": "2024-03-21T20:49:30Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "678166c97a50dd9823c0e0d31232f35b59c5ed2f27f6e4cbc4943df741f9e897",
       "duplicateOf": null,
       "conflict": false,
@@ -2577,7 +2541,7 @@
       "createdAt": "2019-01-07T11:20:04Z",
       "updatedAt": "2022-06-04T16:01:40Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "ec8dde49b20c6667d11c07ef6d54beb66d3d26a1e4f82559d39121d6ae77c459",
       "duplicateOf": null,
       "conflict": false,
@@ -2591,8 +2555,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900004671183-Changes-on-k-parameter-on-epoch-234",
       "createdAt": "2020-11-30T20:05:58Z",
       "updatedAt": "2024-08-23T10:43:55Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "970405f63a2896a1924849bc00cd259dc2cb98057633e312796362f3fc8fc6d4",
       "duplicateOf": null,
       "conflict": false,
@@ -2607,7 +2571,7 @@
       "createdAt": "2019-11-22T09:51:02Z",
       "updatedAt": "2023-11-01T11:32:57Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "b0c281bf39ba77e8a9b907fbbebdf3129cdd16c838d0c250b2b5a176ef69f1ac",
       "duplicateOf": null,
       "conflict": false,
@@ -2622,7 +2586,7 @@
       "createdAt": "2019-07-04T05:42:45Z",
       "updatedAt": "2026-06-27T22:00:05Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "0d7b9f6d0370add9bb4f4b17fe95c450c1da12a588731c77ba61050b7f9e7a83",
       "duplicateOf": null,
       "conflict": false,
@@ -2637,14 +2601,14 @@
       "createdAt": "2019-11-10T08:21:35Z",
       "updatedAt": "2024-08-23T09:02:27Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "faef376f632541705bc1ee9c6b2ec62b942f60dc792573fee91d929c0821b13f",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "360050972434_Screenshot_2019-11-22_at_10.59.55.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2664,7 +2628,7 @@
       "images": [
         {
           "localPath": "900002869246_Screen_Shot_2020-08-06_at_08.28.06.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2707,18 +2671,18 @@
       "createdAt": "2020-09-25T16:52:05Z",
       "updatedAt": "2024-08-23T11:40:07Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "49174402373689b082a96c6340aafd0f8771ee35552360fdf3bd0ae9257d9af0",
       "duplicateOf": null,
       "conflict": false,
       "images": [
         {
           "localPath": "900003749046_Screen_Shot_2020-09-23_at_11.53.45.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         },
         {
           "localPath": "900003749106_Screen_Shot_2020-09-23_at_12.04.55.png",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2738,7 +2702,7 @@
       "images": [
         {
           "localPath": "31232205508249_31232205508249.gif",
-          "fallback": "Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance."
+          "fallback": "Screenshot unavailable or not reviewed; use source text and verified current interface guidance."
         }
       ],
       "missingImages": 0,
@@ -2750,8 +2714,8 @@
       "sourceUrl": "https://iohk.zendesk.com/hc/en-us/articles/900002918686-Understanding-Shelley-Network-decentralization",
       "createdAt": "2020-09-24T01:55:08Z",
       "updatedAt": "2023-03-10T01:23:19Z",
-      "disposition": "historical",
-      "reason": "Explicit older generation, test network or Flight material; not current Mainnet instructions.",
+      "disposition": "excluded",
+      "reason": "Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.",
       "contentHash": "2bba814641d5d674575629e0f37e3cef71b7523b8ea54a69649a0d04eaefa8c2",
       "duplicateOf": null,
       "conflict": false,
@@ -2766,7 +2730,7 @@
       "createdAt": "2021-01-18T20:26:03Z",
       "updatedAt": "2023-01-18T15:26:21Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "0a29e5ca0214cd4ab0213638809c597f7b96693901732b1364eb86c4e89d4d1f",
       "duplicateOf": null,
       "conflict": false,
@@ -2781,7 +2745,7 @@
       "createdAt": "2019-01-08T10:51:17Z",
       "updatedAt": "2021-11-16T19:37:14Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "867065d7a22dc2a4a895c76c7ef22e136906a8872797711838e7eb8e9607d150",
       "duplicateOf": null,
       "conflict": false,
@@ -2796,7 +2760,7 @@
       "createdAt": "2021-05-04T15:04:36Z",
       "updatedAt": "2021-08-24T15:15:37Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "f57c81f66a59077824271578d65d7b64e1193c334d53ecb4b54616f7faa424f0",
       "duplicateOf": null,
       "conflict": false,
@@ -2841,7 +2805,7 @@
       "createdAt": "2019-01-07T07:12:12Z",
       "updatedAt": "2024-03-13T17:16:25Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "e506731b96999bcd1ffb65e1f93cdbf6dccb520cbcac4e8e8c3d488f9d8cb5bf",
       "duplicateOf": null,
       "conflict": false,
@@ -2856,7 +2820,7 @@
       "createdAt": "2019-01-09T20:04:20Z",
       "updatedAt": "2023-10-30T18:33:35Z",
       "disposition": "needs-review",
-      "reason": "Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.",
+      "reason": "Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.",
       "contentHash": "7c0105e3576c3e15c5c100cca5eaa47f1571565161f107ab105e439be935ad16",
       "duplicateOf": null,
       "conflict": false,

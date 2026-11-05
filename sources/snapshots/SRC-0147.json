@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0147",
+  "provider": "github",
+  "provider_id": "SRC-0147:8d961fa48ded99b752743b04cc2003cf15794c7d",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/wallet/transactions/CancelTransactionButton.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T18:05:00Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The button reads Cancel pending transaction for a pending transaction. For an expired transaction it reads Remove failed transaction on a build without the CIP-30 dApp connector, and Remove expired transaction on a build with it."
+    ]
+  }
+}

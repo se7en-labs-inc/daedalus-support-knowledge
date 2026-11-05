@@ -77,47 +77,11 @@
       "reviewedContentHash": "1a911fdec541fb338f8517c977beac1d3d8e6d41772406c0d78e70391afaf820"
     },
     {
-      "id": "DAE-0006",
-      "status": "historical",
-      "approved": true,
-      "reviewedOn": "2026-08-27",
-      "reason": "Historical introduction of governance in 7.0.0 only; not current instructions.",
-      "reviewedContentHash": "b020fed07dfe7c2eb418aed9007e70ca74a505e3fbcf62c903a212d478dab4d9"
-    },
-    {
-      "id": "DAE-0001",
-      "status": "superseded",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Public download guidance replaced by DAE-0101; original evidence preserved."
-    },
-    {
-      "id": "DAE-0002",
-      "status": "historical",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Unresolved single-user 3.3.2 report, not a current remedy."
-    },
-    {
       "id": "DAE-0003",
       "status": "needs-review",
       "approved": false,
       "reviewedOn": "2026-09-21",
       "reason": "Narrow compromised shared-key scenario; do not generalize a remedy."
-    },
-    {
-      "id": "DAE-0004",
-      "status": "historical",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Older macOS / 7.0.x compatibility report; no current OS verification."
-    },
-    {
-      "id": "DAE-0005",
-      "status": "needs-review",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Legacy private-key import needs dedicated recovery safety review."
     },
     {
       "id": "DAE-0008",

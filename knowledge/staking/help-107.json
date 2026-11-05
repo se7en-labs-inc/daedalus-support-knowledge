@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
   "id": "DAE-0107",
-  "title": "Review the stake pool delegation steps",
+  "title": "Delegate a wallet to a stake pool",
   "summary": {
-    "text": "The delegation wizard has separate wallet selection, stake pool selection and confirmation stages. Confirmation incurs transaction fees.",
+    "text": "The Delegate wallet wizard has three steps: choose the wallet, choose the stake pool, and confirm. The new delegation takes effect after the current and the next epoch have completed.",
     "source_ids": [
-      "SRC-0108"
+      "SRC-0129"
     ]
   },
   "problem": {
     "text": "Stake ADA delegate choose pool delegation rewards",
     "source_ids": [
-      "SRC-0108"
+      "SRC-0129"
     ]
   },
   "symptoms": [
     {
       "text": "Stake ADA delegate choose pool delegation rewards",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
       ]
     }
   ],
@@ -26,7 +26,7 @@
     {
       "text": "Stake ADA delegate choose pool delegation rewards",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
       ]
     }
   ],
@@ -41,30 +41,31 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.2"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.2 tag source and its English interface text. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
       "scope": "all",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "all",
+      "values": []
     },
     "hardware_wallets": {
-      "scope": "not_applicable",
+      "scope": "all",
       "values": []
     },
     "source_ids": [
-      "SRC-0108"
+      "SRC-0129",
+      "SRC-0134",
+      "SRC-0135",
+      "SRC-0140"
     ]
   },
   "causes": [
@@ -72,7 +73,7 @@
       "kind": "unknown",
       "claim": "A symptom alone does not establish a cause.",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
       ]
     }
   ],
@@ -80,55 +81,93 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "Select the intended wallet in the delegation wizard.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Open Staking, select Delegation center, and select Delegate next to the wallet, or Redelegate if it is already delegated.",
+      "why": "The delegation center starts the delegation wizard for a wallet.",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
       ]
     },
     {
       "order": 2,
-      "action": "Select the intended stake pool and inspect the choice before continuing.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Read the steps on Delegate wallet and select Continue.",
+      "why": "The wizard first lists its three steps.",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
       ]
     },
     {
       "order": 3,
-      "action": "Review the confirmation and fee in your own application. Continue only if you intend the transaction; otherwise cancel.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Check that the wallet you want is selected and select Continue.",
+      "why": "The wallet holds the funds to delegate.",
       "source_ids": [
-        "SRC-0108"
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Select a stake pool from your recent choices or search the list, and select Continue.",
+      "why": "The stake pool receives the delegation.",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Check the stake pool ID and the fee that Daedalus shows.",
+      "why": "Confirmation is the last chance to check the choice before the transaction.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "With a software wallet, enter your spending password in Confirm Delegation and select Confirm. If Daedalus shows Review transaction instead, enter the password there and select Sign and send.",
+      "why": "Confirming sends the delegation transaction. Builds with the CIP-30 dApp connector show Review transaction instead of Confirm Delegation.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135",
+        "SRC-0140"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "With a hardware wallet, confirm the transaction on the device, then select Confirm in Confirm Delegation. If Daedalus shows Review transaction instead, select Continue on device and send, then confirm on the device.",
+      "why": "Confirm stays disabled until the device has confirmed the transaction; Review transaction passes the transaction to the device.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135",
+        "SRC-0140"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "You understand which wallet and pool will be used before authorizing delegation. This guide does not promise rewards or their timing.",
+    "text": "Daedalus sends the delegation transaction, and the new delegation takes effect after the current and the next epoch have completed.",
     "source_ids": [
-      "SRC-0108"
+      "SRC-0129",
+      "SRC-0135",
+      "SRC-0140"
     ]
   },
-  "do_not": [
-    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
-    "Do not delete, reset or move wallet data using generic instructions."
-  ],
-  "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
-  ],
+  "do_not": [],
+  "escalate_when": [],
   "safety": {
     "risk": "medium",
     "flags": [
       "funds"
     ],
     "prerequisites": [
-      "Use the genuine application and keep private backups private."
+      "A wallet that has finished syncing and holds, besides rewards, the minimum amount of ADA that Daedalus states for delegation."
     ],
     "consequences": [
-      "Changing or approving wallet operations can affect funds."
+      "The fee and any deposit are paid from the wallet.",
+      "Your previous delegation stays active until the new one takes effect."
     ],
     "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
+      "To move to a different pool, delegate the wallet again and choose that pool."
     ]
   },
   "evidence": {
@@ -146,23 +185,26 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
   },
   "sources": [
-    "SRC-0108"
+    "SRC-0129",
+    "SRC-0134",
+    "SRC-0135",
+    "SRC-0140"
   ],
   "related_entries": [
-    "DAE-0102",
-    "DAE-0109"
+    "DAE-0108"
   ],
   "faq": {
     "eligible": true,
-    "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "promoted": false,
+    "reason": "Retrievable only; no FAQ item is published for this entry."
   },
   "tags": [
     "staking",
     "delegation"
-  ]
+  ],
+  "revision": 6
 }

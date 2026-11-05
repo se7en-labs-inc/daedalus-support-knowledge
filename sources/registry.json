@@ -2,100 +2,6 @@
   "schema_version": 1,
   "sources": [
     {
-      "id": "SRC-0001",
-      "provider_id": "release:7.1.0",
-      "url": "https://github.com/input-output-hk/daedalus/releases/tag/7.1.0",
-      "platform": "GitHub",
-      "title": "Daedalus 7.1.0 release",
-      "author": "Input Output",
-      "author_association": "organization",
-      "source_state": "published",
-      "source_type": "official-release",
-      "trust": "official",
-      "published_at": "2025-02-26T16:15:31Z",
-      "updated_at": null,
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "7.1.0"
-      ],
-      "roles": [
-        "documents-procedure",
-        "documents-fix",
-        "context"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0001.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "8da0875f011d4cc6619a8728da83866c9b4ccd5d27f43b8a93249f41b42c52eb"
-      }
-    },
-    {
-      "id": "SRC-0002",
-      "provider_id": "issue-comment:2556783606",
-      "url": "https://github.com/input-output-hk/daedalus/issues/3263#issuecomment-2556783606",
-      "platform": "GitHub",
-      "title": "Maintainer separates macOS installer trust and dynamic-library failures",
-      "author": "michalrus",
-      "author_association": "member",
-      "source_state": "published",
-      "source_type": "github-issue-comment",
-      "trust": "maintainer",
-      "published_at": "2024-12-20T11:06:07Z",
-      "updated_at": "2024-12-20T11:06:07Z",
-      "accessed_at": "2026-08-27T12:29:57Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "7.0.2"
-      ],
-      "roles": [
-        "proposes-solution",
-        "context"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0002.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "9afcad7744cdf71907c3e25d4710f15517c7938904574271233d9b5ff1b269cc"
-      }
-    },
-    {
-      "id": "SRC-0003",
-      "provider_id": "release:7.0.0",
-      "url": "https://github.com/input-output-hk/daedalus/releases/tag/7.0.0",
-      "platform": "GitHub",
-      "title": "Daedalus 7.0.0 release",
-      "author": "Input Output",
-      "author_association": "organization",
-      "source_state": "published",
-      "source_type": "official-release",
-      "trust": "official",
-      "published_at": "2024-12-10T12:41:15Z",
-      "updated_at": null,
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "7.0.0"
-      ],
-      "roles": [
-        "documents-procedure",
-        "context"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0003.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "173fbc21d7408c932dd9c5f9c63ee1e811ce18d0a15c6c3bd5f6c22c984e01e2"
-      }
-    },
-    {
       "id": "SRC-0004",
       "provider_id": "issue-comment:2883390691",
       "url": "https://github.com/input-output-hk/daedalus/issues/3228#issuecomment-2883390691",
@@ -124,36 +30,6 @@
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
         "sha256": "fc2129929056da8640f7ad053187b853f80daba32e935c5b3cc6ca00cc625dab"
-      }
-    },
-    {
-      "id": "SRC-0005",
-      "provider_id": "issue:2438",
-      "url": "https://github.com/input-output-hk/daedalus/issues/2438",
-      "platform": "GitHub",
-      "title": "Daedalus not connecting after update to 3.3.2",
-      "author": "dadepo",
-      "author_association": "none",
-      "source_state": "closed",
-      "source_type": "github-issue-body",
-      "trust": "community-single",
-      "published_at": "2021-03-04T08:22:05Z",
-      "updated_at": "2021-06-29T07:28:49Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "3.3.2"
-      ],
-      "roles": [
-        "reports-problem"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0005.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "575948335301654516025c12a01d26709f3c7f23526208b19e8fe2a861b7fced"
       }
     },
     {
@@ -187,67 +63,6 @@
       }
     },
     {
-      "id": "SRC-0007",
-      "provider_id": "issue:3263",
-      "url": "https://github.com/input-output-hk/daedalus/issues/3263",
-      "platform": "GitHub",
-      "title": "Daedalus 7.0.1 not working on macOS Big Sur",
-      "author": "kirk-bit",
-      "author_association": "none",
-      "source_state": "closed",
-      "source_type": "github-issue-body",
-      "trust": "community-single",
-      "published_at": "2024-12-11T21:45:25Z",
-      "updated_at": "2026-07-27T16:46:05Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "7.0.1"
-      ],
-      "roles": [
-        "reports-problem"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0007.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "2edef2c3c5926095a4460f13db13d56aa80657cb122027cfe33b16efec1f420d"
-      }
-    },
-    {
-      "id": "SRC-0008",
-      "provider_id": "issue:1234",
-      "url": "https://github.com/input-output-hk/daedalus/issues/1234",
-      "platform": "GitHub",
-      "title": "How can I restore wallet from secret.key file?",
-      "author": "yuelipeng",
-      "author_association": "none",
-      "source_state": "closed",
-      "source_type": "github-issue-body",
-      "trust": "community-single",
-      "published_at": "2018-12-20T15:55:04Z",
-      "updated_at": "2025-09-11T08:56:15Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "0.11.2",
-        "0.12"
-      ],
-      "roles": [
-        "reports-problem"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0008.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "9b6381dd3b917edbd8f4d71543a2036f4b63ced8fae26ccb5999c4e56980b5ed"
-      }
-    },
-    {
       "id": "SRC-0009",
       "provider_id": "issue:3386",
       "url": "https://github.com/input-output-hk/daedalus/issues/3386",
@@ -276,95 +91,286 @@
       }
     },
     {
-      "id": "SRC-0010",
-      "provider_id": "issue-comment:475136544",
-      "url": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475136544",
+      "id": "SRC-0111",
+      "provider_id": "release:11.6.0",
+      "url": "https://github.com/input-output-hk/daedalus/releases/tag/11.6.0",
       "platform": "GitHub",
-      "title": "Contributor identifies the historical secret.key wallet importer",
-      "author": "nikolaglumac",
-      "author_association": "contributor",
+      "title": "Daedalus 11.6.0 release",
+      "author": "Input Output",
+      "author_association": "organization",
       "source_state": "published",
-      "source_type": "github-issue-comment",
-      "trust": "community-single",
-      "published_at": "2019-03-21T07:44:25Z",
-      "updated_at": "2019-03-21T07:44:25Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
+      "source_type": "official-release",
+      "trust": "official",
+      "published_at": "2026-10-24T01:19:45Z",
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0111.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "ed5fa1033c0eb37bf02cf157c26e2c17e765b870ba148106b3cdce08cd37f516"
+      }
+    },
+    {
+      "id": "SRC-0112",
+      "provider_id": "SRC-0112:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/i18n/locales/en-US.json",
+      "platform": "GitHub",
+      "title": "11.6.0 interface text (English)",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:54:11Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0112.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "3d287bdf35578ad9e6ad8b5256785ca1c5ee4beb133cb5767e15b0426a85bc9a"
+      }
+    },
+    {
+      "id": "SRC-0113",
+      "provider_id": "SRC-0113:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/loading/syncing-connecting/SyncingConnecting.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 loading screen connecting logic",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0113.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "84bd65dc4c0f1cf292d7fd9b54319da526d797f11d9abd7e1e1b202e1e9e912e"
+      }
+    },
+    {
+      "id": "SRC-0114",
+      "provider_id": "SRC-0114:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/config/timingConfig.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 timing configuration",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-12T15:20:36Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0114.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "67380b7a798ee90be0768c926658b81e885f1b383542015a069cc88261b51abc"
+      }
+    },
+    {
+      "id": "SRC-0115",
+      "provider_id": "SRC-0115:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/common/utils/reporting.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 support link construction",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0115.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "7b239fe74830636dd510130b5a677bfda570446cde0937eb7c6a04c93e712b39"
+      }
+    },
+    {
+      "id": "SRC-0116",
+      "provider_id": "SRC-0116:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/loading/syncing-connecting/ReportIssue.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 loading screen report-issue block",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0116.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "3bcf4a551f33cb98c11b588d7e607305493733a08c88bc5f26e028594bb97f2b"
+      }
+    },
+    {
+      "id": "SRC-0117",
+      "provider_id": "SRC-0117:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/main/menus/win-linux.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 Windows and Linux application menu",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0117.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "476f2897c1603dfe11a5a3207b62c1252d005772d16d590afac1c1ac60ce3dae"
+      }
+    },
+    {
+      "id": "SRC-0118",
+      "provider_id": "SRC-0118:2026-11-05",
+      "url": "https://daedalus.support.se7enlabs.com/",
+      "platform": "Se7en Labs support portal",
+      "title": "Daedalus support portal home page",
+      "author": "Se7en Labs",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
       "mentioned_versions": [],
       "roles": [
-        "proposes-solution"
+        "documents-procedure",
+        "context"
       ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0010.json",
+        "snapshot_path": "sources/snapshots/SRC-0118.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "35448eab0a83ec96cf0c44989a220a00fbbb7d0b39fe09874beb1a0bef1bac84"
+        "sha256": "04694e9e2fa2ebee97a20ec4bbdde226e9deb2851fa1b5fb8db1081d10d75ec6"
       }
     },
     {
-      "id": "SRC-0011",
-      "provider_id": "issue-comment:475137606",
-      "url": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475137606",
-      "platform": "GitHub",
-      "title": "Reporter confirms legacy restoration is in progress",
-      "author": "yuelipeng",
-      "author_association": "none",
+      "id": "SRC-0119",
+      "provider_id": "SRC-0119:2026-11-05",
+      "url": "https://daedalus.support.se7enlabs.com/support/access",
+      "platform": "Se7en Labs support portal",
+      "title": "Daedalus support portal existing case page",
+      "author": "Se7en Labs",
+      "author_association": "organization",
       "source_state": "published",
-      "source_type": "github-issue-comment",
-      "trust": "community-single",
-      "published_at": "2019-03-21T07:50:27Z",
-      "updated_at": "2019-03-21T07:50:27Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-12T16:02:35Z",
       "problem_occurred_at": null,
-      "solution_confirmed_at": "2019-03-21T07:50:27Z",
+      "solution_confirmed_at": null,
       "mentioned_versions": [],
       "roles": [
-        "confirms-solution"
+        "documents-procedure",
+        "context"
       ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0011.json",
+        "snapshot_path": "sources/snapshots/SRC-0119.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "46873b16bf0c7c83536c8f2bb5482bed8fb871aafe58f5159461954e626da96f"
+        "sha256": "245e75c1a2c07f61c7679c92dc89b94392f7184ebfbf3d5fce54ff4162c3f134"
       }
     },
     {
-      "id": "SRC-0012",
-      "provider_id": "issue-comment:475163954",
-      "url": "https://github.com/input-output-hk/daedalus/issues/1234#issuecomment-475163954",
-      "platform": "GitHub",
-      "title": "Reporter confirms legacy wallet recovery",
-      "author": "yuelipeng",
-      "author_association": "none",
-      "source_state": "published",
-      "source_type": "github-issue-comment",
-      "trust": "community-single",
-      "published_at": "2019-03-21T09:39:19Z",
-      "updated_at": "2019-03-21T09:39:19Z",
-      "accessed_at": "2026-08-27T12:28:08Z",
-      "problem_occurred_at": null,
-      "solution_confirmed_at": "2019-03-21T09:39:19Z",
-      "mentioned_versions": [],
-      "roles": [
-        "confirms-solution"
-      ],
-      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
-      "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0012.json",
-        "representation_format": "ariadne-normalized-editorial-summary-v1",
-        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "b8d2d10c1183fedee526036a2a6b491bc14fb6123b64e6d5b8bbe9d5db550235"
-      }
-    },
-    {
-      "id": "SRC-0101",
-      "provider_id": "SRC-0101:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://daedaluswallet.io/",
-      "platform": "Web",
-      "title": "Official Daedalus website",
+      "id": "SRC-0120",
+      "provider_id": "SRC-0120:2026-11-05",
+      "url": "https://daedaluswallet.io/download/",
+      "platform": "Website",
+      "title": "Daedalus website download page",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -372,61 +378,57 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-05T16:57:38Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0101.json",
+        "snapshot_path": "sources/snapshots/SRC-0120.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "6678a580254f6807aa3b27615d010071d7381bfb84f564300d6b08d8fce870e3"
+        "sha256": "f6c38ae25d44d9cc3cc08bc7c93085018c5cf013340f370aec3498c38d17703a"
       }
     },
     {
-      "id": "SRC-0102",
-      "provider_id": "SRC-0102:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/releases/tag/11.0.0",
+      "id": "SRC-0121",
+      "provider_id": "SRC-0121:2026-11-05",
+      "url": "https://github.com/se7en-labs-inc/daedalus-support-knowledge/blob/main/docs/safety.md",
       "platform": "GitHub",
-      "title": "Daedalus 11.0.0 release",
-      "author": "Input Output",
+      "title": "Wallet safety policy",
+      "author": "Se7en Labs",
       "author_association": "organization",
       "source_state": "published",
-      "source_type": "official-release",
+      "source_type": "official-documentation",
       "trust": "official",
-      "published_at": "2026-05-13T15:37:45Z",
+      "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-05T16:57:38Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0102.json",
+        "snapshot_path": "sources/snapshots/SRC-0121.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "438894e9c63944f0607ba6e4885e4a9d31a796fdaf6af41a487814d78a6abb8c"
+        "sha256": "b768df31d5f5749c202e9b538c9454d78a860b55a2caced989a094e84d7b9ff0"
       }
     },
     {
-      "id": "SRC-0103",
-      "provider_id": "SRC-0103:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/loading/syncing-connecting/SyncingProgress/SyncingProgress.messages.ts",
+      "id": "SRC-0122",
+      "provider_id": "SRC-0122:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/config/walletRestoreConfig.ts",
       "platform": "GitHub",
-      "title": "11.0.0 synchronization phase descriptions",
+      "title": "11.6.0 wallet restore options",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -434,30 +436,30 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:20:36Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
       "mentioned_versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0103.json",
+        "snapshot_path": "sources/snapshots/SRC-0122.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "d4ca28095167169f4f9945c3e2ca33a775844d183267b69c7768090a20c7b55f"
+        "sha256": "4eda6b053b1bf8add8bfee8863211ad9a2be55b3cf97ba3eeda2fd2101369649"
       }
     },
     {
-      "id": "SRC-0104",
-      "provider_id": "SRC-0104:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/status/DaedalusDiagnostics.tsx",
+      "id": "SRC-0123",
+      "provider_id": "SRC-0123:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/i18n/locales/en-US.json",
       "platform": "GitHub",
-      "title": "11.0.0 diagnostics fields",
+      "title": "Held staking rewards fix: interface text (English)",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -465,30 +467,28 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:43:25Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0104.json",
+        "snapshot_path": "sources/snapshots/SRC-0123.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "ff9577e4090296650c412ddca83ee5618d81159f9c59377d5b48aad08104ae96"
+        "sha256": "1c2efc00360734498eb7287053bffbde29fca9428e94a00863dfafbf91928bde"
       }
     },
     {
-      "id": "SRC-0105",
-      "provider_id": "SRC-0105:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/wallet/wallet-restore/WalletTypeDialog.tsx",
+      "id": "SRC-0124",
+      "provider_id": "SRC-0124:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/utils/governance/rewardWithdrawal.ts",
       "platform": "GitHub",
-      "title": "11.0.0 restoration wallet selection",
+      "title": "Held staking rewards fix: withdrawal decision",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -496,30 +496,28 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:20:36Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0105.json",
+        "snapshot_path": "sources/snapshots/SRC-0124.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "5196bb07ec20002586af39098136db581de22af1132bb9a93c905ccab5733505"
+        "sha256": "5dd277e8340a030cf9fab4d9c612252bb41c2188baf7ebc36fcd0d8cde92fa1c"
       }
     },
     {
-      "id": "SRC-0106",
-      "provider_id": "SRC-0106:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/wallet/wallet-restore/SuccessDialog.tsx",
+      "id": "SRC-0125",
+      "provider_id": "SRC-0125:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/components/notifications/HeldRewardsNotification.tsx",
       "platform": "GitHub",
-      "title": "11.0.0 restoration result guidance",
+      "title": "Held staking rewards fix: wallet notice",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -527,30 +525,28 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:20:36Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0106.json",
+        "snapshot_path": "sources/snapshots/SRC-0125.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "11c9d5ebad5d871f713af78aeebf7e30511967423ae3de3c268a031258158653"
+        "sha256": "674326f86d0a5c1aadfce9a75e3c8e0523f228ded6e5ce0b6140b87c2f075df1"
       }
     },
     {
-      "id": "SRC-0107",
-      "provider_id": "SRC-0107:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/hardware-wallet/HardwareWalletStatus.tsx",
+      "id": "SRC-0126",
+      "provider_id": "SRC-0126:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/utils/governance/voteDelegationState.ts",
       "platform": "GitHub",
-      "title": "11.0.0 hardware wallet connection states",
+      "title": "Held staking rewards fix: Governance Center delegation state",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -558,30 +554,59 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:20:36Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
-      "mentioned_versions": [
-        "11.0.0"
-      ],
+      "mentioned_versions": [],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0107.json",
+        "snapshot_path": "sources/snapshots/SRC-0126.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "a1c593977b5dc59d4b66f472e848adeee290bc9f6af49819d6a0507020f91452"
+        "sha256": "352edd259c454391e1c30dad4a9c99cd63a7584ff6cb5259e94816f5d5fe3ea8"
       }
     },
     {
-      "id": "SRC-0108",
-      "provider_id": "SRC-0108:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/staking/delegation-setup-wizard/DelegationStepsIntroDialog.tsx",
+      "id": "SRC-0127",
+      "provider_id": "issue:3462",
+      "url": "https://github.com/input-output-hk/daedalus/issues/3462",
       "platform": "GitHub",
-      "title": "11.0.0 staking delegation wizard",
+      "title": "[BUG] Payments and undelegation fail after the wallet's DRep retires",
+      "author": "Crypto2099",
+      "author_association": "collaborator",
+      "source_state": "open",
+      "source_type": "github-issue-body",
+      "trust": "maintainer",
+      "published_at": "2026-11-12T16:05:28Z",
+      "updated_at": "2026-11-12T16:05:28Z",
+      "accessed_at": "2026-11-12T16:06:30Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "reports-problem",
+        "context"
+      ],
+      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0127.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "d0468003d9ebda5b7c3e4c556421e1787b88f7fd386c8d24f66738e279171f83"
+      }
+    },
+    {
+      "id": "SRC-0128",
+      "provider_id": "SRC-0128:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/main/locales/en-US.json",
+      "platform": "GitHub",
+      "title": "11.6.0 application menu text (English)",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -589,30 +614,30 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T15:43:25Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
       "mentioned_versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0108.json",
+        "snapshot_path": "sources/snapshots/SRC-0128.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "d0e74ccfc405afc156c9182365779930c7166f807f4f633fe34a4e272e1993c0"
+        "sha256": "ac1a44c4dd5292c4aff83d1a5f8fcaac19f19ec8915966493a0177341467ed74"
       }
     },
     {
-      "id": "SRC-0109",
-      "provider_id": "SRC-0109:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/voting/voting-governance/VotingPowerDelegation.messages.ts",
+      "id": "SRC-0129",
+      "provider_id": "SRC-0129:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/i18n/locales/en-US.json",
       "platform": "GitHub",
-      "title": "11.0.0 governance delegation form",
+      "title": "11.6.2 interface text (English)",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -620,30 +645,30 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-14T18:05:00Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
       "mentioned_versions": [
-        "11.0.0"
+        "11.6.2"
       ],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0109.json",
+        "snapshot_path": "sources/snapshots/SRC-0129.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "fdaf72ace35221f173a396091e90345232f4a5ff647071eb97f0cd967ab7ed1f"
+        "sha256": "2fd7455f5c5c9bf5b13dd71bca5d7866dc206977262bd5ad50b4abc6f8948ad3"
       }
     },
     {
-      "id": "SRC-0110",
-      "provider_id": "SRC-0110:50706edb8f5a772bc961d0ff6bcc54b9e4f8403f",
-      "url": "https://github.com/input-output-hk/daedalus/blob/50706edb8f5a772bc961d0ff6bcc54b9e4f8403f/source/renderer/app/components/wallet/transactions/Transaction.tsx",
+      "id": "SRC-0130",
+      "provider_id": "SRC-0130:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blame/d6502e079c88adf2067b457e03f252d0aa89d246/source/main/menus/win-linux.ts",
       "platform": "GitHub",
-      "title": "11.0.0 transaction detail fields",
+      "title": "11.6.0 Windows and Linux application menu",
       "author": "Input Output",
       "author_association": "organization",
       "source_state": "published",
@@ -651,22 +676,777 @@
       "trust": "official",
       "published_at": null,
       "updated_at": null,
-      "accessed_at": "2026-09-22T02:04:32Z",
+      "accessed_at": "2026-11-12T17:30:00Z",
       "problem_occurred_at": null,
       "solution_confirmed_at": null,
       "mentioned_versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "roles": [
         "documents-procedure",
         "context"
       ],
-      "notes": "Source inspected on 2026-09-21. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are Ariadne editorial policy.",
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
       "snapshot": {
-        "snapshot_path": "sources/snapshots/SRC-0110.json",
+        "snapshot_path": "sources/snapshots/SRC-0130.json",
         "representation_format": "ariadne-normalized-editorial-summary-v1",
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
-        "sha256": "d0b39aaedc4c361559d09e5b4e76d230eab27be605f262cbccd0787249ad1234"
+        "sha256": "894d94c77441750c741d6801b48d35b683abe2916dc89bb4a6a986367dd4e002"
+      }
+    },
+    {
+      "id": "SRC-0131",
+      "provider_id": "SRC-0131:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/main/menus/osx.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 macOS application menu",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-12T17:30:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0131.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "63bacf388672545119d3f41be8ae092588f21dbb6207da350988a94c11b4b926"
+      }
+    },
+    {
+      "id": "SRC-0132",
+      "provider_id": "SRC-0132:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/settings/categories/SupportSettings.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 Support settings page",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-12T17:30:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-12. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0132.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "14d37ac7bdc8af04effdd14d4a422a862c628b4b7611600b7391e48a2d6ee469"
+      }
+    },
+    {
+      "id": "SRC-0133",
+      "provider_id": "SRC-0133:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/wallet/transactions/Transaction.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 transaction detail fields",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0133.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "0b18b3937d8d7bc3a3b10d5cd56598c5666f59eebb9066a993f24145ff30bfe6"
+      }
+    },
+    {
+      "id": "SRC-0134",
+      "provider_id": "SRC-0134:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/containers/staking/dialogs/DelegationSetupWizardDialogContainer.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 staking delegation wizard submission",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0134.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "2969035268dce60b7051a4ab8c8b10652c482b33dcb76d13b4d386d8264cfd86"
+      }
+    },
+    {
+      "id": "SRC-0135",
+      "provider_id": "SRC-0135:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/transactions/TransactionApprovalDialog.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 transaction review dialog",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0135.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "cf439e83215d12468cdfb412a1178571d57a0dec5c4e8980fbc0437eaa5b0578"
+      }
+    },
+    {
+      "id": "SRC-0136",
+      "provider_id": "SRC-0136:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/containers/governance/GovernanceWalletsPage.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 Governance Center wallet list",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0136.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "233ea2b27fcea7fabca31ccffc63d01aba06de6b1fa5a2271665899aa99ab275"
+      }
+    },
+    {
+      "id": "SRC-0137",
+      "provider_id": "SRC-0137:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/governance/drep-directory/DRepDirectory.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 DRep Directory",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0137.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "d553820d164b8b04f6f34418e8ee2e99fc16bdaf5652498a3e63593b48c6ec33"
+      }
+    },
+    {
+      "id": "SRC-0138",
+      "provider_id": "SRC-0138:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/containers/voting/VotingGovernancePage.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 voting power delegation page",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0138.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "0b38349a114294202814d74b11c60f4e9e1b6e1381d8e5adb12c17a4898439ae"
+      }
+    },
+    {
+      "id": "SRC-0139",
+      "provider_id": "SRC-0139:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/voting/voting-governance/VotingPowerDelegation.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 voting power delegation form",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:45:09Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0139.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "bb67737d9e2682fb921c833d4c2c03d8fd0ef6f906a3dbb3518f827017f9893c"
+      }
+    },
+    {
+      "id": "SRC-0140",
+      "provider_id": "SRC-0140:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/staking/delegation-setup-wizard/DelegationStepsConfirmationDialog.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 staking delegation confirmation",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T15:49:42Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0140.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "451379da6b4c7746643eb807d9502a2838db7e1a6f097205f85f037e6755c2d2"
+      }
+    },
+    {
+      "id": "SRC-0141",
+      "provider_id": "SRC-0141:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/voting/voting-governance/VotingPowerDelegationConfirmationDialog.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 voting power delegation confirmation",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:08:39Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0141.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "0467b119221cacf2f38ff518541f1fef01294f2e8f48a31b76633ef6c0422f2e"
+      }
+    },
+    {
+      "id": "SRC-0142",
+      "provider_id": "SRC-0142:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/components/voting/voting-governance/VotingPowerDelegationConfirmationDialog.tsx",
+      "platform": "GitHub",
+      "title": "Held staking rewards fix: voting power delegation confirmation",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:08:39Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0142.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "6f40f37f98e90f7446e42001550b268e586dac080fa9ae5714614e31058a771d"
+      }
+    },
+    {
+      "id": "SRC-0143",
+      "provider_id": "SRC-0143:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/components/voting/voting-governance/VotingPowerDelegation.tsx",
+      "platform": "GitHub",
+      "title": "Held staking rewards fix: voting power delegation form",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:08:39Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0143.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "e9914dd083d7b1a91a7720c6555996737fff469755578b0c4a70a600464c7fca"
+      }
+    },
+    {
+      "id": "SRC-0144",
+      "provider_id": "SRC-0144:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+      "url": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/components/transactions/TransactionApprovalDialog.tsx",
+      "platform": "GitHub",
+      "title": "Held staking rewards fix: transaction review dialog",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:08:39Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0144.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "a7f63c3ae66614aa22577bdaa3ea6254fb46953999b981b60a92b42b7fc959cc"
+      }
+    },
+    {
+      "id": "SRC-0145",
+      "provider_id": "issue-comment:2902851683",
+      "url": "https://github.com/input-output-hk/daedalus/issues/3228#issuecomment-2902851683",
+      "platform": "GitHub",
+      "title": "Community investigator describes payment requests for the circulated secret.key",
+      "author": "HeptaSean",
+      "author_association": "none",
+      "source_state": "published",
+      "source_type": "github-issue-comment",
+      "trust": "community-corroborated",
+      "published_at": "2025-05-22T23:31:49Z",
+      "updated_at": "2025-05-22T23:31:49Z",
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "reports-problem",
+        "context"
+      ],
+      "notes": "Snapshot statements are normalized editorial summaries, not quotations or archival copies. Inspect the exact permalink for full context.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0145.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "e5131224c0de746c6db92771541cc0a01f18ac67bab7a867a1fb080249d2454a"
+      }
+    },
+    {
+      "id": "SRC-0146",
+      "provider_id": "SRC-0146:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/config/txnsConfig.ts",
+      "platform": "GitHub",
+      "title": "11.6.2 pending transaction time limit",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0146.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "38b598abbee9e6ff049a77217e2ea8d9983705c9ece43d6c34b29b318ea1a84c"
+      }
+    },
+    {
+      "id": "SRC-0147",
+      "provider_id": "SRC-0147:8d961fa48ded99b752743b04cc2003cf15794c7d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/wallet/transactions/CancelTransactionButton.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 cancel and remove transaction button",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0147.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "81f9a16acc230ed06c838f224e0d65571f63ebf25931b3050a4d664f37d024c9"
+      }
+    },
+    {
+      "id": "SRC-0148",
+      "provider_id": "SRC-0148:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/address-derivation-discovery/lib/Cardano/Wallet/Address/Discovery/Random.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 Byron address key lookup",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0148.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "dfcc3baff6d82291e832127c561fcf7b061f21516b5c870791ff5b15475a9bbe"
+      }
+    },
+    {
+      "id": "SRC-0149",
+      "provider_id": "SRC-0149:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/wallet/src/Cardano/Wallet/Shelley/Transaction.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 transaction signing",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:05:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0149.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "5fe92179108ba756659b38fce284b727f82379f8d00ff36817bef5a4c7083496"
+      }
+    },
+    {
+      "id": "SRC-0150",
+      "provider_id": "SRC-0150:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/status/ChainDataSection.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 blockchain data rebuild in Daedalus Diagnostics",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:47:08Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0150.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "9b7b0419656f563930b0528c716481fab7bcd57889819d4d71b3101ded40b95c"
+      }
+    },
+    {
+      "id": "SRC-0151",
+      "provider_id": "SRC-0151:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/wallet/src/Cardano/Wallet.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 payment submission",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T17:47:08Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0151.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "352e15d3b852498aedbc7263158d16d3ea357f9772b7e17ddc373406c09d773e"
+      }
+    },
+    {
+      "id": "SRC-0152",
+      "provider_id": "SRC-0152:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/stores/WalletsStore.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 wallet restore request",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:03:54Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0152.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "fbe702c94f27c844ca4222d2e841f4ced7da20b83c8fcb5166cb411ba3ff8e1c"
+      }
+    },
+    {
+      "id": "SRC-0153",
+      "provider_id": "SRC-0153:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/address-derivation-discovery/lib/Cardano/Wallet/Address/Derivation/Icarus.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 Icarus key derivation",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:03:54Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0153.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "25fc769435d86bc7641fb199b72aa60d735ddfb630c9ab7981176876debfd0b4"
+      }
+    },
+    {
+      "id": "SRC-0154",
+      "provider_id": "SRC-0154:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/address-derivation-discovery/lib/Cardano/Wallet/Address/Derivation/Shelley.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 Shelley key derivation",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:03:54Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0154.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "16d8f2f75a971a765b0cac7da4a6e8269b590b71a531c721e0085e390bf856ad"
+      }
+    },
+    {
+      "id": "SRC-0155",
+      "provider_id": "SRC-0155:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+      "url": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/wallet/src/Cardano/Wallet/DB/Layer.hs",
+      "platform": "GitHub",
+      "title": "cardano-wallet v2026-10-07 wallet database files",
+      "author": "Cardano Foundation",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-14T18:03:54Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-14. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0155.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "953982390270349e215329034e0f068a6e031c3e55da9148772e0eb2a3c6bf41"
       }
     }
   ]

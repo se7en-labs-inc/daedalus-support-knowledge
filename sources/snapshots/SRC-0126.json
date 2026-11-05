@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0126",
+  "provider": "github",
+  "provider_id": "SRC-0126:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/utils/governance/voteDelegationState.ts",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-12T15:20:36Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "Where the wallet reports the ledger's vote delegation, that delegation is the current one, and a DRep named only by the wallet's history is shown as an ended delegation.",
+      "The DRep registry decides only whether an ended delegation reads as retired or as retired and registered again, never whether it ended."
+    ]
+  }
+}

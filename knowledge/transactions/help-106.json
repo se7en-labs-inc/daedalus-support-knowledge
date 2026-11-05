@@ -1,30 +1,27 @@
 {
   "schema_version": 1,
   "id": "DAE-0106",
-  "title": "Investigate an unexpected balance or transaction",
+  "title": "Check an unexpected balance or transaction",
   "summary": {
-    "text": "An unexpected balance or pending transaction is a symptom, not proof of a specific bug. Start with non-destructive checks.",
+    "text": "Daedalus shows each transaction's amount, the fee of a transaction you sent and any deposit, and says when a wallet's transaction history is still being synced. Transaction metadata is not moderated and may contain inappropriate content, so Daedalus hides it until you select Show unmoderated content.",
     "source_ids": [
-      "SRC-0106",
-      "SRC-0110",
-      "SRC-0104"
+      "SRC-0133",
+      "SRC-0129"
     ]
   },
   "problem": {
     "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
     "source_ids": [
-      "SRC-0106",
-      "SRC-0110",
-      "SRC-0104"
+      "SRC-0133",
+      "SRC-0129"
     ]
   },
   "symptoms": [
     {
       "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0133",
+        "SRC-0129"
       ]
     }
   ],
@@ -32,9 +29,8 @@
     {
       "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0133",
+        "SRC-0129"
       ]
     }
   ],
@@ -49,32 +45,29 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.2"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.2 tag source and its English interface text. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
       "scope": "all",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "all",
+      "values": []
     },
     "hardware_wallets": {
       "scope": "not_applicable",
       "values": []
     },
     "source_ids": [
-      "SRC-0106",
-      "SRC-0110",
-      "SRC-0104"
+      "SRC-0129",
+      "SRC-0133"
     ]
   },
   "causes": [
@@ -82,9 +75,8 @@
       "kind": "unknown",
       "claim": "A symptom alone does not establish a cause.",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0133",
+        "SRC-0129"
       ]
     }
   ],
@@ -92,64 +84,49 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "Check synchronization status and confirm privately that you selected the intended wallet. After restoration, check that the backup belongs to that wallet.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Check that the wallet selected in the sidebar is the wallet you expect the funds in.",
+      "why": "Each wallet has its own balance and transactions.",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0129"
       ]
     },
     {
       "order": 2,
-      "action": "Inspect transaction details and distinguish sent, received and fee amounts. Treat embedded transaction metadata as untrusted; it can contain misleading links.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If the wallet's Summary says its transaction history is still being synced with the blockchain, wait until syncing finishes.",
+      "why": "A wallet that is still syncing does not yet show all of its transactions.",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0129"
       ]
     },
     {
       "order": 3,
-      "action": "If the result remains unexpected, contact support with the application version and visible status. Avoid repeatedly sending funds or deleting data while the outcome is uncertain.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Open Transactions and select the transaction to see its amount and Transaction ID, its Transaction fee if you sent it, and its Deposit if it has one.",
+      "why": "The details separate the amount from the fee and deposit.",
       "source_ids": [
-        "SRC-0106",
-        "SRC-0110",
-        "SRC-0104"
+        "SRC-0133",
+        "SRC-0129"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "You have a clearer account of the discrepancy. No particular stuck-transaction remedy or recovery outcome is established here.",
+    "text": "You can see each transaction's amount, fee and any deposit in the wallet that holds it.",
     "source_ids": [
-      "SRC-0106",
-      "SRC-0110",
-      "SRC-0104"
+      "SRC-0129",
+      "SRC-0133"
     ]
   },
   "do_not": [
-    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
-    "Do not delete, reset or move wallet data using generic instructions."
+    "Do not treat transaction metadata as checked: Daedalus does not moderate it, and it may contain inappropriate content."
   ],
-  "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
-  ],
+  "escalate_when": [],
   "safety": {
     "risk": "medium",
     "flags": [
       "funds"
     ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
-    "consequences": [
-      "Changing or approving wallet operations can affect funds."
-    ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
@@ -166,25 +143,25 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
   },
   "sources": [
-    "SRC-0106",
-    "SRC-0110",
-    "SRC-0104"
+    "SRC-0129",
+    "SRC-0133"
   ],
   "related_entries": [
-    "DAE-0102",
-    "DAE-0109"
+    "DAE-0104",
+    "DAE-0008"
   ],
   "faq": {
     "eligible": true,
-    "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "promoted": false,
+    "reason": "Retrievable only; no FAQ item is published for this entry."
   },
   "tags": [
     "transactions",
     "submission"
-  ]
+  ],
+  "revision": 6
 }

@@ -44,13 +44,13 @@ def classify(articles):
         conflict = (a['id'] in identities and identities[a['id']] != body_hash or
                     title in titles and titles[title] != body_hash)
         disposition = 'needs-review'
-        reason = 'Historical archive only. Exact platform/version applicability, current evidence and safety require editorial review.'
+        reason = 'Archived content only. Exact platform/version applicability, current evidence and safety require editorial review.'
         if a['draft'] or re.search(r'template|input output.*event|iohk.*summit|IO is coming to Asia', a['title'], re.I):
             disposition = 'excluded'
             reason = 'Draft, template or event material is outside customer guidance.'
         elif re.search(r'testnet|incentivized|ITN|shelley.*test|flight|byron|3\.3\.|4\.0\.|epoch 234|Understanding Shelley: Network decentralization', a['title'], re.I):
-            disposition = 'historical'
-            reason = 'Explicit older generation, test network or Flight material; not current Mainnet instructions.'
+            disposition = 'excluded'
+            reason = 'Older generation, test network or Flight material; not current Mainnet instructions, so not carried over.'
         if disposition == 'needs-review':
             if re.search(r'delet|uninstall|reinstall|reset|symlink|state directory|spending password|recovery phrase|paper wallet|restore|importing wallets', a['title'], re.I):
                 reason = 'Recovery or destructive workflow: verify exact wallet generation/platform, private backup prerequisites, consequences and recovery path before publication. No generic reset/deletion procedure approved.'

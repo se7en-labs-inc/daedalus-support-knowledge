@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0123",
+  "provider": "github",
+  "provider_id": "SRC-0123:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/i18n/locales/en-US.json",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-12T15:43:25Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "Staking rewards cannot be withdrawn while a wallet's voting power is not delegated, for example because its DRep retired. The interface names delegation to any DRep, to Abstain or to No Confidence as the remedy, after which the rewards can be withdrawn once the delegation is confirmed.",
+      "A delegation to a DRep that is not registered, such as one that retired, is refused.",
+      "A staking rewards on hold notice states the held amount, that payments still work and leave the rewards in place, and offers a button to delegate the voting power. After a delegation is submitted it states that the rewards can be withdrawn once the delegation is confirmed.",
+      "The voting power delegation form asks the user to choose Abstain, No Confidence or a DRep, found in the Directory or by pasting its ID. Abstain records the stake as not participating in governance; No Confidence counts it as Yes on every motion of no confidence and as No on every other governance action.",
+      "The delegation confirmation shows the delegation certificate and the transaction fee, and asks for the spending password.",
+      "The Governance Center states that a wallet's delegation ended because its DRep retired, names the DRep the wallet last delegated to, and states that a new registration of the DRep does not restore earlier delegations.",
+      "The send form offers to withdraw the wallet's staking rewards with the payment, and says rewards cannot be withdrawn while the voting power is not delegated. The send confirmation states whether the payment withdraws the rewards or leaves them in place.",
+      "The wallet summary has a Withdraw rewards action, whose dialog moves the wallet's staking rewards into the wallet and makes no payment.",
+      "Undelegating a wallet whose rewards cannot be withdrawn takes two transactions: a delegation of the voting power to Abstain, then, once it is confirmed, the undelegation, which withdraws the rewards.",
+      "When the wallet leaves the staking rewards out of a withdrawal, the interface says that the wallet does so when they are worth less than twice the fee for withdrawing them, and for a short time after it starts, before it has read them."
+    ]
+  }
+}

@@ -1,36 +1,38 @@
 {
   "schema_version": 1,
   "id": "DAE-0101",
-  "title": "Get Daedalus from the official website",
+  "title": "Download Daedalus from the official website",
   "summary": {
-    "text": "Use the official desktop distribution. At this source review, the official release was 11.0.0; check the release page again before installing.",
+    "text": "Daedalus is a desktop application for Windows, macOS and Linux, and its download site is daedaluswallet.io. Each installer has a matching .asc signature file, so you can check that the installer is genuine before you run it.",
     "source_ids": [
-      "SRC-0101",
-      "SRC-0102"
+      "SRC-0120"
     ]
   },
   "problem": {
-    "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+    "text": "A user needs to know where to download Daedalus safely and which Linux installation options exist.",
     "source_ids": [
-      "SRC-0101",
-      "SRC-0102"
+      "SRC-0120"
     ]
   },
   "symptoms": [
     {
-      "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+      "text": "The user is unsure which download site is genuine.",
       "source_ids": [
-        "SRC-0101",
-        "SRC-0102"
+        "SRC-0120"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Where can I download or install Daedalus safely? Is there a mobile app?",
+      "text": "Where do I download Daedalus?",
       "source_ids": [
-        "SRC-0101",
-        "SRC-0102"
+        "SRC-0120"
+      ]
+    },
+    {
+      "text": "Is this Daedalus download real?",
+      "source_ids": [
+        "SRC-0120"
       ]
     }
   ],
@@ -45,40 +47,36 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
       "scope": "all",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "all",
+      "values": []
     },
     "hardware_wallets": {
       "scope": "not_applicable",
       "values": []
     },
     "source_ids": [
-      "SRC-0101",
-      "SRC-0102"
+      "SRC-0120"
     ]
   },
   "causes": [
     {
       "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
+      "claim": "The available evidence does not establish one cause.",
       "source_ids": [
-        "SRC-0101",
-        "SRC-0102"
+        "SRC-0120"
       ]
     }
   ],
@@ -86,56 +84,52 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "Open daedaluswallet.io using the source link below and follow its download link. Choose your desktop platform.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Open daedaluswallet.io/download and download the installer for your operating system with its .asc signature file.",
+      "why": "The download page is where Daedalus publishes each installer and its signature.",
       "source_ids": [
-        "SRC-0101",
-        "SRC-0102"
+        "SRC-0120"
       ]
     },
     {
       "order": 2,
-      "action": "Read the release notes and the publisher’s installer verification instructions before running the installer. If verification is unclear or fails, stop and contact support.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "On Linux, choose the Debian, RPM or Arch package, or the NixOS service in the flake, rather than the portable .bin installer, which is deprecated.",
+      "why": "The 11.6.0 release notes name these as the preferred Linux installation options.",
       "source_ids": [
-        "SRC-0101",
-        "SRC-0102"
+        "SRC-0111"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Before you run the installer, check its SHA256 checksum and its signature as the download page explains.",
+      "why": "A matching checksum and signature show that the installer was not altered.",
+      "source_ids": [
+        "SRC-0120"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "You have a publisher-sourced installer and know which release it installs. This article does not replace platform-specific signature verification instructions.",
+    "text": "You have an installer from daedaluswallet.io whose SHA256 checksum and signature match, ready to run.",
     "source_ids": [
-      "SRC-0101",
-      "SRC-0102"
+      "SRC-0120"
     ]
   },
   "do_not": [
-    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
-    "Do not delete, reset or move wallet data using generic instructions."
+    "Do not run an installer whose SHA256 checksum or signature does not match."
   ],
-  "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
-  ],
+  "escalate_when": [],
   "safety": {
     "risk": "medium",
     "flags": [
       "funds"
     ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
-    "consequences": [
-      "Changing or approving wallet operations can affect funds."
-    ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -147,24 +141,25 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
   },
   "sources": [
-    "SRC-0101",
-    "SRC-0102"
+    "SRC-0111",
+    "SRC-0120",
+    "SRC-0121"
   ],
   "related_entries": [
-    "DAE-0102",
-    "DAE-0109"
+    "DAE-0114"
   ],
   "faq": {
     "eligible": true,
     "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "reason": "Common support topic with a short answer that every cited source supports."
   },
   "tags": [
     "installation",
     "download-verification"
-  ]
+  ],
+  "revision": 4
 }

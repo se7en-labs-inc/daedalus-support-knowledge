@@ -32,7 +32,9 @@ FAQ publication is an editorial decision, not a side effect of entry creation. P
 
 ## Lifecycle and supersession
 
-Records are retained with statuses: active, historical, superseded, deprecated, unverified, unsafe, incorrect, or merged. Superseded/merged records point to another stable ID and explain why. Consumers should filter unsafe/incorrect records from suggested actions, but may retain them for warning and audit. Git history is not the lifecycle model.
+Records are retained with statuses: active, superseded, deprecated, unverified, unsafe, incorrect, or merged. Superseded/merged records point to another stable ID and explain why. Consumers should filter unsafe/incorrect records from suggested actions, but may retain them for warning and audit. Git history is not the lifecycle model.
+
+There is no historical, archived or retired status. An entry or FAQ item is current guidance for the current release or it is deleted; guidance for versions that can no longer run on the current chain era is not kept. Deleted records stay in Git history only.
 
 ## Ariadne consumption
 

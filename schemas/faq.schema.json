@@ -38,8 +38,7 @@
           "status": {
             "enum": [
               "published",
-              "draft",
-              "retired"
+              "draft"
             ]
           },
           "answer": {
@@ -67,9 +66,56 @@
               },
               "additionalProperties": false
             }
+          },
+          "locale": {
+            "enum": [
+              "en",
+              "ja"
+            ]
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "translates": {
+            "type": "object",
+            "required": [
+              "id",
+              "revision"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^FAQ-[0-9]{3}$"
+              },
+              "revision": {
+                "type": "integer",
+                "minimum": 1
+              }
+            },
+            "additionalProperties": false
           }
         },
-        "additionalProperties": false
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "required": [
+                "locale"
+              ],
+              "properties": {
+                "locale": {
+                  "const": "ja"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "translates"
+              ]
+            }
+          }
+        ]
       }
     }
   },

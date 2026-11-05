@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0110",
+  "title": "Use Mithril fast sync",
+  "summary": {
+    "text": "Mithril fast sync downloads a verified snapshot of the blockchain data so that Daedalus can sync faster. Daedalus stops the Cardano node, restores the verified chain data and then restarts the node to sync the remaining blocks.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "problem": {
+    "text": "A user wants to sync the blockchain faster than a full sync from genesis.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Blockchain sync is slow.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "What is Mithril?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "How do I make Daedalus sync faster?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "synchronization",
+    "subcategory": "slow-sync"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "When the loading screen shows Fast sync with Mithril, choose a snapshot and select Use Mithril fast sync, or select Blockchain Sync from Genesis to sync without it.",
+      "why": "Daedalus offers the choice on the loading screen.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "To use Mithril after Daedalus has started, open Daedalus Diagnostics from the Help menu and select Mithril Sync.",
+      "why": "Mithril Sync is offered in Daedalus Diagnostics.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "If you opened Mithril Sync yourself, select Start Mithril Sync.",
+      "why": "Daedalus asks for confirmation before it stops the node.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Keep Daedalus open while it shows Moving snapshot to storage.",
+      "why": "Daedalus asks not to be closed during this step to preserve data integrity.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "If Mithril Sync is unavailable while damaged blockchain data is detected, select Rebuild blockchain data instead and confirm with Rebuild.",
+      "why": "Daedalus offers the rebuild in place of Mithril Sync for damaged data and asks for confirmation before it starts.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0150"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus restarts the Cardano node on the verified chain data, and the node syncs the remaining blocks.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [
+      "The rebuild deletes the blockchain data on this computer and downloads a complete verified copy. Daedalus cannot be used until the download finishes, and your wallets stay on this computer."
+    ],
+    "recovery": [
+      "If you cancel Mithril Sync, your existing chain data is unchanged.",
+      "If the network drops during the download, Daedalus continues the download when the network returns."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0111",
+    "SRC-0112",
+    "SRC-0150"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0103"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "synchronization",
+    "mithril"
+  ],
+  "revision": 4
+}

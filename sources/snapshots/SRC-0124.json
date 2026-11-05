@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0124",
+  "provider": "github",
+  "provider_id": "SRC-0124:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/utils/governance/rewardWithdrawal.ts",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-12T15:20:36Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "A request from an account the ledger holds no vote delegation for, with a reward above zero, never withdraws: a payment is sent without the withdrawal, a rewards withdrawal is not built, and an undelegation needs a vote delegation first.",
+      "Otherwise, a payment withdraws the rewards unless the user chose not to withdraw them for that payment. A legacy wallet or a zero reward never withdraws.",
+      "A reward a request leaves out does not count toward the balance that request can spend.",
+      "The decision depends only on the wallet kind, the ledger's vote delegation, the reward and the purpose of the request. It has no platform input."
+    ]
+  }
+}

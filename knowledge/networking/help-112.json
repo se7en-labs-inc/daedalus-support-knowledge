@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0112",
+  "title": "Security software and Daedalus",
+  "summary": {
+    "text": "Without an off-chain metadata server, Daedalus contacts every stake pool individually. Daedalus warns that antivirus or antimalware software could treat those thousands of network requests as malicious. Do not turn off your antivirus or firewall to fix a Daedalus problem.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "problem": {
+    "text": "A user suspects that antivirus, antimalware or firewall software interferes with Daedalus.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus fails to connect or sync and security software is installed.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Does my antivirus block Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Should I turn off my firewall for Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "antivirus"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "In Daedalus settings, select Stake pools and check Off-chain metadata server (SMASH).",
+      "why": "This setting decides whether Daedalus contacts every stake pool itself.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "If it is set to None - fetch the data directly, choose IOHK (recommended) or your custom server.",
+      "why": "Daedalus marks None as not recommended because of the many network requests.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Open Daedalus Diagnostics from the Help menu and check Cardano node responding and Cardano node syncing.",
+      "why": "These show whether the node works with the security software running.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "If Daedalus still does not work, select Download Logs in the Help menu.",
+      "why": "The logs help support find the cause.",
+      "source_ids": [
+        "SRC-0128"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Open a case in the support portal, name your security software and attach the logs.",
+      "why": "Support needs to know which security software is installed.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus fetches stake pool data through an off-chain metadata server, and Daedalus Diagnostics shows Cardano node responding and Cardano node syncing while your security software runs.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "antivirus",
+      "firewall",
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "medium",
+    "rationale": "The only official statement found is the stake pool setting warning; no official source ties other security software behavior to a Daedalus version or platform.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0121",
+    "SRC-0128"
+  ],
+  "related_entries": [
+    "DAE-0111",
+    "DAE-0113"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "networking",
+    "antivirus"
+  ],
+  "revision": 4
+}

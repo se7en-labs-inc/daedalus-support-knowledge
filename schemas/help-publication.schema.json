@@ -16,17 +16,18 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["id", "approved", "status", "reviewedOn", "reason"],
+        "required": ["id", "approved", "status", "reviewedOn"],
         "properties": {
           "id": {"type": "string", "pattern": "^DAE-[0-9]{4}$"},
           "approved": {"type": "boolean"},
-          "status": {"enum": ["current", "historical", "superseded", "needs-review", "excluded"]},
+          "status": {"enum": ["current", "superseded", "needs-review", "excluded"]},
           "reviewedOn": {"type": "string", "format": "date"},
-          "reason": {"type": "string", "minLength": 1},
+          "reason": {"type": "string"},
           "reviewedContentHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
         },
         "if": {"properties": {"approved": {"const": true}}},
-        "then": {"required": ["reviewedContentHash"], "properties": {"status": {"enum": ["current", "historical"]}}}
+        "then": {"required": ["reviewedContentHash"], "properties": {"status": {"const": "current"}}},
+        "else": {"required": ["reason"], "properties": {"reason": {"pattern": "\\S"}}}
       }
     }
   }

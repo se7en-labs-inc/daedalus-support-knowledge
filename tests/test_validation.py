@@ -7,7 +7,7 @@ import unittest
 from tools.validate import validate
 
 ROOT = Path(__file__).resolve().parents[1]
-ENTRY = Path("knowledge/installation/official-download.json")
+ENTRY = Path("knowledge/installation/help-101.json")
 
 
 class ValidationRejectionTests(unittest.TestCase):
@@ -33,7 +33,7 @@ class ValidationRejectionTests(unittest.TestCase):
     def test_valid_repository_is_accepted(self):
         errors, entries, sources, faqs = validate(self.root)
         self.assertEqual([], errors)
-        self.assertEqual((16, 22, 11), (entries, sources, faqs))
+        self.assertEqual((18, 48, 13), (entries, sources, faqs))
 
     def test_public_approval_must_be_boolean_and_have_review_fingerprint(self):
         path = self.root / 'help-centre/publication.json'
@@ -45,6 +45,87 @@ class ValidationRejectionTests(unittest.TestCase):
         value['articles'][0].pop('reviewedContentHash')
         path.write_text(json.dumps(value))
         self.assert_rejected("'reviewedContentHash' is a required property")
+
+    def write_publication_decision(self, approved, reason):
+        path = self.root / 'help-centre/publication.json'
+        value = json.loads(path.read_text())
+        decision = next(item for item in value['articles'] if item['approved'] is approved)
+        if reason is None:
+            decision.pop('reason')
+        else:
+            decision['reason'] = reason
+        path.write_text(json.dumps(value))
+
+    def test_approved_decision_needs_no_reason(self):
+        self.write_publication_decision(approved=True, reason=None)
+        errors, *_ = validate(self.root)
+        self.assertEqual([], errors)
+
+    def test_withheld_decision_needs_a_reason(self):
+        self.write_publication_decision(approved=False, reason=None)
+        self.assert_rejected("'reason' is a required property")
+
+    def test_withheld_decision_rejects_a_blank_reason(self):
+        self.write_publication_decision(approved=False, reason=" \t ")
+        self.assert_rejected("does not match")
+
+    def mutate_faq(self, mutation):
+        path = self.root / "faq/catalog.json"
+        value = json.loads(path.read_text())
+        mutation(value)
+        path.write_text(json.dumps(value, indent=2) + "\n")
+
+    def add_japanese_faq(self, translates, **extra):
+        def mutation(value):
+            english = next(item for item in value["items"] if item["id"] == "FAQ-102")
+            item = {"id": "FAQ-902", "question": english["question"], "knowledge_entries": english["knowledge_entries"],
+                    "status": "draft", "answer": english["answer"], "locale": "ja", "translates": translates}
+            item.update(extra)
+            value["items"].append(item)
+        self.mutate_faq(mutation)
+
+    def english_revision(self, faq_id="FAQ-102"):
+        value = json.loads((self.root / "faq/catalog.json").read_text())
+        return next(item for item in value["items"] if item["id"] == faq_id).get("revision", 1)
+
+    def test_current_japanese_faq_is_accepted(self):
+        self.add_japanese_faq({"id": "FAQ-102", "revision": self.english_revision()})
+        errors, *_ = validate(self.root)
+        self.assertEqual([], errors)
+
+    def test_japanese_faq_pointing_at_missing_english_item_is_rejected(self):
+        self.add_japanese_faq({"id": "FAQ-999", "revision": 1})
+        self.assert_rejected("translates missing English FAQ item FAQ-999")
+
+    def test_japanese_faq_older_than_english_revision_is_rejected(self):
+        self.add_japanese_faq({"id": "FAQ-102", "revision": self.english_revision() - 1})
+        self.assert_rejected("English source is at revision")
+
+    def test_japanese_faq_newer_than_english_revision_is_rejected(self):
+        self.add_japanese_faq({"id": "FAQ-102", "revision": self.english_revision() + 1})
+        self.assert_rejected("which only has revision")
+
+    def test_japanese_faq_without_translates_is_rejected_by_schema(self):
+        def mutation(value):
+            item = dict(next(i for i in value["items"] if i["id"] == "FAQ-102"), id="FAQ-902", locale="ja")
+            value["items"].append(item)
+        self.mutate_faq(mutation)
+        self.assert_rejected("'translates' is a required property")
+
+    def test_english_faq_cannot_set_translates(self):
+        self.mutate_faq(lambda value: value["items"][0].__setitem__("translates", {"id": "FAQ-102", "revision": 1}))
+        self.assert_rejected("an English FAQ item cannot set translates")
+
+    def test_japanese_entry_older_than_english_revision_is_rejected(self):
+        source = json.loads((self.root / ENTRY).read_text())
+        copy = dict(source, id="DAE-0902", title="Japanese copy", locale="ja", translates={"id": "DAE-0101", "revision": 0})
+        (self.root / "knowledge/installation/ja-copy.json").write_text(json.dumps(copy, indent=2) + "\n")
+        self.assert_rejected("minimum")
+        copy["translates"]["revision"] = 1
+        copy["faq"] = dict(copy["faq"], promoted=False)
+        (self.root / "knowledge/installation/ja-copy.json").write_text(json.dumps(copy, indent=2) + "\n")
+        self.mutate_entry(lambda value: value.__setitem__("revision", 2))
+        self.assert_rejected("English source is at revision 2")
 
     def test_missing_required_field_is_rejected_by_schema(self):
         self.mutate_entry(lambda value: value.pop("title"))
@@ -75,7 +156,7 @@ class ValidationRejectionTests(unittest.TestCase):
         self.assert_rejected("superseded entry needs superseded_by")
 
     def test_active_status_with_supersession_target_is_rejected(self):
-        self.mutate_entry(lambda value: value["lifecycle"].__setitem__("superseded_by", "DAE-0006"))
+        self.mutate_entry(lambda value: value["lifecycle"].__setitem__("superseded_by", "DAE-0102"))
         self.assert_rejected("only a superseded entry may set superseded_by")
 
     def test_self_referential_merge_is_rejected(self):
@@ -131,14 +212,14 @@ class ValidationRejectionTests(unittest.TestCase):
         self.assert_rejected("unknown networks applicability cannot contain values")
 
     def test_changed_snapshot_content_is_rejected(self):
-        path = self.root / "sources/snapshots/SRC-0001.json"
+        path = self.root / "sources/snapshots/SRC-0121.json"
         value = json.loads(path.read_text())
         value["representation"]["statements"][0] += " changed"
         path.write_text(json.dumps(value, indent=2) + "\n")
         self.assert_rejected("snapshot SHA256 mismatch")
 
     def test_missing_snapshot_file_is_rejected(self):
-        (self.root / "sources/snapshots/SRC-0001.json").unlink()
+        (self.root / "sources/snapshots/SRC-0121.json").unlink()
         self.assert_rejected("missing or invalid snapshot")
 
     def test_source_without_snapshot_is_rejected_by_schema(self):

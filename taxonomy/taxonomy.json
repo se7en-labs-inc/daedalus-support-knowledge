@@ -15,7 +15,7 @@
     "diagnostics": ["logs", "log-collection", "support-bundle"],
     "performance": ["memory", "cpu", "startup-time"],
     "platform": ["windows", "linux", "macos"],
-    "known-bugs": ["active", "fixed", "historical"],
+    "known-bugs": ["active", "fixed"],
     "deprecated": ["legacy-functionality", "generation-migration"]
   }
 }

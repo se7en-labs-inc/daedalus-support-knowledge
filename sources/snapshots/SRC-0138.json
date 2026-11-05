@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0138",
+  "provider": "github",
+  "provider_id": "SRC-0138:8d961fa48ded99b752743b04cc2003cf15794c7d",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/containers/voting/VotingGovernancePage.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T15:45:09Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "While Daedalus is not fully synchronized, the voting power delegation page shows that the feature becomes available once it is, instead of the form.",
+      "The form opens with the wallet and the choice carried over from the Governance Center and the Directory, and Cancel returns to the Governance Center.",
+      "The confirmation dialog receives the transaction fee and the selected wallet. After a successful delegation, Daedalus opens that wallet's Summary."
+    ]
+  }
+}

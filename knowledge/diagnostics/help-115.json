@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0115",
+  "title": "Follow up on an existing support case",
+  "summary": {
+    "text": "To open an existing case, you need its case number and the verified email address for the case. The portal emails a fresh access code to that address.",
+    "source_ids": [
+      "SRC-0119"
+    ]
+  },
+  "problem": {
+    "text": "A user has a support case and wants to open it again.",
+    "source_ids": [
+      "SRC-0118",
+      "SRC-0119"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user has a case number and wants to continue the conversation.",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I check my support case?",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    },
+    {
+      "text": "How do I reopen my case?",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "support-bundle"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0118",
+      "SRC-0119"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Open the support portal at https://daedalus.support.se7enlabs.com and choose Open an existing case.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0118"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Enter your case number and the verified email address for the case.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Select Send access code.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Enter the code from the email in the Six-digit access code field.",
+      "why": "After Send access code, the page asks for the code that was emailed to the verified address.",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Select Open case.",
+      "why": "Open case checks the code and opens the case.",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The case opens in the support portal.",
+    "source_ids": [
+      "SRC-0119"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0118",
+    "SRC-0119",
+    "SRC-0121"
+  ],
+  "related_entries": [
+    "DAE-0109",
+    "DAE-0113"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "diagnostics",
+    "support-portal"
+  ],
+  "revision": 3
+}

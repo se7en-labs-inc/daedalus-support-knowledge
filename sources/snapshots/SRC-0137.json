@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0137",
+  "provider": "github",
+  "provider_id": "SRC-0137:8d961fa48ded99b752743b04cc2003cf15794c7d",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/governance/drep-directory/DRepDirectory.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T15:45:09Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The Directory shows a list of suggested DReps, a search by DRep ID or name, and a control that shows all DReps.",
+      "A search by ID starts at 8 characters after the drep prefix. A complete ID that fails validation is reported as invalid, and a complete valid ID that matches a DRep opens that DRep's details.",
+      "Each DRep has View details and, unless the selected wallet already delegates to it, Delegate. Below the list, under the predefined options heading, Abstain and No Confidence each have a Select button. Selecting a DRep or an option passes it on for delegation."
+    ]
+  }
+}
