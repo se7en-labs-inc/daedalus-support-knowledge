@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0120",
+  "provider": "web",
+  "provider_id": "SRC-0120:2026-11-05",
+  "permalink": "https://daedaluswallet.io/download/",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-05T16:57:38Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The Daedalus download page says Daedalus is available only as a desktop application for Windows, macOS and Linux. Each installer has a matching .asc signature file, and the page explains how to check the SHA256 checksum and the signature. Its footer links to the release notes on GitHub. It shows no version number."
+    ]
+  }
+}

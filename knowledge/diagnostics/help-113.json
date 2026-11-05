@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0113",
+  "title": "Send logs to support safely",
+  "summary": {
+    "text": "Download your logs from Daedalus instead of collecting files by hand. You can do this from the Support page in Daedalus settings, or with Download logs on the loading screen when it shows connection trouble.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to send Daedalus logs to support without exposing private data.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Support asks for logs.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I get my Daedalus logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Where do I send logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "log-collection"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Download your logs from Daedalus instead of collecting files by hand.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "You can do this from the Support page in Daedalus settings, or with Download logs on the loading screen when it shows connection trouble.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Attach the downloaded file to your request in the support portal.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user follows the behavior the cited sources describe and knows where to ask for help if it does not resolve the problem.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-05",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0121"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "diagnostics",
+    "log-collection"
+  ]
+}

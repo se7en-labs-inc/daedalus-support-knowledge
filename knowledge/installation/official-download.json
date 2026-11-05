@@ -138,15 +138,17 @@
     "conflicts": []
   },
   "lifecycle": {
-    "status": "active",
+    "status": "merged",
     "superseded_by": null,
-    "merged_into": null,
-    "reason": "",
-    "source_ids": []
+    "merged_into": "DAE-0101",
+    "reason": "Both entries answered where to download Daedalus safely. DAE-0101 now carries the answer for the current release.",
+    "source_ids": [
+      "SRC-0001"
+    ]
   },
   "dates": {
     "created": "2026-08-26",
-    "last_reviewed": "2026-08-27",
+    "last_reviewed": "2026-11-05",
     "last_verified": "2026-08-27"
   },
   "sources": [

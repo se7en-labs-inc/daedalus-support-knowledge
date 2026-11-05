@@ -7,7 +7,7 @@
       "knowledge_entries": [
         "DAE-0001"
       ],
-      "status": "published",
+      "status": "retired",
       "answer": [
         {
           "text": "The official Daedalus 7.1.0 release links Mainnet downloads to daedaluswallet.io and Preview and Preprod testnet downloads to docs.cardano.org. It also publishes the IOHK organizational PGP signing-key fingerprint used for installer verification. Check the newest official Daedalus release before downloading because distribution instructions can change.",
@@ -23,7 +23,7 @@
       "knowledge_entries": [
         "DAE-0006"
       ],
-      "status": "published",
+      "status": "retired",
       "answer": [
         {
           "text": "The official Daedalus 7.0.0 release says users can delegate voting power to a delegated representative (DRep), abstain, or select no confidence from the voting tab. This answer is intentionally scoped to 7.0.0; consult the release notes for the user's exact later version rather than assuming unchanged behavior.",
@@ -35,17 +35,54 @@
     },
     {
       "id": "FAQ-101",
-      "question": "Where can I safely download Daedalus?",
+      "question": "Where should I download Daedalus safely?",
       "knowledge_entries": [
         "DAE-0101"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Use the official desktop distribution. At this source review, the official release was 11.0.0; check the release page again before installing.",
+          "text": "Download Daedalus from daedaluswallet.io.",
           "source_ids": [
-            "SRC-0101",
-            "SRC-0102"
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "Daedalus is available only as a desktop application for Windows, macOS and Linux.",
+          "source_ids": [
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "Each installer comes with a signature file ending in .asc, and the download page explains how to check the SHA256 checksum and the signature.",
+          "source_ids": [
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "Release notes for every Daedalus version are published at github.com/input-output-hk/daedalus/releases.",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "On Linux, the preferred installation options are the native Debian, RPM and Arch packages and the NixOS service included in the flake.",
+          "source_ids": [
+            "SRC-0111"
+          ]
+        },
+        {
+          "text": "The portable .bin installer for Linux is deprecated.",
+          "source_ids": [
+            "SRC-0111"
+          ]
+        },
+        {
+          "text": "Do not use any download site that asks for your recovery phrase.",
+          "source_ids": [
+            "SRC-0121"
           ]
         }
       ]
@@ -57,12 +94,49 @@
         "DAE-0102"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Verifying stored blocks, replaying ledger state and downloading new blocks are different stages. A slow stage alone does not prove that data is corrupt.",
+          "text": "Before the blockchain is up to date, Daedalus shows three stages: verifying on-disk blockchain state, replaying the ledger from the on-disk blockchain, and syncing the blockchain.",
           "source_ids": [
-            "SRC-0103",
-            "SRC-0104"
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Verifying checks the integrity of the blockchain by calculating hashes.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Replaying looks for a ledger snapshot and recomputes the latest state.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Syncing performs the initial chain selection and finalizes the blockchain state.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus Diagnostics, in the Help menu, shows the sync percentage and whether the Cardano node is syncing.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If syncing takes longer than you want, Daedalus Diagnostics offers Mithril Sync, which restores verified chain data to speed it up.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If part of the blockchain data stored on the computer is missing, Daedalus says so and offers to rebuild it.",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
           ]
         }
       ]
@@ -74,11 +148,51 @@
         "DAE-0103"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Use the visible status information to describe a startup problem before trying disruptive repairs.",
+          "text": "If the Cardano node writes nothing for five minutes while starting, Daedalus offers Restart Cardano node or Keep waiting.",
           "source_ids": [
-            "SRC-0104"
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "That notice says the node may still be working.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "While it starts, the Cardano node validates the integrity of the local blockchain data.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus Diagnostics shows the state of the Cardano node and whether it is responding.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If part of the blockchain data is missing, the Cardano node cannot start and Daedalus offers to rebuild the blockchain data.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Rebuilding the blockchain data keeps your wallets on the computer.",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If Daedalus says it is unable to start the Cardano node, submit a support request through the support portal.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115"
           ]
         }
       ]
@@ -90,12 +204,48 @@
         "DAE-0104"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Restoration requires the correct private backup and wallet type. This guide is for software wallets; hardware-wallet users should use the pairing guide.",
+          "text": "You need the recovery phrase of the wallet you want to restore.",
           "source_ids": [
-            "SRC-0105",
-            "SRC-0106"
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "For a standard wallet Daedalus asks for a 12, 18 or 24-word recovery phrase, and for a paper wallet a 27-word recovery phrase.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "You can give the restored wallet a new name and a new spending password.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Wallet names and spending passwords are stored only on the computer, not on the blockchain.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus allows one restoration at a time.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If a restored wallet is empty or lacks funds you expected, check that you used the correct recovery phrase.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "To use a hardware wallet, pair the device instead of entering its recovery phrase.",
+          "source_ids": [
+            "SRC-0112"
           ]
         }
       ]
@@ -107,12 +257,54 @@
         "DAE-0105"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Pairing a device and restoring its recovery backup into desktop software are different operations. Keep hardware-wallet recovery material on its intended secure recovery path.",
+          "text": "Daedalus supports Ledger Nano S, Ledger Nano S Plus, Ledger Nano X, Ledger Flex and Trezor Model T.",
           "source_ids": [
-            "SRC-0107",
-            "SRC-0105"
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "You pair a device once, and after that you connect it only when you need to confirm a transaction.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus asks you to connect the device and unlock it.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus asks you to launch the Cardano application on the device.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If the connection fails, disconnect and reconnect the device to restart the process.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "A Trezor needs Trezor Bridge to be installed.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If Daedalus reports outdated Ledger software or unsupported firmware, it links to update instructions.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Keep the recovery phrase of a hardware wallet offline and do not enter it in Daedalus.",
+          "source_ids": [
+            "SRC-0112"
           ]
         }
       ]
@@ -123,7 +315,7 @@
       "knowledge_entries": [
         "DAE-0106"
       ],
-      "status": "published",
+      "status": "retired",
       "answer": [
         {
           "text": "An unexpected balance or pending transaction is a symptom, not proof of a specific bug. Start with non-destructive checks.",
@@ -141,7 +333,7 @@
       "knowledge_entries": [
         "DAE-0107"
       ],
-      "status": "published",
+      "status": "retired",
       "answer": [
         {
           "text": "The delegation wizard has separate wallet selection, stake pool selection and confirmation stages. Confirmation incurs transaction fees.",
@@ -157,7 +349,7 @@
       "knowledge_entries": [
         "DAE-0108"
       ],
-      "status": "published",
+      "status": "retired",
       "answer": [
         {
           "text": "Voting-power delegation asks for a wallet and registration type. The form validates a DRep identifier when that choice needs one.",
@@ -169,16 +361,378 @@
     },
     {
       "id": "FAQ-109",
-      "question": "How can I contact a human safely?",
+      "question": "How do I get help from a person?",
       "knowledge_entries": [
         "DAE-0109"
       ],
       "status": "published",
+      "revision": 2,
       "answer": [
         {
-          "text": "Start with the minimal visible details that help staff identify the problem. Diagnostic archives are private evidence, not public knowledge.",
+          "text": "Get help from a person through the support portal at https://daedalus.support.se7enlabs.com.",
           "source_ids": [
-            "SRC-0104"
+            "SRC-0115",
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "Daedalus opens the portal from the Help menu and from the Open support ticket button on the loading screen.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0116",
+            "SRC-0117"
+          ]
+        },
+        {
+          "text": "The portal first offers approved Daedalus Wallet support guidance and can prepare a human support case if you still need help.",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "The portal asks you to verify your email address once.",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "Opening the portal from the Help menu puts your Daedalus version, network and operating system in the link.",
+          "source_ids": [
+            "SRC-0115",
+            "SRC-0117"
+          ]
+        },
+        {
+          "text": "Do not put your recovery phrase in a support request.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "Do not post logs or personal details in a public issue tracker.",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-110",
+      "question": "What is Mithril fast sync?",
+      "knowledge_entries": [
+        "DAE-0110"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Mithril fast sync downloads a verified snapshot of the blockchain data so that Daedalus can sync faster.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "When Daedalus offers it on the loading screen, choose Use Mithril fast sync to use it, or Blockchain Sync from Genesis to sync without it.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Later, you can start Mithril Sync from Daedalus Diagnostics in the Help menu.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus stops the Cardano node, restores verified chain data and then restarts the node to sync the remaining blocks.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Download and verification time depends on your network connection and storage performance.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If the network drops, Daedalus shows that the download will continue when the network returns.",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Do not close Daedalus while it moves the snapshot to storage.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If you cancel Mithril Sync, your existing chain data is unchanged.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Mithril Sync is unavailable while Daedalus detects damaged blockchain data, and Rebuild blockchain data is offered instead.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-111",
+      "question": "Why is Daedalus stuck on Connecting to network?",
+      "knowledge_entries": [
+        "DAE-0111"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Daedalus shows Connecting to network on the loading screen until it is connected.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0113"
+          ]
+        },
+        {
+          "text": "If your computer clock is off by more than the allowed number of seconds, Daedalus cannot connect to the network.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "To fix the clock, read the article at daedaluswallet.io/clock-sync.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "After 20 minutes without a connection, Daedalus shows Having trouble connecting to network? with Open support ticket and Download logs.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0113",
+            "SRC-0114"
+          ]
+        },
+        {
+          "text": "If the Cardano node cannot be started, the same screen also shows a Retry button.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0113",
+            "SRC-0116"
+          ]
+        },
+        {
+          "text": "If the connection is lost after it was made, Daedalus shows Network connection lost - reconnecting.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Open support ticket takes you to the support portal.",
+          "source_ids": [
+            "SRC-0115",
+            "SRC-0116"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-112",
+      "question": "Can security software stop Daedalus from working?",
+      "knowledge_entries": [
+        "DAE-0112"
+      ],
+      "status": "published",
+      "revision": 2,
+      "answer": [
+        {
+          "text": "Daedalus warns that antivirus or antimalware software could treat the thousands of network requests it makes when the Off-chain metadata server (SMASH) is not used as malicious behavior.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus shows that warning next to the Off-chain metadata server (SMASH) setting.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Do not turn off your antivirus or firewall to try to fix a Daedalus problem.",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "Daedalus Diagnostics shows whether the Cardano node is responding and syncing.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "If Daedalus offers Download logs, download your logs.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Open a support case in the support portal, name your security software and attach the logs.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115",
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-113",
+      "question": "How do I send my logs to support safely?",
+      "knowledge_entries": [
+        "DAE-0113"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Download your logs from Daedalus instead of collecting files by hand.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "You can do this from the Support page in Daedalus settings, or with Download logs on the loading screen when it shows connection trouble.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Attach the downloaded file to your request in the support portal.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115"
+          ]
+        },
+        {
+          "text": "Do not post logs in a public issue tracker, forum or chat.",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "Do not type or paste your recovery phrase into a support request.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-114",
+      "question": "Should I ever share my recovery phrase?",
+      "knowledge_entries": [
+        "DAE-0114"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Never share your recovery phrase with anyone, including support.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "Anyone who knows your recovery phrase can spend the ada in your wallet.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Your recovery phrase is the only way to recover your wallet if your computer is lost, broken, stolen or stops working.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Write it on paper and keep it in a safe place.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "The simplest way to keep it secure is never to store it digitally or online.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalus asks for your recovery phrase only when you restore a wallet.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "You do not need your recovery phrase to rebuild blockchain data, and rebuilding keeps your wallets on the computer.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Keep the recovery phrase of a hardware wallet offline.",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-115",
+      "question": "How do I follow up on an existing support case?",
+      "knowledge_entries": [
+        "DAE-0115"
+      ],
+      "status": "published",
+      "answer": [
+        {
+          "text": "Open the support portal at https://daedalus.support.se7enlabs.com and choose Open an existing case.",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "Enter your case number and the verified email address for the case.",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "Select Send access code.",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "The portal emails a fresh code to the verified address for that case.",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "The portal asks you to verify your email address once before you start.",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "Do not put your recovery phrase in a case.",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
           ]
         }
       ]

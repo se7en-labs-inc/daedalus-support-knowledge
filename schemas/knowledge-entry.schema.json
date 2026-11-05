@@ -551,6 +551,34 @@
         "type": "string"
       },
       "minItems": 1
+    },
+    "locale": {
+      "enum": [
+        "en",
+        "ja"
+      ]
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "translates": {
+      "type": "object",
+      "required": [
+        "id",
+        "revision"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^DAE-[0-9]{4}$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": false
     }
   },
   "$defs": {
@@ -605,5 +633,24 @@
       "additionalProperties": false
     }
   },
-  "additionalProperties": false
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "required": [
+          "locale"
+        ],
+        "properties": {
+          "locale": {
+            "const": "ja"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "translates"
+        ]
+      }
+    }
+  ]
 }

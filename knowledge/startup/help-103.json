@@ -1,32 +1,43 @@
 {
   "schema_version": 1,
   "id": "DAE-0103",
-  "title": "Check a startup or connection problem safely",
+  "title": "Check a Cardano node startup problem",
   "summary": {
-    "text": "Use the visible status information to describe a startup problem before trying disruptive repairs.",
+    "text": "If the Cardano node writes nothing for five minutes while starting, Daedalus offers Restart Cardano node or Keep waiting. While it starts, the Cardano node validates the integrity of the local blockchain data.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0111",
+      "SRC-0112"
     ]
   },
   "problem": {
-    "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+    "text": "Daedalus does not finish starting and the Cardano node shows no progress.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0111",
+      "SRC-0112"
     ]
   },
   "symptoms": [
     {
-      "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+      "text": "The loading screen says Starting Cardano node for a long time.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0111",
+        "SRC-0112"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Daedalus will not open black blank white screen connecting to network node crashed",
+      "text": "Daedalus will not start",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Cardano node is not reporting progress",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
       ]
     }
   ],
@@ -41,72 +52,76 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
-      "scope": "all",
+      "scope": "unknown",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "unknown",
+      "values": []
     },
     "hardware_wallets": {
       "scope": "not_applicable",
       "values": []
     },
     "source_ids": [
-      "SRC-0104"
+      "SRC-0111",
+      "SRC-0112"
     ]
   },
   "causes": [
     {
       "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
+      "claim": "The available evidence does not establish one cause.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0111",
+        "SRC-0112"
       ]
     }
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Daedalus Diagnostics shows the state of the Cardano node and whether it is responding.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
   "resolutions": [
     {
       "order": 1,
-      "action": "If the interface opens, inspect Diagnostics and note whether the node is running, connected and in sync.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If the Cardano node writes nothing for five minutes while starting, Daedalus offers Restart Cardano node or Keep waiting.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0111",
+        "SRC-0112"
       ]
     },
     {
       "order": 2,
-      "action": "Record the exact error and your application and operating-system versions. If the interface never opens, describe what appears when launching it.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If Daedalus says it is unable to start the Cardano node, submit a support request through the support portal.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0104"
-      ]
-    },
-    {
-      "order": 3,
-      "action": "Contact support when the cause is unclear. Do not disable antivirus, reset state or remove directories based only on an old troubleshooting article.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
-      "source_ids": [
-        "SRC-0104"
+        "SRC-0112",
+        "SRC-0115"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "Staff receives a specific symptom and environment. A stopped node, clock warning or blank screen needs diagnosis; this guide does not promise a repair.",
+    "text": "The user follows the behavior the cited sources describe and knows where to ask for help if it does not resolve the problem.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0111",
+      "SRC-0112"
     ]
   },
   "do_not": [
@@ -117,24 +132,18 @@
     "The symptom persists after the safe diagnostic steps, or funds appear at risk."
   ],
   "safety": {
-    "risk": "medium",
+    "risk": "low",
     "flags": [
-      "funds"
+      "network"
     ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
-    "consequences": [
-      "Changing or approving wallet operations can affect funds."
-    ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -146,11 +155,13 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-05",
+    "last_verified": "2026-11-05"
   },
   "sources": [
-    "SRC-0104"
+    "SRC-0111",
+    "SRC-0112",
+    "SRC-0115"
   ],
   "related_entries": [
     "DAE-0102",
@@ -159,10 +170,11 @@
   "faq": {
     "eligible": true,
     "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "reason": "Common support topic with a short answer that every cited source supports."
   },
   "tags": [
     "startup",
     "node-startup"
-  ]
+  ],
+  "revision": 2
 }

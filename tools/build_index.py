@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]; out=ROOT/'indexes/manifest.json'
 items=[]
 for p in sorted((ROOT/'knowledge').rglob('*.json')):
  e=json.loads(p.read_text()); a=e['applicability']
- items.append({'id':e['id'],'path':p.relative_to(ROOT).as_posix(),'title':e['title'],'summary':e['summary']['text'],'category':e['classification']['category'],'subcategory':e['classification']['subcategory'],'daedalus':a['daedalus'],'operating_systems':a['operating_systems'],'networks':a['networks'],'hardware_wallets':a['hardware_wallets'],'evidence_classification':e['evidence']['classification'],'confidence':e['evidence']['confidence'],'status':e['lifecycle']['status'],'source_ids':e['sources'],'source_dates':[],'faq':e['faq'],'tags':e['tags']})
+ items.append({'id':e['id'],'locale':e.get('locale','en'),'revision':e.get('revision',1),'path':p.relative_to(ROOT).as_posix(),'title':e['title'],'summary':e['summary']['text'],'category':e['classification']['category'],'subcategory':e['classification']['subcategory'],'daedalus':a['daedalus'],'operating_systems':a['operating_systems'],'networks':a['networks'],'hardware_wallets':a['hardware_wallets'],'evidence_classification':e['evidence']['classification'],'confidence':e['evidence']['confidence'],'status':e['lifecycle']['status'],'source_ids':e['sources'],'source_dates':[],'faq':e['faq'],'tags':e['tags']})
 sources={s['id']:s for s in json.loads((ROOT/'sources/registry.json').read_text())['sources']}
 for x in items:x['source_dates']=sorted({sources[s]['published_at'] for s in x['source_ids'] if sources[s]['published_at']})
 data=json.dumps({'schema_version':1,'generated_from':'validated repository content','entries':items},indent=2)+'\n'
