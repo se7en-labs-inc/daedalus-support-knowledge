@@ -5,3 +5,5 @@ Never request, store, transmit, or reveal a recovery phrase, seed words, spendin
 Procedures involving files, resets, reinstalls, permissions, terminal commands, networking/security controls, hardware wallets, recovery, or funds require matching safety flags. Destructive steps require prerequisites, concrete consequences, and recovery considerations. Always distinguish regenerable chain data from wallet data. Do not recommend broad firewall/antivirus disabling; prefer narrow official diagnostics and escalation.
 
 Content classified `unsafe`, `known-incorrect`, or lifecycle `unsafe`/`incorrect` must never be surfaced as a resolution. It may be retrieved only as a warning.
+
+Support requests, logs and case details go only through the Daedalus support portal. Never ask users to post logs, case numbers, email addresses or other personal data in a public issue tracker, forum or chat.

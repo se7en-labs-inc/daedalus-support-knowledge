@@ -1,39 +1,50 @@
 {
   "schema_version": 1,
   "id": "DAE-0109",
-  "title": "Collect useful diagnostic details for human support",
+  "title": "Get help from a person through the support portal",
   "summary": {
-    "text": "Start with the minimal visible details that help staff identify the problem. Diagnostic archives are private evidence, not public knowledge.",
+    "text": "Get help from a person through the support portal at https://daedalus.support.se7enlabs.com. The portal first offers approved Daedalus Wallet support guidance and can prepare a human support case if you still need help.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0115",
+      "SRC-0118"
     ]
   },
   "problem": {
-    "text": "Logs diagnostics help contact human support report problem",
+    "text": "A user needs help from a person and wants to know where to ask.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0115",
+      "SRC-0118"
     ]
   },
   "symptoms": [
     {
-      "text": "Logs diagnostics help contact human support report problem",
+      "text": "The user cannot solve the problem with the FAQ.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0115",
+        "SRC-0118"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Logs diagnostics help contact human support report problem",
+      "text": "How do I contact support?",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0115",
+        "SRC-0118"
+      ]
+    },
+    {
+      "text": "I need a human",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0118"
       ]
     }
   ],
   "errors": [],
   "classification": {
     "category": "diagnostics",
-    "subcategory": "logs"
+    "subcategory": "support-bundle"
   },
   "applicability": {
     "daedalus": {
@@ -41,38 +52,38 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
-      "scope": "all",
+      "scope": "unknown",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "unknown",
+      "values": []
     },
     "hardware_wallets": {
       "scope": "not_applicable",
       "values": []
     },
     "source_ids": [
-      "SRC-0104"
+      "SRC-0115",
+      "SRC-0118"
     ]
   },
   "causes": [
     {
       "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
+      "claim": "The available evidence does not establish one cause.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0115",
+        "SRC-0118"
       ]
     }
   ],
@@ -80,33 +91,27 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "Note the application version, operating-system version, node state and synchronization phase. Include the exact error without personal information.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Get help from a person through the support portal at https://daedalus.support.se7enlabs.com.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0104"
+        "SRC-0115",
+        "SRC-0118"
       ]
     },
     {
       "order": 2,
-      "action": "Use Contact support on this page, verify your email and request a human. The Help Centre itself does not require login or an AI service.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "The portal asks you to verify your email address once.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0104"
-      ]
-    },
-    {
-      "order": 3,
-      "action": "If staff requests a diagnostic ZIP, use the authenticated case attachment control. Do not paste logs publicly or include private wallet files.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
-      "source_ids": [
-        "SRC-0104"
+        "SRC-0118"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "Staff has a focused description and can request screened evidence if needed. This guide does not prescribe an unverified log-export sequence.",
+    "text": "The user follows the behavior the cited sources describe and knows where to ask for help if it does not resolve the problem.",
     "source_ids": [
-      "SRC-0104"
+      "SRC-0115",
+      "SRC-0118"
     ]
   },
   "do_not": [
@@ -117,24 +122,16 @@
     "The symptom persists after the safe diagnostic steps, or funds appear at risk."
   ],
   "safety": {
-    "risk": "medium",
-    "flags": [
-      "funds"
-    ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
-    "consequences": [
-      "Changing or approving wallet operations can affect funds."
-    ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -146,23 +143,28 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-05",
+    "last_verified": "2026-11-05"
   },
   "sources": [
-    "SRC-0104"
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0116",
+    "SRC-0117",
+    "SRC-0118",
+    "SRC-0121"
   ],
   "related_entries": [
-    "DAE-0101",
-    "DAE-0104"
+    "DAE-0102"
   ],
   "faq": {
     "eligible": true,
     "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "reason": "Common support topic with a short answer that every cited source supports."
   },
   "tags": [
     "diagnostics",
-    "logs"
-  ]
+    "support-portal"
+  ],
+  "revision": 2
 }

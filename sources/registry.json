@@ -668,6 +668,339 @@
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
         "sha256": "d0b39aaedc4c361559d09e5b4e76d230eab27be605f262cbccd0787249ad1234"
       }
+    },
+    {
+      "id": "SRC-0111",
+      "provider_id": "release:11.6.0",
+      "url": "https://github.com/input-output-hk/daedalus/releases/tag/11.6.0",
+      "platform": "GitHub",
+      "title": "Daedalus 11.6.0 release",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-release",
+      "trust": "official",
+      "published_at": "2026-10-24T01:19:45Z",
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0111.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "ed5fa1033c0eb37bf02cf157c26e2c17e765b870ba148106b3cdce08cd37f516"
+      }
+    },
+    {
+      "id": "SRC-0112",
+      "provider_id": "SRC-0112:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/i18n/locales/en-US.json",
+      "platform": "GitHub",
+      "title": "11.6.0 interface text (English)",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0112.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "c854da55a4c708890b8b14f8d5f1e5474c6e2abedc725c0f8949e4e96185f712"
+      }
+    },
+    {
+      "id": "SRC-0113",
+      "provider_id": "SRC-0113:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/loading/syncing-connecting/SyncingConnecting.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 loading screen connecting logic",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0113.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "84bd65dc4c0f1cf292d7fd9b54319da526d797f11d9abd7e1e1b202e1e9e912e"
+      }
+    },
+    {
+      "id": "SRC-0114",
+      "provider_id": "SRC-0114:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/config/timingConfig.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 timing configuration",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0114.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "0a71d3789c7193a165306659e0febd4422a6787bb2e08170748c1568553dbe6f"
+      }
+    },
+    {
+      "id": "SRC-0115",
+      "provider_id": "SRC-0115:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/common/utils/reporting.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 support link construction",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0115.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "7b239fe74830636dd510130b5a677bfda570446cde0937eb7c6a04c93e712b39"
+      }
+    },
+    {
+      "id": "SRC-0116",
+      "provider_id": "SRC-0116:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/loading/syncing-connecting/ReportIssue.tsx",
+      "platform": "GitHub",
+      "title": "11.6.0 loading screen report-issue block",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0116.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "3bcf4a551f33cb98c11b588d7e607305493733a08c88bc5f26e028594bb97f2b"
+      }
+    },
+    {
+      "id": "SRC-0117",
+      "provider_id": "SRC-0117:d6502e079c88adf2067b457e03f252d0aa89d246",
+      "url": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/main/menus/win-linux.ts",
+      "platform": "GitHub",
+      "title": "11.6.0 Windows and Linux application menu",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.0"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0117.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "476f2897c1603dfe11a5a3207b62c1252d005772d16d590afac1c1ac60ce3dae"
+      }
+    },
+    {
+      "id": "SRC-0118",
+      "provider_id": "SRC-0118:2026-11-05",
+      "url": "https://daedalus.support.se7enlabs.com/",
+      "platform": "Se7en Labs support portal",
+      "title": "Daedalus support portal home page",
+      "author": "Se7en Labs",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0118.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "04694e9e2fa2ebee97a20ec4bbdde226e9deb2851fa1b5fb8db1081d10d75ec6"
+      }
+    },
+    {
+      "id": "SRC-0119",
+      "provider_id": "SRC-0119:2026-11-05",
+      "url": "https://daedalus.support.se7enlabs.com/support/access",
+      "platform": "Se7en Labs support portal",
+      "title": "Daedalus support portal existing case page",
+      "author": "Se7en Labs",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0119.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "685e4a1612f9cdc12d3dc443f5ec696c7ff0bdcd959395601b17c49ce9b1d817"
+      }
+    },
+    {
+      "id": "SRC-0120",
+      "provider_id": "SRC-0120:2026-11-05",
+      "url": "https://daedaluswallet.io/download/",
+      "platform": "Website",
+      "title": "Daedalus website download page",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0120.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "f6c38ae25d44d9cc3cc08bc7c93085018c5cf013340f370aec3498c38d17703a"
+      }
+    },
+    {
+      "id": "SRC-0121",
+      "provider_id": "SRC-0121:2026-11-05",
+      "url": "https://github.com/se7en-labs-inc/daedalus-support-knowledge/blob/main/docs/safety.md",
+      "platform": "GitHub",
+      "title": "Wallet safety policy",
+      "author": "Se7en Labs",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-05T16:57:38Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-05. Editorial paraphrase, not a wallet runtime test. Safety and escalation instructions are editorial policy.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0121.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "b768df31d5f5749c202e9b538c9454d78a860b55a2caced989a094e84d7b9ff0"
+      }
     }
   ]
 }

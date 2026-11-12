@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0119",
+  "provider": "web",
+  "provider_id": "SRC-0119:2026-11-05",
+  "permalink": "https://daedalus.support.se7enlabs.com/support/access",
+  "author": "Se7en Labs",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-05T16:57:38Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The existing case page is titled Open an existing case. It asks for a case number and a verified email address, offers a Send access code button and says a fresh code is emailed to the verified address for the case. The page text names no code expiry and no return link."
+    ]
+  }
+}

@@ -1,53 +1,42 @@
 {
   "schema_version": 1,
   "id": "DAE-0105",
-  "title": "Connect a hardware wallet without exposing its backup",
+  "title": "Connect a hardware wallet to Daedalus",
   "summary": {
-    "text": "Pairing a device and restoring its recovery backup into desktop software are different operations. Keep hardware-wallet recovery material on its intended secure recovery path.",
+    "text": "Daedalus supports Ledger Nano S, Ledger Nano S Plus, Ledger Nano X, Ledger Flex and Trezor Model T. You pair a device once, and after that you connect it only when you need to confirm a transaction.",
     "source_ids": [
-      "SRC-0107",
-      "SRC-0105"
+      "SRC-0112"
     ]
   },
   "problem": {
-    "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+    "text": "A Ledger or Trezor device does not connect to Daedalus.",
     "source_ids": [
-      "SRC-0107",
-      "SRC-0105"
+      "SRC-0112"
     ]
   },
   "symptoms": [
     {
-      "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+      "text": "Daedalus does not show the device as ready.",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Ledger Trezor not connecting not detected pairing firmware bridge",
+      "text": "My Ledger is not connecting",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Daedalus does not see my Trezor",
+      "source_ids": [
+        "SRC-0112"
       ]
     }
   ],
-  "errors": [
-    {
-      "verbatim": "Trezor Bridge not installed!",
-      "normalized": "trezor bridge not installed!"
-    },
-    {
-      "verbatim": "Unsupported firmware!",
-      "normalized": "unsupported firmware!"
-    },
-    {
-      "verbatim": "Outdated Ledger software!!",
-      "normalized": "outdated ledger software!!"
-    }
-  ],
+  "errors": [],
   "classification": {
     "category": "hardware-wallets",
     "subcategory": "connection"
@@ -58,78 +47,93 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
-      "scope": "all",
+      "scope": "unknown",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
-    },
-    "hardware_wallets": {
-      "scope": "not_applicable",
+      "scope": "unknown",
       "values": []
     },
+    "hardware_wallets": {
+      "scope": "specific",
+      "values": [
+        "Ledger Nano S",
+        "Ledger Nano S Plus",
+        "Ledger Nano X",
+        "Ledger Flex",
+        "Trezor Model T"
+      ]
+    },
     "source_ids": [
-      "SRC-0107",
-      "SRC-0105"
+      "SRC-0112"
     ]
   },
   "causes": [
     {
       "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
+      "claim": "The available evidence does not establish one cause.",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
       ]
     }
   ],
-  "diagnostics": [],
-  "resolutions": [
+  "diagnostics": [
     {
       "order": 1,
-      "action": "Use the hardware-wallet pairing flow with the intended device. Follow its unlock and Cardano application prompts; confirm device actions only when you initiated them.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Daedalus asks you to connect the device and unlock it.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
       ]
     },
     {
       "order": 2,
-      "action": "Read the exact state or error. For a failed connection, the checked interface suggests reconnecting the device.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Daedalus asks you to launch the Cardano application on the device.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "If the connection fails, disconnect and reconnect the device to restart the process.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "A Trezor needs Trezor Bridge to be installed.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
       ]
     },
     {
       "order": 3,
-      "action": "For unsupported firmware, bridge or software errors, ask support for instructions matching your device and platform. This guide does not establish firmware compatibility or prescribe updates.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If Daedalus reports outdated Ledger software or unsupported firmware, it links to update instructions.",
+      "why": "Stated by the cited source.",
       "source_ids": [
-        "SRC-0107",
-        "SRC-0105"
+        "SRC-0112"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "The device reaches its ready state, or you have an exact connection error for staff. Never type a hardware-wallet recovery phrase into Ariadne or a desktop troubleshooting form.",
+    "text": "The user follows the behavior the cited sources describe and knows where to ask for help if it does not resolve the problem.",
     "source_ids": [
-      "SRC-0107",
-      "SRC-0105"
+      "SRC-0112"
     ]
   },
   "do_not": [
@@ -145,20 +149,14 @@
       "funds",
       "hardware-wallet"
     ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
-    "consequences": [
-      "Changing or approving wallet operations can affect funds."
-    ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -170,12 +168,11 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-05",
+    "last_verified": "2026-11-05"
   },
   "sources": [
-    "SRC-0107",
-    "SRC-0105"
+    "SRC-0112"
   ],
   "related_entries": [
     "DAE-0102",
@@ -184,10 +181,11 @@
   "faq": {
     "eligible": true,
     "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "reason": "Common support topic with a short answer that every cited source supports."
   },
   "tags": [
     "hardware-wallets",
     "connection"
-  ]
+  ],
+  "revision": 2
 }

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0112",
+  "provider": "github",
+  "provider_id": "SRC-0112:d6502e079c88adf2067b457e03f252d0aa89d246",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/i18n/locales/en-US.json",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-05T16:57:38Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The English interface text names the loading stages (verifying on-disk blockchain state, replaying the ledger, syncing the blockchain) and describes each one.",
+      "It names the Mithril fast sync choices on the loading screen, the Mithril Sync flow in Daedalus Diagnostics, its progress and error messages, and the blockchain rebuild confirmation, which states that wallets stay on the computer and that the recovery phrase is not needed.",
+      "It holds the node silence notice, the connecting-to-network and reconnecting messages, the loading-screen support and log buttons, the clock synchronization message and the Support settings page, which states that logs do not contain sensitive information.",
+      "It holds the hardware wallet pairing and device status messages, the wallet restore messages, the backup warnings about recovery phrases, and the stake pool setting warning that antivirus or antimalware software could treat the many network requests as malicious."
+    ]
+  }
+}

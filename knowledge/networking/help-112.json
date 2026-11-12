@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0112",
+  "title": "Security software and Daedalus",
+  "summary": {
+    "text": "Daedalus warns that antivirus or antimalware software could treat the thousands of network requests it makes when the Off-chain metadata server (SMASH) is not used as malicious behavior.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "problem": {
+    "text": "A user suspects that antivirus, antimalware or firewall software interferes with Daedalus.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus fails to connect or sync and security software is installed.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Does my antivirus block Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Should I turn off my firewall for Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "antivirus"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "unknown",
+      "values": []
+    },
+    "networks": {
+      "scope": "unknown",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "Daedalus Diagnostics shows whether the Cardano node is responding and syncing.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "If Daedalus offers Download logs, download your logs.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Open a support case in the support portal, name your security software and attach the logs.",
+      "why": "Stated by the cited source.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The user follows the behavior the cited sources describe and knows where to ask for help if it does not resolve the problem.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [
+    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
+    "Do not delete, reset or move wallet data using generic instructions."
+  ],
+  "escalate_when": [
+    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+  ],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "antivirus",
+      "firewall",
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "medium",
+    "rationale": "The only official statement found is the stake pool setting warning; no official source ties other security software behavior to a Daedalus version or platform.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-12",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0121"
+  ],
+  "related_entries": [
+    "DAE-0102",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "networking",
+    "antivirus"
+  ],
+  "revision": 2
+}

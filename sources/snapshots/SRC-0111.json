@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0111",
+  "provider": "github",
+  "provider_id": "release:11.6.0",
+  "permalink": "https://github.com/input-output-hk/daedalus/releases/tag/11.6.0",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": "2026-10-24T01:19:45Z",
+  "updated_at": null,
+  "retrieved_at": "2026-11-05T16:57:38Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "Daedalus 11.6.0 is a mainnet maintenance release. Daedalus recognizes missing blockchain data left by partial Mithril syncs before 11.5.0 and offers a confirmed rebuild from a complete verified Mithril snapshot that keeps wallets on the computer.",
+      "If cardano-node writes nothing for five minutes while starting, Daedalus offers Restart Cardano node or Keep waiting.",
+      "A Mithril download that has stalled shows that it is waiting for the network to return.",
+      "On Linux the portable .bin installer is deprecated but still provided for 11.6.0. The preferred installation options are native Debian, RPM and Arch packages and the NixOS service included in the flake."
+    ]
+  }
+}
