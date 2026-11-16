@@ -37,6 +37,7 @@ faq/                         canonical catalog and generated FAQ
 schemas/, taxonomy/          validated shared content contracts
 indexes/manifest.json         generated curated entry discovery metadata
 help-centre/                 publication decisions and generated coverage
+policies/                    public support policies (service levels, security disclosure)
 research/                    generic public topics only; never customer evidence
 tools/                       acquisition, normalization, validation and generators
 package.json                 standalone archive commands and dependencies
