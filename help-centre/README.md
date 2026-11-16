@@ -1,10 +1,12 @@
 # Public Help Centre edition
 
 This canonical repository owns curated entry, source, evidence, FAQ and publication
-schemas. `publication.json` records every entry's disposition and reason. Approval
-binds entry, source records and associated FAQ with `reviewedContentHash`; importing
-or reformatting content never verifies it. Local Help Centre testing was approved
-on 2026-09-22, distinct from the 2026-09-21 source review and wallet runtime testing.
+schemas. `publication.json` records every entry's disposition. A decision that
+withholds an entry (`approved: false`) states its reason; an approval needs none.
+Approval binds entry, source records and associated FAQ with `reviewedContentHash`;
+importing or reformatting content never verifies it. Local Help Centre testing
+was approved on 2026-09-22, distinct from the 2026-09-21 source review and wallet
+runtime testing.
 
 Edit entries and source snapshots here, keep permanent DAE/SRC IDs and actual
 applicability, and regenerate `indexes/manifest.json` and `faq/README.md` using the
@@ -25,10 +27,10 @@ independently. No personal-pool checkout is required.
 
 To withdraw, set `approved: false` with a reason, fix related links, regenerate,
 commit and rebuild consumers. Replacement guidance uses a new ID and explicit
-supersession; original evidence remains. Historical guidance is visibly separated
-and excluded from current search. Rollback can restore withdrawn advice: inspect
+supersession; original evidence remains. Guidance that is no longer valid for
+the current release is deleted, not kept under a historical status. Rollback can restore withdrawn advice: inspect
 the old snapshot before rolling back an application.
 
 Keep private research/conversations outside the repository. Generic topic demand
 is not confirmation of a cause or remedy. Raw originals are preserved here for
-historical review, never copied wholesale to public Help routes or search indexes.
+review, never copied wholesale to public Help routes or search indexes.

@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0114",
+  "title": "Keep your wallet safe",
+  "summary": {
+    "text": "Your recovery phrase, spending password and private keys control your wallet. Anyone who knows your recovery phrase can spend the ada in your wallet, and support never asks for any of them.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "problem": {
+    "text": "A user wants to know how to keep a wallet safe: what never to give anyone, where to download Daedalus and where to get help.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0120",
+      "SRC-0121"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Someone asks the user for the recovery phrase.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone offers help with the wallet in a direct message.",
+      "source_ids": [
+        "SRC-0121"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Does support need my recovery phrase?",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Is it safe to share my seed words?",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone messaged me offering help with my wallet",
+      "source_ids": [
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone told me to delete my wallet files",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "wallets",
+    "subcategory": "recovery"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Before Daedalus shows the recovery phrase of a new wallet, make sure nobody can see your screen.",
+      "why": "Daedalus asks you to confirm that nobody can see your screen, because anyone who knows the recovery phrase can spend the ada in the wallet.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Write your recovery phrase on paper and keep it in a safe place, never on a computer or online.",
+      "why": "Daedalus gives this as the simplest way to keep the recovery phrase secure.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "In the wallet's settings, select Verify wallet recovery phrase to check that you have the right phrase.",
+      "why": "Only the correct recovery phrase can recover the wallet's funds.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Download Daedalus only from daedaluswallet.io.",
+      "why": "The download page is the official source of the installers and their signatures.",
+      "source_ids": [
+        "SRC-0120",
+        "SRC-0121"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Ask for help only through the support portal at https://daedalus.support.se7enlabs.com. Anyone who offers help in a direct message is not support.",
+      "why": "Support requests go only through the support portal.",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0121"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "Do not delete or move wallet data because someone tells you to. When blockchain data is damaged, Daedalus offers Rebuild blockchain data, which keeps your wallets on the computer.",
+      "why": "Blockchain data can be rebuilt; a deleted wallet comes back only from its recovery phrase.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Your recovery phrase is written on paper, checked with Verify wallet recovery phrase, and known only to you.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "do_not": [
+    "Do not type your recovery phrase into a website or send it in a message, to support or to anyone else."
+  ],
+  "escalate_when": [],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "wallet-recovery",
+      "funds"
+    ],
+    "prerequisites": [
+      "The recovery phrase you wrote down when you created the wallet, to check it with Verify wallet recovery phrase."
+    ],
+    "consequences": [
+      "Once you delete a wallet from Daedalus, you lose access to its funds until you restore it from its recovery phrase.",
+      "Without the recovery phrase, a wallet cannot be recovered if the computer is lost, broken, stolen or stops working."
+    ],
+    "recovery": [
+      "If you cannot verify your recovery phrase, or someone else may know it, create a new wallet and move all the funds to it."
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0121",
+    "SRC-0115",
+    "SRC-0120"
+  ],
+  "related_entries": [
+    "DAE-0101",
+    "DAE-0109",
+    "DAE-0104",
+    "DAE-0003"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "wallets",
+    "recovery"
+  ],
+  "revision": 3
+}

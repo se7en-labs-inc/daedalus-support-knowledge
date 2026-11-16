@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0122",
+  "provider": "github",
+  "provider_id": "SRC-0122:d6502e079c88adf2067b457e03f252d0aa89d246",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/config/walletRestoreConfig.ts",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-12T15:20:36Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The restore dialog offers Daedalus and Yoroi wallet kinds; the hardware wallet kind is not offered.",
+      "On mainnet a Daedalus wallet is restored from 12 words (Byron legacy), 24 words (Shelley) or 27 words (paper wallet). Other networks also offer a 15-word Shelley kind.",
+      "A Yoroi wallet is restored from 15 words, as a Byron legacy or a Shelley wallet."
+    ]
+  }
+}

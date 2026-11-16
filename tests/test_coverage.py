@@ -13,7 +13,7 @@ from build_coverage import build, classify, verify_archive
 
 class CoverageTests(unittest.TestCase):
     def article(self):
-        return {'id': 'ZENDESK-1', 'title': 'Procedure', 'text': 'Historical procedure.',
+        return {'id': 'ZENDESK-1', 'title': 'Procedure', 'text': 'Archived procedure.',
                 'sourceUrl': 'https://example.org/article', 'createdAt': '2020-01-01',
                 'updatedAt': '2020-01-02', 'draft': False, 'safeLinks': [],
                 'images': [{'localPath': None, 'alt': 'Missing image', 'fallback': 'Use verified text.'}],

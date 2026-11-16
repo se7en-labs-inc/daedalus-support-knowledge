@@ -10,7 +10,7 @@
 8. **Validate and generate:** run `python3 tools/validate.py` and `python3 tools/build_index.py`; commit the generated manifest with content.
 9. **Peer review:** verify every claim against its linked source, test references, check duplicates, and set review/verification dates accurately.
 
-IDs are never reused. Correct by lifecycle transition or a new superseding entry; do not erase historical behavior.
+IDs are never reused. Correct by lifecycle transition or a new superseding entry; do not keep guidance that no longer applies to the current release under a historical status; delete the entry. Git history keeps the record.
 
 ## Canonical repository and submissions
 

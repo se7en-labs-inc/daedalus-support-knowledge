@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0127",
+  "provider": "github",
+  "provider_id": "issue:3462",
+  "permalink": "https://github.com/input-output-hk/daedalus/issues/3462",
+  "author": "Crypto2099",
+  "author_association": "collaborator",
+  "published_at": "2026-11-12T16:05:28Z",
+  "updated_at": "2026-11-12T16:05:28Z",
+  "retrieved_at": "2026-11-12T16:06:30Z",
+  "source_state": "open",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The issue reports that after the DRep a wallet's voting power is delegated to retires, payments and undelegation from that wallet fail while it holds staking rewards, and the Governance Center can stall on the retired DRep.",
+      "It states that a DRep's retirement clears the vote delegation of every stake credential delegated to it, and that from protocol version 10 the ledger refuses a reward withdrawal from a key-hash reward account with no vote delegation. A delegation to any registered DRep, to Abstain or to No Confidence satisfies the rule.",
+      "Expected behavior: a payment from such an account succeeds and leaves the rewards in place, Daedalus shows the held amount and the way to delegate the voting power, and undelegation succeeds and moves the rewards into the wallet."
+    ]
+  }
+}

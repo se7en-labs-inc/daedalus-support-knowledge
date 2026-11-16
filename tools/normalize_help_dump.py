@@ -96,7 +96,7 @@ def normalize(root):
             if not local and len(indexed)==len(parser.images) and indexed[n]['alt']==i['alt']:
                 local=resolve_asset(indexed[n]['reference'],root)
             images.append({'localPath':local,'alt':i['alt'],
-                           'fallback':'Historical screenshot unavailable or not reviewed; use source text and verified current interface guidance.'})
+                           'fallback':'Screenshot unavailable or not reviewed; use source text and verified current interface guidance.'})
         articles.append({'id':'ZENDESK-'+str(a['id']),'title':a['title'],'text':parser.normalized_text(),
                          'sourceUrl':a['html_url'] if safe_link(a['html_url']) else None,
                          'createdAt':a.get('created_at'),'updatedAt':a.get('updated_at'),

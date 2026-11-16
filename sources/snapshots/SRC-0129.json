@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0129",
+  "provider": "github",
+  "provider_id": "SRC-0129:8d961fa48ded99b752743b04cc2003cf15794c7d",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/i18n/locales/en-US.json",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T18:05:00Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "Each wallet has Summary and Transactions pages, and the summary says when the wallet's transaction history is still being synced with the blockchain.",
+      "Transaction details are labelled Transaction fee, Deposit and Transaction ID. Transaction metadata is described as not moderated and possibly inappropriate, behind a Show unmoderated content control.",
+      "Staking has a Delegation center page, which offers Delegate for an undelegated wallet and Redelegate for a delegated one.",
+      "The Delegate wallet wizard lists wallet selection, stake pool selection and delegation confirmation, and warns that the last step incurs transaction fees. It asks for a wallet holding a minimum amount of ADA and refuses one that holds only rewards or is still being synced; it offers recent stake pool choices and a search of all stake pools, and each step continues with Continue.",
+      "Confirm Delegation shows the Stake pool ID, Fees and Deposit, asks for the spending password and has a Confirm button.",
+      "After delegation, Daedalus says the new preferences take effect after both the current and the next Cardano epochs have completed, and that the previous preferences remain active until then.",
+      "The shared Review transaction dialog shows the Transaction fee and, under Other actions, any Certificates. It asks for the Wallet spending password and offers Reject and Sign and send; for a hardware wallet the button is Continue on device and send, and Daedalus waits for approval on the device.",
+      "The Governance sidebar category has Governance Center, Directory and Favorites tabs. The Governance Center says to register voting power to withdraw rewards and lists wallets under Wallet, Delegated to and Status, showing Undelegated, Abstain, No Confidence or the DRep, with View details and Delegate or Redelegate buttons.",
+      "The Directory lists Suggested DReps and offers Show all DReps and a search box labelled Search by DRep ID or name. A search by ID needs at least 8 characters, and an invalid complete ID shows Invalid DRep ID. DReps have Delegate and View details buttons. Under Or choose a predefined option, Abstain and No Confidence each have a description and a Select button: Abstain records the stake as not participating in governance, and No Confidence counts it as Yes on motions of no confidence and as No on every other governance action.",
+      "The voting power delegation form, headed CARDANO VOTING POWER DELEGATION, has a Delegate From wallet selector, a Currently Delegated To panel, the choice under Delegate To with a Change button, Browse DReps when nothing is chosen, and Submit and Cancel. It says when the wallet already delegates to the chosen option, and when the wallet lacks the minimum required amount of ADA, noting that the wallet might still be syncing and suggesting trying again later or choosing another wallet.",
+      "Confirm Transaction shows the choice under Delegate To, the Delegation certificate and the Transaction fee, asks for the Spending password and has Cancel and Confirm. For a hardware wallet, Daedalus asks for the transaction to be confirmed on the device.",
+      "A feature that needs a synchronized blockchain says that Daedalus is synchronizing with the Cardano blockchain and that the feature becomes available once Daedalus is fully synchronized.",
+      "Add wallet offers Import. Import wallets imports wallets from 'secret.key' files of Daedalus 0.15.1 and earlier, including wallets whose recovery phrase was lost.",
+      "A sent transaction that the network has not yet confirmed is marked Transaction pending. Once it has been pending for a long time, its details say that canceling it can release the funds it uses and offer Cancel pending transaction. The confirmation, Confirm transaction cancellation?, offers No, leave transaction pending and Yes, cancel transaction, and says that a cancelled transaction may still be finalized, in which case it reappears in the wallet as a completed transaction.",
+      "A transaction whose time to live passed before the network processed it is marked Transaction failed, with a note that it must be removed to release its funds, and a Remove failed transaction button.",
+      "The Support settings page asks for the downloaded logs to be attached to a support request, to help the support team investigate the issue."
+    ]
+  }
+}

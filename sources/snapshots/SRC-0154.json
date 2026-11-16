@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0154",
+  "provider": "github",
+  "provider_id": "SRC-0154:f293d922f1930714aca7ede3cbb5ebf3fb710af6",
+  "permalink": "https://github.com/cardano-foundation/cardano-wallet/blob/f293d922f1930714aca7ede3cbb5ebf3fb710af6/lib/address-derivation-discovery/lib/Cardano/Wallet/Address/Derivation/Shelley.hs",
+  "author": "Cardano Foundation",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T18:03:54Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "A Shelley wallet derives its account keys, and so its addresses, under derivation purpose 1852'. A recovery phrase restored as a Shelley wallet therefore finds different addresses from the same phrase restored as an Icarus wallet."
+    ]
+  }
+}

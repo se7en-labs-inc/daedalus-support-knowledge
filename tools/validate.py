@@ -24,6 +24,36 @@ def schema_errors(instance, schema_path, label):
     return result
 
 
+def check_translations(items, kind, where_of, errors):
+    """Locale rules: a ja item points at a current English item of the same kind."""
+    by_id = {item.get("id"): item for item in items}
+    for item in items:
+        where = where_of(item)
+        locale = item.get("locale", "en")
+        pointer = item.get("translates")
+        if locale == "en":
+            if pointer is not None:
+                errors.append(f"{where}: an English {kind} cannot set translates")
+            continue
+        if not isinstance(pointer, dict):
+            errors.append(f"{where}: a {locale} {kind} needs translates")
+            continue
+        source = by_id.get(pointer.get("id"))
+        if source is None:
+            errors.append(f"{where}: translates missing English {kind} {pointer.get('id')}")
+            continue
+        if source.get("locale", "en") != "en":
+            errors.append(f"{where}: translates {pointer.get('id')}, which is not an English {kind}")
+            continue
+        current, claimed = source.get("revision", 1), pointer.get("revision")
+        if not isinstance(claimed, int):
+            continue
+        if claimed < current:
+            errors.append(f"{where}: translation of {pointer['id']} is at revision {claimed} but the English source is at revision {current}")
+        elif claimed > current:
+            errors.append(f"{where}: translates revision {claimed} of {pointer['id']}, which only has revision {current}")
+
+
 def validate(root=ROOT):
     global ROOT
     ROOT = Path(root)
@@ -209,6 +239,8 @@ def validate(root=ROOT):
                 allowed_sources.update(entries[entry_id].get("sources", []))
         for claim_index, claim in enumerate(item.get("answer", [])):
             check_source_refs(claim.get("source_ids", []), f"{where} answer[{claim_index}]", allowed_sources)
+    check_translations(faq.get("items", []), "FAQ item", lambda item: f"faq/catalog.json {item.get('id')}", errors)
+    check_translations(list(entries.values()), "entry", lambda entry: paths[entry.get("id")], errors)
     for entry_id, entry in entries.items():
         if bool(entry.get("faq", {}).get("promoted")) != (entry_id in promoted):
             errors.append(f"{paths[entry_id]}: faq.promoted disagrees with FAQ catalog")

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0125",
+  "provider": "github",
+  "provider_id": "SRC-0125:793e46ee49903ca626dd7cab59a111eac5c9eb91",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/793e46ee49903ca626dd7cab59a111eac5c9eb91/source/renderer/app/components/notifications/HeldRewardsNotification.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-12T15:20:36Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The notice is shown on a wallet whose staking rewards cannot be withdrawn because its voting power is not delegated, with the held amount, which discreet mode hides.",
+      "Its button opens the voting power delegation form with this wallet selected.",
+      "After a delegation is submitted and before the ledger shows it, the notice shows its submitted wording and no button."
+    ]
+  }
+}

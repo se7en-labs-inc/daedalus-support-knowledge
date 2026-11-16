@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0139",
+  "provider": "github",
+  "provider_id": "SRC-0139:8d961fa48ded99b752743b04cc2003cf15794c7d",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/8d961fa48ded99b752743b04cc2003cf15794c7d/source/renderer/app/components/voting/voting-governance/VotingPowerDelegation.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T15:45:09Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The wallet selector leaves out Byron wallets and disables wallets that are still syncing. The chosen DRep, Abstain or No Confidence is shown with a Change button that returns to the Directory.",
+      "Submit is disabled while the wallet already delegates to the chosen option. On a build without the CIP-30 dApp connector, Submit prepares the transaction and opens the confirmation dialog with its fee, or shows an error such as the wallet lacking the minimum amount of ADA. On a build with the connector, Submit sends the delegation through the shared transaction review."
+    ]
+  }
+}

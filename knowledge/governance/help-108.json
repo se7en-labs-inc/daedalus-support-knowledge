@@ -1,32 +1,52 @@
 {
   "schema_version": 1,
   "id": "DAE-0108",
-  "title": "Check voting-power delegation and DRep input",
+  "title": "Delegate your voting power",
   "summary": {
-    "text": "Voting-power delegation asks for a wallet and registration type. The form validates a DRep identifier when that choice needs one.",
+    "text": "Delegating a wallet's voting power gives it to a DRep you choose, or records it as Abstain or No Confidence. Daedalus asks you to register your voting power this way so that you can withdraw staking rewards, and the Governance Center shows what each of your wallets delegates to.",
     "source_ids": [
-      "SRC-0109"
+      "SRC-0129",
+      "SRC-0136"
     ]
   },
   "problem": {
-    "text": "Vote DRep governance invalid DRep ID not enough funds",
+    "text": "You want to delegate a wallet's voting power to a DRep, to Abstain or to No Confidence, or change where it is delegated.",
     "source_ids": [
-      "SRC-0109"
+      "SRC-0129"
     ]
   },
   "symptoms": [
     {
-      "text": "Vote DRep governance invalid DRep ID not enough funds",
+      "text": "The Governance Center shows a wallet as Undelegated.",
       "source_ids": [
-        "SRC-0109"
+        "SRC-0129",
+        "SRC-0136"
+      ]
+    },
+    {
+      "text": "Daedalus says to register your voting power to withdraw rewards.",
+      "source_ids": [
+        "SRC-0129"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Vote DRep governance invalid DRep ID not enough funds",
+      "text": "How do I delegate my voting power?",
       "source_ids": [
-        "SRC-0109"
+        "SRC-0129"
+      ]
+    },
+    {
+      "text": "How do I choose a DRep?",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "text": "Change my DRep",
+      "source_ids": [
+        "SRC-0129"
       ]
     }
   ],
@@ -36,8 +56,12 @@
       "normalized": "invalid drep id"
     },
     {
-      "verbatim": "Not enough funds",
-      "normalized": "not enough funds"
+      "verbatim": "This wallet does not contain the minimum required amount of ADA. The wallet might still be syncing. Please try again later or choose another wallet.",
+      "normalized": "wallet does not contain the minimum required amount of ada"
+    },
+    {
+      "verbatim": "This wallet already delegates to this choice. Please change delegation in order to proceed.",
+      "normalized": "wallet already delegates to this choice"
     }
   ],
   "classification": {
@@ -50,100 +74,163 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.2"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.2 tag source and its English interface text. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
       "scope": "all",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "all",
+      "values": []
     },
     "hardware_wallets": {
-      "scope": "not_applicable",
+      "scope": "all",
       "values": []
     },
     "source_ids": [
-      "SRC-0109"
+      "SRC-0129",
+      "SRC-0135",
+      "SRC-0138",
+      "SRC-0139"
     ]
   },
-  "causes": [
-    {
-      "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
-      "source_ids": [
-        "SRC-0109"
-      ]
-    }
-  ],
+  "causes": [],
   "diagnostics": [],
   "resolutions": [
     {
       "order": 1,
-      "action": "Select the intended wallet and voting registration type.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "Open Governance in the sidebar.",
+      "why": "Governance opens on the Governance Center.",
       "source_ids": [
-        "SRC-0109"
+        "SRC-0129"
       ]
     },
     {
       "order": 2,
-      "action": "For a DRep choice, verify the intended identifier before submitting. If the form rejects it, recheck the identifier rather than substituting an arbitrary one.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "In the Governance Center, select Delegate next to the wallet, or Redelegate if the wallet already delegates its voting power.",
+      "why": "The button opens the Directory with that wallet selected.",
       "source_ids": [
-        "SRC-0109"
+        "SRC-0129",
+        "SRC-0136"
       ]
     },
     {
       "order": 3,
-      "action": "Review the proposed transaction before approving it. If an insufficient-funds or initialization error persists, contact support.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "To delegate to a particular DRep, enter its DRep ID or name in Search by DRep ID or name, or pick one from Suggested DReps.",
+      "why": "The Directory lists and searches registered DReps.",
       "source_ids": [
-        "SRC-0109"
+        "SRC-0129",
+        "SRC-0137"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "If Daedalus shows Invalid DRep ID, check the ID and enter it again.",
+      "why": "Daedalus checks a complete DRep ID before it searches for it.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0137"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Select Delegate for the DRep you chose. To choose Abstain or No Confidence instead, select Select on that option's card under Or choose a predefined option.",
+      "why": "The choice is carried to the delegation form.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0137"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "Check the wallet under Delegate From and your choice under Delegate To, and select Submit.",
+      "why": "Submitting prepares the delegation transaction.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0138",
+        "SRC-0139"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "If Daedalus says the wallet does not contain the minimum required amount of ADA, the wallet might still be syncing. Select Submit again later, or choose another wallet under Delegate From.",
+      "why": "Daedalus gives this error when the wallet cannot fund the transaction, and notes that the wallet might still be syncing.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0139"
+      ]
+    },
+    {
+      "order": 8,
+      "action": "Check the Transaction fee.",
+      "why": "The fee is paid from the wallet.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0135",
+        "SRC-0141"
+      ]
+    },
+    {
+      "order": 9,
+      "action": "With a software wallet, enter your spending password in Confirm Transaction and select Confirm. If Daedalus shows Review transaction instead, enter the password there and select Sign and send.",
+      "why": "Confirming sends the delegation transaction. Builds with the CIP-30 dApp connector show Review transaction instead of Confirm Transaction.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0135",
+        "SRC-0138",
+        "SRC-0139",
+        "SRC-0141"
+      ]
+    },
+    {
+      "order": 10,
+      "action": "With a hardware wallet, confirm the transaction on the device, then select Confirm in Confirm Transaction. If Daedalus shows Review transaction instead, select Continue on device and send, then confirm on the device.",
+      "why": "Confirm stays disabled until the device has confirmed the transaction; Review transaction passes the transaction to the device.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0135",
+        "SRC-0138",
+        "SRC-0139",
+        "SRC-0141"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "You can distinguish invalid input from a funds or transaction-initialization error. This is not a Catalyst registration guide or a guarantee of voting eligibility.",
+    "text": "Daedalus sends the delegation transaction and opens the wallet's Summary.",
     "source_ids": [
-      "SRC-0109"
+      "SRC-0138"
     ]
   },
-  "do_not": [
-    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
-    "Do not delete, reset or move wallet data using generic instructions."
-  ],
-  "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
-  ],
+  "do_not": [],
+  "escalate_when": [],
   "safety": {
-    "risk": "medium",
+    "risk": "low",
     "flags": [
       "funds"
     ],
     "prerequisites": [
-      "Use the genuine application and keep private backups private."
+      "Daedalus has finished synchronizing with the Cardano blockchain. Until then, the delegation form is not available."
     ],
     "consequences": [
-      "Changing or approving wallet operations can affect funds."
+      "The fee shown under Transaction fee is paid from the wallet.",
+      "Delegating to Abstain records your stake on chain as not participating in governance.",
+      "Delegating to No Confidence counts your stake as Yes on every motion of no confidence and as No on every other governance action."
     ],
     "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
+      "To change the choice later, select Redelegate next to the wallet in the Governance Center."
     ]
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Read from the Daedalus 11.6.2 tag source and its English interface text; source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -155,23 +242,30 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
   },
   "sources": [
-    "SRC-0109"
+    "SRC-0129",
+    "SRC-0135",
+    "SRC-0136",
+    "SRC-0137",
+    "SRC-0138",
+    "SRC-0139",
+    "SRC-0141"
   ],
   "related_entries": [
-    "DAE-0102",
-    "DAE-0109"
+    "DAE-0107",
+    "DAE-0116"
   ],
   "faq": {
     "eligible": true,
-    "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "promoted": false,
+    "reason": "Retrievable only; no FAQ item is published for this entry."
   },
   "tags": [
     "governance",
     "delegation"
-  ]
+  ],
+  "revision": 5
 }

@@ -1,34 +1,33 @@
 {
   "schema_version": 1,
   "id": "DAE-0008",
-  "title": "Rejected transaction remains pending and reserves inputs",
+  "title": "A sent transaction stays pending",
   "summary": {
-    "text": "A Daedalus repository collaborator reports that deterministically rejected transactions can remain displayed as pending, reduce the displayed balance and reserve selected inputs.",
+    "text": "Daedalus marks a transaction you sent as Transaction pending until the Cardano network confirms it, and the funds it uses cannot be spent meanwhile. A payment that the network rejected is never confirmed, but Daedalus still lists it as pending. Canceling the transaction releases its funds.",
     "source_ids": [
-      "SRC-0009"
+      "SRC-0009",
+      "SRC-0129",
+      "SRC-0133",
+      "SRC-0151"
     ]
   },
   "problem": {
-    "text": "After the node rejects a transaction, Daedalus continues to show it as pending and cardano-wallet periodically resubmits it.",
+    "text": "A payment that the network rejected is still listed as Transaction pending and holds the funds it uses.",
     "source_ids": [
-      "SRC-0009"
+      "SRC-0009",
+      "SRC-0129"
     ]
   },
   "symptoms": [
     {
-      "text": "A rejected transaction remains pending after restart.",
+      "text": "A sent transaction stays marked Transaction pending.",
       "source_ids": [
-        "SRC-0009"
+        "SRC-0129",
+        "SRC-0133"
       ]
     },
     {
-      "text": "The displayed balance is reduced even though the transaction is not on chain.",
-      "source_ids": [
-        "SRC-0009"
-      ]
-    },
-    {
-      "text": "Repeated attempts reserve additional healthy UTxOs.",
+      "text": "Daedalus showed an error when sending a payment, but the payment is listed as pending and the balance is lower.",
       "source_ids": [
         "SRC-0009"
       ]
@@ -36,13 +35,19 @@
   ],
   "user_phrases": [
     {
-      "text": "failed transaction stuck pending",
+      "text": "My transaction is stuck on pending",
       "source_ids": [
-        "SRC-0009"
+        "SRC-0129"
       ]
     },
     {
-      "text": "balance deducted but transaction not on chain",
+      "text": "How do I cancel a pending transaction?",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "text": "The payment failed but my balance went down",
       "source_ids": [
         "SRC-0009"
       ]
@@ -61,119 +66,175 @@
   },
   "applicability": {
     "daedalus": {
-      "scope": "unknown",
+      "scope": "specific",
       "min": null,
       "max": null,
-      "versions": [],
+      "versions": [
+        "11.6.2"
+      ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "The collaborator report names no Daedalus release; no version is inferred from its filing date."
+      "notes": "Behavior read from the Daedalus 11.6.2 tag source and its English interface text, for the mainnet release without the CIP-30 dApp connector. Builds with the connector label pending and expired transactions differently. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
-      "scope": "unknown",
+      "scope": "all",
       "values": []
     },
     "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
       "scope": "unknown",
       "values": []
     },
-    "hardware_wallets": {
-      "scope": "not_applicable",
-      "values": []
-    },
     "source_ids": [
-      "SRC-0009"
+      "SRC-0129",
+      "SRC-0133",
+      "SRC-0147"
     ]
   },
   "causes": [
     {
       "kind": "confirmed",
-      "claim": "The submission pool persists and retries a deterministically rejected transaction while Daedalus surfaces it as pending.",
+      "claim": "The wallet records a payment as pending before the network accepts it. When the network rejects the payment, the wallet keeps the record and submits it again until it expires, so its funds stay reserved.",
       "source_ids": [
         "SRC-0009"
       ]
     }
   ],
-  "diagnostics": [
-    {
-      "order": 1,
-      "action": "Confirm that the transaction is absent from chain explorers and record the node rejection, transaction ID and validity interval.",
-      "why": "The report distinguishes a deterministic node rejection from a transaction that is actually in flight.",
-      "source_ids": [
-        "SRC-0009"
-      ]
-    }
-  ],
+  "diagnostics": [],
   "resolutions": [
     {
       "order": 1,
-      "action": "Do not retry repeatedly; preserve diagnostics and wait for the validity interval to expire or escalate through official support.",
-      "why": "The report states that retries reserve more inputs and that pending entries clear when validity expires; deletion and restoration is not promoted as a routine remedy.",
+      "action": "Open the wallet's Transactions.",
+      "why": "Transactions lists the wallet's transactions with their status.",
       "source_ids": [
-        "SRC-0009"
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Select the transaction marked Transaction pending.",
+      "why": "Its details show the options for a transaction that stays pending.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Once the transaction has been pending for more than 10 minutes, select Cancel pending transaction.",
+      "why": "Daedalus offers cancellation after a transaction has been pending for 10 minutes.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133",
+        "SRC-0146",
+        "SRC-0147"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Select Yes, cancel transaction.",
+      "why": "Canceling releases the funds the transaction holds.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "If the transaction is marked Transaction failed instead, select Remove failed transaction.",
+      "why": "A transaction that expired before the network processed it holds its funds until it is removed.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133",
+        "SRC-0147"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "If sending the payment again fails with an error, open a support case in the support portal instead of sending it again. Each rejected attempt is listed as pending and holds more of the wallet's funds.",
+      "why": "The wallet records a payment as pending before the network checks it, so each rejected attempt is listed as pending again and holds the funds it uses. Support can look into a payment that the network keeps rejecting.",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0118",
+        "SRC-0151"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "When you open the support case, attach your logs to it.",
+      "why": "Daedalus asks for the downloaded logs with a support request, to help the support team investigate.",
+      "source_ids": [
+        "SRC-0129"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "The user avoids compounding reserved inputs and provides evidence that distinguishes display state from an on-chain transaction.",
+    "text": "The transaction is no longer listed, and its funds can be spent again.",
     "source_ids": [
-      "SRC-0009"
+      "SRC-0129",
+      "SRC-0133"
     ]
   },
-  "do_not": [
-    "Never disclose recovery phrases, seed words, or spending passwords."
-  ],
-  "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
-  ],
+  "do_not": [],
+  "escalate_when": [],
   "safety": {
-    "risk": "high",
+    "risk": "medium",
     "flags": [
       "funds"
     ],
     "prerequisites": [],
     "consequences": [
-      "Repeated attempts can reserve additional inputs according to the report."
+      "If the network confirms a canceled transaction after all, it reappears in the wallet as a completed transaction."
     ],
     "recovery": []
   },
   "evidence": {
     "classification": "maintainer-confirmed",
-    "confidence": "medium",
-    "rationale": "A repository collaborator directly documents reproduction and behavior, but gives no release scope or released fix.",
+    "confidence": "high",
+    "rationale": "Steps read from the Daedalus 11.6.2 tag source and its English interface text. The rejected-payment behavior is a repository collaborator's report, matched against the submission code of the cardano-wallet revision that 11.6.2 pins (f293d922f193). Source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
     "status": "active",
     "superseded_by": null,
     "merged_into": null,
-    "reason": "Open behavior report with no documented released fix.",
-    "source_ids": [
-      "SRC-0009"
-    ]
+    "reason": "",
+    "source_ids": []
   },
   "dates": {
     "created": "2026-08-27",
-    "last_reviewed": "2026-08-27",
-    "last_verified": null
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
   },
   "sources": [
-    "SRC-0009"
+    "SRC-0009",
+    "SRC-0118",
+    "SRC-0129",
+    "SRC-0133",
+    "SRC-0146",
+    "SRC-0147",
+    "SRC-0151"
   ],
   "related_entries": [
-    "DAE-0003"
+    "DAE-0106",
+    "DAE-0109",
+    "DAE-0113"
   ],
   "faq": {
-    "eligible": false,
+    "eligible": true,
     "promoted": false,
-    "reason": "No version scope or released fix is documented."
+    "reason": "Retrievable only; no FAQ item is published for this entry."
   },
   "tags": [
-    "transaction",
-    "pending",
-    "rejected",
-    "utxo"
-  ]
+    "transactions",
+    "pending"
+  ],
+  "revision": 3
 }

@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0111",
+  "title": "Diagnose Connecting to network",
+  "summary": {
+    "text": "Daedalus shows Connecting to network on the loading screen until it connects. It cannot sync while the computer clock differs from global time by more than 4.5 seconds, and after 20 minutes without a connection it shows Having trouble connecting to network?",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus stays on the Connecting to network screen.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The loading screen says Connecting to network and does not move on.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus stuck on connecting to network",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    },
+    {
+      "text": "Having trouble connecting to network",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "peers"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "If Daedalus shows Unable to sync - incorrect time, set your computer clock using the article at daedaluswallet.io/clock-sync.",
+      "why": "Daedalus links to this article to fix the clock.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0114"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Then select Check the time again.",
+      "why": "Daedalus checks the clock again before it continues.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "If Having trouble connecting to network? comes with a Retry button, select Retry to try starting the Cardano node again.",
+      "why": "Daedalus shows Retry when it could not start the Cardano node.",
+      "source_ids": [
+        "SRC-0113",
+        "SRC-0116"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "If Daedalus still does not connect, select Download logs.",
+      "why": "The logs help support find the cause.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0116"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Select Open support ticket and attach the logs to your request.",
+      "why": "Open support ticket opens the support portal.",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0116"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus connects to the network and continues loading.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0113",
+    "SRC-0114",
+    "SRC-0115",
+    "SRC-0116"
+  ],
+  "related_entries": [
+    "DAE-0113",
+    "DAE-0112",
+    "DAE-0109"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "networking",
+    "connecting"
+  ],
+  "revision": 4
+}

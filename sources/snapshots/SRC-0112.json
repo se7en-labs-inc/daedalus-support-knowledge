@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0112",
+  "provider": "github",
+  "provider_id": "SRC-0112:d6502e079c88adf2067b457e03f252d0aa89d246",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/i18n/locales/en-US.json",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T17:54:11Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The English interface text names the loading stages (verifying on-disk blockchain state, replaying the ledger, syncing the blockchain) and describes each one.",
+      "It names the Mithril fast sync choices on the loading screen, the Mithril Sync flow in Daedalus Diagnostics, its progress and error messages, and the blockchain rebuild confirmation, which states that wallets stay on the computer and that the recovery phrase is not needed.",
+      "It holds the node silence notice, the connecting-to-network and reconnecting messages, the loading-screen support and log buttons, the clock synchronization message and the Support settings page, which states that logs do not contain sensitive information.",
+      "It holds the hardware wallet pairing and device status messages, the wallet restore messages, the backup warnings about recovery phrases, and the stake pool setting warning that antivirus or antimalware software could treat the many network requests as malicious.",
+      "It holds the restore flow: Add wallet, Restore, the wallet kind and number of words, the recovery phrase with Check recovery phrase, then a wallet name and spending password, which are stored only on the computer and need not match earlier ones. It says only one restoration runs at a time, and that closing the window before submitting loses the progress.",
+      "It holds the wallet settings warnings: Verify wallet recovery phrase checks the phrase; deleting a wallet removes it from Daedalus and loses access to its funds until it is restored from its recovery phrase; a wallet whose phrase cannot be verified should have its funds moved to a new wallet.",
+      "It holds the Off-chain metadata server (SMASH) choices in the stake pool settings, with None - fetch the data directly marked as not recommended, and the Daedalus Diagnostics fields Sync percentage, Cardano node syncing and Cardano node responding.",
+      "It says that when Daedalus cannot start the Cardano node or the Cardano wallet the user should submit a support request, that the Support settings page points to known issues and then to a support ticket, and that a user whose hardware wallet shows a different receiving address than Daedalus should contact support and attach logs.",
+      "The rebuild confirmation, Rebuild blockchain data?, says that Daedalus deletes the blockchain data on the computer and downloads a complete verified copy, that this is a large download during which Daedalus cannot be used, and that the wallets stay on the computer. It offers Back and Rebuild.",
+      "When a restoration finishes, Daedalus says the wallet has been restored and that a restored wallet should have the funds and transaction history of the original wallet. If it does not, or it is empty, Daedalus asks the user to check that the correct recovery phrase was used."
+    ]
+  }
+}

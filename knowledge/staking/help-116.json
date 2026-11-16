@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0116",
+  "title": "Staking rewards on hold after a DRep retires",
+  "summary": {
+    "text": "Staking rewards cannot be withdrawn while a wallet's voting power is not delegated, and a delegation ends when its DRep retires. Daedalus then shows Staking rewards on hold with the amount it cannot withdraw. Payments still work and leave the rewards in place. Delegating the voting power to any registered DRep, to Abstain or to No Confidence releases the rewards once that delegation is confirmed.",
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0124",
+      "SRC-0125",
+      "SRC-0127"
+    ]
+  },
+  "problem": {
+    "text": "A wallet's staking rewards cannot be withdrawn because its voting power is no longer delegated, for example because its DRep retired.",
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0127"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus shows Staking rewards on hold for the wallet, with the amount it cannot withdraw.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0125"
+      ]
+    },
+    {
+      "text": "The Governance Center shows DRep retired for the wallet.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0126"
+      ]
+    },
+    {
+      "text": "Daedalus says staking rewards cannot be withdrawn while the wallet's voting power is not delegated.",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "text": "Undelegating the wallet starts with Step 1 of 2: delegate voting power to Abstain.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0124"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "My DRep retired",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "text": "Staking rewards on hold",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "text": "I cannot withdraw my staking rewards",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "text": "Voting power no longer delegated",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "This transaction withdraws this wallet's staking rewards. They cannot be withdrawn while the wallet's voting power is not delegated, for example because its DRep retired. Delegate the voting power to any DRep, Abstain or No Confidence in the Governance Center. The rewards can be withdrawn once the delegation is confirmed.",
+      "normalized": "staking rewards cannot be withdrawn while voting power is not delegated"
+    },
+    {
+      "verbatim": "Not enough ada. Only funds other than this wallet's staking rewards count for this payment. The rewards cannot be withdrawn while the wallet's voting power is not delegated, for example because its DRep retired. Send a smaller amount, or delegate the voting power to any DRep, Abstain or No Confidence in the Governance Center. Once the delegation is confirmed, the rewards can be withdrawn and spent.",
+      "normalized": "not enough ada staking rewards not delegated"
+    }
+  ],
+  "classification": {
+    "category": "staking",
+    "subcategory": "rewards"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "unknown",
+      "min": null,
+      "max": null,
+      "versions": [],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus source at commit 793e46ee4, before a release number was assigned."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "unknown",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0124"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "confirmed",
+      "claim": "A DRep's retirement ends the vote delegation of every wallet delegated to it, and the Cardano ledger refuses a reward withdrawal from an account whose voting power is not delegated.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0127"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Select Delegate voting power on the Staking rewards on hold notice. Daedalus opens the voting power delegation form with the wallet selected.",
+      "why": "The notice leads to the delegation that releases the rewards.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0125"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Choose the delegation: for Abstain or No Confidence, use the Select button on its card; or paste a DRep ID and select Use this DRep ID; or select Browse DReps to choose a DRep from the Directory.",
+      "why": "A delegation to any registered DRep, to Abstain or to No Confidence releases the rewards.",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Select Submit.",
+      "why": "Submitting opens the transaction confirmation.",
+      "source_ids": [
+        "SRC-0123"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "With a software wallet, enter your spending password in Confirm Transaction and select Confirm. If Daedalus shows Review transaction instead, enter the password there and select Sign and send.",
+      "why": "The delegation is a transaction. Builds with the CIP-30 dApp connector show Review transaction instead of Confirm Transaction.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0142",
+        "SRC-0143",
+        "SRC-0144"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "With a hardware wallet, confirm the transaction on the device, then select Confirm in Confirm Transaction. If Daedalus shows Review transaction instead, select Continue on device and send, then confirm on the device.",
+      "why": "Confirm stays disabled until the device has confirmed the transaction; Review transaction passes the transaction to the device.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0142",
+        "SRC-0143",
+        "SRC-0144"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "Wait until the delegation is confirmed. Until then the notice says the delegation has been submitted; once it is confirmed, the notice disappears.",
+      "why": "The rewards can be withdrawn only once the delegation is confirmed.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0125"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "Withdraw the rewards: select Withdraw rewards on the wallet summary, or send a payment with the option to withdraw the staking rewards selected. The wallet leaves out rewards worth less than twice the fee for withdrawing them, so those stay in place.",
+      "why": "Withdrawing moves the rewards into the wallet.",
+      "source_ids": [
+        "SRC-0123",
+        "SRC-0124"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The Staking rewards on hold notice disappears, and the rewards can be withdrawn.",
+    "source_ids": [
+      "SRC-0123",
+      "SRC-0125"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [
+      "The delegation is a transaction, and its fee is paid from the wallet.",
+      "Delegating to Abstain records your stake on chain as not participating in governance.",
+      "Delegating to No Confidence counts your stake as Yes on every motion of no confidence and as No on every other governance action."
+    ],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "maintainer-confirmed",
+    "confidence": "high",
+    "rationale": "Read from the maintainers' fix in the Daedalus repository and the maintainer issue; source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-12",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-12"
+  },
+  "sources": [
+    "SRC-0123",
+    "SRC-0124",
+    "SRC-0125",
+    "SRC-0126",
+    "SRC-0127",
+    "SRC-0142",
+    "SRC-0143",
+    "SRC-0144"
+  ],
+  "related_entries": [
+    "DAE-0108"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Explains a notice users see and the delegation that clears it."
+  },
+  "tags": [
+    "staking",
+    "rewards",
+    "governance",
+    "drep"
+  ],
+  "revision": 4
+}

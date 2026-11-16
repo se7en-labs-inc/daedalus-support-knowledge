@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0113",
+  "title": "Send logs to support safely",
+  "summary": {
+    "text": "Daedalus downloads its logs as one file to attach to a support request, so you do not need to collect log files by hand. You can download them from the Help menu, from the Support page in Settings, or from the loading screen when it shows connection trouble. Send logs only through the support portal, never in a public issue tracker, forum or chat.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0116",
+      "SRC-0121",
+      "SRC-0130",
+      "SRC-0131",
+      "SRC-0132"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to send Daedalus logs to support without exposing private data.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Support asks for logs.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I get my Daedalus logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Where do I send logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "log-collection"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "unknown",
+      "claim": "The available evidence does not establish one cause.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Open the Help menu and select Download Logs.",
+      "why": "The Help menu lists Download Logs.",
+      "source_ids": [
+        "SRC-0130",
+        "SRC-0131"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Attach the downloaded file to your request in the support portal.",
+      "why": "Daedalus asks for the downloaded file to be attached to the support request.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Support receives your logs as one file attached to your case in the support portal.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0115"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-05",
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0116",
+    "SRC-0121",
+    "SRC-0128",
+    "SRC-0130",
+    "SRC-0131",
+    "SRC-0132"
+  ],
+  "related_entries": [
+    "DAE-0109",
+    "DAE-0115"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic with a short answer that every cited source supports."
+  },
+  "tags": [
+    "diagnostics",
+    "log-collection"
+  ],
+  "revision": 4
+}

@@ -1,36 +1,38 @@
 {
   "schema_version": 1,
   "id": "DAE-0102",
-  "title": "Understand startup and synchronization progress",
+  "title": "Understand startup and synchronization stages",
   "summary": {
-    "text": "Verifying stored blocks, replaying ledger state and downloading new blocks are different stages. A slow stage alone does not prove that data is corrupt.",
+    "text": "Before Daedalus is ready, its loading screen shows three stages. Verifying on-disk blockchain state checks the stored blockchain data by calculating hashes. Replaying ledger from on-disk blockchain recomputes the latest ledger state. Syncing blockchain performs the initial chain selection.",
     "source_ids": [
-      "SRC-0103",
-      "SRC-0104"
+      "SRC-0112"
     ]
   },
   "problem": {
-    "text": "Sync stuck slow frozen loading verifying blockchain replaying ledger connecting to network",
+    "text": "Daedalus is still on its loading or synchronization screen and the user wants to know what each stage means.",
     "source_ids": [
-      "SRC-0103",
-      "SRC-0104"
+      "SRC-0112"
     ]
   },
   "symptoms": [
     {
-      "text": "Sync stuck slow frozen loading verifying blockchain replaying ledger connecting to network",
+      "text": "Daedalus shows verifying, replaying or syncing and has not finished.",
       "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
+        "SRC-0112"
       ]
     }
   ],
   "user_phrases": [
     {
-      "text": "Sync stuck slow frozen loading verifying blockchain replaying ledger connecting to network",
+      "text": "Why is Daedalus still synchronizing?",
       "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Daedalus is stuck on replaying ledger",
+      "source_ids": [
+        "SRC-0112"
       ]
     }
   ],
@@ -45,106 +47,93 @@
       "min": null,
       "max": null,
       "versions": [
-        "11.0.0"
+        "11.6.0"
       ],
       "introduced_in": null,
       "first_known_affected": null,
       "last_known_affected": null,
       "fixed_in": null,
-      "notes": "Interface source inspected at Daedalus 11.0.0. Later versions and specific OS releases require another review; safety advice is Ariadne editorial policy."
+      "notes": "Behavior read from the Daedalus 11.6.0 release notes and the 11.6.0 tag source. Check a newer release before relying on it for a later version."
     },
     "operating_systems": {
       "scope": "all",
       "values": []
     },
     "networks": {
-      "scope": "specific",
-      "values": [
-        "mainnet"
-      ]
+      "scope": "all",
+      "values": []
     },
     "hardware_wallets": {
       "scope": "not_applicable",
       "values": []
     },
     "source_ids": [
-      "SRC-0103",
-      "SRC-0104"
+      "SRC-0112"
     ]
   },
   "causes": [
     {
       "kind": "unknown",
-      "claim": "A symptom alone does not establish a cause.",
+      "claim": "The available evidence does not establish one cause.",
       "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
+        "SRC-0112"
       ]
     }
   ],
-  "diagnostics": [],
+  "diagnostics": [
+    {
+      "order": 1,
+      "action": "To follow progress, open Daedalus Diagnostics from the Help menu and check Sync percentage and Cardano node syncing.",
+      "why": "Daedalus Diagnostics shows how far the sync has progressed.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
   "resolutions": [
     {
       "order": 1,
-      "action": "Note the phase shown on screen and whether progress changes over time.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If syncing takes longer than you want, select Mithril Sync in Daedalus Diagnostics to restore verified chain data.",
+      "why": "Daedalus Diagnostics offers Mithril Sync to speed up a slow sync.",
       "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
+        "SRC-0112"
       ]
     },
     {
       "order": 2,
-      "action": "Check Diagnostics for node status, synchronization, available disk space and time status. Record the Daedalus version and your operating system.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
+      "action": "If Daedalus says it cannot finish syncing because part of the blockchain data is missing, select Rebuild blockchain data and confirm with Rebuild.",
+      "why": "The rebuild downloads a complete verified copy of the blockchain data and keeps the wallets on the computer.",
       "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
-      ]
-    },
-    {
-      "order": 3,
-      "action": "If progress remains unchanged, contact support with the phase, elapsed time and any exact error. Do not delete blockchain or wallet data as a generic fix.",
-      "why": "Use the inspected interface and avoid unsupported troubleshooting.",
-      "source_ids": [
-        "SRC-0103",
-        "SRC-0104"
+        "SRC-0111",
+        "SRC-0112"
       ]
     }
   ],
   "expected_outcome": {
-    "text": "You can describe the stalled stage to staff without changing wallet files. There is no guaranteed synchronization time in the checked source.",
+    "text": "You can see which loading stage Daedalus is in and how far the sync has progressed.",
     "source_ids": [
-      "SRC-0103",
-      "SRC-0104"
+      "SRC-0112"
     ]
   },
-  "do_not": [
-    "Never disclose recovery phrases, seed words, private keys or spending passwords.",
-    "Do not delete, reset or move wallet data using generic instructions."
-  ],
+  "do_not": [],
   "escalate_when": [
-    "The symptom persists after the safe diagnostic steps, or funds appear at risk."
+    "Syncing stalls and the loading screen offers Open support ticket."
   ],
   "safety": {
-    "risk": "medium",
+    "risk": "low",
     "flags": [
-      "funds"
+      "network"
     ],
-    "prerequisites": [
-      "Use the genuine application and keep private backups private."
-    ],
+    "prerequisites": [],
     "consequences": [
-      "Changing or approving wallet operations can affect funds."
+      "The rebuild deletes the blockchain data on this computer and downloads a complete verified copy. Daedalus cannot be used until the download finishes, and your wallets stay on this computer."
     ],
-    "recovery": [
-      "Stop if unsure; contact human support before changing wallet data."
-    ]
+    "recovery": []
   },
   "evidence": {
     "classification": "officially-documented",
     "confidence": "high",
-    "rationale": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
+    "rationale": "Release notes, tagged source and portal pages directly state the behavior; this is source inspection, not runtime testing.",
     "conflicts": []
   },
   "lifecycle": {
@@ -156,24 +145,27 @@
   },
   "dates": {
     "created": "2026-09-21",
-    "last_reviewed": "2026-09-21",
-    "last_verified": "2026-09-21"
+    "last_reviewed": "2026-11-14",
+    "last_verified": "2026-11-14"
   },
   "sources": [
-    "SRC-0103",
-    "SRC-0104"
+    "SRC-0111",
+    "SRC-0112",
+    "SRC-0113",
+    "SRC-0116"
   ],
   "related_entries": [
-    "DAE-0101",
-    "DAE-0104"
+    "DAE-0110",
+    "DAE-0103"
   ],
   "faq": {
     "eligible": true,
     "promoted": true,
-    "reason": "Conservative source-reviewed introduction; not an exhaustive troubleshooting procedure."
+    "reason": "Common support topic with a short answer that every cited source supports."
   },
   "tags": [
     "synchronization",
     "slow-sync"
-  ]
+  ],
+  "revision": 6
 }

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0150",
+  "provider": "github",
+  "provider_id": "SRC-0150:d6502e079c88adf2067b457e03f252d0aa89d246",
+  "permalink": "https://github.com/input-output-hk/daedalus/blob/d6502e079c88adf2067b457e03f252d0aa89d246/source/renderer/app/components/status/ChainDataSection.tsx",
+  "author": "Input Output",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-14T17:47:08Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "In Daedalus Diagnostics, the Blockchain data row says whether damage was detected and has a Rebuild blockchain data button, which is unavailable while Mithril work is active. The button opens the Rebuild blockchain data? confirmation with Back and Rebuild, and only Rebuild starts the rebuild."
+    ]
+  }
+}

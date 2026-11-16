@@ -28,19 +28,19 @@ screens normalized input and the public projection in its application security
 boundary before snapshot output. No private support intake, data directory,
 credentials or customer conversations were migration inputs.
 
-The original export has 121 full articles: 108 need review, nine are historical,
-four are excluded (three templates and one event). All 139 release titles remain
+The original export has 121 full articles: 108 need review and 13 are excluded (three templates, one event and nine
+older-generation, test network or Flight articles). All 139 release titles remain
 title-only, excluded from public answers. There are 187 image files, 209 image
 occurrences / 208 distinct references and 22 missing occurrences / 21 distinct
 missing references. The source export's zero downloads, nine failures and 38
 external-image counters disagree with those files; coverage retains both facts.
-Nine reviewed current guides and one historical guide are publication-approved
-among 16 curated entries, 22 sources and 11 catalog FAQs. Import is not review.
+Nine reviewed current guides are publication-approved among 18 curated entries,
+48 sources and 13 catalog FAQs. Import is not review.
 
 No normalized article-body duplicates or same-ID/title conflicts were found.
-This is a lexical comparison, not proof that historical guidance is compatible.
+This is a lexical comparison, not proof that older guidance is compatible.
 Differing versions remain separate evidence; no semantic conflicts are resolved
-by choosing whichever file was copied last. Raw images are historical reference,
+by choosing whichever file was copied last. Raw images are archive reference,
 not approved Help Centre assets; no screenshots are silently modernized or OCR'd
 into authoritative instructions. Existing missing-image fallbacks remain textual.
 
