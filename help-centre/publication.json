@@ -8,87 +8,127 @@
       "id": "DAE-0101",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "a8cbfebe4a820710b629a56c43f8e627bb51de482c4207af68dcdc52abe592dd"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "55a0c91399abf9adac1ab6e3fc81923bdc0751bddf457cafc174a89d4f2364ac"
     },
     {
       "id": "DAE-0102",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "9241d498abc0acae27efeadfbea69d5ca6b258a644f9bada53681a4cc44a4801"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "130e0b84f875f68edae057c2a4d78bb8cac40817fa8ff274fe501099cbeaa331"
     },
     {
       "id": "DAE-0103",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "52ba9e227fa92088d3434f5352efa768c63820cdd1c8d15a9aa61329951ba5e0"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "d9cd09c0c7f57caa215e3bca84376525629ab2673ea8a8546ebb9e34e906fb12"
     },
     {
       "id": "DAE-0104",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "68ea0dd2ed998732e382029adc904c09a1adaf92295284efb3b3766097dbc61c"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "4f0e616fe8bfe67b528aba1ff9eb31caf07c514195518e8a09da54a596ac60a4"
     },
     {
       "id": "DAE-0105",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "d5aefa77438bc33c5c461f22e33e896b497d6f57b5133cd1ba394c79224e1c56"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "cd6c068070142cdc35ac01d348d3fe99e2c2770edc14f275d88c5963c9cedaca"
     },
     {
       "id": "DAE-0106",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "9f45e1a9881193d29b153e4fc948c4c2417992c0babf4331e3aab70191832d49"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "688e5bc8342e9b9d878f4daaf4627be516be1ccb34d8c110f63c69d462e961ac"
     },
     {
       "id": "DAE-0107",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "e46f67cf593adfda1ec446a75bd48d5ee6efae7dcdb940e7e3ed614f9967cab8"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "583d6d7e6aa0106307f459bda82ce56e19cdece37ab9e7d0c2b9e4c4f1847fc4"
     },
     {
       "id": "DAE-0108",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "3a6004300b4ddff609ea7bff3237d0197afbf1810c242d05b49e1a5373173651"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "3e1121c23a8fb77ba7a9bbcfbcd4d2691b57c7328ee1720f12cd139300c3c01a"
     },
     {
       "id": "DAE-0109",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-09-21",
-      "reason": "Official source inspection and Ariadne safety review; not wallet runtime testing.",
-      "reviewedContentHash": "1a911fdec541fb338f8517c977beac1d3d8e6d41772406c0d78e70391afaf820"
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "4edbce6d9c65cb08d102e01df648b918660adf3d5bd5019d2a8a1c73b4e43299"
     },
     {
       "id": "DAE-0003",
-      "status": "needs-review",
-      "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Narrow compromised shared-key scenario; do not generalize a remedy."
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "fb577d1a57a8a19ab1756996b4ff84e3b519b80b9d17341b0eea809b7d581792"
     },
     {
       "id": "DAE-0008",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "e2eded152c2998afddb6c9c7a3729b5a1b8fdcab0ecbea3b0ae254fa2f22619c"
+    },
+    {
+      "id": "DAE-0110",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "efabf63fc31512e96cb765350d3afcdaf1a2f4d9ad91e748610cabe5a29b002d"
+    },
+    {
+      "id": "DAE-0111",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "d8e5047a2f6155447de508fbaf1af5fee6e0aa26ab99e57352abe84c3f9ae788"
+    },
+    {
+      "id": "DAE-0112",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "4fdf0901e7eab85ebe4eab50bcff07083b33860dad43188e4c4df9f7241850c1"
+    },
+    {
+      "id": "DAE-0113",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "b9bce233209c2f14afb801985bc243edf3b4129a8985ad9c48a5a428041c91dd"
+    },
+    {
+      "id": "DAE-0114",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "d1dd1a0f653313185f35b3580f7fbf7764f68a53da9c91be0cbd266ebf8751f5"
+    },
+    {
+      "id": "DAE-0115",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-14",
+      "reviewedContentHash": "b2b50668cad6b98586e7620a22d58cc25352b548e2d521f7cb1df5a863c182ae"
+    },
+    {
+      "id": "DAE-0116",
       "status": "needs-review",
       "approved": false,
-      "reviewedOn": "2026-09-21",
-      "reason": "Reported rejected-transaction behavior; no universal cause or verified fix."
+      "reviewedOn": "2026-11-14",
+      "reason": "The Daedalus release that contains the fix has no version number yet."
     }
   ],
   "preparedAt": "2026-09-22T02:18:12.526Z"
