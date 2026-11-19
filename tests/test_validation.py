@@ -51,7 +51,7 @@ class ValidationRejectionTests(unittest.TestCase):
         value = json.loads(path.read_text())
         decision = next(item for item in value['articles'] if item['approved'] is approved)
         if reason is None:
-            decision.pop('reason')
+            decision.pop('reason', None)
         else:
             decision['reason'] = reason
         path.write_text(json.dumps(value))
