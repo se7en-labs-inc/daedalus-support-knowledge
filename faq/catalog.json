@@ -747,6 +747,688 @@
           ]
         }
       ]
+    },
+    {
+      "id": "FAQ-201",
+      "question": "Daedalusを安全にダウンロードするには？",
+      "knowledge_entries": [
+        "DAE-0101"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-101",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "Daedalusはdaedaluswallet.ioからダウンロードしてください。",
+          "source_ids": [
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "Daedalusは、Windows、macOS、Linux向けのデスクトップアプリケーションとしてのみ提供されています。",
+          "source_ids": [
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "各インストーラーには、拡張子が.ascの署名ファイルが付属しています。ダウンロードページには、SHA256チェックサムと署名を確認する方法が記載されています。",
+          "source_ids": [
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "各バージョンのDaedalusのリリースノートは、github.com/input-output-hk/daedalus/releases で公開されています。",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0120"
+          ]
+        },
+        {
+          "text": "Linuxでは、Debian、RPM、Arch向けのネイティブパッケージ、およびflakeに含まれるNixOSサービスの利用を推奨しています。",
+          "source_ids": [
+            "SRC-0111"
+          ]
+        },
+        {
+          "text": "Linux用のポータブル形式の.binインストーラーは非推奨です。",
+          "source_ids": [
+            "SRC-0111"
+          ]
+        },
+        {
+          "text": "復元フレーズの入力を求めるダウンロードサイトは利用しないでください。",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-202",
+      "question": "Daedalusの同期が続いているのはなぜですか？",
+      "knowledge_entries": [
+        "DAE-0102"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-102",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "ブロックチェーンが最新の状態になるまで、Daedalusには「ディスクのブロックチェーンステータスの検証」「ディスクのブロックチェーンから台帳をリプレイ」「ブロックチェーンの同期」の3段階が表示されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "検証では、ハッシュ値を計算してブロックチェーンの整合性を確認します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "台帳のリプレイでは、台帳スナップショットを探し、最新の状態を再計算します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "同期では、最初のチェーン選択を行い、ブロックチェーンの状態を確定します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "「ヘルプ」メニューの「Daedalus診断」では、同期率とCardanoノードが同期中かどうかを確認できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "同期に時間がかかりすぎる場合は、「Daedalus診断」から「Mithril同期」を選択できます。検証済みのチェーンデータを復元することで、同期を高速化できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "パソコンに保存されているブロックチェーンデータの一部が欠落している場合、Daedalusはその旨を表示し、データの再構築を提案します。",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-203",
+      "question": "Daedalusが起動しない場合、何を確認すればよいですか？",
+      "knowledge_entries": [
+        "DAE-0103"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-103",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "起動中のCardanoノードから5分間何も出力されない場合、Daedalusには「Cardanoノードを再起動」または「このまま待つ」の選択肢が表示されます。",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "この通知は、ノードがまだ処理を続けている可能性があることも示しています。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Cardanoノードは起動時に、ローカルのブロックチェーンデータの整合性を検証します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "「Daedalus診断」では、Cardanoノードの状態と、ノードが応答しているかどうかを確認できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ブロックチェーンデータの一部が欠落している場合、Cardanoノードは起動できず、Daedalusはブロックチェーンデータの再構築を提案します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ブロックチェーンデータを再構築しても、ウォレット情報はパソコン内に保持されます。",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Cardanoノードを起動できないというメッセージが表示された場合は、サポートポータルからサポートリクエストを送信してください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-204",
+      "question": "ウォレットを復元する前に何が必要ですか？",
+      "knowledge_entries": [
+        "DAE-0104"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-104",
+        "revision": 3
+      },
+      "answer": [
+        {
+          "text": "復元するウォレットの復元フレーズが必要です。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "メインネットでは、Daedalusウォレットは12語または24語、ペーパーウォレットは27語、Yoroiウォレットは15語の復元フレーズを使ってDaedalusに復元できます。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0122"
+          ]
+        },
+        {
+          "text": "復元後のウォレットには、新しい名前と送金時パスワードを設定できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ウォレット名と送金時パスワードは、ブロックチェーン上ではなく、パソコン内にのみ保存されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusで一度に復元できるウォレットは1つだけです。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "復元したウォレットが空だったり、あるはずの資金が表示されなかったりする場合は、正しい復元フレーズを使用したか確認してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ハードウェアウォレットを利用する場合は、復元フレーズを入力せず、デバイスをペアリングしてください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-205",
+      "question": "ハードウェアウォレットが接続できないのはなぜですか？",
+      "knowledge_entries": [
+        "DAE-0105"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-105",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "Daedalusは、Ledger Nano S、Ledger Nano S Plus、Ledger Nano X、Ledger Flex、Trezor Model Tに対応しています。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "デバイスのペアリングは初回の1回だけ行います。その後は、トランザクションの承認が必要なときにのみデバイスを接続します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusから、デバイスを接続してロックを解除するよう案内されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "続いて、デバイス上でCardanoアプリケーションを起動するよう案内されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "接続に失敗した場合は、デバイスをいったん取り外して接続し直し、接続処理を再開してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Trezorを利用するには、Trezor Bridgeがインストールされている必要があります。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Ledgerのソフトウェアが古い、またはファームウェアに対応していないとDaedalusが判断した場合は、更新手順へのリンクが表示されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ハードウェアウォレットの復元フレーズはオフラインで保管し、Daedalusには入力しないでください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-209",
+      "question": "担当者からサポートを受けるには、いつ、どうすればよいですか？",
+      "knowledge_entries": [
+        "DAE-0109"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-109",
+        "revision": 4
+      },
+      "answer": [
+        {
+          "text": "担当者によるサポートは、https://daedalus.support.se7enlabs.com のサポートポータルから受けられます。",
+          "source_ids": [
+            "SRC-0115",
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "お困りの問題についてヘルプ記事の案内を試しても解決しなかった場合は、サポートケースを作成してください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "Daedalusからサポートリクエストの送信を求められた場合も、ケースを作成してください。例えば、Cardanoノードを起動できないと表示された場合が該当します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusに表示された受取アドレスが、ハードウェアウォレットに表示されたアドレスと異なる場合は、ケースを作成してログを添付してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusでは、「ヘルプ」メニュー、または読み込み画面の「サポートチケットを作成する」ボタンからポータルを開けます。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0116",
+            "SRC-0117"
+          ]
+        },
+        {
+          "text": "ポータルでは、まず承認済みのDaedalus Walletサポート案内が提示されます。それでも支援が必要な場合は、担当者によるサポートケースの作成に進めます。",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "ポータルでは、メールアドレスの確認を一度行う必要があります。",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "「ヘルプ」メニューからポータルを開くと、リンクにはDaedalusのバージョン、ネットワーク、オペレーティングシステムの情報が含まれます。",
+          "source_ids": [
+            "SRC-0115",
+            "SRC-0117"
+          ]
+        },
+        {
+          "text": "サポートリクエストに復元フレーズを入力しないでください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "ログや個人情報を公開のIssue管理システムに投稿しないでください。",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-210",
+      "question": "Mithril高速同期とは何ですか？",
+      "knowledge_entries": [
+        "DAE-0110"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-110",
+        "revision": 1
+      },
+      "answer": [
+        {
+          "text": "Mithril高速同期では、検証済みのブロックチェーンデータのスナップショットをダウンロードして、Daedalusの同期を高速化します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "読み込み画面で選択肢が表示された場合は、「Mithril高速同期を使う」を選ぶと利用できます。使用しない場合は「ジェネシスからのブロックチェーン同期」を選択してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "後からでも、「ヘルプ」メニューの「Daedalus診断」から「Mithril同期」を開始できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "DaedalusはCardanoノードを停止し、検証済みのチェーンデータを復元してからノードを再起動し、残りのブロックを同期します。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ダウンロードと検証にかかる時間は、ネットワーク接続とストレージの性能によって異なります。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ネットワーク接続が切れた場合は、接続が回復するとダウンロードを再開する旨がDaedalusに表示されます。",
+          "source_ids": [
+            "SRC-0111",
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "スナップショットを保存先に移動している間は、Daedalusを終了しないでください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Mithril同期をキャンセルしても、既存のチェーンデータは変更されません。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusがブロックチェーンデータの破損を検出している間はMithril同期を利用できず、代わりに「ブロックチェーンデータを再構築」が表示されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-212",
+      "question": "セキュリティソフトがDaedalusの動作を妨げることはありますか？",
+      "knowledge_entries": [
+        "DAE-0112"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-112",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "Daedalusは、オフチェーンメタデータサーバー（SMASH）を使用していない場合に発生する数千件のネットワークリクエストが、ウイルス対策ソフトやマルウェア対策ソフトによって悪意のある動作と判断される可能性があることを警告しています。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "この警告は、「オフチェーンメタデータサーバー（SMASH）」の設定項目の横に表示されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusの問題を解決するために、ウイルス対策ソフトやファイアウォールを無効にしないでください。",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "「Daedalus診断」では、Cardanoノードが応答しているか、同期しているかを確認できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusに「ログをダウンロードする」が表示されている場合は、ログをダウンロードしてください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "サポートポータルでケースを作成し、使用しているセキュリティソフトの製品名を記載して、ログを添付してください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115",
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-213",
+      "question": "サポートにログを安全に送るにはどうすればよいですか？",
+      "knowledge_entries": [
+        "DAE-0113"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-113",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "ログのファイルを手作業で集めるのではなく、Daedalusからダウンロードしてください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusの設定にある「ユーザーサポート」ページからダウンロードできます。また、読み込み画面に接続の問題が表示された場合は、「ログをダウンロードする」から取得できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ダウンロードしたファイルを、サポートポータルの依頼に添付してください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0115"
+          ]
+        },
+        {
+          "text": "公開のIssue管理システム、フォーラム、チャットにログを投稿しないでください。",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-214",
+      "question": "ウォレットを安全に保つにはどうすればよいですか？",
+      "knowledge_entries": [
+        "DAE-0114"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-114",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "復元フレーズ、送金時パスワード、秘密鍵は、サポート担当者を含め、絶対に誰にも教えないでください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "サポート担当者がこれらの情報を求めることはありません。",
+          "source_ids": [
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "復元フレーズを知った人は、そのウォレット内のadaを送金できます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "パソコンの紛失、故障、盗難、動作不能などの際にウォレットを復元するための唯一の手段が、復元フレーズです。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "復元フレーズは紙に書き、安全な場所に保管してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "安全に保管する最も簡単な方法は、デジタルデータとして保存したり、オンラインに保存したりしないことです。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "ハードウェアウォレットの復元フレーズはオフラインで保管してください。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        },
+        {
+          "text": "Daedalusはdaedaluswallet.ioからのみダウンロードしてください。",
+          "source_ids": [
+            "SRC-0120",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "サポートはhttps://daedalus.support.se7enlabs.com のサポートポータルでのみ提供しています。ダイレクトメッセージでサポートを申し出る相手は、正規のサポート担当者ではありません。",
+          "source_ids": [
+            "SRC-0115",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "誰かに指示されたという理由だけで、ウォレットデータを削除したり移動したりしないでください。",
+          "source_ids": [
+            "SRC-0112",
+            "SRC-0121"
+          ]
+        },
+        {
+          "text": "ブロックチェーンデータの再構築に復元フレーズは必要ありません。また、再構築してもウォレット情報はパソコン内に保持されます。",
+          "source_ids": [
+            "SRC-0112"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "FAQ-215",
+      "question": "既存のサポートケースに追加で問い合わせるには？",
+      "knowledge_entries": [
+        "DAE-0115"
+      ],
+      "status": "published",
+      "revision": 1,
+      "locale": "ja",
+      "translates": {
+        "id": "FAQ-115",
+        "revision": 2
+      },
+      "answer": [
+        {
+          "text": "https://daedalus.support.se7enlabs.com のサポートポータルを開き、「既存のケースを開く」を選択してください。",
+          "source_ids": [
+            "SRC-0118"
+          ]
+        },
+        {
+          "text": "ケース番号と、そのケースで確認済みのメールアドレスを入力してください。",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "「アクセスコードを送信」を選択してください。",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "ポータルから、そのケースで確認済みのメールアドレスに新しいアクセスコードが送信されます。",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        },
+        {
+          "text": "そのコードを「6桁のアクセスコード」欄に入力し、「ケースを開く」を選択してください。",
+          "source_ids": [
+            "SRC-0119"
+          ]
+        }
+      ]
     }
   ]
 }
