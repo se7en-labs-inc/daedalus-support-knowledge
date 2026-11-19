@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0160",
+  "provider": "web",
+  "provider_id": "SRC-0160:web",
+  "permalink": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings",
+  "author": "Microsoft",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-18T12:00:00Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "The w32tm command runs from a Command Prompt opened as administrator. w32tm /resync tells the computer to resynchronize its clock as soon as possible, and /rediscover redetects network sources first.",
+      "Windows time synchronization uses UDP port 123, and non-domain-joined computers default to the time.windows.com server."
+    ]
+  }
+}

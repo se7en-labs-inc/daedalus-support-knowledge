@@ -95,14 +95,14 @@ Related knowledge: `DAE-0110`.
 ## Why is Daedalus stuck on Connecting to network?
 
 Daedalus shows Connecting to network on the loading screen until it is connected.
-If your computer clock differs from global time by more than 4.5 seconds, Daedalus shows that it cannot sync because of the time difference, says how far off the clock is, and offers Check the time again.
-To fix the clock, read the article at daedaluswallet.io/clock-sync.
+If your computer clock differs from global time by more than 4.5 seconds, Daedalus shows Unable to sync - incorrect time, says how far off the clock is, and offers Check the time again.
+To fix the clock, read the support portal article Fix Unable to sync - incorrect time.
 After 20 minutes without a connection, Daedalus shows Having trouble connecting to network? with Open support ticket and Download logs.
 If the Cardano node cannot be started, the same screen also shows a Retry button.
 If the connection is lost after it was made, Daedalus shows Network connection lost - reconnecting.
 Open support ticket takes you to the support portal.
 
-Related knowledge: `DAE-0111`.
+Related knowledge: `DAE-0111`, `DAE-0117`.
 
 ## Can security software stop Daedalus from working?
 

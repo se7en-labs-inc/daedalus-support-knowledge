@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "id": "DAE-0117",
+  "title": "Fix Unable to sync - incorrect time",
+  "summary": {
+    "text": "Daedalus will not sync while the computer clock differs from global time by more than 4.5 seconds. Turning on automatic date and time in the operating system corrects the clock, and Check the time again in Daedalus then lets loading continue.",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus shows Unable to sync - incorrect time and does not load.",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The loading screen says Unable to sync - incorrect time and states how far off the computer time is.",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "The loading screen says Daedalus cannot check whether the clock is synchronized because the time servers are unreachable, and offers Continue without clock synchronization checks.",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Unable to sync - incorrect time",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "Daedalus says my time is different from the global time",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "How do I fix the clock for Daedalus?",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "Unable to sync - incorrect time",
+      "normalized": "unable to sync incorrect time"
+    }
+  ],
+  "classification": {
+    "category": "synchronization",
+    "subcategory": "clock"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": "Behavior read from the Daedalus 11.6.2 source. Check a newer release before relying on it for a later version."
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "causes": [
+    {
+      "kind": "confirmed",
+      "claim": "The computer clock differs from global time by more than 4.5 seconds, or the time zone or automatic time setting of the operating system is wrong.",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0157",
+        "SRC-0158"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "On Windows 11, open Settings, select Time & language, then Date & time. Turn on Set time automatically and Set time zone automatically.",
+      "why": "Windows then takes the time from a time server.",
+      "source_ids": [
+        "SRC-0159"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "On Windows 11, if the clock is still wrong, search for Command Prompt, select Run as administrator, and run w32tm /resync.",
+      "why": "The command makes Windows resynchronize its clock immediately.",
+      "source_ids": [
+        "SRC-0160"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "On macOS, open System Settings, select General, then Date & Time. Turn on Set time and date automatically, select Set, choose a time server for your region and select Done. Turn on Set time zone automatically using your current location, or choose the time zone yourself.",
+      "why": "The Mac then takes the time from a network time server.",
+      "source_ids": [
+        "SRC-0161"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "On Linux with systemd, run timedatectl status. If System clock synchronized says no, run sudo timedatectl set-ntp true, then run timedatectl status again.",
+      "why": "set-ntp true starts the network time service so the clock is corrected.",
+      "source_ids": [
+        "SRC-0162"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "On Linux, if the time zone is wrong, run timedatectl list-timezones to find your zone, then sudo timedatectl set-timezone followed by the zone name, for example Europe/Berlin.",
+      "why": "A wrong zone shifts the displayed time by whole hours.",
+      "source_ids": [
+        "SRC-0162"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "Go back to Daedalus and select Check the time again. If the clock is now within 4.5 seconds, the error screen closes and Daedalus continues loading.",
+      "why": "Daedalus asks for a new clock reading and continues loading when the offset is within 4.5 seconds.",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0157",
+        "SRC-0158"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "If the screen instead says Daedalus cannot check the clock because the time servers are unreachable, correct the clock using the steps for your system, and allow time synchronization (NTP, UDP port 123) through any firewall on your network. Continue without clock synchronization checks skips the check, but if your clock is off by more than 4.5 seconds Daedalus will be unable to connect to the network.",
+      "why": "The check needs to reach time servers. Without the check Daedalus cannot tell whether the clock is correct.",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0158",
+        "SRC-0160"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus no longer shows Unable to sync - incorrect time and continues loading and syncing.",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [
+    "If the clock is correct in the operating system and Daedalus still shows the time error, download the logs and open a support ticket."
+  ],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network",
+      "permissions",
+      "terminal"
+    ],
+    "prerequisites": [
+      "Administrator rights are needed on Windows to run w32tm and on Linux to run timedatectl set-ntp."
+    ],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "Daedalus source states the screen and threshold; the operating system steps come from the vendors' current documentation. This is source and documentation inspection, not runtime testing.",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-18",
+    "last_reviewed": "2026-11-18",
+    "last_verified": "2026-11-18"
+  },
+  "sources": [
+    "SRC-0156",
+    "SRC-0157",
+    "SRC-0158",
+    "SRC-0159",
+    "SRC-0160",
+    "SRC-0161",
+    "SRC-0162"
+  ],
+  "related_entries": [
+    "DAE-0111",
+    "DAE-0113"
+  ],
+  "faq": {
+    "eligible": true,
+    "promoted": true,
+    "reason": "Common support topic; the connecting-to-network FAQ entry points to this article for the clock."
+  },
+  "tags": [
+    "clock",
+    "time",
+    "sync"
+  ],
+  "revision": 1
+}

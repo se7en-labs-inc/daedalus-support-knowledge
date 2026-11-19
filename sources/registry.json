@@ -1448,6 +1448,215 @@
         "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
         "sha256": "953982390270349e215329034e0f068a6e031c3e55da9148772e0eb2a3c6bf41"
       }
+    },
+    {
+      "id": "SRC-0156",
+      "provider_id": "SRC-0156:36de455a004f5d4d5d831cc46049d0cb376b0d9d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/36de455a004f5d4d5d831cc46049d0cb376b0d9d/source/renderer/app/components/loading/system-time-error/SystemTimeError.tsx",
+      "platform": "GitHub",
+      "title": "11.6.2 system time error screen",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Daedalus 11.6.2 source. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0156.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "a7712a8ae5f0afe379078d06fafe6d76964d37d2a8f448dc1111531348c6df91"
+      }
+    },
+    {
+      "id": "SRC-0157",
+      "provider_id": "SRC-0157:36de455a004f5d4d5d831cc46049d0cb376b0d9d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/36de455a004f5d4d5d831cc46049d0cb376b0d9d/source/renderer/app/config/timingConfig.ts",
+      "platform": "GitHub",
+      "title": "11.6.2 timing configuration (clock threshold)",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Daedalus 11.6.2 source. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0157.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "bd5f2138edc2d193e69124882caa22f059dcde1a3557cb9751f53d018e16851c"
+      }
+    },
+    {
+      "id": "SRC-0158",
+      "provider_id": "SRC-0158:36de455a004f5d4d5d831cc46049d0cb376b0d9d",
+      "url": "https://github.com/input-output-hk/daedalus/blob/36de455a004f5d4d5d831cc46049d0cb376b0d9d/source/renderer/app/stores/NetworkStatusStore.ts",
+      "platform": "GitHub",
+      "title": "11.6.2 network status store (clock check)",
+      "author": "Input Output",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "code",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [
+        "11.6.2"
+      ],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Daedalus 11.6.2 source. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0158.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "14eabea97b342dc3cc1dddf08a5ecff5c09f070061b05451848112bd32ddd24f"
+      }
+    },
+    {
+      "id": "SRC-0159",
+      "provider_id": "SRC-0159:web",
+      "url": "https://support.microsoft.com/en-us/windows/experience/personalization/set-time-date-and-time-zone-settings-in-windows",
+      "platform": "Web",
+      "title": "Microsoft: set time, date, and time zone settings in Windows",
+      "author": "Microsoft",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Microsoft support page. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0159.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "76e5a338db36b47f272e2af3c2d58c72aee97ed709028f621ce7c355ef0ee104"
+      }
+    },
+    {
+      "id": "SRC-0160",
+      "provider_id": "SRC-0160:web",
+      "url": "https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings",
+      "platform": "Web",
+      "title": "Microsoft: Windows Time service tools and settings",
+      "author": "Microsoft",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Microsoft Learn page (page dated 2026-02-16). Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0160.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "52c670b81c613518ea90c56ce84c4508df8044d572e8aaadacba237d3328085d"
+      }
+    },
+    {
+      "id": "SRC-0161",
+      "provider_id": "SRC-0161:web",
+      "url": "https://support.apple.com/guide/mac-help/mchlp2996",
+      "platform": "Web",
+      "title": "Apple: set the date and time on Mac",
+      "author": "Apple",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Apple support page (macOS 27 edition). Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0161.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "6efdd11961ec2cdbfbef95b5e1d10ee0821f07076a02c9383a94421517212061"
+      }
+    },
+    {
+      "id": "SRC-0162",
+      "provider_id": "SRC-0162:web",
+      "url": "https://man7.org/linux/man-pages/man1/timedatectl.1.html",
+      "platform": "Web",
+      "title": "timedatectl manual page",
+      "author": "Linux man-pages project",
+      "author_association": "organization",
+      "source_state": "published",
+      "source_type": "official-documentation",
+      "trust": "official",
+      "published_at": null,
+      "updated_at": null,
+      "accessed_at": "2026-11-18T12:00:00Z",
+      "problem_occurred_at": null,
+      "solution_confirmed_at": null,
+      "mentioned_versions": [],
+      "roles": [
+        "documents-procedure",
+        "context"
+      ],
+      "notes": "Source inspected on 2026-11-18. Linux man-pages page. Editorial paraphrase, not a wallet runtime test.",
+      "snapshot": {
+        "snapshot_path": "sources/snapshots/SRC-0162.json",
+        "representation_format": "ariadne-normalized-editorial-summary-v1",
+        "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+        "sha256": "fbaa539319612354cd5d5fd740828d8044a970d8ad98df1544e92fabd4792b12"
+      }
     }
   ]
 }

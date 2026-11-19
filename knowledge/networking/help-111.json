@@ -92,8 +92,8 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "If Daedalus shows Unable to sync - incorrect time, set your computer clock using the article at daedaluswallet.io/clock-sync.",
-      "why": "Daedalus links to this article to fix the clock.",
+      "action": "If Daedalus shows Unable to sync - incorrect time, set your computer clock using the support portal article Fix Unable to sync - incorrect time.",
+      "why": "The article gives the steps to correct the clock.",
       "source_ids": [
         "SRC-0112",
         "SRC-0114"
@@ -167,7 +167,7 @@
   },
   "dates": {
     "created": "2026-11-05",
-    "last_reviewed": "2026-11-14",
+    "last_reviewed": "2026-11-18",
     "last_verified": "2026-11-05"
   },
   "sources": [
@@ -180,7 +180,8 @@
   "related_entries": [
     "DAE-0113",
     "DAE-0112",
-    "DAE-0109"
+    "DAE-0109",
+    "DAE-0117"
   ],
   "faq": {
     "eligible": true,
@@ -191,5 +192,5 @@
     "networking",
     "connecting"
   ],
-  "revision": 4
+  "revision": 5
 }
