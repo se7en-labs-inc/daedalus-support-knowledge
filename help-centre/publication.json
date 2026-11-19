@@ -92,8 +92,8 @@
       "id": "DAE-0111",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "d8e5047a2f6155447de508fbaf1af5fee6e0aa26ab99e57352abe84c3f9ae788"
+      "reviewedOn": "2026-11-18",
+      "reviewedContentHash": "889af4f39e760417ae5653f7eda4d1236c28808ea9b29a370a1bf9168de4ddeb"
     },
     {
       "id": "DAE-0112",
@@ -129,6 +129,13 @@
       "approved": false,
       "reviewedOn": "2026-11-14",
       "reason": "The Daedalus release that contains the fix has no version number yet."
+    },
+    {
+      "id": "DAE-0117",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-18",
+      "reviewedContentHash": "3fc5d68bde572e7fb6c7dbab2be229f41cf01ea574e840558f7271a89ebfcacb"
     }
   ],
   "preparedAt": "2026-09-22T02:18:12.526Z"

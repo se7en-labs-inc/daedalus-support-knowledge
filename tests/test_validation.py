@@ -33,7 +33,7 @@ class ValidationRejectionTests(unittest.TestCase):
     def test_valid_repository_is_accepted(self):
         errors, entries, sources, faqs = validate(self.root)
         self.assertEqual([], errors)
-        self.assertEqual((18, 48, 13), (entries, sources, faqs))
+        self.assertEqual((19, 55, 13), (entries, sources, faqs))
 
     def test_public_approval_must_be_boolean_and_have_review_fingerprint(self):
         path = self.root / 'help-centre/publication.json'

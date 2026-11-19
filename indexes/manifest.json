@@ -344,7 +344,7 @@
     {
       "id": "DAE-0111",
       "locale": "en",
-      "revision": 4,
+      "revision": 5,
       "path": "knowledge/networking/help-111.json",
       "title": "Diagnose Connecting to network",
       "summary": "Daedalus shows Connecting to network on the loading screen until it connects. It cannot sync while the computer clock differs from global time by more than 4.5 seconds, and after 20 minutes without a connection it shows Having trouble connecting to network?",
@@ -730,6 +730,64 @@
       "tags": [
         "synchronization",
         "mithril"
+      ]
+    },
+    {
+      "id": "DAE-0117",
+      "locale": "en",
+      "revision": 1,
+      "path": "knowledge/synchronization/help-117.json",
+      "title": "Fix Unable to sync - incorrect time",
+      "summary": "Daedalus will not sync while the computer clock differs from global time by more than 4.5 seconds. Turning on automatic date and time in the operating system corrects the clock, and Check the time again in Daedalus then lets loading continue.",
+      "category": "synchronization",
+      "subcategory": "clock",
+      "daedalus": {
+        "scope": "specific",
+        "min": null,
+        "max": null,
+        "versions": [
+          "11.6.2"
+        ],
+        "introduced_in": null,
+        "first_known_affected": null,
+        "last_known_affected": null,
+        "fixed_in": null,
+        "notes": "Behavior read from the Daedalus 11.6.2 source. Check a newer release before relying on it for a later version."
+      },
+      "operating_systems": {
+        "scope": "all",
+        "values": []
+      },
+      "networks": {
+        "scope": "all",
+        "values": []
+      },
+      "hardware_wallets": {
+        "scope": "not_applicable",
+        "values": []
+      },
+      "evidence_classification": "officially-documented",
+      "confidence": "high",
+      "status": "active",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0157",
+        "SRC-0158",
+        "SRC-0159",
+        "SRC-0160",
+        "SRC-0161",
+        "SRC-0162"
+      ],
+      "source_dates": [],
+      "faq": {
+        "eligible": true,
+        "promoted": true,
+        "reason": "Common support topic; the connecting-to-network FAQ entry points to this article for the clock."
+      },
+      "tags": [
+        "clock",
+        "time",
+        "sync"
       ]
     },
     {

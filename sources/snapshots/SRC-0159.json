@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0159",
+  "provider": "web",
+  "provider_id": "SRC-0159:web",
+  "permalink": "https://support.microsoft.com/en-us/windows/experience/personalization/set-time-date-and-time-zone-settings-in-windows",
+  "author": "Microsoft",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-18T12:00:00Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "In Windows 11, Settings, Time & language, Date & time holds the Set time automatically and Set time zone automatically toggles.",
+      "With Set time zone automatically off, a Time zone drop-down lets the user choose a zone."
+    ]
+  }
+}

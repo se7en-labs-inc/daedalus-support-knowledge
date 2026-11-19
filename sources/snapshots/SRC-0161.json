@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source_id": "SRC-0161",
+  "provider": "web",
+  "provider_id": "SRC-0161:web",
+  "permalink": "https://support.apple.com/guide/mac-help/mchlp2996",
+  "author": "Apple",
+  "author_association": "organization",
+  "published_at": null,
+  "updated_at": null,
+  "retrieved_at": "2026-11-18T12:00:00Z",
+  "source_state": "published",
+  "representation": {
+    "format": "ariadne-normalized-editorial-summary-v1",
+    "canonicalization": "utf8-json-sort-keys-compact-lf-v1",
+    "statement_kind": "normalized_editorial_summary",
+    "not_verbatim": true,
+    "sanitization": {
+      "attachments_removed": true,
+      "diagnostic_archives_removed": true,
+      "wallet_addresses_removed": true,
+      "credentials_and_recovery_material_removed": true,
+      "personal_information_removed": true,
+      "lengthy_copyrighted_content_removed": true
+    },
+    "statements": [
+      "In System Settings, General, Date & Time, the user turns on Set time and date automatically, selects Set, enters a network time server for the region and selects Done.",
+      "Set time zone automatically using your current location is a separate toggle on the same pane."
+    ]
+  }
+}
