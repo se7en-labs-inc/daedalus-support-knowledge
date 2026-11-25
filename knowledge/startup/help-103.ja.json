@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1103",
+  "title": "Cardanoノードの起動に関する問題を確認する",
+  "summary": {
+    "text": "Cardanoノードは起動時に、コンピューターに保存されたブロックチェーンデータの整合性を検証します。ノードから5分間応答がない場合、Daedalusは「Cardanoノードから進捗状況が報告されていません」と表示し、ノードがまだ処理中である可能性を案内します。",
+    "source_ids": [
+      "SRC-0111",
+      "SRC-0112"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus does not finish starting and the Cardano node shows no progress.",
+    "source_ids": [
+      "SRC-0111",
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The loading screen says Starting Cardano node for a long time.",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus will not start",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Cardano node is not reporting progress",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "startup",
+    "subcategory": "node-startup"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0111",
+      "SRC-0112"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "「Cardanoノードから進捗状況が報告されていません」と表示された場合は、処理を待つために「このまま待つ」を選択してください。処理が停止していると思われる場合は「Cardanoノードを再起動」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "このコンピューターに保存されたブロックチェーンデータの一部が欠けているためCardanoノードを起動できないと表示された場合は、「ブロックチェーンデータを再構築」を選択し、「再構築」で確定してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0111",
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Cardanoノードを起動できないとDaedalusに表示された場合は、「サポートチケットを作成する」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113",
+        "SRC-0116"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The Cardano node finishes starting, or you have opened a support case from Daedalus.",
+    "source_ids": [
+      "SRC-0111",
+      "SRC-0112",
+      "SRC-0116"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [
+      "再構築すると、このコンピューターに保存されたブロックチェーンデータが削除され、検証済みの完全なデータが再ダウンロードされます。ダウンロードが完了するまでDaedalusは使用できません。ウォレットはこのコンピューターに保持されます。"
+    ],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0111",
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0113",
+    "SRC-0116"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "startup",
+    "node-startup"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0103",
+    "revision": 5
+  }
+}

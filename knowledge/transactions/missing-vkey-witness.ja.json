@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1003",
+  "title": "他人から入手したsecret.keyウォレットに送金できない残高が表示される",
+  "summary": {
+    "text": "旧バージョンのDaedalusで作成したsecret.keyファイルから、Daedalusにウォレットをインポートできます。しかし、他人から譲り受けたり購入したりしたsecret.keyファイルは、既知の詐欺手口に使われています。インポートしたウォレットには残高が表示されますが、そのファイルには資金を送金するための鍵が含まれていないため、送金はすべて拒否されます。",
+    "source_ids": [
+      "SRC-0004",
+      "SRC-0129",
+      "SRC-0145",
+      "SRC-0148",
+      "SRC-0149"
+    ]
+  },
+  "problem": {
+    "text": "A wallet imported from a secret.key file that someone else provided shows a balance, but every payment from it is rejected.",
+    "source_ids": [
+      "SRC-0004",
+      "SRC-0006"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "A wallet imported from a secret.key file shows a balance and transaction history, but sending from it fails.",
+      "source_ids": [
+        "SRC-0006"
+      ]
+    },
+    {
+      "text": "Someone offers to sell a secret.key file for a wallet with a large balance.",
+      "source_ids": [
+        "SRC-0145"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "I bought a secret.key file but cannot send the ada",
+      "source_ids": [
+        "SRC-0145"
+      ]
+    },
+    {
+      "text": "Imported secret.key wallet cannot send",
+      "source_ids": [
+        "SRC-0006"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "MissingVKeyWitnessesUTXOW",
+      "normalized": "missing vkey witnesses utxow",
+      "pattern": null
+    }
+  ],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "missing-witness"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0148",
+      "SRC-0149"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "secret.keyファイルの入手元を確認してください。自分のウォレットの鍵が含まれているのは、自分自身が旧バージョンのDaedalusで作成したファイルだけです。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "他人からそのファイルを譲り受けた、購入した、または送られてきた場合は、そのウォレットからの送金を試みないでください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0004",
+        "SRC-0148",
+        "SRC-0149"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You pay nothing for a wallet whose funds the file cannot spend.",
+    "source_ids": [
+      "SRC-0004",
+      "SRC-0145"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "independently-confirmed",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0004",
+    "SRC-0006",
+    "SRC-0129",
+    "SRC-0145",
+    "SRC-0148",
+    "SRC-0149"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "secret.key",
+    "scam",
+    "import"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0003",
+    "revision": 3
+  }
+}

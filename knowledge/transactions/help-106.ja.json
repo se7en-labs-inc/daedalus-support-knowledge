@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1106",
+  "title": "予期しない残高やトランザクションを確認する",
+  "summary": {
+    "text": "Daedalusでは各トランザクションの金額、送金時のトランザクション手数料、デポジットがある場合はその額を確認でき、ウォレットのトランザクション履歴が同期中かどうかも表示されます。トランザクションのメタデータは内容が審査されておらず、不適切な内容が含まれる可能性があるため、「調整されていないコンテンツを表示する」を選択するまで非表示になっています。",
+    "source_ids": [
+      "SRC-0133",
+      "SRC-0129"
+    ]
+  },
+  "problem": {
+    "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+    "source_ids": [
+      "SRC-0133",
+      "SRC-0129"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+      "source_ids": [
+        "SRC-0133",
+        "SRC-0129"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "ADA missing balance zero funds pending transaction not received rejected transaction fee",
+      "source_ids": [
+        "SRC-0133",
+        "SRC-0129"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "submission"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0133"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "サイドバーで選択されているウォレットが、資金のあるはずのウォレットか確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "ウォレットの「概要」にトランザクション履歴をブロックチェーンと同期中であると表示されている場合は、同期が完了するまでお待ちください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "「トランザクション」を開いて対象のトランザクションを選択し、金額と「トランザクションID」を確認してください。送金したトランザクションでは「トランザクション手数料」、デポジットがある場合は「デポジット」も確認できます。",
+      "why": "",
+      "source_ids": [
+        "SRC-0133",
+        "SRC-0129"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You can see each transaction's amount, fee and any deposit in the wallet that holds it.",
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0133"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0129",
+    "SRC-0133"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "transactions",
+    "submission"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0106",
+    "revision": 6
+  }
+}

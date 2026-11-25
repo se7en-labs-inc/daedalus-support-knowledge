@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1107",
+  "title": "ウォレットをステークプールに委任する",
+  "summary": {
+    "text": "「ウォレットを委任する」の手順は、ウォレットの選択、ステークプールの選択、確認の3段階です。新しい委任は、現在のエポックと次のエポックが終了した後に有効になります。",
+    "source_ids": [
+      "SRC-0129"
+    ]
+  },
+  "problem": {
+    "text": "Stake ADA delegate choose pool delegation rewards",
+    "source_ids": [
+      "SRC-0129"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Stake ADA delegate choose pool delegation rewards",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Stake ADA delegate choose pool delegation rewards",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "staking",
+    "subcategory": "delegation"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "all",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0134",
+      "SRC-0135",
+      "SRC-0140"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "「ステーキング」を開き、「委任センター」を選択して、対象のウォレットの横にある「委任する」を選択してください。すでに委任している場合は「再設定する」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "「ウォレットを委任する」に表示される手順を確認し、「続ける」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "委任するウォレットが選択されていることを確認し、「続ける」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "最近選択したステークプールから選ぶか、一覧を検索してステークプールを選び、「続ける」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Daedalusに表示されるステークプールIDと手数料を確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "ソフトウェアウォレットの場合は、「委任を確認する」で送金時パスワードを入力し、「確認」を選択してください。代わりに「トランザクションを確認」が表示された場合は、そこでパスワードを入力し、「署名して送信」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135",
+        "SRC-0140"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "ハードウェアウォレットの場合は、デバイス上でトランザクションを確認してから、「委任を確認する」で「確認」を選択してください。代わりに「トランザクションを確認」が表示された場合は、「デバイスで続行して送信」を選択し、デバイス上で確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0134",
+        "SRC-0135",
+        "SRC-0140"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus sends the delegation transaction, and the new delegation takes effect after the current and the next epoch have completed.",
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0135",
+      "SRC-0140"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [
+      "同期が完了しており、報酬とは別に、Daedalusが委任に必要と表示する最低額のADAが入っているウォレットを用意してください。"
+    ],
+    "consequences": [
+      "手数料とデポジットがある場合は、その額がウォレットから支払われます。",
+      "新しい委任が有効になるまでは、以前の委任が継続します。"
+    ],
+    "recovery": [
+      "別のプールに変更する場合は、ウォレットの委任操作を再度行い、そのプールを選択してください。"
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0129",
+    "SRC-0134",
+    "SRC-0135",
+    "SRC-0140"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "staking",
+    "delegation"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0107",
+    "revision": 6
+  }
+}

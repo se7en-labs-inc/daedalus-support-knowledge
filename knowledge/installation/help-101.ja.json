@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1101",
+  "title": "公式ウェブサイトからDaedalusをダウンロードする",
+  "summary": {
+    "text": "DaedalusはWindows、macOS、Linux向けのデスクトップアプリケーションです。ダウンロードサイトはdaedaluswallet.ioです。各インストーラーには対応する.asc署名ファイルが用意されており、実行前にインストーラーが正規のものであることを確認できます。",
+    "source_ids": [
+      "SRC-0120"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to know where to download Daedalus safely and which Linux installation options exist.",
+    "source_ids": [
+      "SRC-0120"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user is unsure which download site is genuine.",
+      "source_ids": [
+        "SRC-0120"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Where do I download Daedalus?",
+      "source_ids": [
+        "SRC-0120"
+      ]
+    },
+    {
+      "text": "Is this Daedalus download real?",
+      "source_ids": [
+        "SRC-0120"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "installation",
+    "subcategory": "download-verification"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0120"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "daedaluswallet.io/downloadを開き、お使いのOS向けのインストーラーと、それに対応する.asc署名ファイルをダウンロードしてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0120"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Linuxでは、提供が終了する予定のポータブル.binインストーラーではなく、Debian、RPM、Archのパッケージ、またはflake内のNixOSサービスを選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0111"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "インストーラーを実行する前に、ダウンロードページの説明に従ってSHA256チェックサムと署名を検証してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0120"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "You have an installer from daedaluswallet.io whose SHA256 checksum and signature match, ready to run.",
+    "source_ids": [
+      "SRC-0120"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0111",
+    "SRC-0120",
+    "SRC-0121"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "installation",
+    "download-verification"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0101",
+    "revision": 4
+  }
+}

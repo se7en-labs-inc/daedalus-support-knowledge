@@ -33,7 +33,7 @@ class ValidationRejectionTests(unittest.TestCase):
     def test_valid_repository_is_accepted(self):
         errors, entries, sources, faqs = validate(self.root)
         self.assertEqual([], errors)
-        self.assertEqual((19, 55, 24), (entries, sources, faqs))
+        self.assertEqual((36, 55, 25), (entries, sources, faqs))
 
     def test_public_approval_must_be_boolean(self):
         path = self.root / 'help-centre/publication.json'
@@ -139,6 +139,36 @@ class ValidationRejectionTests(unittest.TestCase):
         (self.root / "knowledge/installation/ja-copy.json").write_text(json.dumps(copy, indent=2) + "\n")
         self.mutate_entry(lambda value: value.__setitem__("revision", 2))
         self.assert_rejected("English source is at revision 2")
+
+    def test_title_minimum_applies_to_english_entries_only(self):
+        path = self.root / "knowledge/wallets/help-114.ja.json"
+        japanese = json.loads(path.read_text())
+        self.assertEqual(11, len(japanese["title"]))
+        errors, *_ = validate(self.root)
+        self.assertEqual([], errors)
+        path.write_text(json.dumps(dict(japanese, title=""), indent=2, ensure_ascii=False) + "\n")
+        self.assert_rejected("should be non-empty")
+        path.write_text(json.dumps(japanese, indent=2, ensure_ascii=False) + "\n")
+        self.mutate_entry(lambda value: value.__setitem__("title", "Short title"))
+        self.assert_rejected("'Short title' is too short")
+
+    def test_translation_id_is_english_id_plus_1000(self):
+        path = self.root / "knowledge/installation/help-101.ja.json"
+        value = json.loads(path.read_text())
+        path.write_text(json.dumps(dict(value, id="DAE-1901"), indent=2, ensure_ascii=False) + "\n")
+        self.assert_rejected("a translation of DAE-0101 must have ID DAE-1101")
+
+    def test_english_entry_id_is_below_1000(self):
+        self.mutate_entry(lambda value: value.__setitem__("id", "DAE-1901"))
+        self.assert_rejected("an English entry's ID must be below DAE-1000")
+
+    def test_approved_translation_needs_approved_english_record(self):
+        path = self.root / "help-centre/publication.json"
+        value = json.loads(path.read_text())
+        english = next(record for record in value["articles"] if record["id"] == "DAE-0101")
+        english.update(approved=False, status="needs-review", reason="Withdrawn for review.")
+        path.write_text(json.dumps(value, indent=2) + "\n")
+        self.assert_rejected("DAE-1101: an approved translation needs an approved record for DAE-0101")
 
     def test_missing_required_field_is_rejected_by_schema(self):
         self.mutate_entry(lambda value: value.pop("title"))

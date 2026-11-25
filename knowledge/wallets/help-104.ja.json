@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1104",
+  "title": "復元フレーズからウォレットを復元する",
+  "summary": {
+    "text": "メインネットでは、Daedalusウォレットは12語または24語、ペーパーウォレットは27語、Yoroiウォレットは15語の復元フレーズを使ってDaedalusに復元できます。ハードウェアウォレットは復元せず、ペアリングします。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0122"
+    ]
+  },
+  "problem": {
+    "text": "A user wants to restore a wallet in Daedalus and needs to know what the restoration requires.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user needs to restore a wallet and is unsure what to prepare.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I restore my wallet?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "My restored wallet is empty",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "wallets",
+    "subcategory": "restore"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "「ウォレット追加」を選択し、次に「復元」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Daedalusウォレットまたはペーパーウォレットの場合は「Daedalusウォレット」を、Yoroiウォレットの場合は「Yoroiウォレット」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0122"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Daedalusウォレットまたはペーパーウォレットの場合は、復元フレーズの語数に対応する項目を選択してください。ペーパーウォレットの場合は「27語 - ペーパーウォレット （Byronレガシーウォレット）」を選び、「続ける」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0122"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Yoroiウォレットの場合は、「15語 （Byronレガシーウォレット）」または「15語 （Shelleyウォレット）」を選び、「続ける」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0122",
+        "SRC-0152",
+        "SRC-0153",
+        "SRC-0154"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "復元フレーズを入力し、「復元フレーズを確認する」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "ウォレット名と送金時パスワードを入力し、「続ける」を選択してください。どちらも以前使用していたものと同じである必要はありません。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The restored wallet appears in Daedalus with the funds and transaction history of the original wallet.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "restore",
+      "wallet-recovery",
+      "funds"
+    ],
+    "prerequisites": [
+      "復元するウォレットの復元フレーズと、その語数を用意してください。",
+      "ほかのウォレットの復元処理が進行中でないことを確認してください。Daedalusで一度に復元できるウォレットは1つだけです。"
+    ],
+    "consequences": [
+      "ハードウェアウォレットをペアリングせずに、ここで復元フレーズを入力すると、その秘密鍵がこのコンピューターに伴うリスクにさらされます。",
+      "設定したウォレット名と送金時パスワードは、このコンピューターにのみ保存され、ブロックチェーン上には保存されません。"
+    ],
+    "recovery": [
+      "復元したウォレットが空だったり、想定していた資金が表示されなかったりする場合は、復元フレーズを確認し、正しいフレーズで再度復元してください。",
+      "復元したYoroiウォレットが空だったり、想定していた資金が表示されなかったりする場合は、もう一方の15語の項目を選んで再度復元してください。同じ復元フレーズでも、この2つの項目では異なるアドレスのウォレットが作成され、最初に復元したウォレットはDaedalusに残ります。",
+      "復元が完了する前にウィンドウを閉じると、何も保存されず、最初からやり直す必要があります。"
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0122",
+    "SRC-0152",
+    "SRC-0153",
+    "SRC-0154",
+    "SRC-0155"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "wallets",
+    "restore"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0104",
+    "revision": 6
+  }
+}

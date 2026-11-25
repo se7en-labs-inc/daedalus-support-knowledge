@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1115",
+  "title": "既存のサポートケースに追加で問い合わせる",
+  "summary": {
+    "text": "既存のケースを開くには、ケース番号と、そのケースで確認済みのメールアドレスが必要です。ポータルから、そのアドレス宛てに新しいアクセスコードが送信されます。",
+    "source_ids": [
+      "SRC-0119"
+    ]
+  },
+  "problem": {
+    "text": "A user has a support case and wants to open it again.",
+    "source_ids": [
+      "SRC-0118",
+      "SRC-0119"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user has a case number and wants to continue the conversation.",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I check my support case?",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    },
+    {
+      "text": "How do I reopen my case?",
+      "source_ids": [
+        "SRC-0118",
+        "SRC-0119"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "support-bundle"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0118",
+      "SRC-0119"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "https://daedalus.support.se7enlabs.comのサポートポータルを開き、「既存のケースを開く」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0118"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "ケース番号と、そのケースで確認済みのメールアドレスを入力してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "「アクセスコードを送信」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "メールに記載されたコードを「6桁のアクセスコード」欄に入力してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "「ケースを開く」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0119"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The case opens in the support portal.",
+    "source_ids": [
+      "SRC-0119"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0118",
+    "SRC-0119",
+    "SRC-0121"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "diagnostics",
+    "support-portal"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0115",
+    "revision": 3
+  }
+}

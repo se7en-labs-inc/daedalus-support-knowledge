@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1112",
+  "title": "セキュリティソフトとDaedalus",
+  "summary": {
+    "text": "オフチェーンメタデータサーバーを使用しない場合、Daedalusは各ステークプールに個別に接続します。Daedalusでは、この数千件に及ぶネットワーク通信がウイルス対策ソフトやマルウェア対策ソフトによって悪意のある通信と判断される可能性があると警告しています。Daedalusの問題を解決するために、ウイルス対策ソフトやファイアウォールを無効にしないでください。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "problem": {
+    "text": "A user suspects that antivirus, antimalware or firewall software interferes with Daedalus.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Daedalus fails to connect or sync and security software is installed.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Does my antivirus block Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Should I turn off my firewall for Daedalus?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "antivirus"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Daedalusの「設定」で「ステークプール」を選択し、「オフチェーンメタデータサーバー（SMASH）」の設定を確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "「使用しない（直接データをフェッチする）」に設定されている場合は、「IOHK（推奨）」またはご自身で設定したサーバーを選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "「ヘルプ」メニューから「Daedalus診断」を開き、「Cardanoノード反応」と「Cardanoノード同期中」を確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "それでもDaedalusが正常に動作しない場合は、「ヘルプ」メニューで「ログのダウンロード」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0128"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "サポートポータルでケースを作成し、ご利用のセキュリティソフト名を記載してログを添付してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus fetches stake pool data through an off-chain metadata server, and Daedalus Diagnostics shows Cardano node responding and Cardano node syncing while your security software runs.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "antivirus",
+      "firewall",
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "medium",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0121",
+    "SRC-0128"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "networking",
+    "antivirus"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0112",
+    "revision": 4
+  }
+}

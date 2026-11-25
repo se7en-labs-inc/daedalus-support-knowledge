@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1117",
+  "title": "「同期できません - 時刻の不一致」を解消する",
+  "summary": {
+    "text": "コンピューターの時刻が基準時刻から4.5秒を超えてずれている場合、Daedalusは同期できません。OSで日付と時刻の自動設定を有効にすると時計を修正できます。その後、Daedalusで「もう一度時刻を確認する」を選択すると、読み込み処理を続行できます。",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus shows Unable to sync - incorrect time and does not load.",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The loading screen says Unable to sync - incorrect time and states how far off the computer time is.",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "The loading screen says Daedalus cannot check whether the clock is synchronized because the time servers are unreachable, and offers Continue without clock synchronization checks.",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Unable to sync - incorrect time",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "Daedalus says my time is different from the global time",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    },
+    {
+      "text": "How do I fix the clock for Daedalus?",
+      "source_ids": [
+        "SRC-0156"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "同期できません - 時刻の不一致",
+      "normalized": "同期できません 時刻の不一致"
+    }
+  ],
+  "classification": {
+    "category": "synchronization",
+    "subcategory": "clock"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "Windows 11では、「設定」を開き、「時刻と言語」から「日付と時刻」を選択してください。「時刻を自動的に設定する」と「タイムゾーンを自動的に設定する」をオンにしてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0159"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Windows 11で時刻がまだ正しくない場合は、「コマンド プロンプト」を検索し、「管理者として実行」を選択して、w32tm /resyncを実行してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0160"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "macOSでは、「システム設定」を開き、「一般」から「日付と時刻」を選択してください。「日付と時刻を自動的に設定」をオンにして「設定」を選択し、お住まいの地域に対応するタイムサーバを指定して「完了」を選択してください。「現在の位置情報に基づいて、時間帯を自動的に設定」をオンにするか、時間帯を手動で選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0161"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "systemdを使用するLinuxでは、timedatectl statusを実行してください。System clock synchronizedがnoの場合は、sudo timedatectl set-ntp trueを実行し、もう一度timedatectl statusを実行してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0162"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Linuxで時間帯が正しくない場合は、timedatectl list-timezonesを実行して時間帯を確認し、sudo timedatectl set-timezoneに時間帯の名前を続けて実行してください（例：Europe/Berlin）。",
+      "why": "",
+      "source_ids": [
+        "SRC-0162"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "Daedalusに戻り、「もう一度時刻を確認する」を選択してください。時刻のずれが4.5秒以内になっていれば、エラー画面が閉じ、Daedalusの読み込みが続行されます。",
+      "why": "",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0157",
+        "SRC-0158"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "代わりに、時刻サーバーに接続できないため時計を確認できないと表示された場合は、お使いのOSに応じた手順で時計を修正し、ネットワーク上のファイアウォールで時刻同期の通信（NTP、UDPポート123）を許可してください。「時計の同期チェックなしで続行する」を選択すると確認を省略できますが、時刻が4.5秒を超えてずれているとDaedalusはネットワークに接続できません。",
+      "why": "",
+      "source_ids": [
+        "SRC-0156",
+        "SRC-0158",
+        "SRC-0160"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus no longer shows Unable to sync - incorrect time and continues loading and syncing.",
+    "source_ids": [
+      "SRC-0156",
+      "SRC-0157",
+      "SRC-0158"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network",
+      "permissions",
+      "terminal"
+    ],
+    "prerequisites": [
+      "Windowsでw32tmを実行する場合と、Linuxでtimedatectl set-ntpを実行する場合は、管理者権限が必要です。"
+    ],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-18"
+  },
+  "sources": [
+    "SRC-0156",
+    "SRC-0157",
+    "SRC-0158",
+    "SRC-0159",
+    "SRC-0160",
+    "SRC-0161",
+    "SRC-0162"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "clock",
+    "time",
+    "sync"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0117",
+    "revision": 1
+  }
+}

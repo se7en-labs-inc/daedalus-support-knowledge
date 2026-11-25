@@ -43,6 +43,17 @@ class CoverageTests(unittest.TestCase):
         self.assertTrue(all(a['disposition'] != 'current' for a in report['articles']))
         self.assertTrue(all('text' not in a for a in report['articles']))
 
+    def test_translations_are_counted_apart_from_curated_articles(self):
+        report = build()
+        locales = {}
+        for path in (ROOT / 'knowledge').rglob('*.json'):
+            entry = json.loads(path.read_text(encoding='utf-8'))
+            locales[entry['id']] = entry.get('locale', 'en')
+        approved = [locales[a['id']] for a in report['curatedEntries'] if a['approved']]
+        self.assertEqual(report['approvedCuratedArticles'], approved.count('en'))
+        self.assertEqual(sum(report['approvedTranslations'].values()), len(approved) - approved.count('en'))
+        self.assertNotIn('en', report['approvedTranslations'])
+
     def test_changed_or_extra_archive_material_requires_acquisition_review(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

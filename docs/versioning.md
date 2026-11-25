@@ -30,10 +30,14 @@ A Japanese item sets `translates`:
 
 `translates.id` names the English item of the same kind (`FAQ-NNN` in the FAQ catalog, `DAE-NNNN` among knowledge entries) and `translates.revision` records the English revision the translation was written from. The Japanese item's own `revision` counts edits to the Japanese text. An English item cannot set `translates`, and a Japanese item must.
 
+A translated knowledge entry's ID is its English entry's ID plus 1000: DAE-1104 translates DAE-0104. English entries therefore use IDs below DAE-1000. The translation's file sits beside the English file as `<name>.ja.json`. The 12-character minimum on a title applies to English entries only; a Japanese title must be non-empty.
+
 `tools/validate.py` fails when:
 
 - `translates.id` names no item, or an item that is not English;
 - `translates.revision` is lower than the English item's current revision, which means the translation is stale;
-- `translates.revision` is higher than the English item's current revision, which means it names a revision that does not exist.
+- `translates.revision` is higher than the English item's current revision, which means it names a revision that does not exist;
+- a translated entry's ID is not its English entry's ID plus 1000, or an English entry's ID is DAE-1000 or above;
+- `help-centre/publication.json` approves a translated entry whose English entry's record is not approved.
 
 A Japanese item keeps the same source IDs as its English original, so a translated claim stays tied to the same evidence. The generated `faq/README.md` lists English items first and Japanese items in a separate section.

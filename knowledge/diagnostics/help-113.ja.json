@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1113",
+  "title": "ログを安全にサポートへ送信する",
+  "summary": {
+    "text": "Daedalusでは、ログを1つのファイルとしてダウンロードし、サポートリクエストに添付できます。ログファイルを手作業で集める必要はありません。「ヘルプ」メニュー、「設定」の「ユーザーサポート」ページ、または接続の問題が表示された読み込み画面からダウンロードできます。ログはサポートポータルからのみ送信し、公開のIssue管理システム、フォーラム、チャットには投稿しないでください。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0116",
+      "SRC-0121",
+      "SRC-0130",
+      "SRC-0131",
+      "SRC-0132"
+    ]
+  },
+  "problem": {
+    "text": "A user needs to send Daedalus logs to support without exposing private data.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Support asks for logs.",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I get my Daedalus logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "text": "Where do I send logs?",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "log-collection"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "「ヘルプ」メニューを開き、「ログのダウンロード」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0130",
+        "SRC-0131"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "ダウンロードしたファイルをサポートポータルのリクエストに添付してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0115"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Support receives your logs as one file attached to your case in the support portal.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0115"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0116",
+    "SRC-0121",
+    "SRC-0128",
+    "SRC-0130",
+    "SRC-0131",
+    "SRC-0132"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "diagnostics",
+    "log-collection"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0113",
+    "revision": 4
+  }
+}

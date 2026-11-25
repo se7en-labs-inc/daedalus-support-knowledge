@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1109",
+  "title": "サポートへの問い合わせ方法と問い合わせるタイミング",
+  "summary": {
+    "text": "サポートはhttps://daedalus.support.se7enlabs.comのサポートポータルで提供しています。お困りの問題がヘルプ記事で解決しなかった場合、Daedalusからサポートリクエストの送信を求められた場合、またはDaedalusに表示される受取アドレスがハードウェアウォレットに表示されるアドレスと異なる場合は、サポートケースを作成してください。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0115",
+      "SRC-0118"
+    ]
+  },
+  "problem": {
+    "text": "A user needs help from a person and wants to know when to open a support case and where to ask.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0115",
+      "SRC-0118"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The user cannot solve the problem with the FAQ.",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0118"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "How do I contact support?",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0118"
+      ]
+    },
+    {
+      "text": "I need a human",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0118"
+      ]
+    },
+    {
+      "text": "When should I contact support?",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0118"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "diagnostics",
+    "subcategory": "support-bundle"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0115",
+      "SRC-0118"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "サポートポータルを開いてください。Daedalusの「ヘルプ」メニューで「サポートリクエスト」を選択するか、https://daedalus.support.se7enlabs.comにアクセスしてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0117",
+        "SRC-0128"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "ポータルから求められたら、メールアドレスの確認を行ってください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0118"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "まず、ポータルに表示されるサポート案内をお試しください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0118"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "それでも解決しない場合は、担当者によるサポートケースの作成に進み、問題の内容を説明してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0118"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "Daedalusの「ヘルプ」メニューで「ログのダウンロード」を選択し、ダウンロードしたファイルをサポートケースに添付してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0128"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The portal's guidance solves the problem, or you have a support case, which you can return to later with Open an existing case.",
+    "source_ids": [
+      "SRC-0118"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0115",
+    "SRC-0116",
+    "SRC-0117",
+    "SRC-0118",
+    "SRC-0121",
+    "SRC-0128"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "diagnostics",
+    "support-portal"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0109",
+    "revision": 4
+  }
+}

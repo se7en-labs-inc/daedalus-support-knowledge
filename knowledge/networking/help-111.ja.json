@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1111",
+  "title": "「ネットワークに接続しています」が続く場合の確認方法",
+  "summary": {
+    "text": "Daedalusは、接続が確立するまで読み込み画面に「ネットワークに接続しています」と表示します。コンピューターの時刻が基準時刻から4.5秒を超えてずれている場合は同期できません。また、20分間接続できない場合は「接続に問題がありますか」と表示されます。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113",
+      "SRC-0114"
+    ]
+  },
+  "problem": {
+    "text": "Daedalus stays on the Connecting to network screen.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "The loading screen says Connecting to network and does not move on.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Daedalus stuck on connecting to network",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    },
+    {
+      "text": "Having trouble connecting to network",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0113"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "networking",
+    "subcategory": "peers"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0113"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "「同期できません - 時刻の不一致」と表示された場合は、サポートポータルの記事『「同期できません - 時刻の不一致」を解消する』を参考に、コンピューターの時計を合わせてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0114"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "その後、「もう一度時刻を確認する」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "「接続に問題がありますか」とともに「再試行」ボタンが表示された場合は、「再試行」を選択してCardanoノードの起動を再度お試しください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0113",
+        "SRC-0116"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "それでもDaedalusが接続できない場合は、「ログをダウンロードする」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0116"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "「サポートチケットを作成する」を選択し、サポートリクエストにログを添付してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0116"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Daedalus connects to the network and continues loading.",
+    "source_ids": [
+      "SRC-0112"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "low",
+    "flags": [
+      "network"
+    ],
+    "prerequisites": [],
+    "consequences": [],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0113",
+    "SRC-0114",
+    "SRC-0115",
+    "SRC-0116"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "networking",
+    "connecting"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0111",
+    "revision": 5
+  }
+}
