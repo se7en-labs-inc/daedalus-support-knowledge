@@ -35,16 +35,29 @@ class ValidationRejectionTests(unittest.TestCase):
         self.assertEqual([], errors)
         self.assertEqual((19, 55, 24), (entries, sources, faqs))
 
-    def test_public_approval_must_be_boolean_and_have_review_fingerprint(self):
+    def test_public_approval_must_be_boolean(self):
         path = self.root / 'help-centre/publication.json'
         value = json.loads(path.read_text())
         value['articles'][0]['approved'] = 'false'
         path.write_text(json.dumps(value))
         self.assert_rejected("is not of type 'boolean'")
-        value['articles'][0]['approved'] = True
-        value['articles'][0].pop('reviewedContentHash')
-        path.write_text(json.dumps(value))
-        self.assert_rejected("'reviewedContentHash' is a required property")
+
+    def test_approved_record_without_review_hash_is_accepted(self):
+        path = self.root / 'help-centre/publication.json'
+        value = json.loads(path.read_text())
+        approved = next(item for item in value['articles'] if item['approved'] is True)
+        self.assertNotIn('reviewedContentHash', approved)
+        errors, *_ = validate(self.root)
+        self.assertEqual([], errors)
+
+    def test_record_missing_status_or_approved_is_rejected(self):
+        path = self.root / 'help-centre/publication.json'
+        original = json.loads(path.read_text())
+        for field in ('status', 'approved'):
+            value = json.loads(json.dumps(original))
+            value['articles'][0].pop(field)
+            path.write_text(json.dumps(value))
+            self.assert_rejected("'%s' is a required property" % field)
 
     def write_publication_decision(self, approved, reason):
         path = self.root / 'help-centre/publication.json'

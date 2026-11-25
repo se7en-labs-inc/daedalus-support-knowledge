@@ -22,11 +22,10 @@
           "approved": {"type": "boolean"},
           "status": {"enum": ["current", "superseded", "needs-review", "excluded"]},
           "reviewedOn": {"type": "string", "format": "date"},
-          "reason": {"type": "string"},
-          "reviewedContentHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+          "reason": {"type": "string"}
         },
         "if": {"properties": {"approved": {"const": true}}},
-        "then": {"required": ["reviewedContentHash"], "properties": {"status": {"const": "current"}}},
+        "then": {"properties": {"status": {"const": "current"}}},
         "else": {"required": ["reason"], "properties": {"reason": {"pattern": "\\S"}}}
       }
     }

@@ -6,7 +6,7 @@
     "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
     "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed"
   },
-  "inputDigest": "d129fea9f45144d2f9b462428c3d4a12a7f30cb7f1767ea9fb1dd84ed364c5d0",
+  "inputDigest": "508d44060c533e27e6c3e4d553d0a867735af0b80a332a4196f91c824d6989dd",
   "sourceExportDate": "2026-07-03",
   "filteredAt": "2026-09-03T17:39:48",
   "observed": {
@@ -61,120 +61,103 @@
       "id": "DAE-0101",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "55a0c91399abf9adac1ab6e3fc81923bdc0751bddf457cafc174a89d4f2364ac"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0102",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "130e0b84f875f68edae057c2a4d78bb8cac40817fa8ff274fe501099cbeaa331"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0103",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "d9cd09c0c7f57caa215e3bca84376525629ab2673ea8a8546ebb9e34e906fb12"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0104",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "4f0e616fe8bfe67b528aba1ff9eb31caf07c514195518e8a09da54a596ac60a4"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0105",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "cd6c068070142cdc35ac01d348d3fe99e2c2770edc14f275d88c5963c9cedaca"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0106",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "688e5bc8342e9b9d878f4daaf4627be516be1ccb34d8c110f63c69d462e961ac"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0107",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "583d6d7e6aa0106307f459bda82ce56e19cdece37ab9e7d0c2b9e4c4f1847fc4"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0108",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "3e1121c23a8fb77ba7a9bbcfbcd4d2691b57c7328ee1720f12cd139300c3c01a"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0109",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "4edbce6d9c65cb08d102e01df648b918660adf3d5bd5019d2a8a1c73b4e43299"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0003",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "fb577d1a57a8a19ab1756996b4ff84e3b519b80b9d17341b0eea809b7d581792"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0008",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "e2eded152c2998afddb6c9c7a3729b5a1b8fdcab0ecbea3b0ae254fa2f22619c"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0110",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "efabf63fc31512e96cb765350d3afcdaf1a2f4d9ad91e748610cabe5a29b002d"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0111",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-18",
-      "reviewedContentHash": "889af4f39e760417ae5653f7eda4d1236c28808ea9b29a370a1bf9168de4ddeb"
+      "reviewedOn": "2026-11-18"
     },
     {
       "id": "DAE-0112",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "4fdf0901e7eab85ebe4eab50bcff07083b33860dad43188e4c4df9f7241850c1"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0113",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "b9bce233209c2f14afb801985bc243edf3b4129a8985ad9c48a5a428041c91dd"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0114",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "d1dd1a0f653313185f35b3580f7fbf7764f68a53da9c91be0cbd266ebf8751f5"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0115",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-14",
-      "reviewedContentHash": "b2b50668cad6b98586e7620a22d58cc25352b548e2d521f7cb1df5a863c182ae"
+      "reviewedOn": "2026-11-14"
     },
     {
       "id": "DAE-0116",
@@ -187,8 +170,7 @@
       "id": "DAE-0117",
       "status": "current",
       "approved": true,
-      "reviewedOn": "2026-11-18",
-      "reviewedContentHash": "3fc5d68bde572e7fb6c7dbab2be229f41cf01ea574e840558f7271a89ebfcacb"
+      "reviewedOn": "2026-11-18"
     }
   ],
   "articles": [

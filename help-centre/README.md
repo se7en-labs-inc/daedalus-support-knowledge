@@ -3,8 +3,9 @@
 This canonical repository owns curated entry, source, evidence, FAQ and publication
 schemas. `publication.json` records every entry's disposition. A decision that
 withholds an entry (`approved: false`) states its reason; an approval needs none.
-Approval binds entry, source records and associated FAQ with `reviewedContentHash`;
-importing or reformatting content never verifies it. Local Help Centre testing
+A pull request that adds or changes an entry sets that entry's record (`status`,
+`approved`); the owner's merge of the pull request approves the entry as written.
+Importing or reformatting content never approves it. Local Help Centre testing
 was approved on 2026-09-22, distinct from the 2026-09-21 source review and wallet
 runtime testing.
 
@@ -17,13 +18,11 @@ records are accounted for; no raw article or image becomes approved by import.
 See `docs/migration.md` for duplicate reconciliation and asset discrepancies.
 
 The Ariadne application owns its public projection compiler, security scanner and
-runtime integration. From that checkout, `scripts/prepare-help-centre.ts --source
-../daedalus-support-knowledge --review-hash DAE-xxxx` is a read-only review helper;
-computing a fingerprint does not approve publication. After editorial review,
-record the decision here, validate/generate coverage and commit the content. Then
-prepare/check the application snapshot from the clean canonical checkout. The
-snapshot records this repository and full source revision and is never edited
-independently. No personal-pool checkout is required.
+runtime integration. After editorial review, record the decision here, validate/generate
+coverage and commit the content in the same pull request. Then prepare/check the
+application snapshot from the clean canonical checkout. The snapshot records this
+repository and full source revision and is never edited independently. No
+personal-pool checkout is required.
 
 To withdraw, set `approved: false` with a reason, fix related links, regenerate,
 commit and rebuild consumers. Replacement guidance uses a new ID and explicit
