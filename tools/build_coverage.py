@@ -83,6 +83,13 @@ def build(root=ROOT):
     normalized = normalize(root / 'help-center-dump')
     publication = json.loads((root / 'help-centre/publication.json').read_text(encoding='utf-8'))
     archive = json.loads((root / 'manifest.json').read_text(encoding='utf-8'))
+    # Translations are not curated articles of their own: count them apart, by locale.
+    locales = {}
+    for path in sorted((root / 'knowledge').rglob('*.json')):
+        entry = json.loads(path.read_text(encoding='utf-8'))
+        locales[entry['id']] = entry.get('locale', 'en')
+    approved = [locales.get(a['id'], 'en') for a in publication['articles'] if a['approved']]
+    translations = {locale: approved.count(locale) for locale in sorted(set(approved) - {'en'})}
     return {
         'schemaVersion': 2,
         'sourceRepository': REPOSITORY,
@@ -93,7 +100,8 @@ def build(root=ROOT):
         'observed': {'fullArticles': len(normalized['articles']), 'releaseTitles': len(normalized['releaseTitles']),
                      'separateArchiverArticles': archive['article_count'], 'assets': normalized['assets']},
         'exportReportedCounts': normalized['reportedCounts'],
-        'approvedCuratedArticles': sum(a['approved'] for a in publication['articles']),
+        'approvedCuratedArticles': approved.count('en'),
+        'approvedTranslations': translations,
         'curatedEntries': publication['articles'],
         'articles': classify(normalized['articles']),
         'releaseTitles': [{**t, 'disposition': 'excluded', 'reason': 'Title only; no source body supplied. No article or release claims invented.'}

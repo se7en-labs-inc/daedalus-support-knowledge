@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1114",
+  "title": "ウォレットを安全に保つ",
+  "summary": {
+    "text": "復元フレーズ、送金時パスワード、秘密鍵は、ウォレットを管理するための重要な情報です。復元フレーズを知っている人はウォレット内のadaを送金でき、サポート担当者がこれらの情報を求めることはありません。",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "problem": {
+    "text": "A user wants to know how to keep a wallet safe: what never to give anyone, where to download Daedalus and where to get help.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0120",
+      "SRC-0121"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "Someone asks the user for the recovery phrase.",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone offers help with the wallet in a direct message.",
+      "source_ids": [
+        "SRC-0121"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "Does support need my recovery phrase?",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Is it safe to share my seed words?",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone messaged me offering help with my wallet",
+      "source_ids": [
+        "SRC-0121"
+      ]
+    },
+    {
+      "text": "Someone told me to delete my wallet files",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "errors": [],
+  "classification": {
+    "category": "wallets",
+    "subcategory": "recovery"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.0"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "all",
+      "values": []
+    },
+    "hardware_wallets": {
+      "scope": "not_applicable",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "新しいウォレットの復元フレーズがDaedalusに表示される前に、画面をほかの人に見られないことを確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "復元フレーズは紙に書き、安全な場所に保管してください。コンピューターやオンラインには保存しないでください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "ウォレットの「設定」で「ウォレット復元フレーズを検証する」を選択し、正しいフレーズを控えていることを確認してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "Daedalusはdaedaluswallet.ioからのみダウンロードしてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0120",
+        "SRC-0121"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "サポートへのお問い合わせはhttps://daedalus.support.se7enlabs.comのサポートポータルからのみ行ってください。ダイレクトメッセージでサポートを申し出る相手は、正規のサポート担当者ではありません。",
+      "why": "",
+      "source_ids": [
+        "SRC-0115",
+        "SRC-0121"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "他人に指示されたという理由だけで、ウォレットデータを削除したり移動したりしないでください。ブロックチェーンデータが破損した場合、Daedalusには「ブロックチェーンデータを再構築」が表示されます。この処理でもウォレットはコンピューターに保持されます。",
+      "why": "",
+      "source_ids": [
+        "SRC-0112",
+        "SRC-0121"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "Your recovery phrase is written on paper, checked with Verify wallet recovery phrase, and known only to you.",
+    "source_ids": [
+      "SRC-0112",
+      "SRC-0121"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "high",
+    "flags": [
+      "wallet-recovery",
+      "funds"
+    ],
+    "prerequisites": [
+      "ウォレット作成時に書き留めた復元フレーズを用意してください。「ウォレット復元フレーズを検証する」で確認するために必要です。"
+    ],
+    "consequences": [
+      "Daedalusからウォレットを削除すると、復元フレーズで復元するまで、その資金にアクセスできなくなります。",
+      "復元フレーズがない場合、コンピューターの紛失、故障、盗難、動作不能などが発生すると、ウォレットを復元できません。"
+    ],
+    "recovery": [
+      "復元フレーズを確認できない場合、または他人に知られた可能性がある場合は、新しいウォレットを作成して資金をすべて移してください。"
+    ]
+  },
+  "evidence": {
+    "classification": "officially-documented",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-05"
+  },
+  "sources": [
+    "SRC-0112",
+    "SRC-0121",
+    "SRC-0115",
+    "SRC-0120"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "wallets",
+    "recovery"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0114",
+    "revision": 3
+  }
+}

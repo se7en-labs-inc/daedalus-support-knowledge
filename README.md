@@ -31,7 +31,7 @@ manifest.json                deterministic article and asset inventory
 discovered-articles.json     reviewable discovery result (generated)
 archive-report.json          machine-readable archival result (generated)
 help-center-dump/            preserved original public export and 187 local images
-knowledge/                   18 stable curated entries (DAE identifiers)
+knowledge/                   curated entries and their translations (DAE identifiers)
 sources/                     48 evidence records, snapshots and migration inventory
 faq/                         canonical catalog and generated FAQ
 schemas/, taxonomy/          validated shared content contracts

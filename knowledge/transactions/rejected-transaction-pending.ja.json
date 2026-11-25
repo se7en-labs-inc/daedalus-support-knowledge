@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "id": "DAE-1008",
+  "title": "送信したトランザクションが処理中のままになる",
+  "summary": {
+    "text": "Daedalusでは、送信したトランザクションがCardanoネットワークで承認されるまで「トランザクション処理中」と表示され、そのトランザクションに使用する資金は、その間ほかの送金に使えません。ネットワークで拒否された送金は承認されませんが、Daedalusでは処理中として表示され続けます。トランザクションをキャンセルすると、その資金を再び使用できるようになります。",
+    "source_ids": [
+      "SRC-0009",
+      "SRC-0129",
+      "SRC-0133",
+      "SRC-0151"
+    ]
+  },
+  "problem": {
+    "text": "A payment that the network rejected is still listed as Transaction pending and holds the funds it uses.",
+    "source_ids": [
+      "SRC-0009",
+      "SRC-0129"
+    ]
+  },
+  "symptoms": [
+    {
+      "text": "A sent transaction stays marked Transaction pending.",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133"
+      ]
+    },
+    {
+      "text": "Daedalus showed an error when sending a payment, but the payment is listed as pending and the balance is lower.",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "user_phrases": [
+    {
+      "text": "My transaction is stuck on pending",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "text": "How do I cancel a pending transaction?",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "text": "The payment failed but my balance went down",
+      "source_ids": [
+        "SRC-0009"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "verbatim": "MissingVKeyWitnessesUTXOW",
+      "normalized": "missing vkey witnesses utxow",
+      "pattern": null
+    }
+  ],
+  "classification": {
+    "category": "transactions",
+    "subcategory": "submission"
+  },
+  "applicability": {
+    "daedalus": {
+      "scope": "specific",
+      "min": null,
+      "max": null,
+      "versions": [
+        "11.6.2"
+      ],
+      "introduced_in": null,
+      "first_known_affected": null,
+      "last_known_affected": null,
+      "fixed_in": null,
+      "notes": ""
+    },
+    "operating_systems": {
+      "scope": "all",
+      "values": []
+    },
+    "networks": {
+      "scope": "specific",
+      "values": [
+        "mainnet"
+      ]
+    },
+    "hardware_wallets": {
+      "scope": "unknown",
+      "values": []
+    },
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0133",
+      "SRC-0147"
+    ]
+  },
+  "causes": [],
+  "diagnostics": [],
+  "resolutions": [
+    {
+      "order": 1,
+      "action": "ウォレットの「トランザクション」を開いてください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "「トランザクション処理中」と表示されているトランザクションを選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "トランザクションが10分を超えて処理中のままになっている場合は、「処理中のトランザクションをキャンセルする」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133",
+        "SRC-0146",
+        "SRC-0147"
+      ]
+    },
+    {
+      "order": 4,
+      "action": "「はい、トランザクションをキャンセルします」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133"
+      ]
+    },
+    {
+      "order": 5,
+      "action": "代わりに「トランザクション失敗」と表示されている場合は、「失敗したトランザクションを削除する」を選択してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129",
+        "SRC-0133",
+        "SRC-0147"
+      ]
+    },
+    {
+      "order": 6,
+      "action": "再度送金した際にエラーが発生した場合は、繰り返し送金を試みず、サポートポータルでサポートケースを作成してください。拒否された送金も試行のたびに処理中として一覧に表示され、ウォレット内で使用できない資金がさらに増えます。",
+      "why": "",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0118",
+        "SRC-0151"
+      ]
+    },
+    {
+      "order": 7,
+      "action": "サポートケースを作成する際は、ログを添付してください。",
+      "why": "",
+      "source_ids": [
+        "SRC-0129"
+      ]
+    }
+  ],
+  "expected_outcome": {
+    "text": "The transaction is no longer listed, and its funds can be spent again.",
+    "source_ids": [
+      "SRC-0129",
+      "SRC-0133"
+    ]
+  },
+  "do_not": [],
+  "escalate_when": [],
+  "safety": {
+    "risk": "medium",
+    "flags": [
+      "funds"
+    ],
+    "prerequisites": [],
+    "consequences": [
+      "キャンセルしたトランザクションが後からネットワークで承認された場合は、完了済みのトランザクションとしてウォレットに再表示されます。"
+    ],
+    "recovery": []
+  },
+  "evidence": {
+    "classification": "maintainer-confirmed",
+    "confidence": "high",
+    "rationale": "",
+    "conflicts": []
+  },
+  "lifecycle": {
+    "status": "active",
+    "superseded_by": null,
+    "merged_into": null,
+    "reason": "",
+    "source_ids": []
+  },
+  "dates": {
+    "created": "2026-11-25",
+    "last_reviewed": "2026-11-25",
+    "last_verified": "2026-11-14"
+  },
+  "sources": [
+    "SRC-0009",
+    "SRC-0118",
+    "SRC-0129",
+    "SRC-0133",
+    "SRC-0146",
+    "SRC-0147",
+    "SRC-0151"
+  ],
+  "related_entries": [],
+  "faq": {
+    "eligible": false,
+    "promoted": false,
+    "reason": "FAQ items link the English entry."
+  },
+  "tags": [
+    "transactions",
+    "pending"
+  ],
+  "revision": 1,
+  "locale": "ja",
+  "translates": {
+    "id": "DAE-0008",
+    "revision": 3
+  }
+}

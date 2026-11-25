@@ -6,7 +6,7 @@
     "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
     "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed"
   },
-  "inputDigest": "508d44060c533e27e6c3e4d553d0a867735af0b80a332a4196f91c824d6989dd",
+  "inputDigest": "a60bf91b79556a1c8ca42ef4345d245a03f95fc501588fd49b53935232e9020c",
   "sourceExportDate": "2026-07-03",
   "filteredAt": "2026-09-03T17:39:48",
   "observed": {
@@ -56,6 +56,9 @@
     "links": 378
   },
   "approvedCuratedArticles": 18,
+  "approvedTranslations": {
+    "ja": 17
+  },
   "curatedEntries": [
     {
       "id": "DAE-0101",
@@ -171,6 +174,108 @@
       "status": "current",
       "approved": true,
       "reviewedOn": "2026-11-18"
+    },
+    {
+      "id": "DAE-1003",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1008",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1101",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1102",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1103",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1104",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1105",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1106",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1107",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1109",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1110",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1111",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1112",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1113",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1114",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1115",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1117",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-25"
     }
   ],
   "articles": [

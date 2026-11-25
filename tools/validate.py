@@ -64,6 +64,7 @@ def validate(root=ROOT):
     errors += schema_errors(registry, ROOT / "schemas/source.schema.json", "sources/registry.json")
     errors += schema_errors(faq, ROOT / "schemas/faq.schema.json", "faq/catalog.json")
     publication_path = ROOT / "help-centre/publication.json"
+    publication = None
     if publication_path.exists():
         publication = load(publication_path, errors)
         errors += schema_errors(publication, ROOT / "schemas/help-publication.schema.json", "help-centre/publication.json")
@@ -224,6 +225,16 @@ def validate(root=ROOT):
             if target == entry_id:
                 errors.append(f"{where}: related entry cannot reference itself")
 
+        # A translation's ID is its English entry's ID plus 1000; English IDs stay below DAE-1000.
+        pointer = entry.get("translates")
+        if isinstance(entry_id, str) and re.fullmatch(r"DAE-[0-9]{4}", entry_id):
+            if isinstance(pointer, dict) and isinstance(pointer.get("id"), str) and re.fullmatch(r"DAE-[0-9]{4}", pointer["id"]):
+                expected = f"DAE-{int(pointer['id'][4:]) + 1000:04d}"
+                if entry_id != expected:
+                    errors.append(f"{where}: a translation of {pointer['id']} must have ID {expected}")
+            elif entry.get("locale", "en") == "en" and int(entry_id[4:]) >= 1000:
+                errors.append(f"{where}: an English entry's ID must be below DAE-1000")
+
     faq_ids, promoted = set(), set()
     for index, item in enumerate(faq.get("items", [])):
         where = f"faq/catalog.json items[{index}]"
@@ -241,6 +252,14 @@ def validate(root=ROOT):
             check_source_refs(claim.get("source_ids", []), f"{where} answer[{claim_index}]", allowed_sources)
     check_translations(faq.get("items", []), "FAQ item", lambda item: f"faq/catalog.json {item.get('id')}", errors)
     check_translations(list(entries.values()), "entry", lambda entry: paths[entry.get("id")], errors)
+    if isinstance(publication, dict):
+        records = {record.get("id"): record for record in publication.get("articles", []) if isinstance(record, dict)}
+        for record_id, record in records.items():
+            pointer = entries.get(record_id, {}).get("translates")
+            if record.get("approved") is True and isinstance(pointer, dict):
+                source = records.get(pointer.get("id"), {})
+                if source.get("approved") is not True:
+                    errors.append(f"help-centre/publication.json {record_id}: an approved translation needs an approved record for {pointer.get('id')}")
     for entry_id, entry in entries.items():
         if bool(entry.get("faq", {}).get("promoted")) != (entry_id in promoted):
             errors.append(f"{paths[entry_id]}: faq.promoted disagrees with FAQ catalog")

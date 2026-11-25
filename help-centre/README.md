@@ -25,7 +25,10 @@ repository and full source revision and is never edited independently. No
 personal-pool checkout is required.
 
 To withdraw, set `approved: false` with a reason, fix related links, regenerate,
-commit and rebuild consumers. Replacement guidance uses a new ID and explicit
+commit and rebuild consumers. Withdrawing an English entry withdraws its
+translations in the same change: their records also take `approved: false` with
+a reason, because validation and the Ariadne compiler reject an approved
+translation of an entry that is not approved. Replacement guidance uses a new ID and explicit
 supersession; original evidence remains. Guidance that is no longer valid for
 the current release is deleted, not kept under a historical status. Rollback can restore withdrawn advice: inspect
 the old snapshot before rolling back an application.
