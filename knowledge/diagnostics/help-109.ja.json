@@ -3,7 +3,7 @@
   "id": "DAE-1109",
   "title": "サポートへの問い合わせ方法と問い合わせるタイミング",
   "summary": {
-    "text": "サポートはhttps://daedalus.support.se7enlabs.comのサポートポータルで提供しています。お困りの問題がヘルプ記事で解決しなかった場合、Daedalusからサポートリクエストの送信を求められた場合、またはDaedalusに表示される受取アドレスがハードウェアウォレットに表示されるアドレスと異なる場合は、サポートケースを作成してください。",
+    "text": "サポートはhttps://daedalus.support.se7enlabs.com のサポートポータルで提供しています。お困りの問題がヘルプ記事で解決しなかった場合、Daedalusからサポートリクエストの送信を求められた場合、またはDaedalusに表示される受取アドレスがハードウェアウォレットに表示されるアドレスと異なる場合は、サポートケースを作成してください。",
     "source_ids": [
       "SRC-0112",
       "SRC-0115",
@@ -91,7 +91,7 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "サポートポータルを開いてください。Daedalusの「ヘルプ」メニューで「サポートリクエスト」を選択するか、https://daedalus.support.se7enlabs.comにアクセスしてください。",
+      "action": "サポートポータルを開いてください。Daedalusの「ヘルプ」メニューで「サポートリクエスト」を選択するか、https://daedalus.support.se7enlabs.com にアクセスしてください。",
       "why": "",
       "source_ids": [
         "SRC-0115",

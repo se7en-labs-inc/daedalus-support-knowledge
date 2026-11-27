@@ -81,7 +81,7 @@
   "resolutions": [
     {
       "order": 1,
-      "action": "https://daedalus.support.se7enlabs.comのサポートポータルを開き、「既存のケースを開く」を選択してください。",
+      "action": "https://daedalus.support.se7enlabs.com のサポートポータルを開き、「既存のケースを開く」を選択してください。",
       "why": "",
       "source_ids": [
         "SRC-0118"
