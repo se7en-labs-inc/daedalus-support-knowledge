@@ -6,7 +6,7 @@
     "importedRevision": "91332970d3b34af13a99a0f95bfe7ab97e8ba622",
     "originalArchiveRevision": "619c5792eb57022b55b03fe94c4acf56de84b8ed"
   },
-  "inputDigest": "a60bf91b79556a1c8ca42ef4345d245a03f95fc501588fd49b53935232e9020c",
+  "inputDigest": "da0bc742774f421bae79bda68e0525a2697dada366fb6e212720ac57b450573c",
   "sourceExportDate": "2026-07-03",
   "filteredAt": "2026-09-03T17:39:48",
   "observed": {
@@ -57,7 +57,7 @@
   },
   "approvedCuratedArticles": 18,
   "approvedTranslations": {
-    "ja": 17
+    "ja": 18
   },
   "curatedEntries": [
     {
@@ -228,6 +228,12 @@
       "status": "current",
       "approved": true,
       "reviewedOn": "2026-11-25"
+    },
+    {
+      "id": "DAE-1108",
+      "status": "current",
+      "approved": true,
+      "reviewedOn": "2026-11-27"
     },
     {
       "id": "DAE-1109",
